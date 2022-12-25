@@ -356,5 +356,81 @@
       
   }
 
-  
+  .header-options{
+    .header-trade {
+      margin-left: 10px;
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      
+      img{
+        width: 28px;
+        margin: 6px 12px;
+        transform: rotate(90deg);
+      }
+      span{
+        font-size: 12px;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 600;
+      }
+    }
+  }
+
+
+  .account-header{
+    .header-powerup{
+      margin-left: 63px;
+      img{
+        margin-left: 35px;
+        width: 33px;
+      }
+      span{
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Open Sans',sans-serif;
+      }
+      a{
+        margin-top: 8px;
+        display: block;
+      }
+      
+    }
+
+    .account{
+      margin-left: 2.5rem;
+      margin-top: 14px;
+
+      i{
+        font-size: 20px;
+        color: black;
+        margin-left: 14px;
+        margin-bottom: 7px;
+      }
+      span{
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Open Sans',sans-serif;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .header-cart{
+    margin-top: 8px;
+    span{
+      font-size: 12px;
+      font-weight: 600;
+      font-family: 'Open Sans',sans-serif;
+      margin-left: 3px;
+    }
+    .cart svg{
+      width: 28px;
+    }
+  }
 }

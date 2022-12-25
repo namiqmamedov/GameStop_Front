@@ -233,4 +233,69 @@
   top: 14px;
   left: 36.5px;
   font-size: 13px;
+}
+.main-header .header-options .header-trade {
+  margin-left: 10px;
+}
+.main-header .header-options .header-trade a {
+  text-decoration: none;
+  color: black;
+}
+.main-header .header-options .header-trade img {
+  width: 28px;
+  margin: 6px 12px;
+  transform: rotate(90deg);
+}
+.main-header .header-options .header-trade span {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.main-header .account-header .header-powerup {
+  margin-left: 63px;
+}
+.main-header .account-header .header-powerup img {
+  margin-left: 35px;
+  width: 33px;
+}
+.main-header .account-header .header-powerup span {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.main-header .account-header .header-powerup a {
+  margin-top: 8px;
+  display: block;
+}
+.main-header .account-header .account {
+  margin-left: 2.5rem;
+  margin-top: 14px;
+}
+.main-header .account-header .account i {
+  font-size: 20px;
+  color: black;
+  margin-left: 14px;
+  margin-bottom: 7px;
+}
+.main-header .account-header .account span {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 5px;
+}
+.main-header a {
+  text-decoration: none;
+  color: black;
+}
+.main-header .header-cart {
+  margin-top: 8px;
+}
+.main-header .header-cart span {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 3px;
+}
+.main-header .header-cart .cart svg {
+  width: 28px;
 }/*# sourceMappingURL=style.css.map */
