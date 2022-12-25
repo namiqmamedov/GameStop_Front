@@ -254,17 +254,107 @@
       }
       ~ .m-menu {
         @include transform(translate3d(0, 0, 0));
+        
       }
     }
   }
+  .m-menu__toggle{
+    svg{
+        position: absolute;
+        top: 2.8%;
+    }
+    margin: 0px 18px;
+    span{
+        font-size: 12px;
+        margin-left: 4px;
+        color: black;
+        padding-top: 42px;
+        font-family: 'Open-Sans',sans-serif;
+        &:hover{
+            color: red;
+
+        }
+        
+    }
+  }
   
-  .wrapper {
-    width: 480px;
+  .header-wrapper {
+
     height: 667px;
     overflow: hidden;
     background-color: #fff;
     position: relative;
+   
+  }
+
+  .header-brand{
+    .nav-logo{
+        width: 157px;
+        margin-left: 5px;
+ 
+    }
+  }
+  nav{
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    
+   
   }
   
+  .header-search{
+
+
+    body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+    
+       .height{
+        height: 100vh;
+       }
+       
+       .search{
+       position: relative;
+       border: none;
+       outline: none;
+       
+       }
+    
+       .search input{
+        height: 40px;
+        text-indent: 25px;
+        border: none;
+        margin-left: 14px;
+        width: 758px;
+        background: #f0f0f0 0 0 no-repeat padding-box;
+       }
+
+       .search input:focus::-webkit-input-placeholder {
+        opacity: 0;
+        }
+    
+    
+       .search input:focus{
+        
+        box-shadow: none;
+        background-color: white;
+        box-shadow: 0 0 16px 0 #e0e0e0;
+    
+       }
+    
+       .search .fa-search{
+    
+        position: absolute;
+        top: 14px;
+        left: 36.5px;
+        font-size: 13px;
+    
+       }
+    
+      
+  }
+
   
 }
