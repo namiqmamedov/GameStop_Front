@@ -1,5 +1,5 @@
-*{
-    margin:  0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -7,38 +7,78 @@
 
 
 
-.header-banner{
-    nav{
-        background-color: rgb(34, 34, 34) !important;  
+.header-banner {
+    nav {
+        background-color: rgb(34, 34, 34) !important;
         height: 40px;
-        .navbar-brand{
+
+        .navbar-brand {
             color: white;
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 600;
+            font-family: 'Open Sans', sans-serif;
         }
-        .text-right{
+
+        .text-right {
             margin-bottom: 4px;
-            a{
+
+            a {
                 color: #ffffff;
                 font-size: 12px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 600;
             }
-            i{
+
+            i {
                 padding: 0 4px;
                 font-size: 13px;
             }
 
-            .check-order{
+            .check-order {
                 margin-right: 2.5rem;
             }
         }
     }
 
 
-   
-   
-   a{
-    text-decoration: none;
-   }
+
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.promo-header {
+    background-color: #F9BC02;
+    height: 50px;
+    .text{
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        p{
+            padding: 4px 0px;
+            text-align: center;
+        }
+        .price{
+            p{
+
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: -29px;
+            }
+        }
+        :hover{
+            text-decoration: underline;
+            color: black;
+            cursor: pointer;
+        }
+    
+    }
+
+    
+
 }
