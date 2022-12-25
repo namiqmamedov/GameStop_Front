@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-banner nav {
+  background-color: rgb(34, 34, 34) !important;
+  height: 40px;
+}
+.header-banner nav .navbar-brand {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.header-banner nav .text-right {
+  margin-bottom: 4px;
+}
+.header-banner nav .text-right a {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.header-banner nav .text-right i {
+  padding: 0 4px;
+  font-size: 13px;
+}
+.header-banner nav .text-right .check-order {
+  margin-right: 2.5rem;
+}
+.header-banner a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

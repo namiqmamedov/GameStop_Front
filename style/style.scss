@@ -1,0 +1,44 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.header-banner{
+    nav{
+        background-color: rgb(34, 34, 34) !important;  
+        height: 40px;
+        .navbar-brand{
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .text-right{
+            margin-bottom: 4px;
+            a{
+                color: #ffffff;
+                font-size: 12px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+            }
+            i{
+                padding: 0 4px;
+                font-size: 13px;
+            }
+
+            .check-order{
+                margin-right: 2.5rem;
+            }
+        }
+    }
+
+
+   
+   
+   a{
+    text-decoration: none;
+   }
+}
