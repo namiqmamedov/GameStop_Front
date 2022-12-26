@@ -108,9 +108,6 @@
   background-color: rgb(251, 251, 251) !important;
   width: 100% !important;
 }
-.main-header #m-menu2 {
-  overflow-y: hidden;
-}
 .main-header #m-menu2 ul {
   list-style-type: none;
   background-color: rgb(251, 251, 251);
@@ -120,7 +117,7 @@
   background-color: white;
 }
 .main-header #m-menu2 .prev {
-  margin-left: -23px;
+  margin-left: -4px;
   margin-bottom: 1px;
 }
 .main-header body {
@@ -136,9 +133,6 @@
 }
 .main-header nav .m-menu__checkbox {
   display: none;
-}
-.main-header nav label.m-menu__toggle {
-  cursor: pointer;
 }
 .main-header nav span:hover {
   color: red;
@@ -244,6 +238,9 @@
 .main-header nav .m-menu .store-container {
   background-color: rgb(251, 251, 251);
 }
+.main-header nav .m-menu .store-container a:hover {
+  color: #e7230d;
+}
 .main-header nav .m-menu .store-container .store-icon i {
   margin-left: -3rem;
   margin-top: 0.8rem;
@@ -309,15 +306,27 @@
   transform: translate3d(0, 0, 0);
 }
 .main-header .m-menu__toggle {
+  cursor: pointer;
   margin: 0px 18px;
 }
 .main-header .m-menu__toggle svg {
   position: absolute;
   top: 2.8%;
 }
+.main-header .m-menu__toggle .back {
+  margin-top: -1rem;
+  margin-left: -0.7rem;
+}
+.main-header .m-menu__toggle .back:hover {
+  stroke: red;
+}
+.main-header .m-menu__toggle .prev-element:hover {
+  color: red;
+}
 .main-header .m-menu__toggle .close {
   left: 86.7%;
   top: 1%;
+  cursor: pointer;
 }
 .main-header .m-menu__toggle span {
   font-size: 12px;

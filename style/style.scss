@@ -111,6 +111,7 @@
     padding: 10px 0px 10px 10px;
 
 
+
     a,
     label {
       display: block;
@@ -128,7 +129,7 @@
       }
 
     }
-    
+
 
     label {
       background-color: rgb(251 251 251);
@@ -143,7 +144,8 @@
   }
 
   #m-menu2 {
-    overflow-y: hidden;
+    
+
 
     ul {
       list-style-type: none;
@@ -153,15 +155,19 @@
     .m-menu__header {
       height: 62px;
       background-color: white;
+      
+      // position: sticky;
+      // top: 0;
+      // left: 0;
+      // z-index: 99999999999999;
+
+
     }
 
-    // svg {
-    //   position: relative;
-    //   left: -63%;
-    // }
+
 
     .prev {
-      margin-left: -23px;
+      margin-left: -4px;
       margin-bottom: 1px;
     }
   }
@@ -228,9 +234,6 @@
       display: none;
     }
 
-    label.m-menu__toggle {
-      cursor: pointer;
-    }
 
     span {
       &:hover {
@@ -267,7 +270,7 @@
         width: 400px;
         margin-left: -2rem;
       }
-      
+
       .hr{
         border-top: 1px solid #ccc;
         display: inline-block;
@@ -275,7 +278,7 @@
         margin: 0 33px;
         margin-bottom: 10px;
       }
-      
+
 
       &__header {
         padding: 0 16px;
@@ -350,6 +353,10 @@
       #menu-header {
         background-color: white;
         height: 4rem;
+        // position: -webkit-sticky; 
+        // position: sticky;
+        // top: 0;
+        // z-index: 999999999999;
       }
 
 
@@ -359,7 +366,11 @@
 
       .store-container {
         background-color: rgb(251 251 251);
-
+        a{
+          &:hover{
+            color: #e7230d;
+          }
+        }
         .store-icon {
           i {
             margin-left: -3rem;
@@ -458,14 +469,34 @@
   }
 
   .m-menu__toggle {
+    cursor: pointer;
     svg {
       position: absolute;
       top: 2.8%;
+
+    }
+    .back{
+      margin-top: -1rem;
+      margin-left: -0.7rem;
+      &:hover{
+        stroke: red;
+      }
+
+    }
+
+
+
+
+    .prev-element{
+      &:hover{
+        color: red;
+      }
     }
 
     .close {
       left: 86.7%;
       top: 1%;
+      cursor: pointer;
     }
 
     margin: 0px 18px;
