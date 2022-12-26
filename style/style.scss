@@ -90,6 +90,82 @@
 
 .main-header {
 
+  #menu1::-webkit-scrollbar {
+    display: none;
+  }
+  .menu-ul-1{
+    padding: 10px 0px 10px 10px;
+    margin-left: -18px;
+  }
+
+  #menu1 {
+    background-color: rgb(251 251 251);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .menu-ul {
+    list-style-type: none;
+    background-color: rgb(251 251 251);
+    margin-left: -18px;
+    padding: 10px 0px 10px 10px;
+
+
+    a,
+    label {
+      display: block;
+      text-align: left;
+      padding: 0 35px;
+      line-height: 47px;
+      text-decoration: none;
+      color: #333;
+      cursor: pointer;
+      font-size: 1rem;
+      position: relative;
+      &:hover{
+        height: 100%;
+      background: #e4e4e4;
+      }
+
+    }
+    
+
+    label {
+      background-color: rgb(251 251 251);
+      width: 100%;
+
+    }
+
+    li {
+      background-color: rgb(251 251 251) !important;
+      width: 100% !important;
+    }
+  }
+
+  #m-menu2 {
+    overflow-y: hidden;
+
+    ul {
+      list-style-type: none;
+      background-color: rgb(251 251 251);
+    }
+
+    .m-menu__header {
+      height: 62px;
+      background-color: white;
+    }
+
+    // svg {
+    //   position: relative;
+    //   left: -63%;
+    // }
+
+    .prev {
+      margin-left: -23px;
+      margin-bottom: 1px;
+    }
+  }
+
   /* Mixin */
   @mixin flexBox() {
     display: -ms-flexbox;
@@ -185,7 +261,21 @@
         display: none;
       }
 
+      hr {
 
+        border-top: 1px solid #0c0808;
+        width: 400px;
+        margin-left: -2rem;
+      }
+      
+      .hr{
+        border-top: 1px solid #ccc;
+        display: inline-block;
+        width: 326px;
+        margin: 0 33px;
+        margin-bottom: 10px;
+      }
+      
 
       &__header {
         padding: 0 16px;
@@ -196,24 +286,68 @@
         border-bottom: 1px solid #e8e8e8;
 
         span {
-         font-size: 14px;
+          font-size: 14px;
           font-weight: bold;
           width: 100%;
           margin-left: -28px;
         }
       }
 
-      .category-header{
+      .category-header {
         background-color: rgb(251 251 251);
         font-size: 20px;
-        font-family: 'Open Sans',sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         padding: 17px 28px;
         color: #000000;
       }
 
+      .category-header2 {
+        background-color: rgb(251 251 251);
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        padding: 17px 34px;
+        color: #000000;
+      }
 
-      #menu-header{
+
+
+      .category-games {
+        margin-left: 17px;
+        a{
+          background-color: rgb(251 251 251);
+        font-size: 20px;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        padding: 0px 17px;
+        color: #000000;
+        }
+      }
+
+      .content-support {
+        // border-top: 15px;
+        background-color: rgb(251 251 251);
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        padding: 17px 34px;
+        color: #000000;
+      }
+
+      .content-explore {
+        background-color: rgb(251 251 251);
+      }
+
+      .new-releases {
+        border-top: 1px solid #ccc;
+      }
+
+
+
+
+      #menu-header {
         background-color: white;
         height: 4rem;
       }
@@ -223,38 +357,40 @@
         @include transform(translate3d(480px, 0, 0));
       }
 
-      .store-container{
+      .store-container {
         background-color: rgb(251 251 251);
- 
-        .store-icon{
-          i{
+
+        .store-icon {
+          i {
             margin-left: -3rem;
-            margin-top: 0.8rem;          
+            margin-top: 0.8rem;
           }
- 
+
         }
-      } 
-      .store-header{
+      }
+
+      .store-header {
         padding: 4px 0;
         background-color: rgb(251 251 251);
         border-bottom: 1px solid #ccc;
         padding-left: 25px;
 
-        .store-name{
+        .store-name {
           font-size: 14px;
           font-weight: 700;
           padding: 0 100px 0 0;
-          font-family: 'Open Sans',sans-serif;
+          font-family: 'Open Sans', sans-serif;
         }
-        .store-time{
+
+        .store-time {
           font-size: 12px;
-          font-family: 'Open Sans',sans-serif;
+          font-family: 'Open Sans', sans-serif;
         }
       }
 
       ul {
         height: 100%;
-        overflow-y: auto;
+        // overflow-y: scroll;
 
         li {
 
@@ -262,13 +398,18 @@
           label {
             display: block;
             text-align: left;
-            padding: 0 15px;
+            padding: 0 35px;
             line-height: 47px;
             text-decoration: none;
             color: #333;
             cursor: pointer;
             font-size: 1rem;
             position: relative;
+            // &:hover{
+            //   height: 100%;
+            // background: #e4e4e4;
+            // }
+
           }
 
           label {

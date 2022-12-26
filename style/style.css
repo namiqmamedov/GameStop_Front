@@ -65,6 +65,64 @@
 .main-header {
   /* Mixin */
 }
+.main-header #menu1::-webkit-scrollbar {
+  display: none;
+}
+.main-header .menu-ul-1 {
+  padding: 10px 0px 10px 10px;
+  margin-left: -18px;
+}
+.main-header #menu1 {
+  background-color: rgb(251, 251, 251);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.main-header .menu-ul {
+  list-style-type: none;
+  background-color: rgb(251, 251, 251);
+  margin-left: -18px;
+  padding: 10px 0px 10px 10px;
+}
+.main-header .menu-ul a,
+.main-header .menu-ul label {
+  display: block;
+  text-align: left;
+  padding: 0 35px;
+  line-height: 47px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+}
+.main-header .menu-ul a:hover,
+.main-header .menu-ul label:hover {
+  height: 100%;
+  background: #e4e4e4;
+}
+.main-header .menu-ul label {
+  background-color: rgb(251, 251, 251);
+  width: 100%;
+}
+.main-header .menu-ul li {
+  background-color: rgb(251, 251, 251) !important;
+  width: 100% !important;
+}
+.main-header #m-menu2 {
+  overflow-y: hidden;
+}
+.main-header #m-menu2 ul {
+  list-style-type: none;
+  background-color: rgb(251, 251, 251);
+}
+.main-header #m-menu2 .m-menu__header {
+  height: 62px;
+  background-color: white;
+}
+.main-header #m-menu2 .prev {
+  margin-left: -23px;
+  margin-bottom: 1px;
+}
 .main-header body {
   background-color: #f1f1f1;
 }
@@ -107,6 +165,18 @@
   z-index: 1;
   display: none;
 }
+.main-header nav .m-menu hr {
+  border-top: 1px solid #0c0808;
+  width: 400px;
+  margin-left: -2rem;
+}
+.main-header nav .m-menu .hr {
+  border-top: 1px solid #ccc;
+  display: inline-block;
+  width: 326px;
+  margin: 0 33px;
+  margin-bottom: 10px;
+}
 .main-header nav .m-menu__header {
   padding: 0 16px;
   height: 50px;
@@ -129,6 +199,40 @@
   font-weight: 600;
   padding: 17px 28px;
   color: #000000;
+}
+.main-header nav .m-menu .category-header2 {
+  background-color: rgb(251, 251, 251);
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  padding: 17px 34px;
+  color: #000000;
+}
+.main-header nav .m-menu .category-games {
+  margin-left: 17px;
+}
+.main-header nav .m-menu .category-games a {
+  background-color: rgb(251, 251, 251);
+  font-size: 20px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  padding: 0px 17px;
+  color: #000000;
+}
+.main-header nav .m-menu .content-support {
+  background-color: rgb(251, 251, 251);
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  padding: 17px 34px;
+  color: #000000;
+}
+.main-header nav .m-menu .content-explore {
+  background-color: rgb(251, 251, 251);
+}
+.main-header nav .m-menu .new-releases {
+  border-top: 1px solid #ccc;
 }
 .main-header nav .m-menu #menu-header {
   background-color: white;
@@ -162,13 +266,12 @@
 }
 .main-header nav .m-menu ul {
   height: 100%;
-  overflow-y: auto;
 }
 .main-header nav .m-menu ul li a,
 .main-header nav .m-menu ul li label {
   display: block;
   text-align: left;
-  padding: 0 15px;
+  padding: 0 35px;
   line-height: 47px;
   text-decoration: none;
   color: #333;
