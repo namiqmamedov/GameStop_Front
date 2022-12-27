@@ -7,8 +7,17 @@
 
 body{
   overflow-x: hidden;
+  
 }
 
+.zippo{
+  
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999999999;
+}
 
 
 .header-banner {
@@ -92,16 +101,13 @@ body{
 
 }
 #m-menu2{
- 
+  
   height: 1184px;
 }
 
+
 .main-header {
-  
-  // position: sticky;
-  // top: 0;
-  // left: 0;
-  // z-index: 999999999999999;
+ 
   
   #menu1::-webkit-scrollbar {
     display: none;
@@ -245,6 +251,7 @@ body{
 
   body {
     background-color: #f1f1f1;
+
   }
 
 
@@ -547,9 +554,10 @@ body{
     height: 94px;
     background-color: #fff;
     overflow: hidden;
-    //  position: relative;
+    position: relative;
+  
 
-   
+    //  position: relative;
 
   }
 
@@ -934,5 +942,17 @@ body{
       margin: 12.5px 12.5px;
      
     }
+  }
+}
+
+.home-content2{
+  margin-top: 4px;
+  img{
+    margin-left: 2rem;
+    width: 94%;
+  }
+  .right img{
+    margin-left: 0.8rem;
+    
   }
 }
