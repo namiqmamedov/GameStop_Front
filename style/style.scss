@@ -776,8 +776,16 @@ body{
     font-family: 'Open Sans',sans-serif;
   }
 
+  .pageInfo2{
+    position: absolute;
+    top: 170%;
+    left: 91%;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+  }
+
   .card-box{
-    margin-left: 37px;
+    margin-left: 44px;
     gap: 1.3rem;
   }
   .card{
@@ -810,6 +818,86 @@ body{
       font-size: .875rem;
       font-weight: 600;
       color: black;
+    }
+  }
+}
+
+.main-content{
+  
+  margin-left: 1.378rem;
+
+  .main-image{
+    img{
+      width: 690px;
+    }
+    .main-img1{
+      padding: 0 22px;
+    }
+  }
+}
+
+
+
+.product-content2{
+  
+  margin-top: 15px;
+  .heading{
+    h2{
+      font-size: 24px;
+    }
+    a{
+      color: black;
+    }
+  }
+
+  .pageInfo2{
+    position: absolute;
+    top: 228%;
+    left: 91.3%;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+  }
+
+  .card-box{
+    margin-left: 44px;
+    gap: 1.3rem;
+  }
+  .card{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    width: 224px;
+    height: 284px;
+    
+    border: none;
+    &:hover{
+      background: #fff;
+      box-shadow: 0 0 16px 0 rgba(0,0,0,.16);
+    }
+   
+    img{
+      width: 80%;
+      padding-top: 13px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-size: 14px;
+      font-family: 'Open Sans',sans-serif;
+    }
+    .card-text{
+      font-size: .875rem;
+      font-weight: 600;
+      color: black;
+    }
+
+    .card-subtext{
+      font-size: 12px;
+      margin-top: -1rem;
+      color: #9b9b9b;
     }
   }
 }
