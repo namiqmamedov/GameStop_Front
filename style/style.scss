@@ -757,6 +757,7 @@ body{
 }
 
 .product-content{
+  
   margin-top: 15px;
   .heading{
     h2{
@@ -767,10 +768,33 @@ body{
     }
   }
 
+  .pageInfo{
+    position: absolute;
+    top: 130%;
+    left: 91%;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+  }
+
+  .card-box{
+    margin-left: 37px;
+    gap: 1.3rem;
+  }
   .card{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    width: 224px;
+    height: 284px;
+    
     border: none;
+    &:hover{
+      background: #fff;
+      box-shadow: 0 0 16px 0 rgba(0,0,0,.16);
+    }
+    
     img{
-      width: 67%;
+      width: 80%;
+      padding-top: 13px;
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -781,6 +805,11 @@ body{
       font-weight: 600;
       font-size: 14px;
       font-family: 'Open Sans',sans-serif;
+    }
+    .card-text{
+      font-size: .875rem;
+      font-weight: 600;
+      color: black;
     }
   }
 }

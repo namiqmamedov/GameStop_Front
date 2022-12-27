@@ -515,11 +515,31 @@ body {
 .product-content .heading a {
   color: black;
 }
+.product-content .pageInfo {
+  position: absolute;
+  top: 130%;
+  left: 91%;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.product-content .card-box {
+  margin-left: 37px;
+  gap: 1.3rem;
+}
 .product-content .card {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  width: 224px;
+  height: 284px;
   border: none;
 }
+.product-content .card:hover {
+  background: #fff;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+}
 .product-content .card img {
-  width: 67%;
+  width: 80%;
+  padding-top: 13px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -530,4 +550,9 @@ body {
   font-weight: 600;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+}
+.product-content .card .card-text {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
