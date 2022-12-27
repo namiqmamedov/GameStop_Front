@@ -718,28 +718,28 @@ body{
   }
   .home-img{
     .img1{
-      width: 108%;
-      margin-left: -3.3rem;
+      width: 109%;
+      margin-left: -3.65rem;
     }
     .img2{
-      width: 108%;
+      width: 109%;
     }
   }
 
   .center-content{
     img{
-      width: 108%;
-      margin-left: -3.2rem;
+      width: 109%;
+      margin-left: -3.6rem;
       height: 196px;
     }
     
   }
 
 #card-title{
-  margin-left: -51px;
+  margin-left: -59px;
 }
 #card-sub-title{
-  margin-left: -51px;
+  margin-left: -59px;
 }
 
   .card-title{
@@ -785,7 +785,7 @@ body{
   }
 
   .card-box{
-    margin-left: 44px;
+    margin-left: 31px;
     gap: 1.3rem;
   }
   .card{
@@ -824,7 +824,7 @@ body{
 
 .main-content{
   
-  margin-left: 1.378rem;
+  margin-left: 0.778rem;
 
   .main-image{
     img{
@@ -832,6 +832,12 @@ body{
     }
     .main-img1{
       padding: 0 22px;
+    }
+    .main-img2{
+      img{
+
+        width: 700px;
+      }
     }
   }
 }
@@ -859,8 +865,9 @@ body{
   }
 
   .card-box{
-    margin-left: 44px;
-    gap: 1.3rem;
+    margin-left: 31.5px;
+    gap: 0.9rem;
+    margin-top: -24px;
   }
   .card{
     margin-top: 3.5rem;
@@ -898,6 +905,34 @@ body{
       font-size: 12px;
       margin-top: -1rem;
       color: #9b9b9b;
+    }
+  }
+}
+
+
+.product-brand{
+  
+
+  .heading{
+    h2{
+      font-family: 'Poppins','Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 25px !important;
+    }
+   
+
+  }
+  .brand-card{
+    margin-left: 1.1rem;
+    
+    a{
+      width: 100%;
+      
+    }
+    img{
+     width: 264px;
+      margin: 12.5px 12.5px;
+     
     }
   }
 }
