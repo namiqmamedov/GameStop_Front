@@ -986,3 +986,138 @@ body{
       }
     }
 }
+
+
+
+.product-content3{
+  #slider{
+    display: flex;
+    
+    .slick-next {
+
+      outline: none;
+      width: 440px;
+      height: 440px;
+      border: none;
+      border-radius: 6px;
+      z-index: 2;
+      right: -193px !important;
+      top: 56%;
+      opacity: 1;
+     
+  }
+
+
+  .slick-next:before {
+      color: #E5E3DA;
+      width: 440px;
+      height: 440px;
+      font-size: 34.5px;
+
+  }
+
+  .slick-prev {
+
+    outline: none;
+    width: 440px;
+    height: 440px;
+    border: none;
+    border-radius: 6px;
+    z-index: 2;
+    left: -15.5%;
+    top: 56%;
+   
+   
+}
+
+
+.slick-prev:before {
+  color: #E5E3DA;
+    width: 440px;
+    height: 440px;
+    font-size: 34.5px;
+
+}
+.slick-prev:after{
+  opacity: 0;
+}
+  
+  }
+ 
+  // .slick-next{
+  //   border: none;
+  //   border-radius: 6px;
+  //   z-index: 2;
+  //   right: 2px !important;
+  //   top: 56%;
+  //   width: 40px;
+  //   height: 40px;
+  //   opacity: .95;
+  //   color: black;
+  // }
+  // .slick-next:before{
+  //   content: '>';
+  //   width: 2.5rem;
+  //   height: 2.5rem;
+  //   transform: rotate(270deg);
+  //   border-radius: 50%;
+  //   background-position: -269px 0;
+  //   background-color: #fff;
+  //   border: 1px solid #000;
+  //   opacity: .6
+  // }
+  .card-body{   
+    margin-left: -16px;
+    margin-top: -8px;
+  }
+  margin-top: 15px;
+  .heading{
+    h2{
+      font-size: 24px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 600;
+    }
+    a{
+      color: black;
+    }
+  }
+
+
+  .card-box{
+    margin-left: 35.5px;
+    gap: 4.078rem !important;
+    margin-top: -51px;
+  }
+  .card{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    width: 224px !important;
+    height: 284px !important;
+    border: none;
+
+    img{
+      width: 117% !important;
+      padding-top: 13px;
+      display: block;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-size: 16px;
+      font-family: 'Open Sans',sans-serif;
+    }
+
+    // .card-text{
+    //   font-size: 16px;
+    //   font-weight: 600;
+    //   color: black;
+    // }
+
+    .card-subtext{
+      font-size: 12px;
+      margin-top: -1rem;
+      color: #9b9b9b;
+    }
+  }
+}
