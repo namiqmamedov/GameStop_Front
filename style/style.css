@@ -175,7 +175,8 @@ body {
   transition: transform 0.35s;
   z-index: 1;
   overflow: hidden;
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
   scrollbar-width: none;
   background-color: #fff;
 }
@@ -782,6 +783,7 @@ body {
 .top-deals {
   margin-top: 40px;
   margin-left: 3.778rem;
+  margin-top: 15px;
 }
 .top-deals .heading-text h2 {
   font-family: Poppins, Open Sans, sans-serif;
@@ -798,4 +800,84 @@ body {
   margin-left: -24px;
   margin-right: 20px;
   height: auto;
+}
+.top-deals #slider1 {
+  display: flex;
+}
+.top-deals #slider1 .slick-next {
+  outline: none;
+  width: 440px;
+  height: 440px;
+  border: none;
+  border-radius: 6px;
+  z-index: 2;
+  right: -193px !important;
+  top: 56%;
+  opacity: 1;
+}
+.top-deals #slider1 .slick-next:before {
+  color: #E5E3DA;
+  width: 440px;
+  height: 440px;
+  font-size: 34.5px;
+}
+.top-deals #slider1 .slick-prev {
+  outline: none;
+  width: 440px;
+  height: 440px;
+  border: none;
+  border-radius: 6px;
+  z-index: 2;
+  left: -15.5%;
+  top: 56%;
+}
+.top-deals #slider1 .slick-prev:before {
+  color: #E5E3DA;
+  width: 440px;
+  height: 440px;
+  font-size: 34.5px;
+}
+.top-deals #slider1 .slick-prev:after {
+  opacity: 0;
+}
+.top-deals .card-body {
+  margin-left: -16px;
+  margin-top: -8px;
+}
+.top-deals .heading h2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.top-deals .heading a {
+  color: black;
+}
+.top-deals .card-box {
+  margin-left: -24.5px;
+  gap: 4.078rem !important;
+  margin-top: -51px;
+}
+.top-deals .card {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  width: 276px !important;
+  height: 284px !important;
+  border: none;
+}
+.top-deals .card img {
+  width: 122% !important;
+  padding-top: 13px;
+  display: block;
+}
+.top-deals .card a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.top-deals .card .card-subtext {
+  font-size: 12px;
+  margin-top: -1rem;
+  color: #9b9b9b;
 }/*# sourceMappingURL=style.css.map */

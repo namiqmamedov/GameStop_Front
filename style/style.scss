@@ -5,13 +5,13 @@
 
 }
 
-body{
+body {
   overflow-x: hidden;
-  
+
 }
 
-.zippo{
-  
+.zippo {
+
   position: sticky;
   top: 0;
   left: 0;
@@ -100,23 +100,25 @@ body{
 
 
 }
-#m-menu2{
-  
+
+#m-menu2 {
+
   height: 1184px;
 }
 
 
 .main-header {
- 
-  
+
+
   #menu1::-webkit-scrollbar {
     display: none;
   }
-  .menu-ul-1{
+
+  .menu-ul-1 {
     padding: 10px 0px 10px 10px;
     margin-left: -18px;
 
-   
+
   }
 
   #menu1 {
@@ -126,7 +128,7 @@ body{
     overflow-y: auto;
   }
 
-  
+
 
   .menu-ul {
     list-style-type: none;
@@ -134,7 +136,7 @@ body{
     margin-left: -18px;
     padding: 10px 0px 10px 10px;
 
-    
+
 
 
 
@@ -149,9 +151,10 @@ body{
       cursor: pointer;
       font-size: 1rem;
       position: relative;
-      &:hover{
+
+      &:hover {
         height: 100%;
-      background: #e4e4e4;
+        background: #e4e4e4;
       }
 
     }
@@ -169,11 +172,11 @@ body{
     }
   }
 
-  
+
 
   #m-menu2 {
-    
-    .menu-ul:target{
+
+    .menu-ul:target {
       display: none !important;
     }
 
@@ -183,18 +186,19 @@ body{
     }
 
     .m-menu__header {
-      &:hover{
+      &:hover {
         stroke: red;
         color: red;
       }
+
       height: 62px;
       background-color: white;
-      
+
       // position: sticky;
       // top: 0;
       // left: 0;
       // z-index: 99999999999999;
-      
+
 
     }
 
@@ -274,9 +278,11 @@ body{
         color: red;
       }
     }
+
     .m-menu::-webkit-scrollbar {
       display: none;
     }
+
     .m-menu {
       position: absolute;
       top: 0;
@@ -288,8 +294,9 @@ body{
       @include transition(transform 0.35s);
       z-index: 1;
       overflow: hidden;
-      -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;
+      -ms-overflow-style: none;
+      /* Internet Explorer 10+ */
+      scrollbar-width: none;
       background-color: #fff;
 
       &__overlay {
@@ -309,7 +316,7 @@ body{
         margin-left: -2rem;
       }
 
-      .hr{
+      .hr {
         border-top: 1px solid #ccc;
         display: inline-block;
         width: 326px;
@@ -356,14 +363,15 @@ body{
 
       .category-games {
         margin-left: 17px;
-        a{
+
+        a {
           background-color: rgb(251 251 251);
-        font-size: 20px;
-        display: block;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
-        padding: 0px 17px;
-        color: #000000;
+          font-size: 20px;
+          display: block;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          padding: 0px 17px;
+          color: #000000;
         }
       }
 
@@ -395,22 +403,24 @@ body{
         // position: sticky;
         // top: 0;
         // z-index: 999999999999;
-        
+
       }
-      
+
 
       .m-menu {
         @include transform(translate3d(480px, 0, 0));
-        
+
       }
 
       .store-container {
         background-color: rgb(251 251 251);
-        a{
-          &:hover{
+
+        a {
+          &:hover {
             color: #e7230d;
           }
         }
+
         .store-icon {
           i {
             margin-left: -3rem;
@@ -442,20 +452,21 @@ body{
       ul {
         height: 100%;
 
-        
+
 
         li {
 
-          .deals{
+          .deals {
             color: #f03125;
             font-weight: 700;
           }
+
           a,
           label {
             display: block;
             text-align: left;
             padding: 0 35px;
-            font-family: 'Open Sans',sans-serif;
+            font-family: 'Open Sans', sans-serif;
             line-height: 47px;
             text-decoration: none;
             color: #333;
@@ -514,18 +525,20 @@ body{
     }
   }
 
-  
+
   .m-menu__toggle {
     margin: 0px 18px;
     cursor: pointer;
+
     svg {
       position: absolute;
       margin-top: 10px;
     }
-    .back{
+
+    .back {
       margin-top: -1rem;
       margin-left: -0.7rem;
-      
+
 
     }
 
@@ -555,13 +568,13 @@ body{
     background-color: #fff;
     overflow: hidden;
     position: relative;
-  
+
 
     //  position: relative;
 
   }
 
-  
+
   .header-brand {
     .nav-logo {
       width: 157px;
@@ -720,109 +733,119 @@ body{
 }
 
 
-.home-content{
-  a{
+.home-content {
+  a {
     text-decoration: none;
   }
-  .home-img{
-    .img1{
+
+  .home-img {
+    .img1 {
       width: 109%;
       margin-left: -3.65rem;
     }
-    .img2{
+
+    .img2 {
       width: 109%;
     }
   }
 
-  .center-content{
-    img{
+  .center-content {
+    img {
       width: 109%;
       margin-left: -3.6rem;
       height: 196px;
     }
-    
+
   }
 
-#card-title{
-  margin-left: -59px;
-}
-#card-sub-title{
-  margin-left: -59px;
-}
+  #card-title {
+    margin-left: -59px;
+  }
 
-  .card-title{
+  #card-sub-title {
+    margin-left: -59px;
+  }
+
+  .card-title {
     margin-top: 5px;
     font-weight: 600;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #000000;
   }
-  .card-sub-title{
+
+  .card-sub-title {
     margin-top: 6.5px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #625656;
     font-size: 14px;
   }
 }
 
-.product-content{
-  
+.product-content {
+
   margin-top: 15px;
-  .heading{
-    h2{
+
+  .heading {
+    h2 {
       font-size: 24px;
     }
-    a{
+
+    a {
       color: black;
     }
   }
 
-  .pageInfo{
+  .pageInfo {
     position: absolute;
     top: 130%;
     left: 91%;
     font-size: 16px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
-  .pageInfo2{
+  .pageInfo2 {
     position: absolute;
     top: 170%;
     left: 91%;
     font-size: 16px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
-  .card-box{
+  .card-box {
     margin-left: 31px;
     gap: 1.3rem;
   }
-  .card{
+
+  .card {
     margin-top: 3.5rem;
     margin-bottom: 2rem;
     width: 224px;
     height: 284px;
-    
+
     border: none;
-    &:hover{
+
+    &:hover {
       background: #fff;
-      box-shadow: 0 0 16px 0 rgba(0,0,0,.16);
+      box-shadow: 0 0 16px 0 rgba(0, 0, 0, .16);
     }
-    
-    img{
+
+    img {
       width: 80%;
       padding-top: 13px;
       margin-left: auto;
       margin-right: auto;
       display: block;
     }
-    a{
+
+    a {
       text-decoration: none;
       color: black;
       font-weight: 600;
       font-size: 14px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
-    .card-text{
+
+    .card-text {
       font-size: .875rem;
       font-weight: 600;
       color: black;
@@ -830,84 +853,91 @@ body{
   }
 }
 
-.main-content{
-  
+.main-content {
+
   margin-left: 0.778rem;
 
-  .main-image{
+  .main-image {
     gap: 4.3rem;
     padding: 0px 52px;
-    img{
+
+    img {
       width: 107%;
       margin-left: -30px;
       margin-right: 20px;
       height: auto;
     }
-   
-    
+
+
   }
 }
 
 
 
-.product-content2{
-  
+.product-content2 {
+
   margin-top: 15px;
-  .heading{
-    h2{
+
+  .heading {
+    h2 {
       font-size: 24px;
     }
-    a{
+
+    a {
       color: black;
     }
   }
 
-  .pageInfo2{
+  .pageInfo2 {
     position: absolute;
     top: 228%;
     left: 91.3%;
     font-size: 16px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
-  .card-box{
+  .card-box {
     margin-left: 31.5px;
     gap: 0.9rem;
     margin-top: -24px;
   }
-  .card{
+
+  .card {
     margin-top: 3.5rem;
     margin-bottom: 2rem;
     width: 224px;
     height: 284px;
-    
+
     border: none;
-    &:hover{
+
+    &:hover {
       background: #fff;
-      box-shadow: 0 0 16px 0 rgba(0,0,0,.16);
+      box-shadow: 0 0 16px 0 rgba(0, 0, 0, .16);
     }
-   
-    img{
+
+    img {
       width: 80%;
       padding-top: 13px;
       margin-left: auto;
       margin-right: auto;
       display: block;
     }
-    a{
+
+    a {
       text-decoration: none;
       color: black;
       font-weight: 600;
       font-size: 14px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
-    .card-text{
+
+    .card-text {
       font-size: .875rem;
       font-weight: 600;
       color: black;
     }
 
-    .card-subtext{
+    .card-subtext {
       font-size: 12px;
       margin-top: -1rem;
       color: #9b9b9b;
@@ -916,83 +946,87 @@ body{
 }
 
 
-.product-brand{
-  
+.product-brand {
 
-  .heading{
-    h2{
-      font-family: 'Poppins','Open Sans', sans-serif;
+
+  .heading {
+    h2 {
+      font-family: 'Poppins', 'Open Sans', sans-serif;
       font-weight: bold;
       font-size: 25px !important;
     }
-   
+
 
   }
-  .brand-card{
+
+  .brand-card {
     margin-left: 1.1rem;
-    
-    a{
+
+    a {
       width: 100%;
-      
+
     }
-    img{
-     width: 264px;
+
+    img {
+      width: 264px;
       margin: 12.5px 12.5px;
-     
+
     }
   }
 }
 
-.home-content2{
-  
-  margin-top: 4px;
- 
-  .card-box{
+.home-content2 {
 
-     width: 100%;
-     margin-left: 30px;
-     margin-right: 5px;
- 
-    img{
+  margin-top: 4px;
+
+  .card-box {
+
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 5px;
+
+    img {
       width: 96.5%;
-    
+
       height: auto;
     }
   }
-  a{
+
+  a {
     text-decoration: none;
   }
-  
 
-    .card-title{
-      margin-left: 4px;
-      margin-top: 5px;
-      font-weight: 600;
-      font-family: 'Open Sans',sans-serif;
-      color: #000000;
-    }
-    .card-sub-title{
-      margin-top: 6.5px;
-      font-family: 'Open Sans',sans-serif;
-      color: #625656;
-      font-size: 14px;
-      margin-left: 4.3px;
-    }
 
-    .bottom-content{
-      img{
-        width: 96.2%;
-        margin-left: 31px;
-      }
+  .card-title {
+    margin-left: 4px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+  }
+
+  .card-sub-title {
+    margin-top: 6.5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #625656;
+    font-size: 14px;
+    margin-left: 4.3px;
+  }
+
+  .bottom-content {
+    img {
+      width: 96.2%;
+      margin-left: 31px;
     }
+  }
 }
 
 
 
-.product-content3{
-  #slider{
+.product-content3 {
+  #slider {
     display: flex;
-    
+
     .slick-next {
 
       outline: none;
@@ -1004,46 +1038,49 @@ body{
       right: -193px !important;
       top: 56%;
       opacity: 1;
-     
-  }
+
+    }
 
 
-  .slick-next:before {
+    .slick-next:before {
       color: #E5E3DA;
       width: 440px;
       height: 440px;
       font-size: 34.5px;
 
+    }
+
+    .slick-prev {
+
+      outline: none;
+      width: 440px;
+      height: 440px;
+      border: none;
+      border-radius: 6px;
+      z-index: 2;
+      left: -15.5%;
+      top: 56%;
+
+
+
+    }
+
+
+    .slick-prev:before {
+      color: #E5E3DA;
+      width: 440px;
+      height: 440px;
+      font-size: 34.5px;
+
+
+    }
+
+    .slick-prev:after {
+      opacity: 0;
+    }
+
   }
 
-  .slick-prev {
-
-    outline: none;
-    width: 440px;
-    height: 440px;
-    border: none;
-    border-radius: 6px;
-    z-index: 2;
-    left: -15.5%;
-    top: 56%;
-   
-   
-}
-
-
-.slick-prev:before {
-  color: #E5E3DA;
-    width: 440px;
-    height: 440px;
-    font-size: 34.5px;
-
-}
-.slick-prev:after{
-  opacity: 0;
-}
-  
-  }
- 
   // .slick-next{
   //   border: none;
   //   border-radius: 6px;
@@ -1066,46 +1103,51 @@ body{
   //   border: 1px solid #000;
   //   opacity: .6
   // }
-  .card-body{   
+  .card-body {
     margin-left: -16px;
     margin-top: -8px;
   }
+
   margin-top: 15px;
-  .heading{
-    h2{
+
+  .heading {
+    h2 {
       font-size: 24px;
-      font-family: 'Poppins',sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-weight: 600;
     }
-    a{
+
+    a {
       color: black;
     }
   }
 
 
-  .card-box{
+  .card-box {
     margin-left: 35.5px;
     gap: 4.078rem !important;
     margin-top: -51px;
   }
-  .card{
+
+  .card {
     margin-top: 3.5rem;
     margin-bottom: 2rem;
     width: 224px !important;
     height: 284px !important;
     border: none;
 
-    img{
+    img {
       width: 117% !important;
       padding-top: 13px;
       display: block;
     }
-    a{
+
+    a {
       text-decoration: none;
       color: black;
       font-weight: 600;
       font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
 
     // .card-text{
@@ -1114,7 +1156,7 @@ body{
     //   color: black;
     // }
 
-    .card-subtext{
+    .card-subtext {
       font-size: 12px;
       margin-top: -1rem;
       color: #9b9b9b;
@@ -1122,28 +1164,142 @@ body{
   }
 }
 
-.top-deals{
+.top-deals {
   margin-top: 40px;
   margin-left: 3.778rem;
 
-  .heading-text h2{
-    font-family: Poppins,Open Sans,sans-serif;
+  .heading-text h2 {
+    font-family: Poppins, Open Sans, sans-serif;
     font-size: 1.5rem;
     text-align: center;
     font-weight: 600;
     margin-bottom: 13px;
   }
-  .main-image{
+
+  .main-image {
     gap: 2rem !important;
-        
-    img{
+
+    img {
 
       width: 696px;
       margin-left: -24px;
       margin-right: 20px;
       height: auto;
     }
-   
-    
+
+  }
+
+
+
+  #slider1 {
+    display: flex;
+
+    .slick-next {
+
+      outline: none;
+      width: 440px;
+      height: 440px;
+      border: none;
+      border-radius: 6px;
+      z-index: 2;
+      right: -193px !important;
+      top: 56%;
+      opacity: 1;
+    }
+
+    .slick-next:before {
+      color: #E5E3DA;
+      width: 440px;
+      height: 440px;
+      font-size: 34.5px;
+
+    }
+
+    .slick-prev {
+
+      outline: none;
+      width: 440px;
+      height: 440px;
+      border: none;
+      border-radius: 6px;
+      z-index: 2;
+      left: -15.5%;
+      top: 56%;
+
+    }
+
+    .slick-prev:before {
+      color: #E5E3DA;
+      width: 440px;
+      height: 440px;
+      font-size: 34.5px;
+
+
+    }
+
+    .slick-prev:after {
+      opacity: 0;
+    }
+
+  }
+
+  .card-body {
+    margin-left: -16px;
+    margin-top: -8px;
+  }
+
+  margin-top: 15px;
+
+  .heading {
+    h2 {
+      font-size: 24px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+    }
+
+    a {
+      color: black;
+    }
+  }
+
+
+  .card-box {
+    margin-left: -24.5px;
+    gap: 4.078rem !important;
+    margin-top: -51px;
+  }
+
+  .card {
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    width: 276px !important;
+    height: 284px !important;
+    border: none;
+
+    img {
+      width: 122% !important;
+      padding-top: 13px;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    // .card-text{
+    //   font-size: 16px;
+    //   font-weight: 600;
+    //   color: black;
+    // }
+
+    .card-subtext {
+      font-size: 12px;
+      margin-top: -1rem;
+      color: #9b9b9b;
+    }
   }
 }
