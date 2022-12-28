@@ -777,4 +777,25 @@ body {
   font-size: 12px;
   margin-top: -1rem;
   color: #9b9b9b;
+}
+
+.top-deals {
+  margin-top: 40px;
+  margin-left: 3.778rem;
+}
+.top-deals .heading-text h2 {
+  font-family: Poppins, Open Sans, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+.top-deals .main-image {
+  gap: 2rem !important;
+}
+.top-deals .main-image img {
+  width: 696px;
+  margin-left: -24px;
+  margin-right: 20px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

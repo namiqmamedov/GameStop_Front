@@ -1121,3 +1121,29 @@ body{
     }
   }
 }
+
+.top-deals{
+  margin-top: 40px;
+  margin-left: 3.778rem;
+
+  .heading-text h2{
+    font-family: Poppins,Open Sans,sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 13px;
+  }
+  .main-image{
+    gap: 2rem !important;
+        
+    img{
+
+      width: 696px;
+      margin-left: -24px;
+      margin-right: 20px;
+      height: auto;
+    }
+   
+    
+  }
+}
