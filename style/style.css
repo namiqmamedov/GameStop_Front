@@ -974,22 +974,33 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.product-brand2 p {
+.featured-categories p {
   margin-left: 15px;
 }
-.product-brand2 .heading h2 {
+.featured-categories .heading h2 {
   font-family: "Poppins", "Open Sans", sans-serif;
   font-size: 24px !important;
   font-weight: bold;
 }
-.product-brand2 .brand-card {
+.featured-categories .category-card {
   margin-left: 1.1rem;
 }
-.product-brand2 .brand-card a {
+.featured-categories .category-card a {
   width: 100%;
   text-decoration: none;
 }
-.product-brand2 .brand-card img {
+.featured-categories .category-card img {
   width: 264px;
   margin: 12.5px 12.5px;
+}
+
+.bottom-content {
+  margin-top: 35px;
+}
+.bottom-content h2 {
+  font-size: 16px;
+}
+.bottom-content .text {
+  text-align: center;
+  line-height: 0.5rem;
 }/*# sourceMappingURL=style.css.map */
