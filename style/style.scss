@@ -818,6 +818,8 @@ body {
 
 .product-content {
 
+
+
   margin-top: 15px;
 
   .heading {
@@ -845,15 +847,28 @@ body {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
   }
+  
 
   .card-box {
-    margin-left: 31px;
-    gap: 1.3rem;
+    margin-left: 36.5px;
+    // display: flex !important;
+    // // margin-left: 31px;
+    // gap: 1.3rem;
   }
 
-  .slick-slide{
-    margin-left: 5px !important;
-    width: 235px !important;
+
+    .slick-slide {
+      margin-left: 2px !important;
+    margin-right: -66px !important;
+
+      // width: 235px !important;
+    }
+
+
+
+  .slick-list{
+    display: block;
+    // margin: 0 -12px;
   }
   .card {
     margin-top: 3.5rem;
@@ -891,6 +906,9 @@ body {
       color: black;
     }
   }
+
+  
+ 
 }
 
 .main-content {
@@ -1412,7 +1430,7 @@ body {
     //   opacity: 0;
     // }
     .slick-slide {
-      margin-left: 11px !important;
+      margin-left: 4px !important;
       margin-right: -25px !important;
     }
 
@@ -1764,6 +1782,7 @@ footer {
     .country:last-child:after{
       content: "";
     }
+
   }
 
   #hr {

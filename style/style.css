@@ -572,12 +572,14 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .product-content .card-box {
-  margin-left: 31px;
-  gap: 1.3rem;
+  margin-left: 36.5px;
 }
 .product-content .slick-slide {
-  margin-left: 5px !important;
-  width: 235px !important;
+  margin-left: 2px !important;
+  margin-right: -66px !important;
+}
+.product-content .slick-list {
+  display: block;
 }
 .product-content .card {
   margin-top: 3.5rem;
@@ -931,7 +933,7 @@ body {
   display: flex;
 }
 .product-content4 #slider2 .slick-slide {
-  margin-left: 11px !important;
+  margin-left: 4px !important;
   margin-right: -25px !important;
 }
 .product-content4 .card-body {
