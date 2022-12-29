@@ -851,11 +851,16 @@ body {
     gap: 1.3rem;
   }
 
+  .slick-slide{
+    margin-left: 5px !important;
+    width: 235px !important;
+  }
   .card {
     margin-top: 3.5rem;
     margin-bottom: 2rem;
-    width: 224px;
-    height: 284px;
+    width: 224px !important;
+    height: 284px !important;
+    
 
     border: none;
 
@@ -1476,9 +1481,16 @@ body {
 
 
 .featured-categories {
+  .carding{
+    margin-bottom: -12px !important;
+  }
 
   p {
     margin-left: 15px;
+    font-size: 16px;
+    font-family: 'Open-Sans',sans-serif;
+    font-weight: 600;
+    margin-top: -7px;
   }
 
   .heading {
@@ -1524,12 +1536,16 @@ body {
 footer {
 
   .footer-item {
-    margin-left: -0.4rem;
-    gap: 5.8rem;
+    margin-left: -1.3rem;
+    gap: 2rem;
+  }
+  .content{
+    padding: 0 25px;
   }
 
   .footer-copyright {
     margin-left: -4px;
+    margin-bottom: 27px;
   }
 
   ul {
@@ -1548,6 +1564,10 @@ footer {
       font-size: 14px;
       font-weight: 400;
       color: #121212;
+      &:hover{
+        color: black;
+        text-decoration: underline;
+      }
     }
   }
 
@@ -1728,11 +1748,19 @@ footer {
        li{
         &:after{
           content: "|";
-          margin: 0 4px;
+          margin: 0 5px;
         }
       }
     }
     
+    .country{
+      &:hover{
+        cursor: pointer;
+        color: #e7230d;
+        text-decoration: underline;
+      }
+    }
+
     .country:last-child:after{
       content: "";
     }

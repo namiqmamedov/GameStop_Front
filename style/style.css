@@ -575,11 +575,15 @@ body {
   margin-left: 31px;
   gap: 1.3rem;
 }
+.product-content .slick-slide {
+  margin-left: 5px !important;
+  width: 235px !important;
+}
 .product-content .card {
   margin-top: 3.5rem;
   margin-bottom: 2rem;
-  width: 224px;
-  height: 284px;
+  width: 224px !important;
+  height: 284px !important;
   border: none;
 }
 .product-content .card:hover {
@@ -974,8 +978,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.featured-categories .carding {
+  margin-bottom: -12px !important;
+}
 .featured-categories p {
   margin-left: 15px;
+  font-size: 16px;
+  font-family: "Open-Sans", sans-serif;
+  font-weight: 600;
+  margin-top: -7px;
 }
 .featured-categories .heading h2 {
   font-family: "Poppins", "Open Sans", sans-serif;
@@ -1006,11 +1017,15 @@ body {
 }
 
 footer .footer-item {
-  margin-left: -0.4rem;
-  gap: 5.8rem;
+  margin-left: -1.3rem;
+  gap: 2rem;
+}
+footer .content {
+  padding: 0 25px;
 }
 footer .footer-copyright {
   margin-left: -4px;
+  margin-bottom: 27px;
 }
 footer ul {
   padding: 0rem !important;
@@ -1025,6 +1040,10 @@ footer li a {
   font-size: 14px;
   font-weight: 400;
   color: #121212;
+}
+footer li a:hover {
+  color: black;
+  text-decoration: underline;
 }
 footer .title {
   display: block;
@@ -1156,7 +1175,12 @@ footer .footer-subtext .footer-country-list {
 }
 footer .footer-subtext .footer-country-list li:after {
   content: "|";
-  margin: 0 4px;
+  margin: 0 5px;
+}
+footer .footer-subtext .country:hover {
+  cursor: pointer;
+  color: #e7230d;
+  text-decoration: underline;
 }
 footer .footer-subtext .country:last-child:after {
   content: "";
