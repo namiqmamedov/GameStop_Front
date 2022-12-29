@@ -486,32 +486,30 @@ body {
 .home-content a {
   text-decoration: none;
 }
-.home-content .home-img .img1 {
-  width: 109%;
-  margin-left: -3.65rem;
+.home-content .home-card {
+  gap: 9rem;
+  margin: 0px -61px;
 }
-.home-content .home-img .img2 {
-  width: 109%;
+.home-content .home-img img {
+  width: 121%;
+  height: 100%;
 }
 .home-content .center-content img {
-  width: 109%;
-  margin-left: -3.6rem;
+  width: 95.7%;
+  margin-left: 2rem;
   height: 196px;
 }
-.home-content #card-title {
-  margin-left: -59px;
+.home-content .card-title a {
+  display: block;
 }
-.home-content #card-sub-title {
-  margin-left: -59px;
-}
-.home-content .card-title {
+.home-content .h-title {
   margin-top: 5px;
+  margin-bottom: 6px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   color: #000000;
 }
-.home-content .card-sub-title {
-  margin-top: 6.5px;
+.home-content .h-subtitle {
   font-family: "Open Sans", sans-serif;
   color: #625656;
   font-size: 14px;
@@ -616,11 +614,11 @@ body {
   margin-left: 0.778rem;
 }
 .main-content .main-image {
-  gap: 4.3rem;
-  padding: 0px 52px;
+  gap: 4.8rem;
+  padding: 0px 49px;
 }
 .main-content .main-image img {
-  width: 107%;
+  width: 107.8%;
   margin-left: -30px;
   margin-right: 20px;
   height: auto;
@@ -700,37 +698,33 @@ body {
 }
 
 .home-content2 {
-  margin-top: 4px;
-}
-.home-content2 .card-box {
-  width: 100%;
-  margin-left: 30px;
-  margin-right: 5px;
-}
-.home-content2 .card-box img {
-  width: 96.5%;
-  height: auto;
+  margin-top: 3.3px;
 }
 .home-content2 a {
   text-decoration: none;
 }
-.home-content2 .card-title {
-  margin-left: 4px;
+.home-content2 .home-card {
+  gap: 9rem;
+  margin: 0px -63px;
+}
+.home-content2 .home-img img {
+  width: 121.6%;
+  height: 100%;
+}
+.home-content2 .card-title a {
+  display: block;
+}
+.home-content2 .h-title {
   margin-top: 5px;
+  margin-bottom: 6px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   color: #000000;
 }
-.home-content2 .card-sub-title {
-  margin-top: 6.5px;
+.home-content2 .h-subtitle {
   font-family: "Open Sans", sans-serif;
   color: #625656;
   font-size: 14px;
-  margin-left: 4.3px;
-}
-.home-content2 .bottom-content img {
-  width: 96.2%;
-  margin-left: 31px;
 }
 
 .product-content3 {
