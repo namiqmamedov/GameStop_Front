@@ -18,7 +18,7 @@ body {
 }
 
 .header-banner nav {
-  background-color: rgb(34, 34, 34) !important;
+  background-color: #282828 !important;
   height: 40px;
 }
 .header-banner nav .navbar-brand {
@@ -148,6 +148,12 @@ body {
   background-color: #f1f1f1;
 }
 .main-header nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999999999;
   background-color: white;
   height: 50px;
   padding: 0 16px;
@@ -570,11 +576,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .product-content .card-box {
-  margin-left: 36.5px;
+  margin-left: 21.5px;
 }
 .product-content .slick-slide {
-  margin-left: 2px !important;
-  margin-right: -66px !important;
+  margin-left: 6px !important;
+  margin-right: -77px !important;
 }
 .product-content .slick-list {
   display: block;
@@ -932,8 +938,8 @@ body {
   display: flex;
 }
 .product-content4 #slider2 .slick-slide {
-  margin-left: 4px !important;
-  margin-right: -25px !important;
+  margin-left: 9px !important;
+  margin-right: -34px !important;
 }
 .product-content4 .card-body {
   width: 200px !important;
@@ -955,7 +961,7 @@ body {
 .product-content4 .card {
   margin-top: 3.5rem;
   margin-bottom: 2rem;
-  width: 223px !important;
+  width: 211.8px !important;
   height: 295px !important;
   border: none;
 }
@@ -1192,4 +1198,148 @@ footer #hr {
   width: 1500px;
   margin-top: 105px;
   margin-bottom: 26px;
+}
+
+.mb-home-content {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  html {
+    overflow-x: hidden;
+  }
+  .header-banner {
+    background-color: #282828;
+  }
+  .header-banner .navbar-toggler {
+    display: none;
+  }
+  .header-banner .shopping {
+    display: none;
+  }
+  .header-banner .check-order {
+    display: none;
+  }
+  .header-banner .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1rem;
+  }
+  .promo-header .text {
+    font-size: 14.8px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .header-wrapper {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  }
+  .header-wrapper nav {
+    height: 98.5px;
+  }
+  .header-wrapper #m-menu {
+    display: none !important;
+  }
+  .header-wrapper .m-menu__toggle svg {
+    width: 5.8% !important;
+    margin-top: -40px !important;
+    margin-left: -12px;
+  }
+  .header-wrapper .nav-logo {
+    width: 105px !important;
+    margin-left: 2px !important;
+    margin-top: -53px;
+  }
+  .header-wrapper .header-options {
+    display: none !important;
+  }
+  .header-wrapper .powerup {
+    display: none;
+  }
+  .header-wrapper .header-search .search {
+    top: 2%;
+    left: -22%;
+  }
+  .header-wrapper .header-search .search input {
+    border-radius: 0px !important;
+    margin-left: -97px;
+    width: 350px;
+  }
+  .header-wrapper .header-search .fa-search {
+    top: 13px !important;
+    left: -77.5px !important;
+    font-size: 11.7px !important;
+  }
+  .header-wrapper .account-header {
+    margin-left: 1rem;
+  }
+  .header-wrapper .account-header .account {
+    margin-left: -9.5rem;
+    margin-top: -48px;
+  }
+  .header-wrapper .account-header .user {
+    margin-top: -6px;
+    display: flex !important;
+  }
+  .header-wrapper .account-header .user span {
+    position: relative;
+    left: -35%;
+    font-weight: 600;
+  }
+  .header-wrapper .account-header .account i {
+    margin-left: 11px;
+    margin-bottom: -17px;
+    display: flex;
+    font-size: 14px;
+  }
+  .header-wrapper .header-cart #cart {
+    display: none;
+  }
+  .header-wrapper .header-cart .cart svg {
+    margin-left: -7rem;
+    margin-top: -50px;
+    width: 86.5%;
+  }
+  .home-content {
+    display: none;
+  }
+  .mb-home-content {
+    display: block;
+  }
+  .mb-home-content a {
+    text-decoration: none;
+  }
+  .mb-home-content .home-card {
+    gap: 1rem;
+    margin: 16px 1px;
+  }
+  .mb-home-content .home-img img {
+    max-width: 100%;
+    height: 100%;
+  }
+  .mb-home-content .center-content img {
+    width: 95.7%;
+    margin-left: 2rem;
+    height: 196px;
+  }
+  .mb-home-content #card-title {
+    margin-left: -59px;
+  }
+  .mb-home-content #card-sub-title {
+    margin-left: -59px;
+  }
+  .mb-home-content .card-title a {
+    display: block;
+  }
+  .mb-home-content .h-title {
+    width: 160px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+  }
+  .mb-home-content .h-subtitle {
+    font-family: "Open Sans", sans-serif;
+    color: #625656;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
