@@ -25,8 +25,6 @@ $('#slider').slick({
         settings: {
           slidesToShow: 2,
           slidesToScroll: 3,
-          variableWidth: true,
-	        accessibility: true
         }
       }
     ]

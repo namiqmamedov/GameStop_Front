@@ -1012,7 +1012,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.featured-categories .carding {
+.featured-categories .amp-card {
   margin-bottom: -12px !important;
 }
 .featured-categories p {
@@ -1557,7 +1557,7 @@ footer #hr {
     font-size: 16px;
     text-align: left;
     margin-left: -3.1rem;
-    margin-bottom: -13px;
+    margin-bottom: -11px;
     font-weight: 600;
   }
   .top-deals .mb-img {
@@ -1570,8 +1570,36 @@ footer #hr {
     gap: 1rem !important;
     flex-wrap: wrap;
   }
+  .top-deals .main-image .mb-img {
+    display: block !important;
+  }
   .top-deals .main-image img {
     width: 112%;
     margin-left: -49px;
+  }
+  .featured-categories .category-card {
+    margin-left: 0rem;
+    margin-right: 10px;
+  }
+  .featured-categories .heading h2 {
+    font-size: 16px !important;
+    text-align: left;
+    margin-left: 0.8rem;
+    font-weight: normal !important;
+  }
+  .featured-categories .amp-card:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .featured-categories .amp-card {
+    width: 50%;
+    margin-bottom: -15px !important;
+  }
+  .featured-categories .amp-card .card-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .featured-categories .amp-card img {
+    width: 167.5px;
   }
 }/*# sourceMappingURL=style.css.map */

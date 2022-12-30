@@ -760,7 +760,7 @@ body {
       width: 121%;
       height: 100%;
     }
-    
+
 
   }
 
@@ -1075,7 +1075,8 @@ body {
       width: 121.6%;
       height: 100%;
     }
-    .mb-img{
+
+    .mb-img {
       display: none !important;
     }
 
@@ -1272,7 +1273,8 @@ body {
 
   .main-image {
     gap: 2rem !important;
-    .mb-img{
+
+    .mb-img {
       display: none !important;
     }
 
@@ -1537,7 +1539,7 @@ body {
 
 
 .featured-categories {
-  .carding {
+  .amp-card {
     margin-bottom: -12px !important;
   }
 
@@ -2229,44 +2231,46 @@ footer {
   }
 
   .home-content2 {
-    
+
     .h-img {
       display: none;
     }
 
-    .mb-img{
+    .mb-img {
       display: block;
     }
-    .home-card{
+
+    .home-card {
       gap: 3.5rem !important;
       margin: 13px 1px;
       // padding-right: 301px;
     }
 
-     .mb-img {
-    //   height: auto !important;
+    .mb-img {
+      //   height: auto !important;
       display: block !important;
-    //   margin-left: 0rem !important;
-    //  width: 102%;
-     }
+      //   margin-left: 0rem !important;
+      //  width: 102%;
+    }
 
-    .home-img{
+    .home-img {
       height: auto !important;
-      .mb-img{
+
+      .mb-img {
         display: block !important;
         width: 169px;
         height: 167px;
         margin-right: -41px !important;
       }
-      
+
     }
 
-    .center-content{
-      img{
+    .center-content {
+      img {
 
-        width: 100% ;
+        width: 100%;
         height: auto;
-        margin-left: 0rem ;
+        margin-left: 0rem;
       }
     }
   }
@@ -2300,13 +2304,14 @@ footer {
 
   .top-deals {
     margin-top: -34px;
+
     .heading-text {
       h2 {
         font-size: 16px;
         text-align: left;
         margin-left: -3.1rem;
-            margin-bottom: -13px;
-            font-weight: 600;
+        margin-bottom: -11px;
+        font-weight: 600;
       }
     }
 
@@ -2322,9 +2327,44 @@ footer {
       gap: 1rem !important;
       flex-wrap: wrap;
 
+      .mb-img {
+        display: block !important;
+      }
+
       img {
         width: 112%;
         margin-left: -49px;
+      }
+    }
+  }
+
+  .featured-categories{
+    .category-card{
+      margin-left: 0rem;
+      margin-right: 10px;
+    }
+    .heading {
+      h2 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 0.8rem;
+        font-weight:  normal !important;
+      }
+    }
+
+    .amp-card:last-child{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .amp-card{
+      width: 50%;
+      margin-bottom: -15px !important;
+      .card-title{
+        font-size: 16px;
+        font-family: 'Open Sans',sans-serif;
+      }
+      img{
+        width: 167.5px;
       }
     }
   }
