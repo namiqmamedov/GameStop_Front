@@ -740,6 +740,9 @@ body {
   margin-left: -3.9rem;
   height: 196px;
 }
+.home-content2 .center-content .mb-img {
+  display: none;
+}
 .home-content2 .card-title a {
   display: block;
 }
@@ -1494,5 +1497,70 @@ footer #hr {
   }
   .product-brand .amp-card img {
     width: 170px;
+  }
+  .home-content2 .h-img {
+    display: none;
+  }
+  .home-content2 .mb-img {
+    display: block;
+  }
+  .home-content2 .home-card {
+    gap: 0rem !important;
+    margin: 13px 3px;
+  }
+  .home-content2 .mb-img {
+    height: auto !important;
+    display: block !important;
+    margin-left: 0rem !important;
+    width: 102%;
+  }
+  .home-content2 .home-img {
+    height: auto !important;
+  }
+  .home-content2 .home-img img {
+    max-width: 100%;
+    height: auto !important;
+  }
+  .product-content3 .heading h2 {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    padding-left: 15px;
+  }
+  .product-content3 .card img {
+    width: 65% !important;
+  }
+  .product-content3 #slider {
+    margin-left: 15.5px;
+    gap: -0.922rem !important;
+    margin-top: -58px;
+    display: flex;
+  }
+  .product-content3 .slick-slide {
+    width: 163px !important;
+  }
+  .top-deals {
+    margin-top: -34px;
+  }
+  .top-deals .heading-text h2 {
+    font-size: 16px;
+    text-align: left;
+    margin-left: -3.1rem;
+    margin-bottom: -13px;
+    font-weight: 600;
+  }
+  .top-deals .mb-img {
+    margin-left: -49px;
+  }
+  .top-deals .h-img {
+    display: none;
+  }
+  .top-deals .main-image {
+    gap: 1rem !important;
+    flex-wrap: wrap;
+  }
+  .top-deals .main-image img {
+    width: 112%;
+    margin-left: -49px;
   }
 }/*# sourceMappingURL=style.css.map */
