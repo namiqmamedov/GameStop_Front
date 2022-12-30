@@ -735,6 +735,9 @@ body {
   width: 121.6%;
   height: 100%;
 }
+.home-content2 .home-img .mb-img {
+  display: none !important;
+}
 .home-content2 .center-content img {
   width: 109.7%;
   margin-left: -3.9rem;
@@ -857,6 +860,9 @@ body {
 }
 .top-deals .main-image {
   gap: 2rem !important;
+}
+.top-deals .main-image .mb-img {
+  display: none !important;
 }
 .top-deals .main-image img {
   width: 696px;
@@ -1414,7 +1420,7 @@ footer #hr {
     display: none;
   }
   .mb-product-content2 {
-    display: block;
+    display: block !important;
     margin-top: 15px;
   }
   .mb-product-content2 .heading {
@@ -1488,7 +1494,8 @@ footer #hr {
   }
   .product-brand .brand-card {
     display: flex;
-    margin-left: 0.1rem;
+    margin-right: 0.6rem;
+    margin-left: 0rem;
   }
   .product-brand .amp-card {
     margin: 0 0 -12px;
@@ -1505,21 +1512,25 @@ footer #hr {
     display: block;
   }
   .home-content2 .home-card {
-    gap: 0rem !important;
-    margin: 13px 3px;
+    gap: 3.5rem !important;
+    margin: 13px 1px;
   }
   .home-content2 .mb-img {
-    height: auto !important;
     display: block !important;
-    margin-left: 0rem !important;
-    width: 102%;
   }
   .home-content2 .home-img {
     height: auto !important;
   }
-  .home-content2 .home-img img {
-    max-width: 100%;
-    height: auto !important;
+  .home-content2 .home-img .mb-img {
+    display: block !important;
+    width: 169px;
+    height: 167px;
+    margin-right: -41px !important;
+  }
+  .home-content2 .center-content img {
+    width: 100%;
+    height: auto;
+    margin-left: 0rem;
   }
   .product-content3 .heading h2 {
     text-align: left;

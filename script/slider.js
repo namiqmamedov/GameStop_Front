@@ -24,7 +24,9 @@ $('#slider').slick({
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToScroll: 3,
+          variableWidth: true,
+	        accessibility: true
         }
       }
     ]
