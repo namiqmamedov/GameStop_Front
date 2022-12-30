@@ -24,7 +24,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999999999;
+  z-index: 99999999;
 }
 
 
@@ -116,6 +116,11 @@ body {
 
 
 .main-header {
+  position: relative;
+  z-index: 1;
+ 
+  margin-left: -1rem;
+    width: 102%;
 
   #menu1::-webkit-scrollbar {
     display: none;
@@ -133,6 +138,8 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
     overflow-y: auto;
+    margin-top: -6rem;
+    
   }
 
 
@@ -267,11 +274,7 @@ body {
 
 
   nav {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999999999;
+       
 
     background-color: white;
     height: 50px;
@@ -300,7 +303,7 @@ body {
       left: 0;
       max-width: 375px;
       width: calc(100vw - 30px);
-      height: 100%;
+      height: 800%;
       @include transform(translate3d(-450px, 0, 0));
       @include transition(transform 0.35s);
       z-index: 1;
@@ -313,9 +316,9 @@ body {
       &__overlay {
         background-color: hsl(0deg 0% 5% / 50%);
         position: absolute;
-        top: 0;
+        top: -91px;
         width: 100%;
-        bottom: 0;
+        bottom: -550px;
         z-index: 1;
         display: none;
       }
@@ -574,15 +577,14 @@ body {
     }
   }
 
-  .zippo {}
+  
 
   .header-wrapper {
+    margin-left: -1rem;
+    width: 102%;
     height: 94px;
     background-color: #fff;
     overflow: hidden;
-    position: relative;
-
-
 
     //  position: relative;
 
@@ -2477,6 +2479,53 @@ footer {
 
   .top-deals {
     margin-top: -34px;
+
+
+    #slider1 {
+      margin-left: -3.1rem;
+      display: flex;
+      width: 350px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+    }
+
+    .card {
+      flex-shrink: 0;
+      height: 100%;
+      margin-top: 3.5rem;
+      margin-bottom: 2rem;
+      width: 96.5px !important;
+      height: 284px !important;
+      border: none;
+  
+      img {
+        width: 145px !important;
+        padding-top: 13px;
+        display: block;
+      }
+  
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+      }
+  
+      // .card-text{
+      //   font-size: 16px;
+      //   font-weight: 600;
+      //   color: black;
+      // }
+  
+      .card-subtext {
+        font-size: 12px;
+        margin-top: -1rem;
+        color: #9b9b9b;
+      }
+    }
+
 
     .heading-text {
       h2 {
