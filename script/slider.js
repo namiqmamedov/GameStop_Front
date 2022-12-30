@@ -15,17 +15,11 @@ $('#slider').slick({
       },
       {
         breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
+        settings: "unslick"
       },
       {
         breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 3,
-        }
+        settings: "unslick"
       }
     ]
   });
@@ -112,29 +106,15 @@ $('#slidero').slick({
         dots: true
       }
     },
-    // {
-    //   breakpoint: 600,
-    //   settings: {
-    //     slidesToShow: 2,
-    //     slidesToScroll: 2
-    //   }
-    // },
+    {
+      breakpoint: 600,
+      settings: "unslick"
+    },
     {
       breakpoint: 480,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        // swipeToSlide: true,
-        focusOnSelect: true
-
-      }
+      settings: "unslick"
     }
   ]
 });
 
-$('#mb-slider').slick({
-  infinite: false,
-  slidesToShow: 2,
-  slidesToScroll: 3
-});
 
