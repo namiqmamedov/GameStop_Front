@@ -2369,4 +2369,45 @@ footer {
     }
   }
 
+  .bottom-content{
+    .text{
+      p{
+        line-height: 18px;
+        max-width: 349px;
+      }
+    }
+  }
+
+  footer{
+    #h-item{
+      display: none;
+    }
+
+    .accordion-item{
+      border: none;
+    }
+    .accordion-button::after{
+      content: '+' !important;
+      background-image: none;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      background-image: none;
+      transform: none;
+      content: "-" !important;
+    }
+
+    .accordion-button:focus{
+      border-color: none !important;
+      box-shadow: none;
+      background-color: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+      color: black;
+      background-color: white !important;
+    }
+  
+  }
+
 }

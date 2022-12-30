@@ -1602,4 +1602,32 @@ footer #hr {
   .featured-categories .amp-card img {
     width: 167.5px;
   }
+  .bottom-content .text p {
+    line-height: 18px;
+    max-width: 349px;
+  }
+  footer #h-item {
+    display: none;
+  }
+  footer .accordion-item {
+    border: none;
+  }
+  footer .accordion-button::after {
+    content: "+" !important;
+    background-image: none;
+  }
+  footer .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "-" !important;
+  }
+  footer .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none;
+    background-color: none;
+  }
+  footer .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white !important;
+  }
 }/*# sourceMappingURL=style.css.map */
