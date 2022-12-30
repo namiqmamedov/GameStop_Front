@@ -8,6 +8,14 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .zippo {
   position: -webkit-sticky;
   position: sticky;
@@ -555,11 +563,15 @@ body {
 .product-content {
   margin-top: 15px;
 }
+.product-content #slidero {
+  margin-top: -3rem;
+}
 .product-content .heading h2 {
   font-size: 24px;
 }
 .product-content .heading a {
   color: black;
+  font-family: "Open Sans", sans-serif;
 }
 .product-content .pageInfo {
   position: absolute;
@@ -575,8 +587,11 @@ body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
+.product-content .card-text {
+  margin-left: -11px;
+}
 .product-content .card-box {
-  margin-left: 21.5px;
+  margin-left: 3.5px;
 }
 .product-content .slick-slide {
   margin-left: 6px !important;
@@ -624,10 +639,13 @@ body {
   padding: 0px 49px;
 }
 .main-content .main-image img {
-  width: 107.8%;
+  width: 103.5%;
   margin-left: -30px;
   margin-right: 20px;
   height: auto;
+}
+.main-content .main-image .mb-img {
+  display: none;
 }
 
 .product-content2 {
@@ -1204,6 +1222,10 @@ footer #hr {
   display: none;
 }
 
+.mb-product-content2 {
+  display: none;
+}
+
 @media (max-width: 576px) {
   html {
     overflow-x: hidden;
@@ -1316,9 +1338,8 @@ footer #hr {
     height: 100%;
   }
   .mb-home-content .center-content img {
-    width: 95.7%;
-    margin-left: 2rem;
-    height: 196px;
+    width: 93.9%;
+    margin-left: 0.7rem;
   }
   .mb-home-content #card-title {
     margin-left: -59px;
@@ -1341,5 +1362,137 @@ footer #hr {
     font-family: "Open Sans", sans-serif;
     color: #625656;
     font-size: 14px;
+  }
+  .main-content {
+    overflow-x: hidden !important;
+  }
+  .product-content .heading {
+    display: flex;
+  }
+  .product-content .heading h2 {
+    font-size: 16px;
+    text-align: left;
+    min-width: 194px;
+    padding-left: 14px;
+  }
+  .product-content .heading a {
+    margin-left: 7rem;
+    margin-top: 6px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .product-content .card {
+    width: 158px !important;
+    margin-bottom: 0rem !important;
+  }
+  .product-content .card img {
+    width: 91% !important;
+  }
+  .product-content .card:hover {
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .product-content .pageInfo {
+    display: none;
+  }
+  .main-content .h-img {
+    display: none;
+  }
+  .main-content .mb-img {
+    display: block !important;
+  }
+  .main-content .mb-img img {
+    width: 186.5% !important;
+    margin-left: -126px !important;
+    margin-right: 20px;
+    margin-top: 1rem;
+    height: auto;
+  }
+  .product-content2 {
+    display: none;
+  }
+  .mb-product-content2 {
+    display: block;
+    margin-top: 15px;
+  }
+  .mb-product-content2 .heading {
+    display: flex;
+  }
+  .mb-product-content2 .heading h2 {
+    font-size: 16px;
+    text-align: left;
+    min-width: 194px;
+    padding-left: 14px;
+  }
+  .mb-product-content2 .heading a {
+    margin-left: 7rem;
+    margin-top: 6px;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+  }
+  .mb-product-content2 .pageInfo2 {
+    display: none;
+  }
+  .mb-product-content2 .card-body {
+    margin-left: -1rem;
+  }
+  .mb-product-content2 .card-box {
+    margin-left: 19.5px;
+    gap: 0.9rem;
+    margin-top: -24px;
+  }
+  .mb-product-content2 .card {
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+    width: 224px;
+    height: 284px;
+    border: none;
+  }
+  .mb-product-content2 .card img {
+    width: 81%;
+    padding-top: 13px;
+    display: block;
+  }
+  .mb-product-content2 .card a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .mb-product-content2 .card .card-text {
+    font-size: 0.875rem;
+    font-weight: 600;
+    max-width: 134px;
+    color: black;
+  }
+  .mb-product-content2 .card .card-subtext {
+    font-size: 12px;
+    margin-top: -1rem;
+    color: #9b9b9b;
+  }
+  .product-brand .heading h2 {
+    font-size: 16px !important;
+    padding-left: 14px;
+    text-align: left;
+    font-weight: 500;
+  }
+  .product-brand .br-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-brand .br-card img {
+    width: 180px;
+  }
+  .product-brand .brand-card {
+    display: flex;
+    margin-left: 0.1rem;
+  }
+  .product-brand .amp-card {
+    margin: 0 0 -12px;
+    width: 50%;
+    max-width: 220px;
+  }
+  .product-brand .amp-card img {
+    width: 170px;
   }
 }/*# sourceMappingURL=style.css.map */

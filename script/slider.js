@@ -1,4 +1,3 @@
-
 $('#slider').slick({
     infinite: false,
     slidesToShow: 5,
@@ -113,19 +112,29 @@ $('#slidero').slick({
         dots: true
       }
     },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
+    // {
+    //   breakpoint: 600,
+    //   settings: {
+    //     slidesToShow: 2,
+    //     slidesToScroll: 2
+    //   }
+    // },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        // swipeToSlide: true,
+        focusOnSelect: true
+
       }
     }
   ]
 });
+
+$('#mb-slider').slick({
+  infinite: false,
+  slidesToShow: 2,
+  slidesToScroll: 3
+});
+
