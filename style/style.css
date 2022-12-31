@@ -26,6 +26,7 @@ body {
 }
 
 .header-banner nav {
+  padding-left: 2rem;
   background-color: #282828 !important;
   height: 40px;
 }
@@ -34,6 +35,7 @@ body {
   font-size: 14px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
+  margin-left: -25px;
 }
 .header-banner nav .text-right {
   margin-bottom: 4px;
@@ -93,6 +95,9 @@ body {
   margin-left: -1rem;
   width: 102%;
   /* Mixin */
+}
+.main-header nav {
+  padding-left: 2rem !important;
 }
 .main-header #menu1::-webkit-scrollbar {
   display: none;
@@ -414,8 +419,9 @@ body {
   text-indent: 25px;
   border: none;
   margin-left: 14px;
-  width: 758px;
-  background: #f0f0f0 0 0 no-repeat padding-box;
+  width: 773px;
+  background: #f0f0f0 0 0;
+  border-radius: 0rem !important;
 }
 .main-header .header-search .search input:focus::-webkit-input-placeholder {
   opacity: 0;
@@ -1261,6 +1267,15 @@ footer #hr {
     font-size: 14.8px;
     font-family: "Open Sans", sans-serif;
   }
+  .main-header {
+    margin-left: 0rem;
+    width: 108%;
+  }
+  .main-header .m-menu {
+    left: -12px !important;
+    width: calc(100vw - 0px) !important;
+    max-width: 375px !important;
+  }
   .header-wrapper {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
   }
@@ -1270,7 +1285,7 @@ footer #hr {
   .header-wrapper #m-menu {
     display: none !important;
   }
-  .header-wrapper .m-menu__toggle svg {
+  .header-wrapper .m-menu__toggle .hamburger {
     width: 5.8% !important;
     margin-top: -40px !important;
     margin-left: -12px;
@@ -1287,7 +1302,7 @@ footer #hr {
     display: none;
   }
   .header-wrapper .header-search .search {
-    top: 2%;
+    top: 4%;
     left: -22%;
   }
   .header-wrapper .header-search .search input {
