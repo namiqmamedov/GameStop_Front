@@ -23,7 +23,6 @@
 </head>
 
 <body>
-
   <!-- start header -->
 
   <div class="header-banner">
@@ -76,7 +75,7 @@
         <div class="header-wrapper">
           <nav>
             <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
-            <label class="m-menu__toggle" for="menu">
+            <label id="mMenu" class="m-menu__toggle" for="menu">
               <svg class="hamburger" width="39" height="28" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2"
                 stroke-linecap="butt" stroke-linejoin="arcs">
                 <line x1="1" y1="12" x2="21" y2="12"></line>
@@ -87,8 +86,8 @@
             </label>
   
             <label class="m-menu__overlay" for="menu"></label>
-  
-            <div id="menu1" class="m-menu fixed-position" onclick="lockScroll()">
+            
+            <div id="menu1" class="m-menu fixed-position" >
               <div id="menu-header" class="m-menu__header">
                 <label class="m-menu__toggle" for="menu">
                   <svg class="close" width="25" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000"
@@ -1242,7 +1241,7 @@
         Page 1 of 2
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="product-carousel">
           <div id="slider2" class="card-box ">

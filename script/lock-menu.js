@@ -1,9 +1,18 @@
 
- 
- 
- 
- if ($('#menu1').is(':visible')) {
-    $('body').addClass("fixed-position");
- } else {
-    $('body').removeClass("fixed-position");
- }
+
+const menu = $("#mMenu").click(function () {
+   if ($('body').addClass("lock-scroll")) {}
+})
+
+
+const menuover = $(".m-menu__overlay").click(function () {
+   if ($('body').removeClass("lock-scroll")) {}
+})
+
+// $("#mMenu").click(function(){
+//    if ($('body').addClass("lock-scroll")){
+//    }
+//    else{
+//     $('body').removeClass("lock-scroll")
+//    }
+//  })
