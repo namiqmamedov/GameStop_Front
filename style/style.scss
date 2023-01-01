@@ -12,6 +12,10 @@ body {
 
 .lock-scroll {
   overflow: hidden;
+  touch-action: none;
+    -ms-touch-action: none;
+    position: fixed;
+    width: 100%;
 }
 
 .container {
@@ -24,13 +28,24 @@ body {
 
 
 .zippo {
-
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99999999;
 }
+
+
+// .m-menu__overlay{
+//         display: none !important;
+//         background-color: transparent !important;
+//         position: static !important;
+//         top: 0px !important;
+//         width: 0px !important;
+//         bottom: 0px !important;
+//         z-index: 0 !important;
+ 
+// }
 
 
 .header-banner {
@@ -118,8 +133,11 @@ body {
 
 #m-menu2 {
 
-  height: 1184px;
+   height: 1184px;
+  // max-height: 100%;
 }
+
+
 
 
 .main-header {
@@ -160,6 +178,11 @@ body {
     background-color: rgb(251 251 251);
     margin-left: -18px;
     padding: 10px 0px 10px 10px;
+
+    // li{
+    //   position: fixed;
+    //   width: 100%;
+    // }
 
 
 
@@ -859,11 +882,110 @@ body {
   #slidero {
     margin-top: -3rem;
     margin-left: 2px !important; 
+
   }
+
+  .slick-disabled {
+    opacity: 0 !important;
+    pointer-events:none !important;
+}
+
+  
+  .slick-next {
+
+    outline: none;
+    width: 440px;
+    height: 440px;
+    border: none;
+    border-radius: 6px;
+    z-index: 2;
+    right: -186px !important;
+    top: 58%;
+    opacity: 0;
+    background: transparent;
+    font-size: 2px !important;
+    overflow: visible;
+    
+
+    // transition: right .5s ease-in-out;
+    
+  }
+
+  .slick-next:before {
+    content: "";
+    display: inline-block;
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png');
+    height: 2.5rem;
+    width: 2.5rem;
+    background-size: auto;
+    border-radius: 50%;
+    background-position: -268px 0px;
+     transform: rotate(270deg);
+    background-color: #fff;
+    border: 1px solid #000;
+
+   
+    
+
+  }
+
+
+  .slick-next:hover{
+    outline: none;
+    background: transparent;
+    opacity: .9;
+    color: transparent;
+    transition: right .5s ease-in-out;
+    
+  }
+
+
+  .slick-prev {
+
+    width: 440px;
+    height: 440px;
+    border: none;
+    opacity: 0;
+    border-radius: 6px;
+    left: -14%;
+    z-index: 9999999;
+    top: 58%;
+    
+   
+  }
+
+  .slick-prev:before {
+    content: "";
+    display: inline-block;
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png');
+    height: 2.5rem;
+    width: 2.5rem;
+    background-size: auto;
+    border-radius: 50%;
+    background-position: -268px 0px;
+     transform: rotate(90deg);
+    background-color: #fff;
+    border: 1px solid #000;
+
+  }
+
+  .slick-prev:hover{
+    outline: none;
+    background: transparent;
+    opacity: .9;
+    color: transparent;
+
+    
+  }
+
+
+
 
   margin-top: 15px;
 
   .heading {
+    position: relative;
+    margin-bottom: 23px;
     h2 {
       font-size: 24px;
       max-width: 441px;
@@ -881,17 +1003,17 @@ body {
   }
 
   .pageInfo {
+   
     position: absolute;
-    top: 130%;
+    top: 50%;
     left: 91%;
+    text-align: right;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
   }
 
   .pageInfo2 {
-    position: absolute;
-    top: 170%;
-    left: 91%;
+    
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
   }
@@ -913,10 +1035,10 @@ body {
 
 
   .card {
-    margin: 0 0.4rem;
+    margin: 0 0.9rem;
     margin-top: 3.5rem;
     margin-bottom: 2rem;
-    width: 224px !important;
+    width: 216px !important;
     height: 284px !important;
     border: none;
 
@@ -981,7 +1103,9 @@ body {
 
   margin-top: 15px;
 
+  
   .heading {
+    margin-bottom: 20px;
     h2 {
       font-size: 24px;
     }
@@ -1143,82 +1267,101 @@ body {
   #slider {
     display: flex;
 
+ 
+     
+    .slick-disabled {
+      opacity: 0 !important;
+      pointer-events:none !important;
+  }
+  
+    
     .slick-next {
-
+  
       outline: none;
       width: 440px;
       height: 440px;
       border: none;
       border-radius: 6px;
       z-index: 2;
-      right: -193px !important;
-      top: 56%;
-      opacity: 1;
-
+      right: -186px !important;
+      top: 58%;
+      margin-right: -0.5rem;
+      background: transparent;
+      font-size: 2px !important;
+      overflow: visible;
+      
+  
+      // transition: right .5s ease-in-out;
+      
     }
-
-
+  
     .slick-next:before {
-      color: #E5E3DA;
-      width: 440px;
-      height: 440px;
-      font-size: 34.5px;
-
+      content: "";
+      display: inline-block;
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png');
+      height: 2.5rem;
+      width: 2.5rem;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -268px 0px;
+       transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+  
+     
+      
+  
     }
-
-    .slick-prev {
-
+  
+  
+    .slick-next:hover{
       outline: none;
+      background: transparent;
+      color: transparent;
+      transition: right .5s ease-in-out;
+      
+    }
+  
+  
+    .slick-prev {
+  
       width: 440px;
       height: 440px;
       border: none;
       border-radius: 6px;
-      z-index: 2;
-      left: -15.5%;
-      top: 56%;
-
-
-
+      left: -14%;
+      z-index: 9999999;
+      top: 58%;
+      margin-left: -0.9rem;
+      
+     
     }
-
-
+  
     .slick-prev:before {
-      color: #E5E3DA;
-      width: 440px;
-      height: 440px;
-      font-size: 34.5px;
-
-
+      content: "";
+      display: inline-block;
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png');
+      height: 2.5rem;
+      width: 2.5rem;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -268px 0px;
+       transform: rotate(90deg);
+      background-color: #fff;
+      border: 1px solid #000;
+  
+    }
+  
+    .slick-prev:hover{
+      outline: none;
+      background: transparent;
+      color: transparent;
     }
 
-    .slick-prev:after {
-      opacity: 0;
-    }
+    
 
   }
 
-  // .slick-next{
-  //   border: none;
-  //   border-radius: 6px;
-  //   z-index: 2;
-  //   right: 2px !important;
-  //   top: 56%;
-  //   width: 40px;
-  //   height: 40px;
-  //   opacity: .95;
-  //   color: black;
-  // }
-  // .slick-next:before{
-  //   content: '>';
-  //   width: 2.5rem;
-  //   height: 2.5rem;
-  //   transform: rotate(270deg);
-  //   border-radius: 50%;
-  //   background-position: -269px 0;
-  //   background-color: #fff;
-  //   border: 1px solid #000;
-  //   opacity: .6
-  // }
   .card-body {
     margin-left: -16px;
     margin-top: -8px;
@@ -1286,6 +1429,10 @@ body {
   margin-top: 40px;
   margin-left: 3.778rem;
 
+
+  
+
+
   .heading-text h2 {
     font-family: Poppins, Open Sans, sans-serif;
     font-size: 1.5rem;
@@ -1316,52 +1463,96 @@ body {
   #slider1 {
     display: flex;
 
+    
+    .slick-disabled {
+      opacity: 0 !important;
+      pointer-events:none !important;
+  }
+  
+    
     .slick-next {
-
+  
       outline: none;
       width: 440px;
       height: 440px;
       border: none;
       border-radius: 6px;
       z-index: 2;
-      right: -193px !important;
-      top: 56%;
-      opacity: 1;
+      right: -186px !important;
+      top: 58%;
+      margin-right: -0.5rem;
+      background: transparent;
+      font-size: 2px !important;
+      overflow: visible;
+      
+  
+      // transition: right .5s ease-in-out;
+      
     }
-
+  
     .slick-next:before {
-      color: #E5E3DA;
-      width: 440px;
-      height: 440px;
-      font-size: 34.5px;
-
+      content: "";
+      display: inline-block;
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png');
+      height: 2.5rem;
+      width: 2.5rem;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -268px 0px;
+       transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+  
+     
+      
+  
     }
-
-    .slick-prev {
-
+  
+  
+    .slick-next:hover{
       outline: none;
+      background: transparent;
+      color: transparent;
+      transition: right .5s ease-in-out;
+      
+    }
+  
+  
+    .slick-prev {
+  
       width: 440px;
       height: 440px;
       border: none;
       border-radius: 6px;
-      z-index: 2;
-      left: -15.5%;
-      top: 56%;
-
+      left: -14%;
+      z-index: 9999999;
+      top: 58%;
+      margin-left: -0.9rem;
+      
+     
     }
-
+  
     .slick-prev:before {
-      color: #E5E3DA;
-      width: 440px;
-      height: 440px;
-      font-size: 34.5px;
-
-
+      content: "";
+      display: inline-block;
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png');
+      height: 2.5rem;
+      width: 2.5rem;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -268px 0px;
+       transform: rotate(90deg);
+      background-color: #fff;
+      border: 1px solid #000;
+  
     }
-
-    .slick-prev:after {
-      opacity: 0;
+  
+    .slick-prev:hover{
+      outline: none;
+      background: transparent;
+      color: transparent;
     }
+  
 
   }
 
@@ -1430,10 +1621,15 @@ body {
 
 .product-content4 {
 
+  .heading{
+    position: relative;
+  }
+
   .pageInfo3 {
     position: absolute;
-    top: 170%;
+    top: 50%;
     left: 91%;
+    text-align: right;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
   }
@@ -1441,57 +1637,103 @@ body {
   #slider2 {
     display: flex;
 
-    // .slick-next {
 
-    //   outline: none;
-    //   width: 440px;
-    //   height: 440px;
-    //   border: none;
-    //   border-radius: 6px;
-    //   z-index: 2;
-    //   right: -193px !important;
-    //   top: 56%;
-    //   opacity: 1;
+    .slick-disabled {
+      opacity: 0 !important;
+      pointer-events:none !important;
+  }
+  
+    
+    .slick-next {
+  
+      outline: none;
+      width: 440px;
+      height: 440px;
+      border: none;
+      border-radius: 6px;
+      z-index: 2;
+      opacity: 0;
+      right: -186px !important;
+      top: 58%;
+      margin-right: -0.5rem;
+      background: transparent;
+      font-size: 2px !important;
+      overflow: visible;
+      
+  
+      // transition: right .5s ease-in-out;
+      
+    }
+  
+    .slick-next:before {
+      content: "";
+      display: inline-block;
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png');
+      height: 2.5rem;
+      width: 2.5rem;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -268px 0px;
+       transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+  
+     
+      
+  
+    }
+  
+  
+    .slick-next:hover{
+      outline: none;
+      background: transparent;
+      color: transparent;
+      transition: right .5s ease-in-out;
+      opacity: 1;
+      
+    }
+  
+  
+    .slick-prev {
+  
+      width: 440px;
+      height: 440px;
+      border: none;
+      border-radius: 6px;
+      left: -14%;
+      opacity: 0;
+      z-index: 9999999;
+      top: 58%;
+      margin-left: -0.9rem;
+      
+     
+    }
+  
+    .slick-prev:before {
+      content: "";
+      display: inline-block;
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png');
+      height: 2.5rem;
+      width: 2.5rem;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -268px 0px;
+       transform: rotate(90deg);
+      background-color: #fff;
+      border: 1px solid #000;
+  
+    }
+  
+    .slick-prev:hover{
+      outline: none;
+      background: transparent;
+      color: transparent;
+      opacity: 1;
+    }
 
-    // }
-
-
-    // .slick-next:before {
-    //   color: #E5E3DA;
-    //   width: 440px;
-    //   height: 440px;
-    //   font-size: 34.5px;
-
-    // }
-
-    // .slick-prev {
-
-    //   outline: none;
-    //   width: 440px;
-    //   height: 440px;
-    //   border: none;
-    //   border-radius: 6px;
-    //   z-index: 2;
-    //   left: -15.5%;
-    //   top: 56%;
 
 
 
-    // }
-
-
-    // .slick-prev:before {
-    //   color: #E5E3DA;
-    //   width: 440px;
-    //   height: 440px;
-    //   font-size: 34.5px;
-
-
-    // }
-
-    // .slick-prev:after {
-    //   opacity: 0;
-    // }
     .slick-slide {
       margin-left: 9px !important;
       margin-right: -34px !important;
@@ -1535,6 +1777,7 @@ body {
     &:hover {
       background: #fff;
       box-shadow: 0 0 16px 0 rgba(0, 0, 0, .16);
+
 
     }
 
@@ -1877,11 +2120,15 @@ footer {
 }
 
 @media (max-width: 576px) {
+ 
 
   html {
     overflow-x: hidden;
   }
   
+  .zippo{
+    // position: fixed;
+  }
 
 
   .header-banner {
@@ -1900,8 +2147,7 @@ footer {
     }
 
     .navbar-brand {
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 1.1rem !important;
       margin-top: -1rem;
     }
   }
@@ -1913,10 +2159,16 @@ footer {
     }
 
   }
+  .zippo{
+    position: relative;
+  }
 
   .main-header{
     margin-left: 0rem;
-    width: 108%;
+    position: sticky;
+    width: 100%;
+    left: 0%;
+    top: 0%;
 
     .m-menu{
       left: -12px !important;
@@ -1924,13 +2176,16 @@ footer {
       max-width: 375px !important; 
     }
   }
-
+  .lock-scroll{
+    position: static !important;
+  }
+  
   .header-wrapper {
     box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
 
     nav {
       height: 98.5px;
-
+      margin-left: -0.8rem;
     }
 
     #m-menu {
@@ -2116,8 +2371,11 @@ footer {
       -webkit-overflow-scrolling: touch;
       scroll-snap-type: x mandatory;
       margin-left: 25px;
+          
+  
     }
-
+    
+    
     .card-box>div {
       scroll-snap-align: start;
     }
@@ -2237,6 +2495,7 @@ footer {
 
     .heading {
       display: flex;
+
 
       h2 {
         font-size: 16px;
@@ -2358,6 +2617,8 @@ footer {
   }
 
   .product-content3 {
+
+    
     #slider {
       margin-left: 0.9rem;
       display: flex;
