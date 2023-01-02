@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
 
 }
+
 // .dasda{
 //   #menu-header{
 //     display: none;
@@ -20,7 +21,7 @@ body {
 //   .m-menu__header{
 //     display: none;
 //   }
-  
+
 // }
 
 // .block{
@@ -30,19 +31,19 @@ body {
 .lock-scroll {
   overflow: hidden;
   touch-action: none;
-    -ms-touch-action: none;
-    position: fixed !important;
-    width: 100% !important;
+  -ms-touch-action: none;
+  position: fixed !important;
+  width: 100% !important;
 }
 
-.psfx{
-    position: fixed !important;
-    width: 100% !important;
-    min-height: 100%;
+.psfx {
+  position: fixed !important;
+  width: 100% !important;
+  min-height: 100%;
 
 }
 
-.overflow-hidden{
+.overflow-hidden {
   overflow: hidden !important;
 }
 
@@ -73,7 +74,7 @@ body {
 //         width: 0px !important;
 //         bottom: 0px !important;
 //         z-index: 0 !important;
- 
+
 // }
 
 
@@ -162,10 +163,10 @@ body {
 
 #m-menu2 {
 
-    height: 1184px;
+  height: 1184px;
   //  max-height: 100%;
 
-  
+
 }
 
 
@@ -174,13 +175,13 @@ body {
 .main-header {
   position: relative;
   z-index: 1;
- 
-  margin-left: -1rem;
-    width: 102%;
 
-    nav{
-      padding-left: 2rem !important;
-    }
+  margin-left: -1rem;
+  width: 102%;
+
+  nav {
+    padding-left: 2rem !important;
+  }
 
   #menu1::-webkit-scrollbar {
     display: none;
@@ -199,7 +200,7 @@ body {
     scrollbar-width: none;
     overflow-y: auto;
     margin-top: -6rem;
-    
+
   }
 
 
@@ -271,13 +272,13 @@ body {
       }
 
       height: 4.35rem;
-      background-color: white; 
-    //   position: fixed;
-    //   position: -webkit-sticky;
-    // top: 0;
-    // width: 100%;
-    // background-color: #fff;
-     
+      background-color: white;
+      //   position: fixed;
+      //   position: -webkit-sticky;
+      // top: 0;
+      // width: 100%;
+      // background-color: #fff;
+
 
 
     }
@@ -340,7 +341,7 @@ body {
 
 
   nav {
-  
+
 
     background-color: white;
     height: 50px;
@@ -479,15 +480,15 @@ body {
       #menu-header {
         background-color: white;
         height: 4.35rem;
-        position: -webkit-sticky; 
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
         z-index: 999999999999;
 
       }
 
-      .close-menu{
-        position: -webkit-sticky; 
+      .close-menu {
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
         z-index: 99999999999;
@@ -617,7 +618,7 @@ body {
     margin: 0px 18px;
     cursor: pointer;
 
-    
+
 
     svg {
       position: absolute;
@@ -652,7 +653,7 @@ body {
     }
   }
 
-  
+
 
   .header-wrapper {
     margin-left: -1rem;
@@ -699,7 +700,7 @@ body {
       position: relative;
       border: none;
       outline: none;
-      
+
 
     }
 
@@ -709,8 +710,9 @@ body {
       border: none;
       margin-left: 14px;
       width: 773px;
-      background: #f0f0f0 0 0 ;
+      background: #f0f0f0 0 0;
       border-radius: 0rem !important;
+      font-size: 17px !important;
     }
 
     .search input:focus::-webkit-input-placeholder {
@@ -739,7 +741,7 @@ body {
   }
 
   .header-options {
-    
+
     .header-trade {
       margin-left: 10px;
 
@@ -922,16 +924,16 @@ body {
 
   #slidero {
     margin-top: -3rem;
-    margin-left: 2px !important; 
+    margin-left: 2px !important;
 
   }
 
   .slick-disabled {
     opacity: 0 !important;
-    pointer-events:none !important;
-}
+    pointer-events: none !important;
+  }
 
-  
+
   .slick-next {
 
     outline: none;
@@ -946,10 +948,10 @@ body {
     background: transparent;
     font-size: 2px !important;
     overflow: visible;
-    
+
 
     // transition: right .5s ease-in-out;
-    
+
   }
 
   .slick-next:before {
@@ -961,23 +963,23 @@ body {
     background-size: auto;
     border-radius: 50%;
     background-position: -268px 0px;
-     transform: rotate(270deg);
+    transform: rotate(270deg);
     background-color: #fff;
     border: 1px solid #000;
 
-   
-    
+
+
 
   }
 
 
-  .slick-next:hover{
+  .slick-next:hover {
     outline: none;
     background: transparent;
     opacity: .9;
     color: transparent;
     transition: right .5s ease-in-out;
-    
+
   }
 
 
@@ -991,8 +993,8 @@ body {
     left: -14%;
     z-index: 9999999;
     top: 58%;
-    
-   
+
+
   }
 
   .slick-prev:before {
@@ -1004,19 +1006,19 @@ body {
     background-size: auto;
     border-radius: 50%;
     background-position: -268px 0px;
-     transform: rotate(90deg);
+    transform: rotate(90deg);
     background-color: #fff;
     border: 1px solid #000;
 
   }
 
-  .slick-prev:hover{
+  .slick-prev:hover {
     outline: none;
     background: transparent;
     opacity: .9;
     color: transparent;
 
-    
+
   }
 
 
@@ -1027,6 +1029,7 @@ body {
   .heading {
     position: relative;
     margin-bottom: 23px;
+
     h2 {
       font-size: 24px;
       max-width: 441px;
@@ -1040,11 +1043,11 @@ body {
       color: black;
       font-family: 'Open Sans', sans-serif;
     }
-    
+
   }
 
   .pageInfo {
-   
+
     position: absolute;
     top: 50%;
     left: 91%;
@@ -1054,7 +1057,7 @@ body {
   }
 
   .pageInfo2 {
-    
+
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
   }
@@ -1144,9 +1147,10 @@ body {
 
   margin-top: 15px;
 
-  
+
   .heading {
     margin-bottom: 20px;
+
     h2 {
       font-size: 24px;
     }
@@ -1308,16 +1312,16 @@ body {
   #slider {
     display: flex;
 
- 
-     
+
+
     .slick-disabled {
       opacity: 0 !important;
-      pointer-events:none !important;
-  }
-  
-    
+      pointer-events: none !important;
+    }
+
+
     .slick-next {
-  
+
       outline: none;
       width: 440px;
       height: 440px;
@@ -1330,12 +1334,12 @@ body {
       background: transparent;
       font-size: 2px !important;
       overflow: visible;
-      
-  
+
+
       // transition: right .5s ease-in-out;
-      
+
     }
-  
+
     .slick-next:before {
       content: "";
       display: inline-block;
@@ -1345,27 +1349,27 @@ body {
       background-size: auto;
       border-radius: 50%;
       background-position: -268px 0px;
-       transform: rotate(270deg);
+      transform: rotate(270deg);
       background-color: #fff;
       border: 1px solid #000;
-  
-     
-      
-  
+
+
+
+
     }
-  
-  
-    .slick-next:hover{
+
+
+    .slick-next:hover {
       outline: none;
       background: transparent;
       color: transparent;
       transition: right .5s ease-in-out;
-      
+
     }
-  
-  
+
+
     .slick-prev {
-  
+
       width: 440px;
       height: 440px;
       border: none;
@@ -1374,10 +1378,10 @@ body {
       z-index: 9999999;
       top: 58%;
       margin-left: -0.9rem;
-      
-     
+
+
     }
-  
+
     .slick-prev:before {
       content: "";
       display: inline-block;
@@ -1387,19 +1391,19 @@ body {
       background-size: auto;
       border-radius: 50%;
       background-position: -268px 0px;
-       transform: rotate(90deg);
+      transform: rotate(90deg);
       background-color: #fff;
       border: 1px solid #000;
-  
+
     }
-  
-    .slick-prev:hover{
+
+    .slick-prev:hover {
       outline: none;
       background: transparent;
       color: transparent;
     }
 
-    
+
 
   }
 
@@ -1471,7 +1475,7 @@ body {
   margin-left: 3.778rem;
 
 
-  
+
 
 
   .heading-text h2 {
@@ -1504,15 +1508,15 @@ body {
   #slider1 {
     display: flex;
 
-    
+
     .slick-disabled {
       opacity: 0 !important;
-      pointer-events:none !important;
-  }
-  
-    
+      pointer-events: none !important;
+    }
+
+
     .slick-next {
-  
+
       outline: none;
       width: 440px;
       height: 440px;
@@ -1525,12 +1529,12 @@ body {
       background: transparent;
       font-size: 2px !important;
       overflow: visible;
-      
-  
+
+
       // transition: right .5s ease-in-out;
-      
+
     }
-  
+
     .slick-next:before {
       content: "";
       display: inline-block;
@@ -1540,27 +1544,27 @@ body {
       background-size: auto;
       border-radius: 50%;
       background-position: -268px 0px;
-       transform: rotate(270deg);
+      transform: rotate(270deg);
       background-color: #fff;
       border: 1px solid #000;
-  
-     
-      
-  
+
+
+
+
     }
-  
-  
-    .slick-next:hover{
+
+
+    .slick-next:hover {
       outline: none;
       background: transparent;
       color: transparent;
       transition: right .5s ease-in-out;
-      
+
     }
-  
-  
+
+
     .slick-prev {
-  
+
       width: 440px;
       height: 440px;
       border: none;
@@ -1569,10 +1573,10 @@ body {
       z-index: 9999999;
       top: 58%;
       margin-left: -0.9rem;
-      
-     
+
+
     }
-  
+
     .slick-prev:before {
       content: "";
       display: inline-block;
@@ -1582,18 +1586,18 @@ body {
       background-size: auto;
       border-radius: 50%;
       background-position: -268px 0px;
-       transform: rotate(90deg);
+      transform: rotate(90deg);
       background-color: #fff;
       border: 1px solid #000;
-  
+
     }
-  
-    .slick-prev:hover{
+
+    .slick-prev:hover {
       outline: none;
       background: transparent;
       color: transparent;
     }
-  
+
 
   }
 
@@ -1662,7 +1666,7 @@ body {
 
 .product-content4 {
 
-  .heading{
+  .heading {
     position: relative;
   }
 
@@ -1681,12 +1685,12 @@ body {
 
     .slick-disabled {
       opacity: 0 !important;
-      pointer-events:none !important;
-  }
-  
-    
+      pointer-events: none !important;
+    }
+
+
     .slick-next {
-  
+
       outline: none;
       width: 440px;
       height: 440px;
@@ -1700,12 +1704,12 @@ body {
       background: transparent;
       font-size: 2px !important;
       overflow: visible;
-      
-  
+
+
       // transition: right .5s ease-in-out;
-      
+
     }
-  
+
     .slick-next:before {
       content: "";
       display: inline-block;
@@ -1715,28 +1719,28 @@ body {
       background-size: auto;
       border-radius: 50%;
       background-position: -268px 0px;
-       transform: rotate(270deg);
+      transform: rotate(270deg);
       background-color: #fff;
       border: 1px solid #000;
-  
-     
-      
-  
+
+
+
+
     }
-  
-  
-    .slick-next:hover{
+
+
+    .slick-next:hover {
       outline: none;
       background: transparent;
       color: transparent;
       transition: right .5s ease-in-out;
       opacity: 1;
-      
+
     }
-  
-  
+
+
     .slick-prev {
-  
+
       width: 440px;
       height: 440px;
       border: none;
@@ -1746,10 +1750,10 @@ body {
       z-index: 9999999;
       top: 58%;
       margin-left: -0.9rem;
-      
-     
+
+
     }
-  
+
     .slick-prev:before {
       content: "";
       display: inline-block;
@@ -1759,13 +1763,13 @@ body {
       background-size: auto;
       border-radius: 50%;
       background-position: -268px 0px;
-       transform: rotate(90deg);
+      transform: rotate(90deg);
       background-color: #fff;
       border: 1px solid #000;
-  
+
     }
-  
-    .slick-prev:hover{
+
+    .slick-prev:hover {
       outline: none;
       background: transparent;
       color: transparent;
@@ -1899,10 +1903,11 @@ body {
 }
 
 footer {
-  .mb-signup{
+  .mb-signup {
     display: none;
   }
-  .accordion{
+
+  .accordion {
     display: none;
   }
 
@@ -2161,13 +2166,13 @@ footer {
 }
 
 @media (max-width: 576px) {
- 
+
 
   html {
     overflow-x: hidden;
   }
-  
-  .header-main{
+
+  .header-main {
     // position: fixed;
   }
 
@@ -2200,27 +2205,29 @@ footer {
     }
 
   }
-  .header-main{
+
+  .header-main {
     position: relative;
   }
 
-  .main-header{
+  .main-header {
     margin-left: 0rem;
     position: sticky;
     width: 100%;
     left: 0%;
     top: 0%;
 
-    .m-menu{
+    .m-menu {
       left: -12px !important;
       width: calc(100vw - 0px) !important;
-      max-width: 375px !important; 
+      max-width: 375px !important;
     }
   }
-  .lock-scroll{
+
+  .lock-scroll {
     position: static !important;
   }
-  
+
   .header-wrapper {
     box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
 
@@ -2412,11 +2419,11 @@ footer {
       -webkit-overflow-scrolling: touch;
       scroll-snap-type: x mandatory;
       margin-left: 25px;
-          
-  
+
+
     }
-    
-    
+
+
     .card-box>div {
       scroll-snap-align: start;
     }
@@ -2489,17 +2496,18 @@ footer {
   }
 
   .product-content2 {
-   
-    .pageInfo2{
+
+    .pageInfo2 {
       display: none;
     }
 
 
-    .card-body{
-      .card-text{
+    .card-body {
+      .card-text {
         margin-left: 11px;
       }
     }
+
     .card-box {
       margin-left: 7.5px !important;
 
@@ -2512,7 +2520,7 @@ footer {
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scroll-snap-type: x mandatory;
-   
+
     }
 
     .card {
@@ -2659,7 +2667,7 @@ footer {
 
   .product-content3 {
 
-    
+
     #slider {
       margin-left: 0.9rem;
       display: flex;
@@ -2667,9 +2675,9 @@ footer {
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scroll-snap-type: x mandatory;
-  
+
       .slick-next {
-  
+
         outline: none;
         width: 440px;
         height: 440px;
@@ -2679,20 +2687,20 @@ footer {
         right: -193px !important;
         top: 56%;
         opacity: 1;
-  
+
       }
-  
-  
+
+
       .slick-next:before {
         color: #E5E3DA;
         width: 440px;
         height: 440px;
         font-size: 34.5px;
-  
+
       }
-  
+
       .slick-prev {
-  
+
         outline: none;
         width: 440px;
         height: 440px;
@@ -2701,31 +2709,31 @@ footer {
         z-index: 2;
         left: -15.5%;
         top: 56%;
-  
-  
-  
+
+
+
       }
-  
-  
+
+
       .slick-prev:before {
         color: #E5E3DA;
         width: 440px;
         height: 440px;
         font-size: 34.5px;
-  
-  
+
+
       }
-  
+
       .slick-prev:after {
         opacity: 0;
       }
-  
+
     }
 
-    
 
-   
-  
+
+
+
     // .slick-next{
     //   border: none;
     //   border-radius: 6px;
@@ -2752,9 +2760,9 @@ footer {
       margin-left: -16px;
       margin-top: -8px;
     }
-  
+
     margin-top: 15px;
-  
+
     .heading {
       display: flex;
 
@@ -2764,18 +2772,18 @@ footer {
         min-width: 194px;
         padding-left: 14px;
         font-weight: bold;
-        font-family: 'Poppins','Open Sans',sans-serif;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
       }
 
     }
-  
-  
+
+
     .card-box {
       margin-left: 35.5px;
       // gap: 4.078rem !important;
       margin-top: -51px;
     }
-  
+
     .card {
       flex-shrink: 0;
       height: 100%;
@@ -2784,13 +2792,13 @@ footer {
       width: 96px !important;
       height: 284px !important;
       border: none;
-  
+
       img {
         width: 145px !important;
         padding-top: 13px;
         display: block;
       }
-  
+
       a {
         text-decoration: none;
         color: black;
@@ -2798,13 +2806,13 @@ footer {
         font-size: 16px;
         font-family: 'Open Sans', sans-serif;
       }
-  
+
       // .card-text{
       //   font-size: 16px;
       //   font-weight: 600;
       //   color: black;
       // }
-  
+
       .card-subtext {
         font-size: 12px;
         margin-top: -1rem;
@@ -2834,13 +2842,13 @@ footer {
       width: 96.5px !important;
       height: 284px !important;
       border: none;
-  
+
       img {
         width: 145px !important;
         padding-top: 13px;
         display: block;
       }
-  
+
       a {
         text-decoration: none;
         color: black;
@@ -2848,13 +2856,13 @@ footer {
         font-size: 16px;
         font-family: 'Open Sans', sans-serif;
       }
-  
+
       // .card-text{
       //   font-size: 16px;
       //   font-weight: 600;
       //   color: black;
       // }
-  
+
       .card-subtext {
         font-size: 12px;
         margin-top: -1rem;
@@ -2895,8 +2903,8 @@ footer {
       }
     }
   }
-  
-  .product-content4{
+
+  .product-content4 {
     #slider2 {
       margin-left: -0.1rem;
       margin-top: -3rem;
@@ -2907,13 +2915,13 @@ footer {
       scroll-snap-type: x mandatory;
     }
 
-    .card-body{
-      .card-text{
+    .card-body {
+      .card-text {
         font-size: 13px;
-        font-family: 'Open Sans',sans-serif;
+        font-family: 'Open Sans', sans-serif;
         line-height: 17px;
-        max-width: 128px;     
-        margin-left: -10px; 
+        max-width: 128px;
+        margin-left: -10px;
         width: 100%;
       }
     }
@@ -2935,7 +2943,7 @@ footer {
         font-family: 'Open Sans', sans-serif;
       }
 
-      
+
 
       .card-text {
         font-size: .875rem;
@@ -2951,7 +2959,7 @@ footer {
       }
     }
 
-    .pageInfo3{
+    .pageInfo3 {
       display: none !important;
     }
 
@@ -2963,7 +2971,7 @@ footer {
       width: 155.5px !important;
       height: 284px !important;
 
-    
+
 
       &:hover {
         background-color: none;
@@ -2975,7 +2983,7 @@ footer {
         padding-top: 13px;
         display: block;
       }
-      
+
     }
   }
 
@@ -3027,10 +3035,12 @@ footer {
     #h-item {
       display: none;
     }
-    .mb-signup{
+
+    .mb-signup {
       display: block;
     }
-    .accordion{
+
+    .accordion {
       display: block;
     }
 
@@ -3251,18 +3261,213 @@ footer {
 
 // start video game page
 
-.breadcrumb{
+.breadcrumb {
   margin-left: 2.5rem;
   margin-top: 5.5px;
- a{
-  font-size: 14px;
-  color: grey;
-  font-family: 'Open Sans',sans-serif;
- }
- li{
-  color: grey;
-  font-size: 14px;
-  text-decoration: underline;
-  font-family: 'Open Sans',sans-serif;
- }
+
+  a {
+    font-size: 14px;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  li {
+    color: grey;
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+
+.options {
+  
+    margin-left: -3.7rem;
+    margin-top: 19px;
+
+  .card-options {
+    width: 333.5px;
+    margin-bottom: 17px;
+    border-top: 1px solid #d2d2d2;
+
+
+  }
+
+ 
+ input {
+
+    width: 24px;
+    height: 24px;
+    border-radius: 0rem !important;
+    cursor: pointer;
+    border-color: #D9D9D9;
+    box-shadow: none !important;
+
+  }
+
+
+  .price {
+    input {
+
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      border-radius: 50% !important;
+      border-color: #D9D9D9;
+      box-shadow: none !important;
+
+    }
+  }
+
+
+  .card-header {
+    word-spacing: 3.4px;
+    margin-top: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+
+  .custom-control-label {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    cursor: pointer;
+  }
+
+  .card-body {
+    margin-bottom: 15px;
+  }
+
+
+  .form-check {
+    cursor: pointer;
+  }
+
+
+  #defaultCheck1::before {
+    width: 24px;
+    height: 24px;
+  }
+
+  .values {
+    li {
+      list-style-type: none;
+      margin-bottom: 16px;
+    }
+
+    padding-left: 0rem !important;
+  }
+
+
+  #defaultCheck1:checked::after {}
+
+  #defaultCheck1:checked {}
+
+  #defaultCheck1:checked {
+    width: 23.5px;
+    width: 23.5px;
+    box-shadow: none !important;
+    background-color: white !important;
+    border: #D9D9D9;
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672682424689/images/svg-icons/radio-button-nero.svg');
+    background-size: 55%;
+    border: 1px solid #d9d9d9;
+    background-position: 4.8px 4.5px;
+  }
+
+
+  .form-check-input:checked {
+    box-shadow: none !important;
+    background-color: white !important;
+    border: #D9D9D9;
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwcf0a1c6d/images/svg-icons/checkmark-nero.svg');
+    background-size: cover;
+    border: 1px solid #d9d9d9;
+    background-position: 6px 5px;
+  }
+
+  .form-check-input:active {
+    border: #D9D9D9;
+    background-color: transparent !important;
+  }
+
+  .form-check-input[type=checkbox]:focus {
+
+
+    background-color: transparent;
+    border: 1px solid #d9d9d9 !important;
+  }
+
+
+  .accordion-item {
+    border: none;
+    border-top: 1px solid #d9d9d9 !important;
+
+ 
+  }
+
+  .accordion{
+    $transition: height .35s ease !default;
+  }
+  
+  .accordion-collapse{
+    transition: .01s ease-in-out;
+  }
+
+  .accordion-button::after {
+    content: '+' !important;
+    background-image: none;
+    font-size: 32px;
+    position: absolute;
+    left: 91%;
+    top: 7%;
+  }
+
+  .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "-" !important;
+    font-size: 32px;
+    position: absolute;
+    left: 92.5%;
+    top: 7%;
+  }
+
+  .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none;
+    background-color: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white !important;
+  }
+
+  .accordion-header {
+    button {
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase;
+      padding-left: 12px;
+    }
+
+  }
+
+
 }

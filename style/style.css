@@ -450,6 +450,7 @@ body {
   width: 773px;
   background: #f0f0f0 0 0;
   border-radius: 0rem !important;
+  font-size: 17px !important;
 }
 .main-header .header-search .search input:focus::-webkit-input-placeholder {
   opacity: 0;
@@ -2250,4 +2251,139 @@ footer #hr {
   font-size: 14px;
   text-decoration: underline;
   font-family: "Open Sans", sans-serif;
+}
+
+.options {
+  margin-left: -3.7rem;
+  margin-top: 19px;
+}
+.options .card-options {
+  width: 333.5px;
+  margin-bottom: 17px;
+  border-top: 1px solid #d2d2d2;
+}
+.options input {
+  width: 24px;
+  height: 24px;
+  border-radius: 0rem !important;
+  cursor: pointer;
+  border-color: #D9D9D9;
+  box-shadow: none !important;
+}
+.options .price input {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border-radius: 50% !important;
+  border-color: #D9D9D9;
+  box-shadow: none !important;
+}
+.options .card-header {
+  word-spacing: 3.4px;
+  margin-top: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.options .custom-control-label {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  cursor: pointer;
+}
+.options .card-body {
+  margin-bottom: 15px;
+}
+.options .form-check {
+  cursor: pointer;
+}
+.options #defaultCheck1::before {
+  width: 24px;
+  height: 24px;
+}
+.options .values {
+  padding-left: 0rem !important;
+}
+.options .values li {
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+.options #defaultCheck1:checked {
+  width: 23.5px;
+  width: 23.5px;
+  box-shadow: none !important;
+  background-color: white !important;
+  border: #D9D9D9;
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672682424689/images/svg-icons/radio-button-nero.svg");
+  background-size: 55%;
+  border: 1px solid #d9d9d9;
+  background-position: 4.8px 4.5px;
+}
+.options .form-check-input:checked {
+  box-shadow: none !important;
+  background-color: white !important;
+  border: #D9D9D9;
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwcf0a1c6d/images/svg-icons/checkmark-nero.svg");
+  background-size: cover;
+  border: 1px solid #d9d9d9;
+  background-position: 6px 5px;
+}
+.options .form-check-input:active {
+  border: #D9D9D9;
+  background-color: transparent !important;
+}
+.options .form-check-input[type=checkbox]:focus {
+  background-color: transparent;
+  border: 1px solid #d9d9d9 !important;
+}
+.options .accordion-item {
+  border: none;
+  border-top: 1px solid #d9d9d9 !important;
+}
+.options .accordion-collapse {
+  transition: 0.01s ease-in-out;
+}
+.options .accordion-button::after {
+  content: "+" !important;
+  background-image: none;
+  font-size: 32px;
+  position: absolute;
+  left: 91%;
+  top: 7%;
+}
+.options .accordion-item:first-of-type {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.options .accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.options .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  transform: none;
+  content: "-" !important;
+  font-size: 32px;
+  position: absolute;
+  left: 92.5%;
+  top: 7%;
+}
+.options .accordion-button:focus {
+  border-color: none !important;
+  box-shadow: none;
+  background-color: none;
+}
+.options .accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white !important;
+}
+.options .accordion-header button {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-left: 12px;
 }/*# sourceMappingURL=style.css.map */
