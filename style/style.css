@@ -2189,6 +2189,9 @@ footer #hr {
     left: 91%;
     top: 7%;
   }
+  footer .accordion-collapse {
+    transition: 0.02s ease-in-out;
+  }
   footer .accordion-item:first-of-type {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -2341,7 +2344,6 @@ footer #hr {
 }
 .options .accordion-item {
   border: none;
-  border-top: 1px solid #d9d9d9 !important;
 }
 .options .accordion-collapse {
   transition: 0.01s ease-in-out;
@@ -2384,6 +2386,5 @@ footer #hr {
 .options .accordion-header button {
   font-weight: bold;
   font-size: 16px;
-  text-transform: uppercase;
   padding-left: 12px;
 }/*# sourceMappingURL=style.css.map */

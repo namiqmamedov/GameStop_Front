@@ -3189,6 +3189,11 @@ footer {
       top: 7%;
     }
 
+    .accordion-collapse{
+      transition: .02s ease-in-out;
+    }
+  
+
     .accordion-item:first-of-type {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
@@ -3405,7 +3410,6 @@ footer {
 
   .accordion-item {
     border: none;
-    border-top: 1px solid #d9d9d9 !important;
 
  
   }
@@ -3413,7 +3417,7 @@ footer {
   .accordion{
     $transition: height .35s ease !default;
   }
-  
+
   .accordion-collapse{
     transition: .01s ease-in-out;
   }
@@ -3463,7 +3467,6 @@ footer {
     button {
       font-weight: bold;
       font-size: 16px;
-      text-transform: uppercase;
       padding-left: 12px;
     }
 
