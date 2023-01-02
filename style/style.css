@@ -2345,8 +2345,111 @@ footer #hr {
 .options .accordion-item {
   border: none;
 }
+.options .customer-rating .accordion-collapse {
+  transition: 0.01s ease-in-out;
+}
+.options .customer-rating .accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+.options .customer-rating .accordion-button::after {
+  content: "+" !important;
+  background-image: none;
+  font-size: 32px;
+  position: absolute;
+  left: 91%;
+  top: 7%;
+}
+.options .customer-rating .accordion-body a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.options .customer-rating .accordion-item:first-of-type {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.options .customer-rating .accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.options .customer-rating .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  transform: none;
+  content: "-" !important;
+  font-size: 32px;
+  position: absolute;
+  left: 92.5%;
+  top: 7%;
+}
+.options .customer-rating .accordion-button:focus {
+  border-color: none !important;
+  box-shadow: none;
+  background-color: none;
+}
+.options .customer-rating .accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white !important;
+}
+.options .customer-rating .accordion-header button {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 12px;
+}
+.options .customer-rating .star-rating4 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 84px;
+  background-position: 0 -16px;
+}
+.options .customer-rating .star4 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 65px;
+  background-position: 16px -1px;
+}
+.options .customer-rating .star-rating3 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 84px;
+  background-position: 0 -16px;
+}
+.options .customer-rating .star3 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 49px;
+  background-position: 16px -1px;
+}
+.options .customer-rating .star-rating2 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 84px;
+  background-position: 0 -16px;
+}
+.options .customer-rating .star2 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 31px;
+  background-position: 16px -1px;
+}
+.options .customer-rating .star-rating1 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 84px;
+  background-position: 0 -16px;
+}
+.options .customer-rating .star1 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 16px;
+  background-position: 16px -1px;
+}
 .options .accordion-collapse {
   transition: 0.01s ease-in-out;
+}
+.options .accordion-button:not(.collapsed) {
+  box-shadow: none !important;
 }
 .options .accordion-button::after {
   content: "+" !important;
@@ -2355,6 +2458,12 @@ footer #hr {
   position: absolute;
   left: 91%;
   top: 7%;
+}
+.options .accordion-body a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 .options .accordion-item:first-of-type {
   border-top-left-radius: 0;
@@ -2387,4 +2496,52 @@ footer #hr {
   font-weight: bold;
   font-size: 16px;
   padding-left: 12px;
+}
+.options .star-rating4 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 84px;
+  background-position: 0 -16px;
+}
+.options .star4 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 65px;
+  background-position: 16px -1px;
+}
+.options .star-rating3 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 84px;
+  background-position: 0 -16px;
+}
+.options .star3 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 49px;
+  background-position: 16px -1px;
+}
+.options .star-rating2 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 84px;
+  background-position: 0 -16px;
+}
+.options .star2 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 31px;
+  background-position: 16px -1px;
+}
+.options .star-rating1 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 84px;
+  background-position: 0 -16px;
+}
+.options .star1 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 16px;
+  width: 16px;
+  background-position: 16px -1px;
 }/*# sourceMappingURL=style.css.map */
