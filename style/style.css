@@ -2465,6 +2465,10 @@ footer #hr {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
+.options .accordion-body .values {
+  margin-left: -1.5rem;
+  margin-top: -1.05rem;
+}
 .options .accordion-item:first-of-type {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -2491,6 +2495,9 @@ footer #hr {
 .options .accordion-button:not(.collapsed) {
   color: black;
   background-color: white !important;
+}
+.options .accordion-header {
+  margin-left: -0.8rem;
 }
 .options .accordion-header button {
   font-weight: bold;
@@ -2544,4 +2551,18 @@ footer #hr {
   height: 16px;
   width: 16px;
   background-position: 16px -1px;
+}
+.options .franchise .rounded {
+  font-size: 0.75rem;
+  line-height: 1.2;
+  margin-left: -11px;
+  margin-top: -7px;
+  margin-top: -7px;
+  color: #666;
+  height: 39px;
+  width: 326px;
+}
+.options .franchise .values {
+  margin-left: -1.5rem;
+  margin-top: 18px;
 }/*# sourceMappingURL=style.css.map */

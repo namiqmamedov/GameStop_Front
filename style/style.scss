@@ -3586,6 +3586,11 @@ footer {
       font-size: 14px;
       font-family: 'Open Sans',sans-serif;
      }
+
+     .values{
+      margin-left: -1.5rem;
+      margin-top: -1.05rem;
+    }
       
     }
   
@@ -3620,8 +3625,11 @@ footer {
       color: black;
       background-color: white !important;
     }
+
+   
   
     .accordion-header {
+        margin-left: -0.8rem;
       button {
         font-weight: bold;
         font-size: 16px;
@@ -3688,6 +3696,25 @@ footer {
       height: 16px;
       width: 16px;
       background-position: 16px -1px;
+    }
+
+    .franchise{
+      .rounded{
+        font-size: .75rem;
+        line-height: 1.2;
+        margin-left: -11px;
+        margin-top: -7px;
+        // border: 1px solid #707070;
+        margin-top: -7px;
+        color: #666;
+        height: 39px;
+        width: 326px;
+      }
+
+      .values{
+        margin-left: -1.5rem;
+        margin-top: 18px;
+      }
     }
   
   
