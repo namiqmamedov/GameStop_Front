@@ -2445,6 +2445,21 @@ footer #hr {
   width: 16px;
   background-position: 16px -1px;
 }
+.options a.showMore {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #0077C8;
+  text-decoration: none;
+}
+.options a.showMore::after {
+  content: "+ VIEW MORE";
+}
+.options a.showMore.showLess::after {
+  content: "- VIEW LESS";
+}
 .options .accordion-collapse {
   transition: 0.01s ease-in-out;
 }
