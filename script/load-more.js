@@ -27,6 +27,19 @@ jQuery(document).ready(function(){
       $('#more-item1 li').not('.shown').toggle(300);
       $(this).toggleClass('showLess');
     });
+
+    var $this = $('#more-item2');
+    if ($this.find('li').length > 6) {
+        $('#more-item2').append('<div><a href="javascript:;" class="showMore"></a></div>');
+    }
+    
+    // If more than 2 Education items, hide the remaining
+    $('#more-item2 li').slice(0,6).addClass('shown');
+    $('#more-item2 li').not('.shown').hide();
+    $('#more-item2 .showMore').on('click',function(){
+      $('#more-item2 li').not('.shown').toggle(300);
+      $(this).toggleClass('showLess');
+    });
   
   });
 
