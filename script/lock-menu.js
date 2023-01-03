@@ -28,7 +28,6 @@
   
 
    const menu = $(".menu-ul").click(function () {
-      console.log("test")
       if ($('.all-menu').addClass("overflow-hidden")) {}
    })
    
@@ -37,16 +36,21 @@
 
 
    
-   function hideMe() {
-      document.getElementById("menu-header").style.display = "block";
+   // function hideMe() {
+   //    document.getElementById("menu-header").style.display = "block";
       
-   }
+   // }
    
    function none() {
       document.getElementById("menu-header").style.display = "none";
    
       // document.getElementsByClassName("all-menu").style.overflow = "hidden";
     }
+
+   //  const menuover1 = $(".back").click(function () {
+   //    console.log('test');
+   //    if ($('.all-menu').removeClass("hep")) {}
+   // })
 
 
 

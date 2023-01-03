@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+.hep {
+  display: none;
+}
+
 .lock-scroll {
   overflow: hidden;
   touch-action: none;
@@ -2567,7 +2571,7 @@ footer #hr {
   width: 16px;
   background-position: 16px -1px;
 }
-.options .franchise .rounded {
+.options .rounded {
   font-size: 0.75rem;
   line-height: 1.2;
   margin-left: -11px;
@@ -2578,6 +2582,14 @@ footer #hr {
   width: 326px;
 }
 .options .franchise .values {
+  margin-left: -1.5rem;
+  margin-top: 18px;
+}
+.options .genre .values {
+  margin-left: -1.5rem;
+  margin-top: 18px;
+}
+.options .publisher .values {
   margin-left: -1.5rem;
   margin-top: 18px;
 }/*# sourceMappingURL=style.css.map */

@@ -10,6 +10,10 @@ body {
 
 }
 
+.hep{
+  display: none ;
+}
+
 // .dasda{
 //   #menu-header{
 //     display: none;
@@ -3713,31 +3717,44 @@ footer {
     width: 16px;
     background-position: 16px -1px;
   }
+  .rounded {
+    font-size: .75rem;
+    line-height: 1.2;
+    margin-left: -11px;
+    margin-top: -7px;
+    // border: 1px solid #707070;
+    margin-top: -7px;
+    color: #666;
+    height: 39px;
+    width: 326px;
+  }
 
   .franchise {
-    .rounded {
-      font-size: .75rem;
-      line-height: 1.2;
-      margin-left: -11px;
-      margin-top: -7px;
-      // border: 1px solid #707070;
-      margin-top: -7px;
-      color: #666;
-      height: 39px;
-      width: 326px;
-    }
+    
 
     .values {
       margin-left: -1.5rem;
       margin-top: 18px;
-
-
       
     }
-
     
   }
 
+  .genre{
+    .values {
+      margin-left: -1.5rem;
+      margin-top: 18px;
+      
+    }
+  }
+
+  .publisher{
+    .values {
+      margin-left: -1.5rem;
+      margin-top: 18px;
+      
+    }
+  }
 
 }
 
