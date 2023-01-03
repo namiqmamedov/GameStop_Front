@@ -3759,3 +3759,169 @@ footer {
 }
 
 
+.product-main{
+  .page-count{
+    margin-left: -9.6rem;
+    margin-top: 16px;
+    span{
+      color: #666;
+      font-size: 14px;
+      font-family: 'Open Sans',sans-serif;
+    }
+    .pageTitle{
+      font-weight: 700;
+    }
+  }
+
+  .product-filter{
+    
+  }
+
+  .sort-section{
+    text-align: end;
+    .sortBold{
+      font-weight: bold;
+    }
+
+
+    .dropdown-menu.show{
+      inset: 10px auto auto 7px !important;
+      width: 26%;
+      box-shadow: 0 0 16px 0 rgba(0, 0, 0, .16);
+      border: none;
+      border-radius: 0px;
+      transform: translate3d(631.2px, 44.8px, 0px) !important;
+
+      li a{
+        font-size: 14px;
+        font-family: 'Open Sans',sans-serif;
+        white-space: break-spaces;
+        line-height: 24px;
+        &:hover{
+          background-color: #232323 !important;
+          color: white;
+        }
+      }
+     
+     
+     
+    }
+    .dropdown-toggle{
+      padding: 10px 12px;
+      font-size: 14px;
+        font-family: 'Open Sans',sans-serif;
+      span{
+        font-size: 14px;
+        font-family: 'Open Sans',sans-serif;
+      }
+      
+    }
+
+    .btn-secondary{
+      background-color: transparent;
+      color:black;
+      border-radius: 3px;
+      border: 1px solid #484848;
+
+      &:active{
+        color: transparent;
+        background-color: transparent;
+        box-shadow: none;
+      }
+
+      &:focus{
+        color: black;
+
+      }
+
+      
+    }
+
+
+    .dropdown{
+      left: 8%;
+    }
+  }
+
+  .card-boxes {
+
+    margin-top: 15px;
+  
+  
+    .heading {
+      margin-bottom: 20px;
+  
+      h2 {
+        font-size: 24px;
+      }
+  
+      a {
+        color: black;
+      }
+    }
+  
+    .pageInfo2 {
+      position: absolute;
+      top: 228%;
+      left: 91.3%;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+    .card-box {
+      margin-left: 32.5px !important;
+      gap: 0.9rem;
+      margin-top: -51px !important;
+    }
+  
+    .card {
+      margin-top: 3.5rem;
+      margin-bottom: 2rem;
+      width: 224px;
+      height: 284px;
+  
+      border: none;
+  
+      &:hover {
+        background: #fff;
+        box-shadow: 0 0 16px 0 rgba(0, 0, 0, .16);
+      }
+  
+      img {
+        width: 80%;
+        padding-top: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+  
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+      }
+  
+      .card-text {
+        font-size: .875rem;
+        font-weight: 600;
+        color: black;
+        min-width: 131px;
+        margin-left: 5px;
+      }
+  
+      .card-subtext {
+        margin-left: 5px;
+        font-size: 12px;
+        margin-top: -1rem;
+        color: #9b9b9b;
+      }
+    }
+  }
+
+
+
+}
+
+

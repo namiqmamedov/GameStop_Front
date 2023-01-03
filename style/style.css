@@ -2592,4 +2592,129 @@ footer #hr {
 .options .publisher .values {
   margin-left: -1.5rem;
   margin-top: 18px;
+}
+
+.product-main .page-count {
+  margin-left: -9.6rem;
+  margin-top: 16px;
+}
+.product-main .page-count span {
+  color: #666;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.product-main .page-count .pageTitle {
+  font-weight: 700;
+}
+.product-main .sort-section {
+  text-align: end;
+}
+.product-main .sort-section .sortBold {
+  font-weight: bold;
+}
+.product-main .sort-section .dropdown-menu.show {
+  inset: 10px auto auto 7px !important;
+  width: 26%;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 0px;
+  transform: translate3d(631.2px, 44.8px, 0px) !important;
+}
+.product-main .sort-section .dropdown-menu.show li a {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  white-space: break-spaces;
+  line-height: 24px;
+}
+.product-main .sort-section .dropdown-menu.show li a:hover {
+  background-color: #232323 !important;
+  color: white;
+}
+.product-main .sort-section .dropdown-toggle {
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.product-main .sort-section .dropdown-toggle span {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.product-main .sort-section .btn-secondary {
+  background-color: transparent;
+  color: black;
+  border-radius: 3px;
+  border: 1px solid #484848;
+}
+.product-main .sort-section .btn-secondary:active {
+  color: transparent;
+  background-color: transparent;
+  box-shadow: none;
+}
+.product-main .sort-section .btn-secondary:focus {
+  color: black;
+}
+.product-main .sort-section .dropdown {
+  left: 8%;
+}
+.product-main .card-boxes {
+  margin-top: 15px;
+}
+.product-main .card-boxes .heading {
+  margin-bottom: 20px;
+}
+.product-main .card-boxes .heading h2 {
+  font-size: 24px;
+}
+.product-main .card-boxes .heading a {
+  color: black;
+}
+.product-main .card-boxes .pageInfo2 {
+  position: absolute;
+  top: 228%;
+  left: 91.3%;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.product-main .card-boxes .card-box {
+  margin-left: 32.5px !important;
+  gap: 0.9rem;
+  margin-top: -51px !important;
+}
+.product-main .card-boxes .card {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  width: 224px;
+  height: 284px;
+  border: none;
+}
+.product-main .card-boxes .card:hover {
+  background: #fff;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+}
+.product-main .card-boxes .card img {
+  width: 80%;
+  padding-top: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.product-main .card-boxes .card a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.product-main .card-boxes .card .card-text {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: black;
+  min-width: 131px;
+  margin-left: 5px;
+}
+.product-main .card-boxes .card .card-subtext {
+  margin-left: 5px;
+  font-size: 12px;
+  margin-top: -1rem;
+  color: #9b9b9b;
 }/*# sourceMappingURL=style.css.map */
