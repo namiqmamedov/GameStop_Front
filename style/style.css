@@ -2595,7 +2595,7 @@ footer #hr {
 }
 
 .product-main .page-count {
-  margin-left: -9.6rem;
+  margin-left: 0.9rem;
   margin-top: 16px;
 }
 .product-main .page-count span {
@@ -2612,8 +2612,12 @@ footer #hr {
 .product-main .sort-section .sortBold {
   font-weight: bold;
 }
+.product-main .sort-section .dropdown {
+  left: 2% !important;
+  margin-top: -1.5rem;
+}
 .product-main .sort-section .dropdown-menu.show {
-  inset: 10px auto auto 7px !important;
+  inset: 10px auto auto 160px !important;
   width: 26%;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
   border: none;
@@ -2653,11 +2657,21 @@ footer #hr {
 .product-main .sort-section .btn-secondary:focus {
   color: black;
 }
-.product-main .sort-section .dropdown {
-  left: 8%;
+.product-main #hr {
+  border-top: 1px solid #d9d9d9;
+  width: 105%;
+  display: inline-block;
+  margin-left: 17px;
 }
 .product-main .card-boxes {
   margin-top: 15px;
+}
+.product-main .card-boxes .access .box-access img {
+  width: 55%;
+  margin-top: 3rem;
+}
+.product-main .card-boxes .card-price h2 {
+  font-size: 14px;
 }
 .product-main .card-boxes .heading {
   margin-bottom: 20px;
@@ -2668,17 +2682,84 @@ footer #hr {
 .product-main .card-boxes .heading a {
   color: black;
 }
-.product-main .card-boxes .pageInfo2 {
-  position: absolute;
-  top: 228%;
-  left: 91.3%;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+.product-main .card-boxes .card-body {
+  margin-top: -2.8px;
+  margin-left: -6px;
+}
+.product-main .card-boxes .card-body .currentPrice {
+  color: #E7220C;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: -12px;
+  margin-left: -17px;
+  font-family: "Open-Sans", sans-serif;
+}
+.product-main .card-boxes .card-body .oldPrice {
+  font-size: 0.875rem;
+  color: #727272;
+  font-weight: 400;
+}
+.product-main .card-boxes .card-body .price {
+  font-weight: bold;
+  color: black;
+  font-size: 1.25rem;
+  margin-left: -15px;
+  margin-top: -6px;
+}
+.product-main .card-boxes .card-body .price-design {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  font-size: 0.6875rem;
+  margin-top: -6px;
+  margin-left: 10px;
+}
+.product-main .card-boxes .card-body .moreOptions {
+  color: #727272;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: -5.5px;
+  display: block;
+  margin-left: -75px;
+  margin-left: -16.5px;
+}
+.product-main .card-boxes .card-body .customer-rating {
+  margin-left: -16px;
+}
+.product-main .card-boxes .card-body .customer-rating .star-rating4 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 13px;
+  width: 70px;
+  background-position: -2px -14px;
+  background-size: 72px;
+}
+.product-main .card-boxes .card-body .customer-rating .star4 {
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+  height: 13px;
+  width: 57px;
+  background-position: -1px -28px;
+  background-size: 72px;
+}
+.product-main .card-boxes .card-body .customer-rating .rating-count {
+  color: #8e8e8e;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: -4px;
+  margin-left: 4px;
 }
 .product-main .card-boxes .card-box {
   margin-left: 32.5px !important;
-  gap: 0.9rem;
+  gap: 2.9rem;
   margin-top: -51px !important;
+}
+.product-main .card-boxes .access {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  width: 224px;
+  height: 284px;
+}
+.product-main .card-boxes .access img {
+  width: 85% !important;
+  margin-top: 0rem !important;
 }
 .product-main .card-boxes .card {
   margin-top: 3.5rem;
@@ -2692,7 +2773,7 @@ footer #hr {
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
 }
 .product-main .card-boxes .card img {
-  width: 80%;
+  width: 85%;
   padding-top: 13px;
   margin-left: auto;
   margin-right: auto;
@@ -2706,11 +2787,15 @@ footer #hr {
   font-family: "Open Sans", sans-serif;
 }
 .product-main .card-boxes .card .card-text {
-  font-size: 0.875rem;
-  font-weight: 600;
+  font-size: 14px;
   color: black;
   min-width: 131px;
-  margin-left: 5px;
+  max-width: 336px;
+  margin-left: -16px;
+  font-weight: 500;
+  line-height: 16.4px;
+  height: 1.5rem;
+  font-family: "Open Sans", sans-serif;
 }
 .product-main .card-boxes .card .card-subtext {
   margin-left: 5px;
