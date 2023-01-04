@@ -2613,22 +2613,32 @@ footer #hr {
   font-weight: bold;
 }
 .product-main .sort-section .dropdown {
-  left: 2% !important;
   margin-top: -1.5rem;
+  display: block;
+  margin-right: 1rem;
 }
 .product-main .sort-section .dropdown-menu.show {
-  inset: 10px auto auto 160px !important;
-  width: 26%;
+  inset: 10px auto auto 219.5px !important;
+  width: 20.5%;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
   border: none;
   border-radius: 0px;
   transform: translate3d(631.2px, 44.8px, 0px) !important;
 }
+.product-main .sort-section .dropdown-menu.show .up-arrow {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #fff;
+  position: absolute;
+  right: 10px;
+  top: -8px;
+}
 .product-main .sort-section .dropdown-menu.show li a {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   white-space: break-spaces;
-  line-height: 24px;
+  line-height: 25.3px;
+  color: #333;
 }
 .product-main .sort-section .dropdown-menu.show li a:hover {
   background-color: #232323 !important;
@@ -2683,8 +2693,7 @@ footer #hr {
   color: black;
 }
 .product-main .card-boxes .card-body {
-  margin-top: -2.8px;
-  margin-left: -6px;
+  padding: 18px 29px 10px;
 }
 .product-main .card-boxes .card-body .currentPrice {
   color: #E7220C;
@@ -2704,7 +2713,7 @@ footer #hr {
   color: black;
   font-size: 1.25rem;
   margin-left: -15px;
-  margin-top: -6px;
+  margin-top: -11px;
 }
 .product-main .card-boxes .card-body .price-design {
   -webkit-text-decoration-line: line-through;
@@ -2719,6 +2728,7 @@ footer #hr {
   font-weight: normal;
   margin-top: -5.5px;
   display: block;
+  margin-bottom: 4px;
   margin-left: -75px;
   margin-left: -16.5px;
 }
@@ -2747,9 +2757,9 @@ footer #hr {
   margin-left: 4px;
 }
 .product-main .card-boxes .card-box {
-  margin-left: 32.5px !important;
-  gap: 2.9rem;
-  margin-top: -51px !important;
+  margin-left: 61.5px !important;
+  margin-top: -58px !important;
+  gap: 1.1rem;
 }
 .product-main .card-boxes .access {
   margin-top: 3.5rem;
@@ -2758,23 +2768,24 @@ footer #hr {
   height: 284px;
 }
 .product-main .card-boxes .access img {
-  width: 85% !important;
+  width: 79% !important;
   margin-top: 0rem !important;
 }
 .product-main .card-boxes .card {
   margin-top: 3.5rem;
   margin-bottom: 2rem;
-  width: 224px;
-  height: 284px;
+  width: 259px;
+  height: 360.5px;
   border: none;
 }
 .product-main .card-boxes .card:hover {
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 0px;
 }
 .product-main .card-boxes .card img {
-  width: 85%;
-  padding-top: 13px;
+  width: 72%;
+  padding-top: 31px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -2789,13 +2800,17 @@ footer #hr {
 .product-main .card-boxes .card .card-text {
   font-size: 14px;
   color: black;
-  min-width: 131px;
   max-width: 336px;
   margin-left: -16px;
   font-weight: 500;
   line-height: 16.4px;
-  height: 1.5rem;
+  height: 2rem;
+  min-width: 226px;
+  margin-bottom: 0.25rem;
   font-family: "Open Sans", sans-serif;
+}
+.product-main .card-boxes .card .customer-rating {
+  height: 2.5rem;
 }
 .product-main .card-boxes .card .card-subtext {
   margin-left: 5px;

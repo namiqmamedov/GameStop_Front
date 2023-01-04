@@ -10,8 +10,8 @@ body {
 
 }
 
-.hep{
-  display: none ;
+.hep {
+  display: none;
 }
 
 // .dasda{
@@ -3561,21 +3561,23 @@ footer {
 
 
   a.showMore {
-    display:block;
-    font-size:12px;
-    font-weight:700;
-    text-transform:uppercase;
-    margin-top:20px;
-    color:#0077C8;
-    text-decoration:none;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #0077C8;
+    text-decoration: none;
+
     &::after {
-      content:'+ VIEW MORE';
+      content: '+ VIEW MORE';
     }
+
     &.showLess::after {
-      content:'- VIEW LESS';
+      content: '- VIEW LESS';
     }
   }
-  
+
 
   .accordion {
     $transition: height .35s ease !default;
@@ -3717,6 +3719,7 @@ footer {
     width: 16px;
     background-position: 16px -1px;
   }
+
   .rounded {
     font-size: .75rem;
     line-height: 1.2;
@@ -3730,122 +3733,134 @@ footer {
   }
 
   .franchise {
-    
+
 
     .values {
       margin-left: -1.5rem;
       margin-top: 18px;
-      
+
     }
-    
+
   }
 
-  .genre{
+  .genre {
     .values {
       margin-left: -1.5rem;
       margin-top: 18px;
-      
+
     }
   }
 
-  .publisher{
+  .publisher {
     .values {
       margin-left: -1.5rem;
       margin-top: 18px;
-      
+
     }
   }
 
 }
 
 
-.product-main{
-  .page-count{
+.product-main {
+  .page-count {
     margin-left: 0.9rem;
     margin-top: 16px;
-    span{
+
+    span {
       color: #666;
       font-size: 14px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
-    .pageTitle{
+
+    .pageTitle {
       font-weight: 700;
     }
   }
 
-  .product-filter{
-    
-  }
+  .product-filter {}
 
-  .sort-section{
+  .sort-section {
     // margin-bottom: 40px;
     text-align: end;
-    .sortBold{
+
+    .sortBold {
       font-weight: bold;
     }
 
-    .dropdown{
-      left: 2% !important;
+    .dropdown {
       margin-top: -1.5rem;
+
+      display: block;
+      margin-right: 1rem;
     }
 
 
-    .dropdown-menu.show{
-      inset: 10px auto auto 160px !important;
-      width: 26%;
+    .dropdown-menu.show {
+      inset: 10px auto auto 219.5px !important;
+      width: 20.5%;
       box-shadow: 0 0 16px 0 rgba(0, 0, 0, .16);
       border: none;
       border-radius: 0px;
       transform: translate3d(631.2px, 44.8px, 0px) !important;
 
-      li a{
+      .up-arrow{
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #fff;
+        position: absolute;
+        right: 10px;
+        top: -8px;
+      }
+
+      li a {
         font-size: 14px;
-        font-family: 'Open Sans',sans-serif;
+        font-family: 'Open Sans', sans-serif;
         white-space: break-spaces;
-        line-height: 24px;
-        &:hover{
+        line-height: 25.3px;
+        color: #333;
+       
+
+        &:hover {
           background-color: #232323 !important;
           color: white;
         }
+        
       }
 
-    
-     
-     
-     
     }
 
-
-    .dropdown-toggle{
+    .dropdown-toggle {
       padding: 10px 12px;
       font-size: 14px;
-        font-family: 'Open Sans',sans-serif;
-      span{
+      font-family: 'Open Sans', sans-serif;
+
+      span {
         font-size: 14px;
-        font-family: 'Open Sans',sans-serif;
+        font-family: 'Open Sans', sans-serif;
       }
-      
+
     }
 
 
-    .btn-secondary{
+    .btn-secondary {
       background-color: transparent;
-      color:black;
+      color: black;
       border-radius: 3px;
       border: 1px solid #484848;
 
-      &:active{
+      &:active {
         color: transparent;
         background-color: transparent;
         box-shadow: none;
       }
 
-      &:focus{
+      &:focus {
         color: black;
 
       }
 
-      
+
     }
 
 
@@ -3864,89 +3879,91 @@ footer {
 
 
     margin-top: 15px;
-  
-    .access{
-      .box-access{
-        img{
+
+    .access {
+      .box-access {
+        img {
           width: 55%;
           margin-top: 3rem;
         }
       }
     }
-    .card-price{
-      h2{
+
+    .card-price {
+      h2 {
         font-size: 14px;
       }
     }
+
     .heading {
       margin-bottom: 20px;
-  
+
       h2 {
         font-size: 24px;
       }
-  
+
       a {
         color: black;
       }
     }
 
-    .card-body{
-      margin-top: -2.8px;
-      margin-left: -6px;
+    .card-body {
+      padding: 18px 29px 10px;
 
-      .currentPrice{
+      .currentPrice {
         color: #E7220C;
         font-weight: bold;
         font-size: 1.25rem;
         margin-top: -12px;
         margin-left: -17px;
-        font-family: 'Open-Sans',sans-serif;
+        font-family: 'Open-Sans', sans-serif;
 
       }
 
-      .oldPrice{
+      .oldPrice {
         font-size: 0.875rem;
         color: #727272;
         font-weight: 400;
       }
 
-      .price{
+      .price {
         font-weight: bold;
         color: black;
         font-size: 1.25rem;
         margin-left: -15px;
-        margin-top: -6px;
+        margin-top: -11px
       }
 
-      .price-design{
-        text-decoration-line: line-through; 
+      .price-design {
+        text-decoration-line: line-through;
         font-size: .6875rem;
         margin-top: -6px;
         margin-left: 10px;
       }
 
-      .moreOptions{
+      .moreOptions {
         color: #727272;
         font-size: 14px;
         font-weight: normal;
         margin-top: -5.5px;
         display: block;
+        margin-bottom: 4px;
         margin-left: -75px;
         margin-left: -16.5px;
       }
 
-      .customer-rating{
+      .customer-rating {
         margin-left: -16px;
-       
+
         .star-rating4 {
           background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
           height: 13px;
           width: 70px;
           background-position: -2px -14px;
           background-size: 72px;
-    
+
         }
-    
+
         .star4 {
           background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
           height: 13px;
@@ -3955,56 +3972,57 @@ footer {
           background-size: 72px;
         }
 
-        .rating-count{
+        .rating-count {
           color: #8e8e8e;
           font-size: 14px;
           font-weight: normal;
           margin-top: -4px;
           margin-left: 4px;
         }
-    
+
       }
     }
-  
+
     .card-box {
-      margin-left: 32.5px !important;
-      gap: 2.9rem;
-      margin-top: -51px !important;
-     
+      margin-left: 61.5px !important;
+      margin-top: -58px !important;
+      gap: 1.1rem;
     }
 
-    .access{
+    .access {
       margin-top: 3.5rem;
       margin-bottom: 2rem;
       width: 224px;
       height: 284px;
-      img{
-        width: 85% !important; 
+
+      img {
+        width: 79% !important;
         margin-top: 0rem !important;
       }
     }
-  
+
     .card {
       margin-top: 3.5rem;
       margin-bottom: 2rem;
-      width: 224px;
-      height: 284px;
-  
+      width: 259px;
+      height: 360.5px;
+
       border: none;
-  
+
       &:hover {
         background: #fff;
         box-shadow: 0 0 16px 0 rgba(0, 0, 0, .16);
+        border-radius: 0px;
       }
-  
+
       img {
-        width: 85%;
-        padding-top: 13px;
+        width: 72%;
+        padding-top: 31px;
         margin-left: auto;
         margin-right: auto;
         display: block;
       }
-  
+
       a {
         text-decoration: none;
         color: black;
@@ -4012,31 +4030,33 @@ footer {
         font-size: 14px;
         font-family: 'Open Sans', sans-serif;
       }
-  
+
       .card-text {
         font-size: 14px;
         color: black;
-        min-width: 131px;
         max-width: 336px;
         margin-left: -16px;
         font-weight: 500;
         line-height: 16.4px;
-        height: 1.5rem;
-        font-family: 'Open Sans',sans-serif;
+        height: 2rem;
+        min-width: 226px;
+        margin-bottom: 0.25rem;
+        font-family: 'Open Sans', sans-serif;
       }
-  
+      .customer-rating{
+        height: 2.5rem;
+      }
+
       .card-subtext {
         margin-left: 5px;
         font-size: 12px;
         margin-top: -1rem;
         color: #9b9b9b;
       }
-      
+
     }
 
   }
 
 
 }
-
-
