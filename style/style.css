@@ -1306,7 +1306,13 @@ footer .footer-item {
   gap: 2rem;
 }
 footer .content {
-  padding: 0 25px;
+  padding: 0 39px;
+}
+footer .content:first-child {
+  margin-left: -50px;
+}
+footer .content:last-child {
+  margin-left: -74px;
 }
 footer .footer-copyright {
   margin-left: -4px;

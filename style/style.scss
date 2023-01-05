@@ -1918,10 +1918,19 @@ footer {
   .footer-item {
     margin-left: -1.3rem;
     gap: 2rem;
+
+    
   }
 
   .content {
-    padding: 0 25px;
+    padding: 0 39px;
+    &:first-child{
+      margin-left: -50px;
+}
+
+    &:last-child{
+      margin-left: -74px;
+    }
   }
 
   .footer-copyright {
@@ -4192,4 +4201,5 @@ footer {
 .boxes {
   display: none !important;
 }
+
 
