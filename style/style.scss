@@ -1916,20 +1916,20 @@ footer {
   }
 
   .footer-item {
-    margin-left: -1.3rem;
+    margin-left: -1.4rem;
     gap: 2rem;
 
     
   }
 
   .content {
-    padding: 0 39px;
+    padding: 0 29px;
     &:first-child{
-      margin-left: -50px;
+      margin-left: -12px;
 }
 
     &:last-child{
-      margin-left: -74px;
+      margin-left: -62px;
     }
   }
 
@@ -3297,12 +3297,21 @@ footer {
   }
 }
 
-
+.hr-btm{
+  width: 1438px;
+  color: black;
+  display: block;
+  border-top: 1px solid #D9D9D9;
+  position: relative;
+  top: 66px;
+  margin-left: 20px;
+}
 
 .options {
 
   margin-left: -3.7rem;
   margin-top: 19px;
+  margin-bottom: -52.5px;
 
   .mainOptions{
     position: sticky;
@@ -3675,6 +3684,7 @@ footer {
       font-weight: bold;
       font-size: 16px;
       padding-left: 12px;
+      font-family: 'Open Sans',sans-serif;
     }
 
   }
@@ -4027,6 +4037,7 @@ footer {
       margin-left: 16.5px !important;
       margin-top: 50px !important;
       gap: 0.9rem;
+      margin-bottom: -110px;
 
 
       .pagination-number,
@@ -4167,8 +4178,8 @@ footer {
 
   }
 
-
 }
+
 
 
 .pagination-container {
@@ -4177,9 +4188,10 @@ footer {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -54px;
-
-
+  height: auto;
+  position: relative;
+  top: -57px;
+  
   #prev-button{
     
    
@@ -4191,6 +4203,7 @@ footer {
     height: 48px;
   }
 
+  
   .pagination-button.disabled{
     opacity: .35;
   }
@@ -4208,19 +4221,6 @@ footer {
 
 
 
-.hr-btm {
-  width: 97.4%;
-  border-top: 1px solid #d9d9d9;
-  margin-top: 0;
-  color: black;
-  position: relative;
-  display: block;
-  top: -13px;
-  bottom: 5px;
-  margin-top: 39px;
-  margin-bottom: -82px;
-  left: 19px;
-}
 
 
 
