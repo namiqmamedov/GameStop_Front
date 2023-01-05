@@ -71,9 +71,9 @@ const setCurrentPage = (pageNum) => {
   const currRange = pageNum * paginationLimit;
 
   listItems.forEach((item, index) => {
-    item.classList.add("hiddenn");
+    item.classList.add("boxes");
     if (index >= prevRange && index < currRange) {
-      item.classList.remove("hiddenn");
+      item.classList.remove("boxes");
     }
   });
 };
