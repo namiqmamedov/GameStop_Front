@@ -2829,6 +2829,35 @@ footer #hr {
   background: black;
   border-radius: 50%;
 }
+.product-main .card-boxes .card-box .pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  position: relative;
+  top: -57px;
+}
+.product-main .card-boxes .card-box .pagination-container #prev-button {
+  border: 2px solid black !important;
+  border-radius: 50%;
+  background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -2px -4px;
+  transform: scale(0.5);
+  width: 48px;
+  height: 48px;
+}
+.product-main .card-boxes .card-box .pagination-container .pagination-button.disabled {
+  opacity: 0.35;
+}
+.product-main .card-boxes .card-box .pagination-container #next-button {
+  border: 2px solid black !important;
+  border-radius: 50%;
+  background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -130px -4px;
+  transform: scale(0.5);
+  width: 48px;
+  height: 48px;
+}
 .product-main .card-boxes .card-box .boxes {
   display: none !important;
 }
@@ -2909,32 +2938,61 @@ footer #hr {
   color: #9b9b9b;
 }
 
-.pagination-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  position: relative;
-  top: -57px;
-}
-.pagination-container #prev-button {
-  border: 2px solid black !important;
-  border-radius: 50%;
-  background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -2px -4px;
-  transform: scale(0.5);
-  width: 48px;
-  height: 48px;
-}
-.pagination-container .pagination-button.disabled {
-  opacity: 0.35;
-}
-.pagination-container #next-button {
-  border: 2px solid black !important;
-  border-radius: 50%;
-  background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -130px -4px;
-  transform: scale(0.5);
-  width: 48px;
-  height: 48px;
+@media (max-width: 576px) {
+  .options {
+    display: none;
+  }
+  #productCard {
+    margin-top: 32px !important;
+  }
+  #productCard .card {
+    height: 156.5px;
+  }
+  #productCard .card:first-child {
+    border-top: 0px;
+  }
+  #productCard .card .badge-content {
+    top: -2.5%;
+  }
+  #productCard .card .badge-content .badge {
+    padding: 4px 16px;
+    background-color: #087845;
+  }
+  #productCard .card img {
+    width: 39%;
+    height: 133px;
+    margin-left: 0px;
+  }
+  #productCard .card:hover {
+    box-shadow: none;
+  }
+  #productCard .card a {
+    display: flex;
+    border-bottom: 1px solid #e1e7ef;
+    margin: -13px 0px 0;
+    width: 330px;
+  }
+  #productCard .card .price {
+    margin-top: 20px;
+  }
+  #productCard .card .currentPrice {
+    margin-top: 16px;
+  }
+  #productCard .card .price-design {
+    margin-top: 20px;
+  }
+  #productCard .pagination-container {
+    top: -37px;
+  }
+  #productCard .pagination-container #prev-button {
+    transform: scale(0.71);
+  }
+  #productCard .pagination-container #next-button {
+    transform: scale(0.71);
+  }
+  .hr-btm {
+    top: 81px !important;
+    margin-left: -5px;
+    width: 353px;
+  }
 }/*# sourceMappingURL=style.css.map */

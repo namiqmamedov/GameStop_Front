@@ -1085,7 +1085,7 @@
                       data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <div class="input-group rounded">
-                          <input style="cursor:auto;" type="search" class="form-control rounded"
+                          <input style="cursor:auto;" type="search" id="searchForm" class="form-control rounded" onkeyup="myFunctionn()" 
                             placeholder="Search by Franchise" aria-label="Search" aria-describedby="search-addon" />
                         </div>
                         <ul id="more-item1" class="values">
@@ -2429,7 +2429,7 @@
 
             <div class="card-boxes">
               <div id="product-base" class="product-carousel">
-                <div id="productCard" class="card-box d-flex flex-wrap">
+                <div id="productCard" class="card-box d-flex flex-wrap col-3 col-lg-12 col-md-6 col-xs-12">
                   <!-- <div class="access">
                     <div class="box-access">
                       <img src="https://media.gamestop.com/i/gamestop/GS_XAA_ForzaIP_592x1200.jpg?w=350" alt="">
@@ -2560,7 +2560,7 @@
                       <div class="card-body">
                         <div class="card-price d-flex">
                           <span class="price"></span>
-                          <span class="currentPrice">$49.94</span>
+                          <span class="currentPrice">$40.00</span>
                           <span class="price-design">
                             <span class="oldPrice">$59.99</span>
                           </span>
@@ -2576,7 +2576,7 @@
                           </div>
                         </div>
                         <div class="badge-content">
-                          <span class="badge">DEAL</span>
+                          <span class="badge"></span>
                         </div>
                       </div>
                     </a>
@@ -5080,8 +5080,7 @@
                         </div>
                       </div>
                     </a>
-                  </div> 
-                   
+                  </div>                   
                   <nav class="pagination-container">
                     <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
                       
@@ -5094,13 +5093,8 @@
                     <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
                       
                     </button>
-                  </nav>
-                  
-                 
-                  
-                </div>
-                
-                
+                  </nav>                                 
+                </div>             
               </div>
             </div>
           </div>

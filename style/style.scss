@@ -1919,16 +1919,17 @@ footer {
     margin-left: -1.4rem;
     gap: 2rem;
 
-    
+
   }
 
   .content {
     padding: 0 29px;
-    &:first-child{
-      margin-left: -12px;
-}
 
-    &:last-child{
+    &:first-child {
+      margin-left: -12px;
+    }
+
+    &:last-child {
       margin-left: -62px;
     }
   }
@@ -3297,7 +3298,7 @@ footer {
   }
 }
 
-.hr-btm{
+.hr-btm {
   width: 1438px;
   color: black;
   display: block;
@@ -3313,14 +3314,14 @@ footer {
   margin-top: 19px;
   margin-bottom: -52.5px;
 
-  .mainOptions{
+  .mainOptions {
     position: sticky;
     top: 78px;
     left: 0;
     z-index: 1111111;
-  
+
   }
-  
+
   .card-options {
     width: 333.5px;
     margin-bottom: 1px;
@@ -3328,7 +3329,7 @@ footer {
 
 
   }
-  
+
 
 
   input {
@@ -3684,7 +3685,7 @@ footer {
       font-weight: bold;
       font-size: 16px;
       padding-left: 12px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
 
   }
@@ -3792,7 +3793,7 @@ footer {
 
 
 .product-main {
- 
+
   .page-count {
     margin-left: 0.9rem;
     margin-top: 16px;
@@ -3834,7 +3835,7 @@ footer {
       border-radius: 0px;
       transform: translate3d(631.2px, 44.8px, 0px) !important;
 
-      .up-arrow{
+      .up-arrow {
         border-left: 15px solid transparent;
         border-right: 15px solid transparent;
         border-bottom: 15px solid #fff;
@@ -3849,13 +3850,13 @@ footer {
         white-space: break-spaces;
         line-height: 25.3px;
         color: #333;
-       
+
 
         &:hover {
           background-color: #232323 !important;
           color: white;
         }
-        
+
       }
 
     }
@@ -3909,7 +3910,7 @@ footer {
     width: 1113px;
     margin-top: 15px;
 
-    
+
     .access {
       .box-access {
         img {
@@ -3925,7 +3926,7 @@ footer {
       }
     }
 
-   
+
 
     .heading {
       margin-bottom: 20px;
@@ -3983,7 +3984,7 @@ footer {
         margin-left: -75px;
         margin-left: -16.5px;
       }
-      
+
 
       .customer-rating {
         margin-left: -16px;
@@ -4015,12 +4016,12 @@ footer {
 
       }
 
-      .badge-content{
+      .badge-content {
         position: absolute;
         top: -0.5%;
         left: 0%;
 
-        .badge{
+        .badge {
           border-bottom-right-radius: 4px !important;
           background-color: green;
           padding: 3px 16px;
@@ -4029,7 +4030,7 @@ footer {
           font-size: 12px;
           color: white;
           font-weight: 600;
-        }     
+        }
       }
     }
 
@@ -4041,44 +4042,84 @@ footer {
 
 
       .pagination-number,
-.pagination-button{
-  border: 1px solid black;
-  border-radius: 50%;
-  font-size: 12px !important;
-  font-family: 'Open Sans',sans-serif;
-  font-size: 1.1rem;
-  background-color: transparent;
-  border: none;
-  margin: 0.25rem 0.375rem;
-  color: black;
-  cursor: pointer;
- height: 1.5rem;
- width: 1.5rem;
- font-weight: bold;
-  border-radius: .2rem;
-
-  
-}
+      .pagination-button {
+        border: 1px solid black;
+        border-radius: 50%;
+        font-size: 12px !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.1rem;
+        background-color: transparent;
+        border: none;
+        margin: 0.25rem 0.375rem;
+        color: black;
+        cursor: pointer;
+        height: 1.5rem;
+        width: 1.5rem;
+        font-weight: bold;
+        border-radius: .2rem;
 
 
-
-.pagination-number:hover,
-.pagination-button:not(.disabled):hover {
-  background: #fff;
-}
-
-.pagination-number.active {
-  color: #fff;
-  background: black;
-  border-radius: 50%;
-
-}
+      }
 
 
-.boxes {
-  display: none !important;
-}
-      
+
+      .pagination-number:hover,
+      .pagination-button:not(.disabled):hover {
+        background: #fff;
+      }
+
+      .pagination-number.active {
+        color: #fff;
+        background: black;
+        border-radius: 50%;
+
+      }
+
+
+
+      .pagination-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        position: relative;
+        top: -57px;
+
+        #prev-button {
+
+
+          border: 2px solid black !important;
+          border-radius: 50%;
+          background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -2px -4px;
+          transform: scale(.5);
+          width: 48px;
+          height: 48px;
+        }
+
+
+        .pagination-button.disabled {
+          opacity: .35;
+        }
+
+        #next-button {
+          border: 2px solid black !important;
+          border-radius: 50%;
+          background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -130px -4px;
+          transform: scale(.5);
+          width: 48px;
+          height: 48px;
+        }
+
+      }
+
+
+
+      .boxes {
+        display: none !important;
+      }
+
     }
 
     .access {
@@ -4095,7 +4136,7 @@ footer {
         margin-top: 0rem !important;
       }
 
-      .pageLink{
+      .pageLink {
         background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='16'><path fill='none' stroke='%23000' stroke-linecap='square' stroke-width='2' d='M2 2l6 6-6 6'/></svg>");
         right: 38px;
         bottom: -64px;
@@ -4106,22 +4147,22 @@ footer {
         background-position: 50%;
         border-radius: 50%;
 
-        &:hover{
+        &:hover {
           background-color: rgb(192, 23, 23);
           width: 40px;
           height: 40px;
-         
-          
+
+
         }
-        
+
 
       }
 
-     
+
     }
 
     .card {
-      
+
       margin-top: -2.3rem;
       margin-bottom: 2rem;
       width: 259px;
@@ -4150,7 +4191,8 @@ footer {
         font-size: 14px;
         font-family: 'Open Sans', sans-serif;
       }
-      // https://media.gamestop.com/i/gamestop/11116262/Madden-NFL-22----Xbox-One?$plp-tile$&fmt=webp
+
+     
       .card-text {
         font-size: 14px;
         color: black;
@@ -4163,7 +4205,8 @@ footer {
         margin-bottom: 0.25rem;
         font-family: 'Open Sans', sans-serif;
       }
-      .customer-rating{
+
+      .customer-rating {
         height: 2.5rem;
       }
 
@@ -4173,56 +4216,89 @@ footer {
         margin-top: -1rem;
         color: #9b9b9b;
       }
+    }
+  }
+}
+
+
+@media(max-width: 576px) {
+  .options {
+    display: none;
+  }
+
+  #productCard {
+    margin-top: 32px !important;
+    .card {
+      height: 156.5px;
+      &:first-child{
+        border-top: 0px;
+      }
+
+      .badge-content{
+        top: -2.5%;
+        .badge{
+          padding: 4px 16px;
+          background-color: #087845;
+        }
+      }
+
+      
+
+      img {
+        width: 39%;
+        height: 133px;
+        margin-left: 0px;
+      }
+
+      &:hover {
+        box-shadow: none;
+      }
+      a{
+        display: flex;
+        border-bottom: 1px solid #e1e7ef;
+        margin: -13px 0px 0;
+        width: 330px;
+      }
+
+
+      .price{
+        margin-top: 20px;
+      }
+
+      .currentPrice{
+        margin-top: 16px;
+      }
+
+      .price-design{
+        margin-top: 20px;
+      }
+
 
     }
 
-  }
-
-}
-
+    .pagination-container{
+      top: -37px;
 
 
-.pagination-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  position: relative;
-  top: -57px;
-  
-  #prev-button{
-    
+      #prev-button{
+        transform: scale(0.71);
+      }
+
+      #next-button{
+        transform: scale(0.71);
+      }
+    }
+
+    .card-body{
+      
+    }
+
    
-    border: 2px solid black !important;
-    border-radius: 50%;
-    background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -2px -4px;
-    transform: scale(.5);
-    width: 48px;
-    height: 48px;
+     
   }
-
-  
-  .pagination-button.disabled{
-    opacity: .35;
+  .hr-btm{
+    top: 81px  !important;
+    margin-left: -5px;
+    width: 353px;
   }
-
-  #next-button{
-    border: 2px solid black !important;
-    border-radius: 50%;
-    background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -130px -4px;
-    transform: scale(.5);
-    width: 48px;
-    height: 48px;
-  }
-
 }
-
-
-
-
-
-
-
-
