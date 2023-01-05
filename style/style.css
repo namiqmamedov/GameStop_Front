@@ -2264,6 +2264,13 @@ footer #hr {
   margin-left: -3.7rem;
   margin-top: 19px;
 }
+.options .mainOptions {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 78px;
+  left: 0;
+  z-index: 1111111;
+}
 .options .card-options {
   width: 333.5px;
   margin-bottom: 1px;
@@ -2778,14 +2785,33 @@ footer #hr {
   gap: 0.9rem;
 }
 .product-main .card-boxes .access {
-  margin-top: 3.5rem;
+  margin-top: -2.25rem;
+  margin-left: 37px;
   margin-bottom: 2rem;
   width: 224px;
   height: 284px;
+  position: relative;
 }
 .product-main .card-boxes .access img {
   width: 79% !important;
+  height: 368px;
   margin-top: 0rem !important;
+}
+.product-main .card-boxes .access .pageLink {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='16'><path fill='none' stroke='%23000' stroke-linecap='square' stroke-width='2' d='M2 2l6 6-6 6'/></svg>");
+  right: 38px;
+  bottom: -64px;
+  position: absolute;
+  width: 40px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+}
+.product-main .card-boxes .access .pageLink:hover {
+  background-color: rgb(192, 23, 23);
+  width: 40px;
+  height: 40px;
 }
 .product-main .card-boxes .card {
   margin-top: -2.3rem;
@@ -2821,7 +2847,7 @@ footer #hr {
   font-weight: 500;
   line-height: 16.4px;
   height: 2rem;
-  min-width: 226px;
+  min-width: 220px;
   margin-bottom: 0.25rem;
   font-family: "Open Sans", sans-serif;
 }
