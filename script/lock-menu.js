@@ -33,6 +33,11 @@
       if ($('body').removeClass("lock-scroll")) {}
    })
 
+   const filterRemoveBtn = $(".close_btn").click(function () {
+      if ($('body').removeClass("lock-scroll")) {}
+   })
+
+
    
    const filterOptions1 = $(".filter-options").click(function () {
       if ($('.header-main').addClass("none")) {}

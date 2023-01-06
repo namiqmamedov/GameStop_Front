@@ -18,3 +18,12 @@
     
 //   });
 
+function clearRadioButtons(){
+  var ele = document.querySelectorAll("input[type=radio],input[type=checkbox]");
+   for(var i=0;i<ele.length;i++){
+      ele[i].checked = false;
+   }
+}
+
+
+

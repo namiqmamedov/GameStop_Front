@@ -4372,6 +4372,13 @@ footer {
     }
 
 
+    .card-options{
+      .card-header{
+        border-top: 1px solid #d2d2d2;
+        padding: 8px 0;
+        width: 269px;
+      }
+    }
 
 
     $root: rgba(0, 0, 0, .7);
@@ -4433,13 +4440,13 @@ footer {
         }
       }
 
+
       .over_lay {
         position: fixed;
         top: -24px;
         width: 0%;
         height: 126%;
         background-color: rgb(9 9 9 / 10%);
-        @include transition(500ms);
       }
 
       .list_items_container {
@@ -4449,7 +4456,6 @@ footer {
         left: -300px;
         top: 0px;
           background-color: white; 
-        @include transition(400ms);
 
         p {
           width: 100%;
@@ -4462,7 +4468,6 @@ footer {
 
           &:hover {
             cursor: pointer;
-            box-shadow: 0px 1px 4px #000;
           }
         }
 
@@ -4479,6 +4484,31 @@ footer {
               border-left: 10px solid $root;
             }
           }
+        }
+
+        .button-filter{
+          margin-left: 14px;
+          margin-top: 30px;
+        }
+        .btn-lg{
+          border-radius: 0px;
+          background-color: black;
+          margin-right: 16px;
+          padding: 9px 24px;      
+          width: 50%;
+          font-size: 12px;
+          font-family: 'Open Sans',sans-serif;
+        }
+
+        .btn-outline-secondary{
+          border-radius: 0px;
+          margin-right: 16px;
+          width: 50%;
+          color: black;
+          border-radius: 1px;
+          padding: 9px 10px;
+          font-size: 12px;
+          font-family: 'Open Sans',sans-serif;
         }
       }
     }
@@ -5058,6 +5088,8 @@ footer {
   }
 
   }
+
+  
 
 
   .hr-btm {
