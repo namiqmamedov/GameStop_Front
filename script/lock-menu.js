@@ -1,15 +1,8 @@
 
-   if (window.innerWidth > 1000) {   
-
       const menu = $("#mMenu").click(function () {
          if ($('body').addClass("lock-scroll")) {}
       })
       
-   }
-
-
-      
-
 
 
 
@@ -17,10 +10,14 @@
       if ($('body').removeClass("lock-scroll")) {}
    })
 
+   const menuClose = $(".close").click(function () {
+      if ($('body').removeClass("lock-scroll")) {}
+   })
+
 
    
    
-   const menu = $(".menu-ul").click(function () {
+   const menuOverflow = $(".menu-ul").click(function () {
       if ($('.all-menu').addClass("overflow-hidden")) {}
    })
 
@@ -46,7 +43,14 @@
    const filterRemove1 = $(".over_lay").click(function () {
       if ($('.header-main').removeClass("none")) {}
    })
+
+   const menuPosition = $("#mMenu").click(function () {
+      if ($('.filter-options').addClass("filterRemove")) {}
+   })
    
+   const menuPosition1 = $(".close").click(function () {
+      if ($('.filter-options').removeClass("filterRemove")) {}
+   })
    
    
    

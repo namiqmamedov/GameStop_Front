@@ -14,23 +14,6 @@ body {
   display: none;
 }
 
-// .dasda{
-//   #menu-header{
-//     display: none;
-//   }
-
-// }
-// .none{
-
-//   .m-menu__header{
-//     display: none;
-//   }
-
-// }
-
-// .block{
-//   display: block;
-// }
 
 .lock-scroll {
   overflow: hidden;
@@ -53,6 +36,10 @@ body {
 
 .overflow-hidden {
   overflow: hidden !important;
+}
+
+.filterRemove{
+  display: none !important;
 }
 
 
@@ -2193,7 +2180,11 @@ footer {
 
   .header-main {
     // position: fixed;
+
+   
   }
+
+  
 
 
   .header-banner {
@@ -2238,6 +2229,23 @@ footer {
       left: -12px !important;
       width: calc(100vw - 0px) !important;
       max-width: 375px !important;
+      position: fixed !important;
+      overflow-y: auto;
+      margin-top: 0rem !important;
+      height: 100% !important;
+      width: 404px !important;
+      max-width: none !important;
+      
+    }
+
+    .all-menu{
+      
+    }
+
+    #menu-header{
+      span{
+        margin-left: -18px;
+      }
     }
   }
 
@@ -4509,6 +4517,10 @@ footer {
           padding: 9px 10px;
           font-size: 12px;
           font-family: 'Open Sans',sans-serif;
+
+          &:focus{
+            background-color: transparent;
+          }
         }
       }
     }

@@ -34,6 +34,10 @@ body {
   overflow: hidden !important;
 }
 
+.filterRemove {
+  display: none !important;
+}
+
 .container {
   width: 100%;
   padding-right: 12px;
@@ -1533,6 +1537,15 @@ footer #hr {
     left: -12px !important;
     width: calc(100vw - 0px) !important;
     max-width: 375px !important;
+    position: fixed !important;
+    overflow-y: auto;
+    margin-top: 0rem !important;
+    height: 100% !important;
+    width: 404px !important;
+    max-width: none !important;
+  }
+  .main-header #menu-header span {
+    margin-left: -18px;
   }
   .header-wrapper {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
@@ -3157,6 +3170,9 @@ footer #hr {
     padding: 9px 10px;
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
+  }
+  #prod-cart .menu_container .list_items_container .btn-outline-secondary:focus {
+    background-color: transparent;
   }
   #productCard {
     margin-top: 32px !important;
