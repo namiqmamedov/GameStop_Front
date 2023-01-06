@@ -13,6 +13,16 @@
    })
 
 
+   
+   
+   const menu = $(".menu-ul").click(function () {
+      if ($('.all-menu').addClass("overflow-hidden")) {}
+   })
+   
+   
+   
+   
+   
    // const menu = $(".menu-ul li").click(function () {
    //    // console.log("test")
    //    if ($('.m-menu__headewr').addClass("psfx")) {}
@@ -25,16 +35,6 @@
    // const block = $(".back").click(function () {
    //    if ($('body').addClass("block")) {}
    // })
-  
-
-   const menu = $(".menu-ul").click(function () {
-      if ($('.all-menu').addClass("overflow-hidden")) {}
-   })
-   
-
-
-
-
    
    // function hideMe() {
    //    document.getElementById("menu-header").style.display = "block";
