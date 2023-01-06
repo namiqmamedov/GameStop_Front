@@ -47,6 +47,10 @@ body {
 
 }
 
+.none{
+  position: static !important;
+}
+
 .overflow-hidden {
   overflow: hidden !important;
 }
@@ -62,11 +66,11 @@ body {
 
 
 .header-main {
-  // position: sticky;
-  // top: 0;
-  // left: 0;
-  // width: 112%;
-  // z-index: 99999999;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 112%;
+  z-index: 99999999;
 }
 
 
@@ -2182,6 +2186,7 @@ footer {
 @media (max-width: 576px) {
 
 
+  
   html {
     overflow-x: hidden;
   }
@@ -2220,9 +2225,7 @@ footer {
 
   }
 
-  .header-main {
-    position: relative;
-  }
+
 
   .main-header {
     margin-left: 0rem;
@@ -2236,10 +2239,6 @@ footer {
       width: calc(100vw - 0px) !important;
       max-width: 375px !important;
     }
-  }
-
-  .lock-scroll {
-    position: static !important;
   }
 
   .header-wrapper {
@@ -3615,6 +3614,10 @@ footer {
 
   .accordion-collapse {
     transition: .01s ease-in-out;
+
+    .accordion-body{
+      margin: 15px !important;
+    }
   }
 
   .accordion-button:not(.collapsed) {
@@ -3631,6 +3634,7 @@ footer {
   }
 
   .accordion-body {
+ 
     a {
       text-decoration: none;
       color: black;
@@ -4399,6 +4403,10 @@ footer {
         background-color: transparent;
         margin-left: -94px;
 
+        .filter-options{
+          width: 59px;
+        }
+
 
         span {
           position: absolute;
@@ -4427,9 +4435,10 @@ footer {
 
       .over_lay {
         position: fixed;
+        top: -24px;
         width: 0%;
-        height: 100%;
-        background-color: $light-black;
+        height: 126%;
+        background-color: rgb(9 9 9 / 10%);
         @include transition(500ms);
       }
 
@@ -4630,7 +4639,7 @@ footer {
   .values {
     li {
       list-style-type: none;
-      margin-bottom: 16px;
+      margin-bottom: -7px;
     }
 
     padding-left: 0rem !important;
@@ -4642,15 +4651,15 @@ footer {
   #defaultCheck1:checked {}
 
   #defaultCheck1:checked {
-    width: 23.5px;
-    width: 23.5px;
+    width: 36px;
+    height: 36px;
     box-shadow: none !important;
     background-color: white !important;
     border: #D9D9D9;
-    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672682424689/images/svg-icons/radio-button-nero.svg');
+    background-image: url(https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672682424689/images/svg-icons/radio-button-nero.svg);
     background-size: 55%;
     border: 1px solid #d9d9d9;
-    background-position: 4.8px 4.5px;
+    background-position: 7.8px 7.5px;
   }
 
 
@@ -4711,6 +4720,8 @@ footer {
       left: 91%;
       top: 7%;
     }
+
+   
 
     .accordion-body {
       a {
@@ -4881,8 +4892,20 @@ footer {
     .values {
       margin-left: -1.5rem;
       margin-top: -1.05rem;
+     
     }
 
+    .values > div{
+      margin-bottom: -25px;
+      margin-top: -29px;
+    }
+
+  }
+
+  .accordion-item{
+    input{
+      margin-left: -3px !important;
+    }
   }
 
   .accordion-item:first-of-type {
@@ -5004,7 +5027,7 @@ footer {
     color: #666;
     height: 39px;
     width: 250px;
-    margin-left: 2px;
+    margin-left: -3px;
   }
 
   .franchise {

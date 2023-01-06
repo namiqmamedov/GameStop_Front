@@ -1,20 +1,20 @@
 
-$("input:checkbox").on('click', function() {
+// $("input:checkbox").on('click', function() {
 
-      // console.log('hello');
-      var $box = $(this);
-      if ($box.is(":checked")) {
+//       // console.log('hello');
+//       var $box = $(this);
+//       if ($box.is(":checked")) {
      
-      var group = "input:checkbox[name='" + $box.attr("name") + "']";
+//       var group = "input:checkbox[name='" + $box.attr("name") + "']";
   
-      $(group).prop("checked", false);
-      $box.prop("checked", true);
-    } 
+//       $(group).prop("checked", false);
+//       $box.prop("checked", true);
+//     } 
     
     
-    else {
-      $box.prop("checked", false);
-    }
+//     else {
+//       $box.prop("checked", false);
+//     }
     
-  });
+//   });
 
