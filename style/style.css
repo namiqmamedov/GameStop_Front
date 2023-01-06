@@ -2614,6 +2614,8 @@ footer #hr {
 .product-main .page-count {
   margin-left: 0.9rem;
   margin-top: 16px;
+  width: 347px;
+  padding-top: 5px;
 }
 .product-main .page-count span {
   color: #666;
@@ -2625,6 +2627,9 @@ footer #hr {
 }
 .product-main .sort-section {
   text-align: end;
+}
+.product-main .sort-section .dropdown {
+  display: none;
 }
 .product-main .sort-section .sortBold {
   font-weight: bold;
@@ -2692,7 +2697,7 @@ footer #hr {
 }
 .product-main .card-boxes {
   width: 1113px;
-  margin-top: 15px;
+  margin-top: 41px;
 }
 .product-main .card-boxes .access .box-access img {
   width: 55%;
@@ -2955,22 +2960,20 @@ footer #hr {
     --darkgray: #2c3e50;
   }
   .sort-section select {
-    margin-left: -10px !important;
-    /* Reset Select */
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
     outline: 0;
     border: 0;
     box-shadow: none;
-    margin-top: -19px;
-    margin-left: -5px;
+    margin-top: -4px;
+    margin-left: -7px;
     font-size: 12px;
     flex: 1;
-    padding: 0 1em;
+    padding: 23px 1em;
     color: black;
     background-color: var(--darkgray);
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDEwIiBoZWlnaHQ9IjQyIj48ZGVmcz48ZmlsdGVyIGlkPSJkYXJrcmVhZGVyLWltYWdlLWZpbHRlciI+PGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAuMjQ5IC0wLjYxNCAtMC42NzIgMC4wMDAgMS4wMzUgLTAuNjQ2IDAuMjg4IC0wLjY2NCAwLjAwMCAxLjAyMCAtMC42MzYgLTAuNjA5IDAuMjUwIDAuMDAwIDAuOTk0IDAuMDAwIDAuMDAwIDAuMDAwIDEuMDAwIDAuMDAwIiAvPjwvZmlsdGVyPjwvZGVmcz48aW1hZ2Ugd2lkdGg9IjQxMCIgaGVpZ2h0PSI0MiIgZmlsdGVyPSJ1cmwoI2RhcmtyZWFkZXItaW1hZ2UtZmlsdGVyKSIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFab0FBQUFxQ0FZQUFBQ0t1NTJpQUFBSHowbEVRVlI0WHUyZHdXL2NSQlNIMy9PR0hsQ2o3RW9GTlZFcFNFRlZMd1drY2tHaWlYUG9EU0Y2NVFJNTBDc0MrZ2UwQjI2QWVtMjQwRXQ3cElKekZDZEI0a0pGU3k4VmFxVzJWRWtGUlhVSlFvSW1mbWdjdTNWMmJhL0hudG5kU1g1N2lyTGptZWZ2emV5MzR4bDdtZkFDQVJBQUFSQUFBWXNFMkdMZHFCb0VRQUFFUUFBRUNLSkJKd0FCRUFBQkVMQktBS0t4aWhlVmd3QUlnQUFJUURUb0F5QUFBaUFBQWxZSlFEUlc4YUp5RUFBQkVBQUJpQVo5QUFSQUFBUkF3Q29CaU1ZcVhsUU9BaUFBQWlBQTBhQVBnQUFJZ0FBSVdDVUEwVmpGaThwQkFBUkFBQVRxaXVZYkloSWltaDgwd3JtNXVlTjViWXJJM1NBSUhxYnZ6Y3pNSEd1MVd2dTZ5eTR0TFYwZGRNeURiTS8zZlpXWG5wZUluRjVlWHY0NmZjUDMvVHRFOUhKM3dTQUk2dmFKb3RQTWpVZURpZWw0K3NVNXFQYmlPSXJ5cGNGSEZWME9nc0RYUEthMGVORTQwMm5EODd5TnhjWEZYM1dPNlZmMjZOR2pUZnRUM01UTm16ZXQ1MW1JbUU0Y1BFQ2JZeE0wUnMrVGVNL0ZqWFAwaERicEh4cmJmRXlyRHg3eTltZXAxVmNZaGtzaWNxclQ2WVIxR25yMDZGR2JtYjlWWFZaRTVqdWRqbkpBNVZjZDJLcUJENUlXMU44RGxRMUVVNTViaUtaeTMrOHVtQTcyT21PaWRxTVFqUjQ2VjBRai90UUIydkttbnNxbDZEU1ZkRnJSR2dkclQ3OGs2eEdwVmpvTVE5Vy9yNG5Jbks1c0Vza3NFZEViU1d0aHU5M3VWR3Q1dTVUdW9NcEtKbTFub0xKeFNUUnIwL3ZQTS9ISDNRbGhvaXNIYjIrYzBrbFUxYklqS0pxcW9RKzdIRVNUeWNDb3ptaUczVW1xdEM4elV5OVJOUFppbGJKUHkzaWJ2L1BLMm05YXgyZ1VUa1NqanRDU1RZNWtpSmt2VGt4TWZLalJ2SlpvOGlRemNObTRJcHIxNmZFOFhuZlR5MVdUdHpkMEpWOHByeEJOSlV4NWhTQWFpS1oyNTBrUHJDV1o5R0NMc3NtSXBySnM4aVJEUk5kRnhOZWRGZFg5c0J2S29GU0VYQkJOcm1TWXowM2UrdXZzK3ZSNHZEWUMwVFFlMDZZckdFcWZ4cVV6MDJrY1huM3g1YkxOc1o1MXo2Nklwb2hvclRES3NjMjdOaTZqaFdGNGpZaGV6N1JiT3JNeEtSblZKa1JqdUY4V3pHU0loYThKUlZlSStheHFFcUl4REw1NWRSQ05Zek1hM2ZVYW14c0F0aGYrRHgwclc1UFpJanJ1TVgzQlFuT0YzVld0MmF6ZXYyRjZnMEFpanFDS2JFeEx4a25SK0w1L29DaEoyVjFuUmVXeVpacC9OdTJzb1VneWVlM1lFczNzN094SFJlZVYzWFZXVkM1YnhqU2ZFYTl2V0tLSnYzZzBmTjBKZ2tCckYxQy85azZlUEttK2VUZDZSVkgwNytMaTRwK05LaWs1ZUtSRWMrTGdDeVQ3RHBlRU94V3hmS2ZlOTRUZkxHWEMvOTNqMVFkL21PWldSVFkySkdORE5FTVpyS1lUVXFlK29vWC9vcnBzaWFaTzdIdnNtS1piU2V0ZUJkaGptUGZXNmNwYmgxNmxsamRSZE5aQzBWbGhmaWQ1L3l0UCtGSWhvYTNvTWY5NC81WU5nbVd5aVlYQW5OMWRwdjVWYTAybU8vYTZnNlpJS0h0V05PdlQ0em9mWVBPVHR6ZU1mZ08xMFNsM2FaMDZlY3BEVUhmTTdGS2NPQzFGUUU0Y2VxM3NzbG5Fb2k1YjdkLytkczhiSW5MT0kxYi82MzF4OUlSWDcvOWlpMnlSYkpMMjBpM014aVNER1kzQlRHck1hQ0FaZzl3TlZyVm52eVFaWkxobnE1SzNEK2ZlU0I0eExYaENweU9XbnhJNGY2ZkNJZUZ6SHRIM3VhNzU0WjdWRzhzTFpKTU54Y2hNSnEydzdyZXpvYzFvMUIzL2VZbnhQRys5KzhrQWVlVldWbFp1MkJvTkZkWm9yRXNtdWVPLzV4UkY1UE9jSndQMGxBdUM0QlZiZkVhODNxR0l4dEN1TXpMOVJBY1Q5OUdvZkEveVNSemRhelkyRi8rNyszS0JhT0oxR1U5YWM4SmJGNFRvQ0FtZFlhYlQ4ZC9iNnpYdjV1MUNZOHVpVVcyWHlNYW9aSnJNYUlvK002d1AxbEhmM2x3aUcrdVNVVW5CZlRTMWRXYTk3K1pGQnRIVXpsZlBnVU1WVGM2bE03WExqRmt1Q1BGVlQ2TDFaSTFHcmM4RTZjYUEzRm1ONVV0bktiaUNoWC8xdHRaTm5WVXlXSGRHQTlHVTBNMlJ6VUFrQTlGVTZmS0ZaU0NhREJvWFp6U05zdC93NFB6TkFISWtZdHE1Nko5Y0xoT1dTMnBXNHpFdlVFUUxPNXEzdUJtZ2dtVFNJa1psQTlFMDdHQkZoMmZXYkFZbUdZaW1VVEloR29pbWRnZVNndTNOMlUwQUpIVFpJLzR5bmVuRWpRbWQ2ZGtVWUdsN2N4L0pYRS9lcjN4VHB3NHNFNklwZXpUTlJTTFNlaVpPditCSC9kSlp2L2h0djQ5TFo3VUpRelFRVFpQT2szdkRac1R5UGhGOW1sYXNMcU14U2J4eGdJbVdXZml6SFkxYXVtR3puMlRVWTJYaW1EamVDV2RjTmlaRW8rTExrNDF4eWFpR0lKcnlzUURSTlBtc2lJODFOU1lxQllJMW1rcVluQ2hVOUFpYWlNVFBiZ0JJWmpLWFBXb3RFRVViTzA3TzBpTm9WQnRWYnNhc2NsTm5uV1NZSEZSWjJYeENST2ZyQklSalFBQUVRTUJWQXVVUDFmVEdpYlltaVRqL04zb3NQbFN6aW1TNlpqMUdaelltUlpQT2JGU0F1Qm5SMVpHQ3VFRUFCQm9ScVBVRVo0dVNVU2NUaHVIUG1kK1RVZjhxM2NKc2VtWmpXalNORW9TRFFRQUVRR0EzRUJqUkh6NUwwVmE2VDhha2JDQ2EzZENyY1E0Z0FBSWpSMkRFZnNvNTNleFNTVEpsbDlGcy8vRFp5Q1VTQVlFQUNJQUFDUFFua1B6d21aWmtTbVR6dU4xdXQvdTMrcXdFWmpRNnRGQVdCRUFBQkJ3a0VJWmhJQ0x2NmY0eVpwZHNyaERScklqTWR6b2RyWFY0aU1iQlRvT1FRUUFFUU1BbEFoQ05TOWxDckNBQUFpRGdJQUdJeHNHa0lXUVFBQUVRY0lrQVJPTlN0aEFyQ0lBQUNEaElBS0p4TUdrSUdRUkFBQVJjSWdEUnVKUXR4QW9DSUFBQ0RoS0FhQnhNR2tJR0FSQUFBWmNJUURRdVpRdXhnZ0FJZ0lDREJDQWFCNU9Ha0VFQUJFREFKUUlRalV2WlFxd2dBQUlnNENDQi93RTA0Mmxuc0h1L0ZnQUFBQUJKUlU1RXJrSmdnZz09IiAvPjwvc3ZnPg==") -4px 5px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDEwIiBoZWlnaHQ9IjQyIj48ZGVmcz48ZmlsdGVyIGlkPSJkYXJrcmVhZGVyLWltYWdlLWZpbHRlciI+PGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAuMjQ5IC0wLjYxNCAtMC42NzIgMC4wMDAgMS4wMzUgLTAuNjQ2IDAuMjg4IC0wLjY2NCAwLjAwMCAxLjAyMCAtMC42MzYgLTAuNjA5IDAuMjUwIDAuMDAwIDAuOTk0IDAuMDAwIDAuMDAwIDAuMDAwIDEuMDAwIDAuMDAwIiAvPjwvZmlsdGVyPjwvZGVmcz48aW1hZ2Ugd2lkdGg9IjQxMCIgaGVpZ2h0PSI0MiIgZmlsdGVyPSJ1cmwoI2RhcmtyZWFkZXItaW1hZ2UtZmlsdGVyKSIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFab0FBQUFxQ0FZQUFBQ0t1NTJpQUFBSHowbEVRVlI0WHUyZHdXL2NSQlNIMy9PR0hsQ2o3RW9GTlZFcFNFRlZMd1drY2tHaWlYUG9EU0Y2NVFJNTBDc0MrZ2UwQjI2QWVtMjQwRXQ3cElKekZDZEI0a0pGU3k4VmFxVzJWRWtGUlhVSlFvSW1mbWdjdTNWMmJhL0hudG5kU1g1N2lyTGptZWZ2emV5MzR4bDdtZkFDQVJBQUFSQUFBWXNFMkdMZHFCb0VRQUFFUUFBRUNLSkJKd0FCRUFBQkVMQktBS0t4aWhlVmd3QUlnQUFJUURUb0F5QUFBaUFBQWxZSlFEUlc4YUp5RUFBQkVBQUJpQVo5QUFSQUFBUkF3Q29CaU1ZcVhsUU9BaUFBQWlBQTBhQVBnQUFJZ0FBSVdDVUEwVmpGaThwQkFBUkFBQVRxaXVZYkloSWltaDgwd3JtNXVlTjViWXJJM1NBSUhxYnZ6Y3pNSEd1MVd2dTZ5eTR0TFYwZGRNeURiTS8zZlpXWG5wZUluRjVlWHY0NmZjUDMvVHRFOUhKM3dTQUk2dmFKb3RQTWpVZURpZWw0K3NVNXFQYmlPSXJ5cGNGSEZWME9nc0RYUEthMGVORTQwMm5EODd5TnhjWEZYM1dPNlZmMjZOR2pUZnRUM01UTm16ZXQ1MW1JbUU0Y1BFQ2JZeE0wUnMrVGVNL0ZqWFAwaERicEh4cmJmRXlyRHg3eTltZXAxVmNZaGtzaWNxclQ2WVIxR25yMDZGR2JtYjlWWFZaRTVqdWRqbkpBNVZjZDJLcUJENUlXMU44RGxRMUVVNTViaUtaeTMrOHVtQTcyT21PaWRxTVFqUjQ2VjBRai90UUIydkttbnNxbDZEU1ZkRnJSR2dkclQ3OGs2eEdwVmpvTVE5Vy9yNG5Jbks1c0Vza3NFZEViU1d0aHU5M3VWR3Q1dTVUdW9NcEtKbTFub0xKeFNUUnIwL3ZQTS9ISDNRbGhvaXNIYjIrYzBrbFUxYklqS0pxcW9RKzdIRVNUeWNDb3ptaUczVW1xdEM4elV5OVJOUFppbGJKUHkzaWJ2L1BLMm05YXgyZ1VUa1NqanRDU1RZNWtpSmt2VGt4TWZLalJ2SlpvOGlRemNObTRJcHIxNmZFOFhuZlR5MVdUdHpkMEpWOHByeEJOSlV4NWhTQWFpS1oyNTBrUHJDV1o5R0NMc3NtSXBySnM4aVJEUk5kRnhOZWRGZFg5c0J2S29GU0VYQkJOcm1TWXowM2UrdXZzK3ZSNHZEWUMwVFFlMDZZckdFcWZ4cVV6MDJrY1huM3g1YkxOc1o1MXo2Nklwb2hvclRES3NjMjdOaTZqaFdGNGpZaGV6N1JiT3JNeEtSblZKa1JqdUY4V3pHU0loYThKUlZlSStheHFFcUl4REw1NWRSQ05Zek1hM2ZVYW14c0F0aGYrRHgwclc1UFpJanJ1TVgzQlFuT0YzVld0MmF6ZXYyRjZnMEFpanFDS2JFeEx4a25SK0w1L29DaEoyVjFuUmVXeVpacC9OdTJzb1VneWVlM1lFczNzN094SFJlZVYzWFZXVkM1YnhqU2ZFYTl2V0tLSnYzZzBmTjBKZ2tCckYxQy85azZlUEttK2VUZDZSVkgwNytMaTRwK05LaWs1ZUtSRWMrTGdDeVQ3RHBlRU94V3hmS2ZlOTRUZkxHWEMvOTNqMVFkL21PWldSVFkySkdORE5FTVpyS1lUVXFlK29vWC9vcnBzaWFaTzdIdnNtS1piU2V0ZUJkaGptUGZXNmNwYmgxNmxsamRSZE5aQzBWbGhmaWQ1L3l0UCtGSWhvYTNvTWY5NC81WU5nbVd5aVlYQW5OMWRwdjVWYTAybU8vYTZnNlpJS0h0V05PdlQ0em9mWVBPVHR6ZU1mZ08xMFNsM2FaMDZlY3BEVUhmTTdGS2NPQzFGUUU0Y2VxM3NzbG5Fb2k1YjdkLytkczhiSW5MT0kxYi82MzF4OUlSWDcvOWlpMnlSYkpMMjBpM014aVNER1kzQlRHck1hQ0FaZzl3TlZyVm52eVFaWkxobnE1SzNEK2ZlU0I0eExYaENweU9XbnhJNGY2ZkNJZUZ6SHRIM3VhNzU0WjdWRzhzTFpKTU54Y2hNSnEydzdyZXpvYzFvMUIzL2VZbnhQRys5KzhrQWVlVldWbFp1MkJvTkZkWm9yRXNtdWVPLzV4UkY1UE9jSndQMGxBdUM0QlZiZkVhODNxR0l4dEN1TXpMOVJBY1Q5OUdvZkEveVNSemRhelkyRi8rNyszS0JhT0oxR1U5YWM4SmJGNFRvQ0FtZFlhYlQ4ZC9iNnpYdjV1MUNZOHVpVVcyWHlNYW9aSnJNYUlvK002d1AxbEhmM2x3aUcrdVNVVW5CZlRTMWRXYTk3K1pGQnRIVXpsZlBnVU1WVGM2bE03WExqRmt1Q1BGVlQ2TDFaSTFHcmM4RTZjYUEzRm1ONVV0bktiaUNoWC8xdHRaTm5WVXlXSGRHQTlHVTBNMlJ6VUFrQTlGVTZmS0ZaU0NhREJvWFp6U05zdC93NFB6TkFISWtZdHE1Nko5Y0xoT1dTMnBXNHpFdlVFUUxPNXEzdUJtZ2dtVFNJa1psQTlFMDdHQkZoMmZXYkFZbUdZaW1VVEloR29pbWRnZVNndTNOMlUwQUpIVFpJLzR5bmVuRWpRbWQ2ZGtVWUdsN2N4L0pYRS9lcjN4VHB3NHNFNklwZXpUTlJTTFNlaVpPditCSC9kSlp2L2h0djQ5TFo3VUpRelFRVFpQT2szdkRac1R5UGhGOW1sYXNMcU14U2J4eGdJbVdXZml6SFkxYXVtR3puMlRVWTJYaW1EamVDV2RjTmlaRW8rTExrNDF4eWFpR0lKcnlzUURSTlBtc2lJODFOU1lxQllJMW1rcVluQ2hVOUFpYWlNVFBiZ0JJWmpLWFBXb3RFRVViTzA3TzBpTm9WQnRWYnNhc2NsTm5uV1NZSEZSWjJYeENST2ZyQklSalFBQUVRTUJWQXVVUDFmVEdpYlltaVRqL04zb3NQbFN6aW1TNlpqMUdaelltUlpQT2JGU0F1Qm5SMVpHQ3VFRUFCQm9ScVBVRVo0dVNVU2NUaHVIUG1kK1RVZjhxM2NKc2VtWmpXalNORW9TRFFRQUVRR0EzRUJqUkh6NUwwVmE2VDhha2JDQ2EzZENyY1E0Z0FBSWpSMkRFZnNvNTNleFNTVEpsbDlGcy8vRFp5Q1VTQVlFQUNJQUFDUFFua1B6d21aWmtTbVR6dU4xdXQvdTMrcXdFWmpRNnRGQVdCRUFBQkJ3a0VJWmhJQ0x2NmY0eVpwZHNyaERScklqTWR6b2RyWFY0aU1iQlRvT1FRUUFFUU1BbEFoQ05TOWxDckNBQUFpRGdJQUdJeHNHa0lXUVFBQUVRY0lrQVJPTlN0aEFyQ0lBQUNEaElBS0p4TUdrSUdRUkFBQVJjSWdEUnVKUXR4QW9DSUFBQ0RoS0FhQnhNR2tJR0FSQUFBWmNJUURRdVpRdXhnZ0FJZ0lDREJDQWFCNU9Ha0VFQUJFREFKUUlRalV2WlFxd2dBQUlnNENDQi93RTA0Mmxuc0h1L0ZnQUFBQUJKUlU1RXJrSmdnZz09IiAvPjwvc3ZnPg==) -4px 5px;
     cursor: pointer;
   }
   .sort-section .select > select {
@@ -2980,8 +2983,14 @@ footer #hr {
     font-weight: 600;
   }
   .sort-section .select > select > option {
-    position: relative;
-    top: 10%;
+    background-color: #fff;
+    color: #000;
+    padding: 0;
+    font-size: 0.75rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 125px 0;
   }
   .sort-section select::-ms-expand {
     display: none;
@@ -2990,7 +2999,6 @@ footer #hr {
     position: relative;
     display: flex;
     width: 9em;
-    height: 5em;
     margin-top: -5rem;
     border-radius: 0.25em;
     overflow: hidden;
@@ -3026,6 +3034,9 @@ footer #hr {
     font-family: "Open Sans", sans-serif;
     font-size: 14px !important;
   }
+  .page-count {
+    border-top: 1px solid #d2d2d2;
+  }
   #prod-cart .options {
     display: none;
   }
@@ -3034,7 +3045,7 @@ footer #hr {
     padding: 7px 0px;
     margin-left: -11px;
     margin-top: 10px;
-    height: 52px;
+    height: 61px;
   }
   #prod-cart .menu_container {
     position: relative;
@@ -3081,7 +3092,7 @@ footer #hr {
     height: 100%;
     left: -300px;
     top: 0px;
-    background-color: rgb(223, 223, 223);
+    background-color: white;
     transition: 400ms cubic-bezier(0.69, -0.59, 0.46, 1.94);
   }
   #prod-cart .menu_container .list_items_container p {
@@ -3100,7 +3111,6 @@ footer #hr {
   #prod-cart .menu_container .list_items_container .list_box a {
     display: inline-block;
     width: 100%;
-    text-align: center;
     text-decoration: none;
     padding: 10px 0px;
     color: rgba(0, 0, 0, 0.7);
@@ -3114,9 +3124,6 @@ footer #hr {
   }
   #productCard .card {
     height: 156.5px;
-  }
-  #productCard .card:first-child {
-    border-top: 0px;
   }
   #productCard .card .badge-content {
     top: -2.5%;
@@ -3156,6 +3163,347 @@ footer #hr {
   }
   #productCard .pagination-container #next-button {
     transform: scale(0.71);
+  }
+  .menu_container .list_items_container {
+    overflow-y: auto;
+  }
+  .menu_container .custom-control-label {
+    padding-top: 11px !important;
+    padding-left: 8px !important;
+  }
+  .menu_container input {
+    width: 36px;
+    height: 36px;
+    border-radius: 0rem !important;
+    cursor: pointer;
+    border-color: #D9D9D9;
+    box-shadow: none !important;
+    margin-left: -9px !important;
+  }
+  .menu_container .price input {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 50% !important;
+    border-color: #D9D9D9;
+    box-shadow: none !important;
+  }
+  .menu_container .card-header {
+    word-spacing: 3.4px;
+    margin-top: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 13px;
+  }
+  .menu_container .custom-control-label {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    cursor: pointer;
+  }
+  .menu_container .card-body {
+    margin-bottom: 15px;
+  }
+  .menu_container .form-check {
+    cursor: pointer;
+  }
+  .menu_container #defaultCheck1::before {
+    width: 24px;
+    height: 24px;
+  }
+  .menu_container .values {
+    padding-left: 0rem !important;
+  }
+  .menu_container .values li {
+    list-style-type: none;
+    margin-bottom: 16px;
+  }
+  .menu_container #defaultCheck1:checked {
+    width: 23.5px;
+    width: 23.5px;
+    box-shadow: none !important;
+    background-color: white !important;
+    border: #D9D9D9;
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672682424689/images/svg-icons/radio-button-nero.svg");
+    background-size: 55%;
+    border: 1px solid #d9d9d9;
+    background-position: 4.8px 4.5px;
+  }
+  .menu_container .form-check-input:checked {
+    box-shadow: none !important;
+    background-color: white !important;
+    border: #D9D9D9;
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwcf0a1c6d/images/svg-icons/checkmark-nero.svg");
+    background-size: cover;
+    border: 1px solid #d9d9d9;
+    background-position: 9px 8px;
+  }
+  .menu_container .form-check-input:active {
+    border: #D9D9D9;
+    background-color: transparent !important;
+  }
+  .menu_container .form-check-input[type=checkbox]:focus {
+    background-color: transparent;
+    border: 1px solid #d9d9d9 !important;
+  }
+  .menu_container .list_box a:hover {
+    border-left: 0px !important;
+  }
+  .menu_container .accordion-item {
+    border: none;
+  }
+  .menu_container .customer-rating .accordion-collapse {
+    transition: 0.01s ease-in-out;
+  }
+  .menu_container .customer-rating .accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+  }
+  .menu_container .customer-rating .accordion-button::after {
+    content: "+" !important;
+    background-image: none;
+    font-size: 32px;
+    position: absolute;
+    left: 91%;
+    top: 7%;
+  }
+  .menu_container .customer-rating .accordion-body a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .menu_container .customer-rating .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .menu_container .customer-rating .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .menu_container .customer-rating .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "-" !important;
+    font-size: 32px;
+    position: absolute;
+    left: 92.5%;
+    top: 7%;
+  }
+  .menu_container .customer-rating .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none;
+    background-color: none;
+  }
+  .menu_container .customer-rating .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white !important;
+  }
+  .menu_container .customer-rating .accordion-header button {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 12px;
+  }
+  .menu_container .customer-rating .star-rating4 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+  }
+  .menu_container .customer-rating .star4 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 65px;
+    background-position: 16px -1px;
+  }
+  .menu_container .customer-rating .star-rating3 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+  }
+  .menu_container .customer-rating .star3 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 49px;
+    background-position: 16px -1px;
+  }
+  .menu_container .customer-rating .star-rating2 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+  }
+  .menu_container .customer-rating .star2 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 31px;
+    background-position: 16px -1px;
+  }
+  .menu_container .customer-rating .star-rating1 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+  }
+  .menu_container .customer-rating .star1 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 16px;
+    background-position: 16px -1px;
+  }
+  .menu_container a.showMore {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #0077C8;
+    margin-left: 16px;
+    text-decoration: none;
+  }
+  .menu_container a.showMore::after {
+    content: "+ VIEW MORE";
+  }
+  .menu_container a.showMore.showLess::after {
+    content: "- VIEW LESS";
+  }
+  .menu_container .accordion-collapse {
+    transition: 0.01s ease-in-out;
+  }
+  .menu_container .accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+  }
+  .menu_container .accordion-button::after {
+    content: "+" !important;
+    background-image: none;
+    font-size: 32px;
+    position: absolute;
+    left: 91%;
+    top: 7%;
+  }
+  .menu_container .accordion-body a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .menu_container .accordion-body .values {
+    margin-left: -1.5rem;
+    margin-top: -1.05rem;
+  }
+  .menu_container .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .menu_container .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 28px;
+  }
+  .menu_container .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "-" !important;
+    font-size: 32px;
+    position: absolute;
+    left: 92.5%;
+    top: 7%;
+  }
+  .menu_container .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none;
+    background-color: none;
+  }
+  .menu_container .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white !important;
+    padding-left: 28px;
+  }
+  .menu_container .accordion-header {
+    margin-left: -0.8rem;
+  }
+  .menu_container .accordion-header button {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .menu_container .star-rating4 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+  }
+  .menu_container .star4 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 65px;
+    background-position: 16px -1px;
+  }
+  .menu_container .star-rating3 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+  }
+  .menu_container .star3 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 49px;
+    background-position: 16px -1px;
+  }
+  .menu_container .star-rating2 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+  }
+  .menu_container .star2 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 31px;
+    background-position: 16px -1px;
+  }
+  .menu_container .star-rating1 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+  }
+  .menu_container .star1 {
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
+    height: 16px;
+    width: 16px;
+    background-position: 16px -1px;
+  }
+  .menu_container .rounded {
+    font-size: 0.75rem;
+    line-height: 1.2;
+    margin-left: -11px;
+    margin-top: -7px;
+    margin-top: -7px;
+    color: #666;
+    height: 39px;
+    width: 250px;
+    margin-left: 2px;
+  }
+  .menu_container .franchise .values {
+    margin-left: -1.5rem;
+    margin-top: 18px;
+  }
+  .menu_container .genre .values {
+    margin-left: -1.5rem;
+    margin-top: 18px;
+  }
+  .menu_container .publisher .values {
+    margin-left: -1.5rem;
+    margin-top: 18px;
   }
   .hr-btm {
     top: 81px !important;
