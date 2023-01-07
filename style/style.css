@@ -439,11 +439,9 @@ body {
   color: red;
 }
 .main-header .header-wrapper {
-  margin-left: -1rem;
-  width: 102%;
+  width: 100%;
   height: 94px;
   background-color: #fff;
-  overflow: hidden;
 }
 .main-header .header-brand .nav-logo {
   width: 157px;
@@ -1296,6 +1294,9 @@ body {
 .featured-categories .category-card {
   margin-left: 1.7rem;
 }
+.featured-categories .category-card #prod-cart .menu_container {
+  display: none !important;
+}
 .featured-categories .category-card a {
   width: 100%;
   text-decoration: none;
@@ -1518,6 +1519,13 @@ footer #hr {
   html {
     overflow-x: hidden;
   }
+  .product-content .heading h2 {
+    margin-left: 0px;
+  }
+  .product-content .heading a {
+    margin-right: 12px !important;
+    margin-left: 0rem !important;
+  }
   .header-banner {
     background-color: #282828;
   }
@@ -1531,8 +1539,9 @@ footer #hr {
     display: none;
   }
   .header-banner .navbar-brand {
-    margin-left: 1.1rem !important;
-    margin-top: -1rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -15px;
   }
   .promo-header .text {
     font-size: 14.8px;
@@ -2313,6 +2322,14 @@ footer #hr {
   margin-left: 20px;
 }
 
+.menu_container {
+  display: none !important;
+}
+
+.sort-section .select {
+  display: none !important;
+}
+
 .options {
   margin-left: -3.7rem;
   margin-top: 19px;
@@ -2996,6 +3013,9 @@ footer #hr {
   }
   .breadcrumbs nav {
     margin-left: -15px;
+  }
+  #cart-desktop {
+    display: none !important;
   }
   .sort-section {
     position: relative;
