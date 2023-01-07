@@ -35,12 +35,27 @@ body {
 }
 
 .overflow-hidden {
+  position: relative;
   overflow: hidden !important;
 }
 
 .filterRemove{
   display: none !important;
 }
+
+.filterRemove1{
+  display: block !important;
+}
+
+.vHidden{
+  visibility: hidden;
+}
+.vVisible{
+  visibility: visible;
+}
+
+
+
 
 
 .container {
@@ -2225,6 +2240,17 @@ footer {
     left: 0%;
     top: 0%;
 
+    .store-icon i{
+      margin-left: -3.8rem !important;
+    }
+
+    
+    .menu-ul-1{
+      padding-left: 30px;
+    }
+    .m-menu__toggle .close {
+      left: 84.7%;
+    }
     .m-menu {
       left: -12px !important;
       width: calc(100vw - 0px) !important;
@@ -2236,6 +2262,12 @@ footer {
       width: 404px !important;
       max-width: none !important;
       
+
+      .a-label__chevron{
+      &:after{
+        right: 45px !important;
+      }
+      }
     }
 
     .all-menu{
@@ -3830,6 +3862,13 @@ footer {
     // margin-bottom: 40px;
     text-align: end;
 
+    .select{
+      
+      margin-top: -5.25rem;
+      i{
+        margin-top: 20px;
+      }
+    }
 
     .dropdown {
       display: none;

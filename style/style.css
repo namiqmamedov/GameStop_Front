@@ -31,11 +31,24 @@ body {
 }
 
 .overflow-hidden {
+  position: relative;
   overflow: hidden !important;
 }
 
 .filterRemove {
   display: none !important;
+}
+
+.filterRemove1 {
+  display: block !important;
+}
+
+.vHidden {
+  visibility: hidden;
+}
+
+.vVisible {
+  visibility: visible;
 }
 
 .container {
@@ -1533,6 +1546,15 @@ footer #hr {
     left: 0%;
     top: 0%;
   }
+  .main-header .store-icon i {
+    margin-left: -3.8rem !important;
+  }
+  .main-header .menu-ul-1 {
+    padding-left: 30px;
+  }
+  .main-header .m-menu__toggle .close {
+    left: 84.7%;
+  }
   .main-header .m-menu {
     left: -12px !important;
     width: calc(100vw - 0px) !important;
@@ -1543,6 +1565,9 @@ footer #hr {
     height: 100% !important;
     width: 404px !important;
     max-width: none !important;
+  }
+  .main-header .m-menu .a-label__chevron:after {
+    right: 45px !important;
   }
   .main-header #menu-header span {
     margin-left: -18px;
@@ -2650,6 +2675,12 @@ footer #hr {
 }
 .product-main .sort-section {
   text-align: end;
+}
+.product-main .sort-section .select {
+  margin-top: -5.25rem;
+}
+.product-main .sort-section .select i {
+  margin-top: 20px;
 }
 .product-main .sort-section .dropdown {
   display: none;

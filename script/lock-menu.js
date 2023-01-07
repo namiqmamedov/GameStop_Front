@@ -17,9 +17,9 @@
 
    
    
-   const menuOverflow = $(".menu-ul").click(function () {
-      if ($('.all-menu').addClass("overflow-hidden")) {}
-   })
+   // const menuOverflow = $(".menu-ul").click(function () {
+   //    if ($('.all-menu').addClass("overflow-hidden")) {}
+   // })
 
 
    const filterOptions = $(".filter-options").click(function () {
@@ -51,6 +51,30 @@
    const menuPosition1 = $(".close").click(function () {
       if ($('.filter-options').removeClass("filterRemove")) {}
    })
+
+   const menuPosition2 = $(".menu-ul").click(function () {
+      if ($('.menu-ul-1').addClass("vVisible")) {}
+   })
+   
+
+   const menuPositionnn2 = $(".menu-ul").click(function () {
+      if ($('.menu-ul').addClass("vHidden")) {}
+   })
+   
+   const menuPositionn2 = $(".close").click(function () {
+      if ($('.filter-options').removeClass("filterRemove")) {}
+   })
+ 
+ 
+
+   // const headerMenu1 = $(".back").click(function () {
+   //    if ($('#menu-header').removeClass("filterRemove")) {
+
+   //    }
+   //    if ($('#menu-header1').removeClass("filterRemove1")) {
+
+   //    }
+   // })
    
    
    
@@ -73,17 +97,17 @@
       
    // }
    
-   function none() {
-      document.getElementById("menu-header").style.display = "none";
+   // function none() {
+   //    document.getElementById("menu-header").style.display = "none";
    
-      // document.getElementsByClassName("all-menu").style.overflow = "hidden";
-    }
+   //    // document.getElementsByClassName("all-menu").style.overflow = "hidden";
+   //  }
 
-    function filter() {
-      document.getElementsByClassName("header-wrapper nav").style.display = "none";
+   //  function filter() {
+   //    document.getElementsByClassName("header-wrapper nav").style.display = "none";
    
-      // document.getElementsByClassName("all-menu").style.overflow = "hidden";
-    }
+   //    // document.getElementsByClassName("all-menu").style.overflow = "hidden";
+   //  }
 
   
 
