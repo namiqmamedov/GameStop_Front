@@ -5312,7 +5312,7 @@ footer {
     }
     .account-header{
 
-      
+          margin-left: -6rem;
       .account{
         .user{
           position: relative;
@@ -5347,18 +5347,18 @@ footer {
     }
 
     .header-search {
-      width: 100%;
+      min-width: 81%;
       .search {
         top: 4%;
         left: -22%;
         position: static;
-       
+        min-width: 100%;
 
         input {
           border-radius: 0px !important;
           margin-left: -157px;
           margin-top: 28px;
-          width: 117%;
+          width: 116.5%;
           
         }
       }
@@ -5374,7 +5374,7 @@ footer {
       margin-left: 1rem;
 
       .account {
-        margin-left: -9.5rem;
+        margin-left: -10.5rem;
         margin-top: -48px;
       }
 
