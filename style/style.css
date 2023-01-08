@@ -51,6 +51,10 @@ body {
   visibility: visible;
 }
 
+.paginationRes {
+  display: none !important;
+}
+
 .container {
   width: 100%;
   padding-right: 12px;
@@ -1520,9 +1524,126 @@ footer #hr {
   display: none;
 }
 
+@media (min-width: 475px) and (max-width: 576.7px) {
+  .header-search {
+    min-width: 95% !important;
+  }
+}
+@media (max-width: 474.8px) {
+  .header-search {
+    min-width: 96.2% !important;
+  }
+}
+@media (max-width: 442.8px) {
+  .header-search {
+    min-width: 96.8% !important;
+  }
+}
+@media (min-width: 334px) and (max-width: 405px) {
+  .header-search {
+    min-width: 98.9% !important;
+  }
+}
 @media (max-width: 576px) {
   html {
     overflow-x: hidden;
+  }
+  .pagination-container {
+    display: none !important;
+  }
+  .hr-btm {
+    display: none !important;
+  }
+  .pagination-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: auto;
+    height: auto;
+    position: relative;
+    top: 78px;
+    margin-top: 27px;
+  }
+  .pagination-mobile #prev-button {
+    border: 2px solid black !important;
+    border-radius: 50%;
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -2px -4px;
+    transform: scale(0.5);
+    width: 48px;
+    height: 48px;
+  }
+  .pagination-mobile .pagination-button.disabled {
+    opacity: 0.35;
+  }
+  .pagination-mobile #next-button {
+    border: 2px solid black !important;
+    border-radius: 50%;
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -130px -4px;
+    transform: scale(0.5);
+    width: 48px;
+    height: 48px;
+  }
+  .paginationRes {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+  }
+  .pagination-number,
+.pagination-button {
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 12px !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0.25rem 0.375rem;
+    color: black;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-weight: bold;
+    border-radius: 0.2rem;
+  }
+  .pagination-number:hover,
+.pagination-button:not(.disabled):hover {
+    background: #fff;
+  }
+  .pagination-number.active {
+    color: #fff;
+    background: black;
+    border-radius: 50%;
+  }
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    position: relative;
+    top: -57px;
+  }
+  .pagination-container #prev-button {
+    border: 2px solid black !important;
+    border-radius: 50%;
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -2px -4px;
+    transform: scale(0.5);
+    width: 48px;
+    height: 48px;
+  }
+  .pagination-container .pagination-button.disabled {
+    opacity: 0.35;
+  }
+  .pagination-container #next-button {
+    border: 2px solid black !important;
+    border-radius: 50%;
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -130px -4px;
+    transform: scale(0.5);
+    width: 48px;
+    height: 48px;
   }
   .product-content .heading h2 {
     margin-left: 0px;
@@ -1613,7 +1734,7 @@ footer #hr {
     display: none;
   }
   .header-wrapper .header-search {
-    min-width: 99%;
+    min-width: 95%;
   }
   .header-wrapper .header-search .search {
     top: 4%;
@@ -3014,6 +3135,12 @@ footer #hr {
 }
 
 @media (max-width: 576px) {
+  .pagination-container {
+    display: none !important;
+  }
+  .paginationRes {
+    display: block !important;
+  }
   .breadcrumbs {
     padding-top: 12px;
     margin-left: -5px;
@@ -3632,8 +3759,20 @@ footer #hr {
   }
 }
 @media (min-width: 576.7px) and (max-width: 767.8px) {
+  .paginationRes {
+    display: block !important;
+  }
+  .sort-section .dropdown {
+    display: none !important;
+  }
+  .product-filter {
+    margin-left: -193px !important;
+  }
   .container {
     max-width: 768px !important;
+  }
+  .pagination-container {
+    display: none !important;
   }
   .breadcrumbs {
     padding-top: 12px;
@@ -4576,7 +4715,7 @@ footer #hr {
   .pagination-container {
     display: none !important;
   }
-  .pagination-containerr {
+  .pagination-mobile {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4587,7 +4726,7 @@ footer #hr {
     top: 71px;
     margin-top: 70px;
   }
-  .pagination-containerr #prev-button {
+  .pagination-mobile #prev-button {
     border: 2px solid black !important;
     border-radius: 50%;
     background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -2px -4px;
@@ -4595,10 +4734,10 @@ footer #hr {
     width: 48px;
     height: 48px;
   }
-  .pagination-containerr .pagination-button.disabled {
+  .pagination-mobile .pagination-button.disabled {
     opacity: 0.35;
   }
-  .pagination-containerr #next-button {
+  .pagination-mobile #next-button {
     border: 2px solid black !important;
     border-radius: 50%;
     background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png") -130px -4px;
@@ -4606,7 +4745,7 @@ footer #hr {
     width: 48px;
     height: 48px;
   }
-  .alalalla {
+  .paginationRes {
     width: 100% !important;
     margin-left: auto;
     margin-right: auto;
@@ -4668,7 +4807,32 @@ footer #hr {
     height: 48px;
   }
 }
+.paginationRes {
+  display: none;
+}
+
 @media (min-width: 767.8px) and (max-width: 1024px) {
+  .hr-btm {
+    display: none !important;
+  }
+  #hr {
+    display: none !important;
+  }
+  .pageResults {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .pageTitle {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .product-main {
+    margin-left: -55px;
+  }
+  footer {
+    margin-top: 105px;
+    margin-bottom: 20px;
+  }
   .container {
     max-width: 1024px !important;
   }

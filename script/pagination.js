@@ -1,7 +1,6 @@
 
-
-
 const paginationNumbers = document.getElementById("pagination-numbers");
+const paginationNumbers1 = document.getElementById("pagination-numbers1");
 const paginatedList = document.getElementById("productCard");
 const listItems = paginatedList.querySelectorAll(".card");
 const nextButton = document.getElementById("next-button");
@@ -53,6 +52,9 @@ const appendPageNumber = (index) => {
   pageNumber.setAttribute("aria-label", "Page " + index);
 
   paginationNumbers.appendChild(pageNumber);
+  if (window.innerWidth < 1024 ) {
+    paginationNumbers1.appendChild(pageNumber);
+  }
 };
 
 const getPaginationNumbers = () => {
@@ -60,6 +62,16 @@ const getPaginationNumbers = () => {
     appendPageNumber(i);
   }
 };
+
+
+  const getPaginationNumbers1 = () => {
+    for (let i = 1; i <= pageCount; i++) {
+      appendPageNumber(i);
+    }
+
+}
+
+
 
 const setCurrentPage = (pageNum) => {
   currentPage = pageNum;
