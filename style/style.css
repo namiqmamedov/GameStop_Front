@@ -3707,10 +3707,10 @@ footer #hr {
   }
   .header-wrapper .account-header .account .user {
     position: relative;
-    left: -35% !important;
+    left: 41% !important;
   }
   .header-wrapper .m-menu__toggle .hamburger {
-    width: 3.4% !important;
+    width: 2.4% !important;
     margin-top: -40px !important;
     margin-left: -12px;
   }
@@ -3725,20 +3725,23 @@ footer #hr {
   .header-wrapper .powerup {
     display: none;
   }
+  .header-wrapper .header-search {
+    width: 100%;
+  }
   .header-wrapper .header-search .search {
     top: 4%;
     left: -22%;
+    position: static;
   }
   .header-wrapper .header-search .search input {
     border-radius: 0px !important;
-    margin-left: -39px;
+    margin-left: -157px;
     margin-top: 28px;
-    min-width: 171vh;
-    width: 0px !important;
+    width: 117%;
   }
   .header-wrapper .header-search .fa-search {
-    top: 41px !important;
-    left: -17.5px !important;
+    top: 56px !important;
+    left: 9.5px !important;
     font-size: 11.7px !important;
   }
   .header-wrapper .account-header {
@@ -4496,6 +4499,7 @@ footer #hr {
   footer .accordion-item:last-child {
     border-bottom: 1px solid #d9d9d9 !important;
     padding-right: 20px;
+    border-bottom-right-radius: 0px;
   }
   footer .accordion-button::after {
     content: "+" !important;

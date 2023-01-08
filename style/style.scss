@@ -693,7 +693,7 @@ body {
 
   .header-search {
 
-
+ 
     body {
       background-color: #eee;
       font-family: "Poppins", sans-serif;
@@ -5316,7 +5316,7 @@ footer {
       .account{
         .user{
           position: relative;
-          left: -35% !important;
+          left: 41% !important;
 
         }
         
@@ -5326,7 +5326,7 @@ footer {
     }
     .m-menu__toggle {
       .hamburger {
-        width: 3.4% !important;
+        width: 2.4% !important;
         margin-top: -40px !important;
         margin-left: -12px;
       }
@@ -5347,22 +5347,25 @@ footer {
     }
 
     .header-search {
+      width: 100%;
       .search {
         top: 4%;
         left: -22%;
+        position: static;
+       
 
         input {
           border-radius: 0px !important;
-          margin-left: -39px;
+          margin-left: -157px;
           margin-top: 28px;
-          min-width: 171vh;
-          width: 0px !important;
+          width: 117%;
+          
         }
       }
 
       .fa-search {
-        top: 41px !important;
-        left: -17.5px !important;
+        top: 56px !important;
+        left: 9.5px !important;
         font-size: 11.7px !important;
       }
     }
@@ -6421,6 +6424,7 @@ footer {
       &:last-child {
         border-bottom: 1px solid #d9d9d9 !important;
         padding-right: 20px;
+        border-bottom-right-radius: 0px;
       }
     }
 
@@ -6635,8 +6639,6 @@ footer {
     }
 
   }
-
- 
 
  
 }
