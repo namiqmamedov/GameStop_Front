@@ -827,11 +827,16 @@ body {
       font-size: 12px;
       font-weight: 600;
       font-family: 'Open Sans', sans-serif;
-      margin-left: 3px;
+      margin-left: -12px;
+      padding-top: 4px;
     }
 
     .cart svg {
-      width: 28px;
+      width: 67px;
+    height: 26px;
+    margin-left: -34px;
+    margin-top: -2px;
+    margin-bottom: 0px;
     }
   }
 }
@@ -2390,9 +2395,10 @@ footer {
 
       .cart {
         svg {
-          margin-left: -7rem;
-          margin-top: -50px;
-          width: 86.5%;
+          margin-left: -6.8rem;
+          margin-top: -42px;
+          width: 161.5%;
+          height: 77px;
         }
       }
     }
@@ -5188,10 +5194,28 @@ footer {
   }
 }
 
-@media(min-width: 576.8px){
 
+
+@media (min-width:576.7px) and (max-width:767.8px) {
+  
   .container{
-    max-width: 576px !important; 
+    max-width: 768px !important; 
+  }
+
+  .breadcrumbs {
+    padding-top: 12px;
+    margin-left: -5px;
+
+    nav {
+      margin-left: -15px;
+    }
+  }
+
+  .pagination-container{
+    // width: calc(100% + 24px);
+    // max-width: calc(100% + 24px);
+    // -ms-flex: 0 0 calc(100% + 24px);
+    // flex: 0 0 calc(100% + 24px);
   }
   .header-banner {
     background-color: #282828;
@@ -5292,7 +5316,8 @@ footer {
       .account{
         .user{
           position: relative;
-          left: -23%;
+          left: -35% !important;
+
         }
         
       }
@@ -5328,15 +5353,16 @@ footer {
 
         input {
           border-radius: 0px !important;
-          margin-left: -40px;
+          margin-left: -39px;
           margin-top: 28px;
-          max-width: 107.5%;
+          min-width: 171vh;
+          width: 0px !important;
         }
       }
 
       .fa-search {
         top: 41px !important;
-        left: -77.5px !important;
+        left: -17.5px !important;
         font-size: 11.7px !important;
       }
     }
@@ -5384,6 +5410,861 @@ footer {
       }
     }
 
+  }
+
+  
+  .sort-section {
+    position: relative;
+   .select{
+     display: block !important;
+   }
+    .dropdown {
+      display: none;
+    }
+
+    select {
+      appearance: none;
+      outline: 0;
+      border: 0;
+      box-shadow: none;
+      margin-top: -4px;
+      margin-left: -10px;
+      font-size: 12px;
+      flex: 1;
+      padding: 23px 6.3em;
+      color: black;
+      background-color: var(--darkgray);
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDEwIiBoZWlnaHQ9IjQyIj48ZGVmcz48ZmlsdGVyIGlkPSJkYXJrcmVhZGVyLWltYWdlLWZpbHRlciI+PGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAuMjQ5IC0wLjYxNCAtMC42NzIgMC4wMDAgMS4wMzUgLTAuNjQ2IDAuMjg4IC0wLjY2NCAwLjAwMCAxLjAyMCAtMC42MzYgLTAuNjA5IDAuMjUwIDAuMDAwIDAuOTk0IDAuMDAwIDAuMDAwIDAuMDAwIDEuMDAwIDAuMDAwIiAvPjwvZmlsdGVyPjwvZGVmcz48aW1hZ2Ugd2lkdGg9IjQxMCIgaGVpZ2h0PSI0MiIgZmlsdGVyPSJ1cmwoI2RhcmtyZWFkZXItaW1hZ2UtZmlsdGVyKSIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFab0FBQUFxQ0FZQUFBQ0t1NTJpQUFBSHowbEVRVlI0WHUyZHdXL2NSQlNIMy9PR0hsQ2o3RW9GTlZFcFNFRlZMd1drY2tHaWlYUG9EU0Y2NVFJNTBDc0MrZ2UwQjI2QWVtMjQwRXQ3cElKekZDZEI0a0pGU3k4VmFxVzJWRWtGUlhVSlFvSW1mbWdjdTNWMmJhL0hudG5kU1g1N2lyTGptZWZ2emV5MzR4bDdtZkFDQVJBQUFSQUFBWXNFMkdMZHFCb0VRQUFFUUFBRUNLSkJKd0FCRUFBQkVMQktBS0t4aWhlVmd3QUlnQUFJUURUb0F5QUFBaUFBQWxZSlFEUlc4YUp5RUFBQkVBQUJpQVo5QUFSQUFBUkF3Q29CaU1ZcVhsUU9BaUFBQWlBQTBhQVBnQUFJZ0FBSVdDVUEwVmpGaThwQkFBUkFBQVRxaXVZYkloSWltaDgwd3JtNXVlTjViWXJJM1NBSUhxYnZ6Y3pNSEd1MVd2dTZ5eTR0TFYwZGRNeURiTS8zZlpXWG5wZUluRjVlWHY0NmZjUDMvVHRFOUhKM3dTQUk2dmFKb3RQTWpVZURpZWw0K3NVNXFQYmlPSXJ5cGNGSEZWME9nc0RYUEthMGVORTQwMm5EODd5TnhjWEZYM1dPNlZmMjZOR2pUZnRUM01UTm16ZXQ1MW1JbUU0Y1BFQ2JZeE0wUnMrVGVNL0ZqWFAwaERicEh4cmJmRXlyRHg3eTltZXAxVmNZaGtzaWNxclQ2WVIxR25yMDZGR2JtYjlWWFZaRTVqdWRqbkpBNVZjZDJLcUJENUlXMU44RGxRMUVVNTViaUtaeTMrOHVtQTcyT21PaWRxTVFqUjQ2VjBRai90UUIydkttbnNxbDZEU1ZkRnJSR2dkclQ3OGs2eEdwVmpvTVE5Vy9yNG5Jbks1c0Vza3NFZEViU1d0aHU5M3VWR3Q1dTVUdW9NcEtKbTFub0xKeFNUUnIwL3ZQTS9ISDNRbGhvaXNIYjIrYzBrbFUxYklqS0pxcW9RKzdIRVNUeWNDb3ptaUczVW1xdEM4elV5OVJOUFppbGJKUHkzaWJ2L1BLMm05YXgyZ1VUa1NqanRDU1RZNWtpSmt2VGt4TWZLalJ2SlpvOGlRemNObTRJcHIxNmZFOFhuZlR5MVdUdHpkMEpWOHByeEJOSlV4NWhTQWFpS1oyNTBrUHJDV1o5R0NMc3NtSXBySnM4aVJEUk5kRnhOZWRGZFg5c0J2S29GU0VYQkJOcm1TWXowM2UrdXZzK3ZSNHZEWUMwVFFlMDZZckdFcWZ4cVV6MDJrY1huM3g1YkxOc1o1MXo2Nklwb2hvclRES3NjMjdOaTZqaFdGNGpZaGV6N1JiT3JNeEtSblZKa1JqdUY4V3pHU0loYThKUlZlSStheHFFcUl4REw1NWRSQ05Zek1hM2ZVYW14c0F0aGYrRHgwclc1UFpJanJ1TVgzQlFuT0YzVld0MmF6ZXYyRjZnMEFpanFDS2JFeEx4a25SK0w1L29DaEoyVjFuUmVXeVpacC9OdTJzb1VneWVlM1lFczNzN094SFJlZVYzWFZXVkM1YnhqU2ZFYTl2V0tLSnYzZzBmTjBKZ2tCckYxQy85azZlUEttK2VUZDZSVkgwNytMaTRwK05LaWs1ZUtSRWMrTGdDeVQ3RHBlRU94V3hmS2ZlOTRUZkxHWEMvOTNqMVFkL21PWldSVFkySkdORE5FTVpyS1lUVXFlK29vWC9vcnBzaWFaTzdIdnNtS1piU2V0ZUJkaGptUGZXNmNwYmgxNmxsamRSZE5aQzBWbGhmaWQ1L3l0UCtGSWhvYTNvTWY5NC81WU5nbVd5aVlYQW5OMWRwdjVWYTAybU8vYTZnNlpJS0h0V05PdlQ0em9mWVBPVHR6ZU1mZ08xMFNsM2FaMDZlY3BEVUhmTTdGS2NPQzFGUUU0Y2VxM3NzbG5Fb2k1YjdkLytkczhiSW5MT0kxYi82MzF4OUlSWDcvOWlpMnlSYkpMMjBpM014aVNER1kzQlRHck1hQ0FaZzl3TlZyVm52eVFaWkxobnE1SzNEK2ZlU0I0eExYaENweU9XbnhJNGY2ZkNJZUZ6SHRIM3VhNzU0WjdWRzhzTFpKTU54Y2hNSnEydzdyZXpvYzFvMUIzL2VZbnhQRys5KzhrQWVlVldWbFp1MkJvTkZkWm9yRXNtdWVPLzV4UkY1UE9jSndQMGxBdUM0QlZiZkVhODNxR0l4dEN1TXpMOVJBY1Q5OUdvZkEveVNSemRhelkyRi8rNyszS0JhT0oxR1U5YWM4SmJGNFRvQ0FtZFlhYlQ4ZC9iNnpYdjV1MUNZOHVpVVcyWHlNYW9aSnJNYUlvK002d1AxbEhmM2x3aUcrdVNVVW5CZlRTMWRXYTk3K1pGQnRIVXpsZlBnVU1WVGM2bE03WExqRmt1Q1BGVlQ2TDFaSTFHcmM4RTZjYUEzRm1ONVV0bktiaUNoWC8xdHRaTm5WVXlXSGRHQTlHVTBNMlJ6VUFrQTlGVTZmS0ZaU0NhREJvWFp6U05zdC93NFB6TkFISWtZdHE1Nko5Y0xoT1dTMnBXNHpFdlVFUUxPNXEzdUJtZ2dtVFNJa1psQTlFMDdHQkZoMmZXYkFZbUdZaW1VVEloR29pbWRnZVNndTNOMlUwQUpIVFpJLzR5bmVuRWpRbWQ2ZGtVWUdsN2N4L0pYRS9lcjN4VHB3NHNFNklwZXpUTlJTTFNlaVpPditCSC9kSlp2L2h0djQ5TFo3VUpRelFRVFpQT2szdkRac1R5UGhGOW1sYXNMcU14U2J4eGdJbVdXZml6SFkxYXVtR3puMlRVWTJYaW1EamVDV2RjTmlaRW8rTExrNDF4eWFpR0lKcnlzUURSTlBtc2lJODFOU1lxQllJMW1rcVluQ2hVOUFpYWlNVFBiZ0JJWmpLWFBXb3RFRVViTzA3TzBpTm9WQnRWYnNhc2NsTm5uV1NZSEZSWjJYeENST2ZyQklSalFBQUVRTUJWQXVVUDFmVEdpYlltaVRqL04zb3NQbFN6aW1TNlpqMUdaelltUlpQT2JGU0F1Qm5SMVpHQ3VFRUFCQm9ScVBVRVo0dVNVU2NUaHVIUG1kK1RVZjhxM2NKc2VtWmpXalNORW9TRFFRQUVRR0EzRUJqUkh6NUwwVmE2VDhha2JDQ2EzZENyY1E0Z0FBSWpSMkRFZnNvNTNleFNTVEpsbDlGcy8vRFp5Q1VTQVlFQUNJQUFDUFFua1B6d21aWmtTbVR6dU4xdXQvdTMrcXdFWmpRNnRGQVdCRUFBQkJ3a0VJWmhJQ0x2NmY0eVpwZHNyaERScklqTWR6b2RyWFY0aU1iQlRvT1FRUUFFUU1BbEFoQ05TOWxDckNBQUFpRGdJQUdJeHNHa0lXUVFBQUVRY0lrQVJPTlN0aEFyQ0lBQUNEaElBS0p4TUdrSUdRUkFBQVJjSWdEUnVKUXR4QW9DSUFBQ0RoS0FhQnhNR2tJR0FSQUFBWmNJUURRdVpRdXhnZ0FJZ0lDREJDQWFCNU9Ha0VFQUJFREFKUUlRalV2WlFxd2dBQUlnNENDQi93RTA0Mmxuc0h1L0ZnQUFBQUJKUlU1RXJrSmdnZz09IiAvPjwvc3ZnPg==) -4px 5px;
+      cursor: pointer;
+    }
+
+    .select>select {
+      font-size: 12px;
+      font-family: 'Open Sans', sans-serif;
+      color: black;
+      font-weight: 600;
+
+    }
+
+
+    .select>select>option {
+      background-color: #fff;
+      color: #000;
+      padding: 0;
+      font-size: .75rem;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding: 125px 0;
+    }
+
+    /* Remove IE arrow */
+    select::-ms-expand {
+      display: none;
+    }
+
+    /* Custom Select wrapper */
+    .select {
+      position: relative;
+      display: flex;
+      width: 9em;
+      margin-top: -5rem;
+      border-radius: 0.25em;
+      overflow: hidden;
+      margin-left: 98px;
+
+
+      .fa-filter {
+        position: absolute;
+        top: 35%;
+        margin-left: 44px;
+      }
+
+
+    }
+
+
+    /* Arrow */
+
+    /* Transition */
+    .select:hover::after {
+      color: #f39c12;
+    }
+
+    /* Other styles*/
+    body {
+      color: #fff;
+      background: var(--background-gradient);
+    }
+
+    h1 {
+      margin: 0 0 0.25em;
+    }
+
+    a {
+      font-weight: bold;
+      color: var(--gray);
+      text-decoration: none;
+      padding: .25em;
+      border-radius: .25em;
+      background: white;
+    }
+
+
+  }
+
+  .pageResults {
+    font-size: 12px !important;
+  }
+
+  .pageTitle {
+    font-weight: bold;
+    color: black !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px !important;
+  }
+
+  .page-count {
+    border-top: 1px solid #d2d2d2;
+  }
+
+
+  #prod-cart {
+
+    .options {
+      display: none;
+    }
+
+    .page-count{
+      width: auto !important;
+    }
+
+
+    .card-options{
+      .card-header{
+        border-top: 1px solid #d2d2d2;
+        padding: 8px 0;
+        width: 269px;
+      }
+    }
+
+
+    $root: rgba(0, 0, 0, .7);
+    $off-w: rgba(223, 223, 223, 1);
+    $light-black: rgba(0, 0, 0, .1);
+
+    @mixin transition($time) {
+      transition: $time cubic-bezier(.69, -0.59, .46, 1.94);
+    }
+
+    .product-filter {
+      border-bottom: 1px solid #d2d2d2;
+      padding: 7px 0px;
+      margin-left: -11px;
+      margin-top: 10px;
+      height: 61px;
+    }
+
+
+    .menu_container {
+      position: relative;
+      z-index: 2000;
+      display: block !important;
+
+      .btn_container {
+        position: absolute;
+        height: 29px;
+        top: -1px;
+        left: 99px;
+        background-color: transparent;
+        margin-left: -94px;
+
+        .filter-options{
+          width: 59px;
+        }
+
+
+        span {
+          position: absolute;
+          width: 50px;
+          height: 5px;
+          border-radius: 2px;
+          font-size: 12px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          padding-left: 9px;
+        }
+
+        img {
+          margin-top: -13px;
+        }
+
+        &:hover {
+          cursor: pointer;
+
+          span:nth-child(2),
+          span:nth-child(3) {
+            width: 50px;
+          }
+        }
+      }
+
+
+      .over_lay {
+        position: fixed;
+        top: -24px;
+        width: 0%;
+        height: 126%;
+        background-color: rgb(9 9 9 / 10%);
+      }
+
+      .list_items_container {
+        position: fixed;
+        width: 300px;
+        height: 100%;
+        left: -300px;
+        top: 0px;
+          background-color: white; 
+
+        p {
+          width: 100%;
+          background: #fff;
+          margin: 0px;
+          padding: 15px 0px;
+          margin-bottom: 30px;
+          text-align: center;
+          font-weight: lighter;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        .list_box {
+          a {
+            display: inline-block;
+            width: 100%;
+            text-decoration: none;
+            padding: 10px 0px;
+            color: $root;
+            @include transition(500ms);
+
+            &:hover {
+              border-left: 10px solid $root;
+            }
+          }
+        }
+
+        .button-filter{
+          margin-left: 14px;
+          margin-top: 30px;
+        }
+        .btn-lg{
+          border-radius: 0px;
+          background-color: black;
+          margin-right: 16px;
+          padding: 9px 24px;      
+          width: 50%;
+          font-size: 12px;
+          font-family: 'Open Sans',sans-serif;
+        }
+
+        .btn-outline-secondary{
+          border-radius: 0px;
+          margin-right: 16px;
+          width: 50%;
+          color: black;
+          border-radius: 1px;
+          padding: 9px 10px;
+          font-size: 12px;
+          font-family: 'Open Sans',sans-serif;
+
+          &:focus{
+            background-color: transparent;
+          }
+        }
+      }
+    }
+
+  }
+
+
+
+  #productCard {
+    margin-top: 32px !important;
+    gap: 3.9rem;
+
+
+   
+    .card {
+      height: 156.5px;
+
+      &:first-child {}
+
+      .badge-content {
+        top: -2.5%;
+
+        .badge {
+          padding: 4px 16px;
+          background-color: #087845;
+        }
+      }
+
+
+
+      img {
+        width: 52%;
+        height: 193px;
+        margin-left: 0px;
+      }
+
+      &:hover {
+        box-shadow: none;
+      }
+
+      a {
+        display: flex;
+        // border-bottom: 1px solid #e1e7ef;
+        margin: -13px 0px 0;
+        width: 330px;
+      }
+
+
+      .price {
+        margin-top: 20px;
+      }
+
+      .currentPrice {
+        margin-top: 16px;
+      }
+
+      .price-design {
+        margin-top: 20px;
+      }
+
+
+    }
+
+
+    .pagination-container {
+      top: -37px;
+
+
+      #prev-button {
+        transform: scale(0.71);
+      }
+
+      #next-button {
+        transform: scale(0.71);
+      }
+    }
+
+
+  }
+
+  .menu_container{
+
+    .list_items_container{
+      overflow-y: auto;
+    }
+
+    .custom-control-label{
+      padding-top: 11px !important;
+      padding-left: 8px !important 
+        
+    }
+    
+   
+    
+  input {
+    width: 36px;
+    height: 36px;
+    border-radius: 0rem !important;
+    cursor: pointer;
+    border-color: #D9D9D9;
+    box-shadow: none !important;
+    margin-left: -9px !important;
+
+
+  }
+
+
+  .price {
+    input {
+ 
+    
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+      border-radius: 50% !important;
+      border-color: #D9D9D9;
+      box-shadow: none !important;
+
+    }
+  }
+
+
+  .card-header {
+    word-spacing: 3.4px;
+    margin-top: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 13px;
+    
+  }
+
+  .custom-control-label {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    cursor: pointer;
+  }
+
+  .card-body {
+    margin-bottom: 15px;
+  }
+
+
+  .form-check {
+    cursor: pointer;
+  }
+
+
+  #defaultCheck1::before {
+    width: 24px;
+    height: 24px;
+  }
+
+  .values {
+    li {
+      list-style-type: none;
+      margin-bottom: -7px;
+    }
+
+    padding-left: 0rem !important;
+  }
+
+
+  #defaultCheck1:checked::after {}
+
+  #defaultCheck1:checked {}
+
+  #defaultCheck1:checked {
+    width: 36px;
+    height: 36px;
+    box-shadow: none !important;
+    background-color: white !important;
+    border: #D9D9D9;
+    background-image: url(https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672682424689/images/svg-icons/radio-button-nero.svg);
+    background-size: 55%;
+    border: 1px solid #d9d9d9;
+    background-position: 7.8px 7.5px;
+  }
+
+
+  .form-check-input:checked {
+    box-shadow: none !important;
+    background-color: white !important;
+    border: #D9D9D9;
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwcf0a1c6d/images/svg-icons/checkmark-nero.svg');
+    background-size: cover;
+    border: 1px solid #d9d9d9;
+    background-position: 9px 8px;
+  }
+
+  .form-check-input:active {
+    border: #D9D9D9;
+    background-color: transparent !important;
+  }
+
+  .form-check-input[type=checkbox]:focus {
+
+
+    background-color: transparent;
+    border: 1px solid #d9d9d9 !important;
+  }
+
+  .list_box a:hover{
+    border-left: 0px !important;
+  }
+
+
+  .accordion-item {
+    border: none;
+
+
+  }
+
+
+  .customer-rating {
+
+
+    .accordion {
+      $transition: height .35s ease !default;
+    }
+
+    .accordion-collapse {
+      transition: .01s ease-in-out;
+    }
+
+    .accordion-button:not(.collapsed) {
+      box-shadow: none !important;
+    }
+
+    .accordion-button::after {
+      content: '+' !important;
+      background-image: none;
+      font-size: 32px;
+      position: absolute;
+      left: 91%;
+      top: 7%;
+    }
+
+   
+
+    .accordion-body {
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+    }
+
+    .accordion-item:first-of-type {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .accordion-item:last-of-type .accordion-button.collapsed {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      background-image: none;
+      transform: none;
+      content: "-" !important;
+      font-size: 32px;
+      position: absolute;
+      left: 92.5%;
+      top: 7%;
+    }
+
+    .accordion-button:focus {
+      border-color: none !important;
+      box-shadow: none;
+      background-color: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+      color: black;
+      background-color: white !important;
+    }
+
+    .accordion-header {
+      button {
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 12px;
+      }
+
+    }
+
+    .star-rating4 {
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+      height: 16px;
+      width: 84px;
+      background-position: 0 -16px;
+
+    }
+
+    .star4 {
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+      height: 16px;
+      width: 65px;
+      background-position: 16px -1px;
+    }
+
+    .star-rating3 {
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+      height: 16px;
+      width: 84px;
+      background-position: 0 -16px;
+
+    }
+
+    .star3 {
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+      height: 16px;
+      width: 49px;
+      background-position: 16px -1px;
+    }
+
+    .star-rating2 {
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+      height: 16px;
+      width: 84px;
+      background-position: 0 -16px;
+
+    }
+
+    .star2 {
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+      height: 16px;
+      width: 31px;
+      background-position: 16px -1px;
+    }
+
+    .star-rating1 {
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+      height: 16px;
+      width: 84px;
+      background-position: 0 -16px;
+
+    }
+
+    .star1 {
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+      height: 16px;
+      width: 16px;
+      background-position: 16px -1px;
+    }
+
+
+
+
+  }
+
+
+  a.showMore {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #0077C8;
+    margin-left: 16px;
+    text-decoration: none;
+
+    &::after {
+      content: '+ VIEW MORE';
+    }
+
+    &.showLess::after {
+      content: '- VIEW LESS';
+    }
+  }
+
+
+  .accordion {
+    $transition: height .35s ease !default;
+  }
+
+  .accordion-collapse {
+    transition: .01s ease-in-out;
+  }
+
+  .accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+  }
+
+  .accordion-button::after {
+    content: '+' !important;
+    background-image: none;
+    font-size: 32px;
+    position: absolute;
+    left: 91%;
+    top: 7%;
+  }
+
+  .accordion-body {
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .values {
+      margin-left: -1.5rem;
+      margin-top: -1.05rem;
+     
+    }
+
+    .values > div{
+      margin-bottom: -25px;
+      margin-top: -29px;
+    }
+
+  }
+
+  .accordion-item{
+    input{
+      margin-left: -3px !important;
+    }
+  }
+
+  .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+
+  .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 28px;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "-" !important;
+    font-size: 32px;
+    position: absolute;
+    left: 92.5%;
+    top: 7%;
+  }
+
+  .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none;
+    background-color: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white !important;
+    padding-left: 28px;
+  }
+
+
+
+  .accordion-header {
+    margin-left: -0.8rem;
+
+    button {
+      font-weight: bold;
+      font-size: 16px;
+      padding-left: 12px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+  }
+
+  .star-rating4 {
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+
+  }
+
+  .star4 {
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+    height: 16px;
+    width: 65px;
+    background-position: 16px -1px;
+  }
+
+  .star-rating3 {
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+
+  }
+
+  .star3 {
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+    height: 16px;
+    width: 49px;
+    background-position: 16px -1px;
+  }
+
+  .star-rating2 {
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+
+  }
+
+  .star2 {
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+    height: 16px;
+    width: 31px;
+    background-position: 16px -1px;
+  }
+
+  .star-rating1 {
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+    height: 16px;
+    width: 84px;
+    background-position: 0 -16px;
+
+  }
+
+  .star1 {
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg');
+    height: 16px;
+    width: 16px;
+    background-position: 16px -1px;
+  }
+
+  .rounded {
+    font-size: .75rem;
+    line-height: 1.2;
+    margin-left: -11px;
+    margin-top: -7px;
+    // border: 1px solid #707070;
+    margin-top: -7px;
+    color: #666;
+    height: 39px;
+    width: 250px;
+    margin-left: -3px;
+  }
+
+  .franchise {
+
+
+    .values {
+      margin-left: -1.5rem;
+      margin-top: 18px;
+
+    }
+
+  }
+
+  .genre {
+    .values {
+      margin-left: -1.5rem;
+      margin-top: 18px;
+
+    }
+  }
+
+  .publisher {
+    .values {
+      margin-left: -1.5rem;
+      margin-top: 18px;
+
+    }
+  }
+
+  }
+
+
+  .hr-btm {
+    display: none !important;  
   }
 
   footer {
@@ -5613,7 +6494,133 @@ footer {
     overflow-x: hidden;
   }
 
-  .category-card{
-    display: none;
+  .pagination-container{
+    display: none !important;
   }
+
+  .pagination-containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    position: relative;
+    top: 71px;
+    margin-top: 70px;
+
+    #prev-button {
+
+
+      border: 2px solid black !important;
+      border-radius: 50%;
+      background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -2px -4px;
+      transform: scale(.5);
+      width: 48px;
+      height: 48px;
+    }
+
+
+    .pagination-button.disabled {
+      opacity: .35;
+    }
+
+    #next-button {
+      border: 2px solid black !important;
+      border-radius: 50%;
+      background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -130px -4px;
+      transform: scale(.5);
+      width: 48px;
+      height: 48px;
+    }
+
+  }
+
+
+
+
+  .alalalla{
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+  }
+
+  .pagination-number,
+  .pagination-button {
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 12px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0.25rem 0.375rem;
+    color: black;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-weight: bold;
+    border-radius: .2rem;
+
+
+  }
+
+
+
+  .pagination-number:hover,
+  .pagination-button:not(.disabled):hover {
+    background: #fff;
+  }
+
+  .pagination-number.active {
+    color: #fff;
+    background: black;
+    border-radius: 50%;
+
+  }
+
+
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    position: relative;
+    top: -57px;
+
+    #prev-button {
+
+
+      border: 2px solid black !important;
+      border-radius: 50%;
+      background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -2px -4px;
+      transform: scale(.5);
+      width: 48px;
+      height: 48px;
+    }
+
+
+    .pagination-button.disabled {
+      opacity: .35;
+    }
+
+    #next-button {
+      border: 2px solid black !important;
+      border-radius: 50%;
+      background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -130px -4px;
+      transform: scale(.5);
+      width: 48px;
+      height: 48px;
+    }
+
+  }
+
+ 
+
+ 
 }
+
