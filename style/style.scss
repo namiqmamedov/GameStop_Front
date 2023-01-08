@@ -6875,6 +6875,7 @@ footer {
 
 @media (min-width:767.8px) and (max-width:1024px) {
 
+
   .hr-btm{
     display: none !important;
   }
@@ -6944,7 +6945,7 @@ footer {
   }
 
   .header-main {
-    width: 101%;
+    width: 100%;
   }
 
   .main-header {
@@ -6998,6 +6999,7 @@ footer {
   .header-wrapper {
     box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
     height: 57.5px !important;
+    width: 101% !important;
 
     nav {
       height: 57.5px;

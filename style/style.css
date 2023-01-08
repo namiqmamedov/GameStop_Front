@@ -4863,7 +4863,7 @@ footer #hr {
     font-family: "Open Sans", sans-serif;
   }
   .header-main {
-    width: 101%;
+    width: 100%;
   }
   .main-header {
     margin-left: 0rem;
@@ -4902,6 +4902,7 @@ footer #hr {
   .header-wrapper {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     height: 57.5px !important;
+    width: 101% !important;
   }
   .header-wrapper nav {
     height: 57.5px;
