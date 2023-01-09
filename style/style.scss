@@ -6885,36 +6885,58 @@ footer {
   }
 
   .card-boxes{
-    width: 811px !important;
+    width: 539px !important;
+  }
+
+  .header-cart{
+    .cart{
+      svg{
+        margin-top: -101px !important;
+        width: 162.5% !important;
+        margin-left: -14px !important;
+      }
+    }
   }
 
   #productCard{
 
+
+
     .card{
-      width: 316px !important;
+      width: 236px !important;
       img{
-        width: 88% !important;
+        width: 75% !important;
       }
     }
   }
 
   .card-options{
-    width: 232.5px !important;
+    width: 236.5px !important;
   }
 
   #hr{
     display: none !important;
   }
 
+  .product-filter{
+    display: flex;
+    justify-content: space-between;
+  }
   .sort-section{
     text-align: start !important;
-  }
-
-  .product-main{
-    .container{
-      width: 400px !important;
+    .dropdown{
+      margin-top: 2.2rem !important;
+      margin-right: 2.1rem;
     }
   }
+
+  .page-count{
+    margin-left: 3.9rem !important;
+    margin-top: 16px;
+    width: 347px;
+    padding-top: 0px;
+  }
+ 
 
   .pageResults{
     font-size: 14px;
@@ -7031,7 +7053,11 @@ footer {
   .header-wrapper {
     box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
     height: 57.5px !important;
-    width: 101% !important;
+    width: 100% !important;
+
+    nav{
+      width: 105% !important;
+    }
 
     nav {
       height: 57.5px;
@@ -7155,10 +7181,10 @@ footer {
   }
 
   #productCard {
-    width: 95% !important;
-    margin-left: 22.5px !important;
+    width: 92% !important;
+    margin-left: 65.5px !important;
     margin-top: 50px !important;
-    gap: 6.9rem;
+    gap: 1rem;
     margin-bottom: -110px;
   }
 
