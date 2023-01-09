@@ -20,12 +20,6 @@ body {
   width: 100% !important;
 }
 
-.psfx {
-  position: fixed !important;
-  width: 100% !important;
-  min-height: 100%;
-}
-
 .none {
   position: static !important;
 }
@@ -44,11 +38,11 @@ body {
 }
 
 .vHidden {
-  visibility: hidden;
+  visibility: hidden !important;
 }
 
 .vVisible {
-  visibility: visible;
+  visibility: visible !important;
 }
 
 .paginationRes {
@@ -191,6 +185,10 @@ body {
   background-color: rgb(251, 251, 251) !important;
   width: 100% !important;
 }
+.main-header .menu-ul-1 a,
+.main-header .menu-ul-1 label {
+  padding: 0 15px !important;
+}
 .main-header #m-menu2 .menu-ul:target {
   display: none !important;
 }
@@ -205,6 +203,9 @@ body {
 .main-header #m-menu2 .m-menu__header:hover {
   stroke: red;
   color: red;
+}
+.main-header #m-menu2 .back-label:hover {
+  background-color: red !important;
 }
 .main-header #m-menu2 .prev {
   margin-left: -4px;
@@ -263,7 +264,7 @@ body {
   border-top: 1px solid #ccc;
   display: inline-block;
   width: 326px;
-  margin: 0 33px;
+  margin: 0px 30px;
   margin-bottom: 10px;
 }
 .main-header nav .m-menu__header {
@@ -327,7 +328,6 @@ body {
   background-color: white;
   height: 4.35rem;
   position: -webkit-sticky;
-  position: sticky;
   top: 0;
   z-index: 999999999999;
 }

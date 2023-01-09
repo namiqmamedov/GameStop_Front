@@ -22,6 +22,7 @@
    // })
 
 
+
    const filterOptions = $(".filter-options").click(function () {
       if ($('body').addClass("lock-scroll")) {}
    })
