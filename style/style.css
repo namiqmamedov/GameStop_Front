@@ -4812,6 +4812,9 @@ footer #hr {
 }
 
 @media (min-width: 767.8px) and (max-width: 1024px) {
+  .options .rounded {
+    width: 228px;
+  }
   .hr-btm {
     display: none !important;
   }
@@ -4819,7 +4822,7 @@ footer #hr {
     margin-right: 0px;
   }
   .card-boxes {
-    width: 539px !important;
+    width: auto !important;
   }
   .header-cart .cart svg {
     margin-top: -101px !important;
@@ -4942,7 +4945,7 @@ footer #hr {
     width: 100% !important;
   }
   .header-wrapper nav {
-    width: 105% !important;
+    width: 104% !important;
   }
   .header-wrapper nav {
     height: 57.5px;
@@ -5039,5 +5042,116 @@ footer #hr {
   }
   .mainOptions {
     top: 55px !important;
+  }
+  footer #h-item {
+    display: none;
+  }
+  footer .mb-signup {
+    display: block;
+  }
+  footer #h-signup {
+    display: none;
+  }
+  footer a img {
+    width: 120px !important;
+    height: 40px !important;
+  }
+  footer .footer-icon a {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  footer .footer-copyright span {
+    font-size: 14px;
+    position: relative;
+    top: 123%;
+    min-width: 157px;
+    display: block;
+    left: 13%;
+    font-family: "Open Sans", sans-serif;
+  }
+  footer .footer-country-list {
+    line-height: 25px;
+    max-width: 326px;
+    margin-left: -8.4rem !important;
+    flex-wrap: wrap;
+  }
+  footer .footer-country-list li {
+    font-size: 14px;
+  }
+  footer .footer-country-list li:after {
+    margin: 0px 9px !important;
+  }
+  footer .footer-subtext {
+    margin-bottom: 35px;
+  }
+  footer .mb-signup {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: -0.2rem;
+  }
+  footer .mb-signup .footer-signup input {
+    height: 40px;
+    text-indent: 2px;
+    border: none;
+    border-radius: 0px !important;
+    margin-left: 14px;
+    width: 636px;
+    background: #f0f0f0 0 0 no-repeat padding-box;
+  }
+  footer .mb-signup .footer-signup input:focus::-webkit-input-placeholder {
+    opacity: 0;
+  }
+  footer .mb-signup .footer-signup input:focus {
+    box-shadow: none;
+    background-color: white;
+    box-shadow: 0 0 16px 0 #e0e0e0;
+  }
+  footer .mb-signup .footer-signup p {
+    margin-left: 15px;
+  }
+  footer .mb-signup .footer-signup input {
+    width: 866px;
+  }
+  footer .mb-signup .footer-signup .mb-2 {
+    font-size: 12px;
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 400;
+  }
+  footer .mb-signup .footer-signup .input-group {
+    background-color: red;
+    text-align: center;
+    margin-right: 18px;
+    display: block;
+    width: 96px !important;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  footer .mb-signup .footer-signup .input-group button {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+  }
+  footer .mb-signup .footer-signup .input-group button:hover {
+    color: black !important;
+  }
+  footer .mb-signup .footer-signup .ftr-title h5 {
+    font-size: 16px;
+    font-family: Poppins, Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 14px;
+  }
+  footer .mb-signup .footer-signup p {
+    font-size: 13px;
+  }
+  footer #app-title h5 {
+    margin-left: 10.5px !important;
+  }
+  footer .app {
+    margin-left: 11px;
+    margin-top: 12px;
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
