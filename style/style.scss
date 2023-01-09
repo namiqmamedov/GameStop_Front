@@ -6884,6 +6884,9 @@ footer {
 @media (min-width:767.8px) and (max-width:1024px) {
 
 
+  #h-item{
+    display: block !important;
+  }
   .options{
     .rounded{
       width: 228px;
@@ -7205,8 +7208,6 @@ footer {
     margin-bottom: -110px;
   }
 
-  
-
   .options {
     margin-left: 0.5rem;
   }
@@ -7217,12 +7218,27 @@ footer {
 
 
   footer {
-    #h-item {
-      display: none;
-    }
-
+    position: relative;
+    margin-top: 158px;
+    margin-bottom: 0px;
     .mb-signup {
       display: block;
+    }
+
+    #h-item{
+      max-width: 90%;
+    }
+
+    .footer-item{
+      margin-bottom: -17px;
+      margin-left: -0.4rem;
+      gap: 5rem;
+      margin-top: 81px;
+    }
+    
+
+    ul{
+      margin-top: -2.7px;
     }
 
    
@@ -7255,7 +7271,6 @@ footer {
 
     .footer-country-list {
       line-height: 25px;
-      max-width: 326px;
       margin-left: -8.4rem !important;
       flex-wrap: wrap;
 
@@ -7302,6 +7317,8 @@ footer {
 
 
       .footer-signup {
+        position: absolute;
+        top: -6%;
         p {
           margin-left: 15px;
         }
@@ -7353,6 +7370,12 @@ footer {
         p {
           font-size: 13px;
         }
+      }
+    } 
+
+    .content{
+      &:last-child{
+        margin-left: -74px;
       }
     }
 
