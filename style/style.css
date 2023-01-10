@@ -4884,6 +4884,9 @@ footer #hr {
   .product-main {
     margin-left: -55px;
   }
+  .product-main .sort-section .dropdown-menu.show {
+    inset: 10px auto auto -629.5px !important;
+  }
   footer {
     margin-top: 105px;
     margin-bottom: 20px;
@@ -5011,7 +5014,8 @@ footer #hr {
     font-size: 16px;
   }
   .header-wrapper .account-header .user {
-    margin-left: -110px;
+    margin-left: -101px;
+    margin-top: 2px;
   }
   .header-wrapper .account-header .account {
     margin-left: 0px;
@@ -5024,11 +5028,12 @@ footer #hr {
   }
   .header-wrapper .account-header .account .signin-option {
     width: 63px;
+    margin-left: -20px;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 892px) {
   .header-wrapper .header-search .search input {
-    width: 79.5% !important;
+    width: 81% !important;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
@@ -5066,7 +5071,7 @@ footer #hr {
 }
 @media (min-width: 767.8px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 826px) {
   .header-wrapper .header-cart .cart svg {
-    margin-left: -15px !important;
+    margin-left: -21px !important;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
@@ -5278,5 +5283,16 @@ footer #hr {
     margin-left: 11px;
     margin-top: 12px;
     display: block;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 825px) {
+  .sort-section {
+    margin-left: -27px;
+  }
+  .sort-section .btn-secondary {
+    padding: 10px 4px !important;
+  }
+  .sort-section .dropdown {
+    margin-right: 0.5rem !important;
   }
 }/*# sourceMappingURL=style.css.map */
