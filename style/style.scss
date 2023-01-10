@@ -786,6 +786,7 @@ body {
 
 
   .account-header {
+    display: flex;
     .header-powerup {
       margin-left: 63px;
 
@@ -1946,7 +1947,6 @@ footer {
   }
 
   .footer-item {
-    margin-left: -1.4rem;
     gap: 2rem;
 
 
@@ -6884,7 +6884,41 @@ footer {
 @media (min-width:767.8px) and (max-width:1024px) {
 
 
+  .account-header{
+    display: none !important;
+  }
+
+  .header-main{
+    .container-fluid{
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+  }
+  .header-cart{
+    // margin-top: 0px !important;
+    // display: block !important;
+
+    //   position: absolute;
+    //   top: -17%;
+    //   left: 90%;
+    display: none;
+
+  }
+
+  .footer-item{
+    position: relative;
+    top: 50%;
+    gap: 4.8rem !important;
+
+    .content{
+      &:last-child{
+        margin-left: -79px;
+      }
+    }
+  }
+
   #h-item{
+    position: relative;
     display: block !important;
   }
   .options{
@@ -7070,44 +7104,41 @@ footer {
     }
   }
 
+
+
   .header-wrapper {
     box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
     height: 57.5px !important;
     width: 100% !important;
 
     nav {
-      width: 104% !important;
+      width: 100% !important;
+      height: 57.5px;
+      padding-top: 49px;
+
     }
 
-    nav {
-      height: 57.5px;
-      margin-left: -1.8rem;
-      padding-top: 49px;
-    }
+    
 
     #m-menu {
       display: none !important;
     }
 
-    .header-cart {
-      display: none !important;
-    }
+    // .account-header {
 
-    .account-header {
+    //   margin-left: -6rem;
 
-      margin-left: -6rem;
+    //   .account {
+    //     .user {
+    //       position: relative;
+    //       left: 41% !important;
 
-      .account {
-        .user {
-          position: relative;
-          left: 41% !important;
+    //     }
 
-        }
-
-      }
+    //   }
 
 
-    }
+    // }
 
     .m-menu__toggle {
       .hamburger {
@@ -7155,39 +7186,38 @@ footer {
       }
     }
 
-    .account-header {
-      margin-left: 1rem;
+    // .account-header {
+    //   margin-left: 1rem;
 
-      .account {
-        margin-left: -10.5rem;
-        margin-top: -48px;
-      }
+    //   .account {
+    //     position: absolute;
+    //     left: 76%;
+    //     top: 20%;
+    //   }
 
-      .user {
-        margin-top: -6px;
+    //   .user {
+    //     margin-top: -6px;
 
-        span {
-          position: relative;
-          left: -35%;
-          font-weight: 600;
-        }
+    //     span {
+    //       position: relative;
+    //       left: -35%;
+    //       font-weight: 600;
+    //     }
 
-        display: flex !important;
+    //     display: flex !important;
 
-      }
+    //   }
 
-      .account i {
-        margin-left: 11px;
-        margin-bottom: -17px;
-        display: flex;
-        font-size: 14px;
-      }
-    }
+    //   .account i {
+    //     margin-left: 11px;
+    //     margin-bottom: -17px;
+    //     display: flex;
+    //     font-size: 14px;
+    //   }
+    // }
 
     .header-cart {
-      #cart {
-        display: none;
-      }
+    
 
       .cart {
         svg {
@@ -7201,7 +7231,7 @@ footer {
   }
 
   #productCard {
-    width: 92% !important;
+    width: 90% !important;
     margin-left: 65.5px !important;
     margin-top: 50px !important;
     gap: 1rem;
@@ -7217,31 +7247,31 @@ footer {
   }
 
 
+ 
   footer {
-    position: relative;
-    margin-top: 158px;
-    margin-bottom: 0px;
+
+
+    .accordion{
+      display: block !important;
+    }
+
+    .col-lg-8{
+      width: 100%;
+    }
+
+
     .mb-signup {
       display: block;
+      position: relative;
+      form{
+        position: relative;
+      top: -265%;
+      }
     }
 
-    #h-item{
-      max-width: 90%;
+    .accordion {
+      display: none !important;
     }
-
-    .footer-item{
-      margin-bottom: -17px;
-      margin-left: -0.4rem;
-      gap: 5rem;
-      margin-top: 81px;
-    }
-    
-
-    ul{
-      margin-top: -2.7px;
-    }
-
-   
 
     #h-signup {
       display: none;
@@ -7261,7 +7291,7 @@ footer {
       span {
         font-size: 14px;
         position: relative;
-        top: 123%;
+        top: 142%;
         min-width: 157px;
         display: block;
         left: 13%;
@@ -7271,6 +7301,7 @@ footer {
 
     .footer-country-list {
       line-height: 25px;
+      max-width: 620px;
       margin-left: -8.4rem !important;
       flex-wrap: wrap;
 
@@ -7298,7 +7329,7 @@ footer {
         border: none;
         border-radius: 0px !important;
         margin-left: 14px;
-        width: 636px;
+        width: 758px;
         background: #f0f0f0 0 0 no-repeat padding-box;
       }
 
@@ -7317,14 +7348,12 @@ footer {
 
 
       .footer-signup {
-        position: absolute;
-        top: -6%;
         p {
           margin-left: 15px;
         }
 
         input {
-          width: 866px;
+          width: 895px;
         }
 
         .mb-2 {
@@ -7336,9 +7365,9 @@ footer {
         .input-group {
           background-color: red;
           text-align: center;
-          margin-right: 18px;
+          margin-right: 8.2px;
           display: block;
-          width: 96px !important;
+          width: 140px !important;
           border-top-right-radius: 4px;
           border-bottom-right-radius: 4px;
 
@@ -7371,17 +7400,90 @@ footer {
           font-size: 13px;
         }
       }
-    } 
+    }
 
-    .content{
-      &:last-child{
-        margin-left: -74px;
+    .accordion {
+      display: flex;
+      border-color: red !important;
+    }
+
+    .accordion-item {
+      border: none;
+      border-top: 1px solid #d9d9d9 !important;
+
+      &:last-child {
+        border-bottom: 1px solid #d9d9d9 !important;
+        padding-right: 20px;
+        border-bottom-right-radius: 0px;
       }
     }
 
-    
+    .accordion-button::after {
+      content: '+' !important;
+      background-image: none;
+      font-size: 32px;
+      position: absolute;
+      left: 91%;
+      top: 7%;
+    }
+
+    .accordion-collapse {
+      transition: .02s ease-in-out;
+    }
 
 
+    .accordion-item:first-of-type {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .accordion-item:last-of-type .accordion-button.collapsed {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      background-image: none;
+      transform: none;
+      content: "-" !important;
+      font-size: 32px;
+      position: absolute;
+      left: 92.5%;
+      top: 7%;
+      border-color: transparent !important;
+
+    }
+
+    .accordion-collapse.show {
+      border-color: transparent !important;
+      border-bottom: 0px !important;
+    }
+
+    .accordion-button:focus {
+      border-color: transparent !important;
+      box-shadow: none;
+      background-color: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+      color: black;
+      background-color: white !important;
+      border-color: transparent !important;
+      box-shadow: none;
+
+    }
+
+    .accordion-header {
+      button {
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding-left: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+    }
 
     #app-title {
       h5 {
@@ -7397,6 +7499,7 @@ footer {
     }
 
   }
+
 
 
 }
