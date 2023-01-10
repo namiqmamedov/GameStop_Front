@@ -261,8 +261,8 @@ body {
   }
 
 
-  .menu-ul-1{
-    
+  .menu-ul-1 {
+
     a,
     label {
       padding: 0 15px !important;
@@ -299,8 +299,8 @@ body {
 
     }
 
-    .back-label{
-      &:hover{
+    .back-label {
+      &:hover {
         background-color: red !important;
       }
     }
@@ -422,7 +422,7 @@ body {
       .hr {
         border-top: 1px solid #ccc;
         display: inline-block;
-        width: 326px;        
+        width: 326px;
         margin: 0px 30px;
         margin-bottom: 10px;
       }
@@ -787,6 +787,7 @@ body {
 
   .account-header {
     display: flex;
+
     .header-powerup {
       margin-left: 63px;
 
@@ -6884,45 +6885,51 @@ footer {
 @media (min-width:767.8px) and (max-width:1024px) {
 
 
-  .account-header{
-    display: none !important;
-  }
+  // .account-header{
+  //   display: none !important;
+  // }
 
-  .header-main{
-    .container-fluid{
+  .header-main {
+    .container-fluid {
       padding-left: 0px !important;
       padding-right: 0px !important;
     }
   }
-  .header-cart{
-    // margin-top: 0px !important;
-    // display: block !important;
 
-    //   position: absolute;
-    //   top: -17%;
-    //   left: 90%;
-    display: none;
+  // .header-cart {
+  //   margin-top: 0px !important;
+  //   display: block !important;
 
-  }
+  //   position: absolute;
+  //   top: 27%;
+  //   left: 90%;
+  //   display: none;
 
-  .footer-item{
+  // }
+
+
+
+  .footer-item {
     position: relative;
     top: 50%;
     gap: 4.8rem !important;
+    margin-bottom: 57px;
+    margin-top: 60px;
 
-    .content{
-      &:last-child{
+    .content {
+      &:last-child {
         margin-left: -79px;
       }
     }
   }
 
-  #h-item{
+  #h-item {
     position: relative;
     display: block !important;
   }
-  .options{
-    .rounded{
+
+  .options {
+    .rounded {
       width: 228px;
     }
   }
@@ -6939,15 +6946,24 @@ footer {
     width: auto !important;
   }
 
-  .header-cart {
-    .cart {
-      svg {
-        margin-top: -101px !important;
-        width: 162.5% !important;
-        margin-left: -14px !important;
-      }
-    }
-  }
+  // .header-cart {
+  //   margin-left: 10px;
+
+  //   // .cart {
+  //   //   svg {
+
+  //   //     position: absolute;
+  //   //     top: 21.3%;
+  //   //     left: 173%;
+  //   //     width: 63px !important;
+  //   //     height: 18px !important;
+  //   //   }
+  //   // }
+
+  //   span {
+  //     margin-left: 7px !important;
+  //   }
+  // }
 
   #productCard {
 
@@ -7118,7 +7134,7 @@ footer {
 
     }
 
-    
+
 
     #m-menu {
       display: none !important;
@@ -7174,15 +7190,61 @@ footer {
         input {
           border-radius: 0px !important;
           margin-top: -45px;
-          width: 76.5%;
+          width: 83.5%;
 
         }
+
+        
       }
 
       .fa-search {
         top: 22px !important;
-        left: 182.5px !important;
+        left: 212.5px !important;
         font-size: 11.7px !important;
+      }
+    }
+
+  
+
+    .account-header {
+      display: flex;
+
+      .account i {
+        margin-bottom: 60px;
+        margin-left: 62px;
+        font-size: 16px;
+      }
+
+      .user {
+
+        margin-left: -110px;
+
+      }
+
+      .account {
+        margin-left: 0px;
+
+        span {
+          font-size: 12px;
+          font-family: 'Open Sans', sans-serif;
+          margin-left: 11px;
+          margin-top: -131px;
+
+        }
+
+        .signin-option {
+          width: 63px;
+        }
+      }
+    }
+
+    @media(min-width:768px) and (max-width:892px) {
+      .header-search {
+        .search {
+          input {
+            width: 79.5% !important;
+          }
+        }
       }
     }
 
@@ -7191,7 +7253,7 @@ footer {
 
     //   .account {
     //     position: absolute;
-    //     left: 76%;
+    //     left: 80%;
     //     top: 20%;
     //   }
 
@@ -7217,18 +7279,69 @@ footer {
     // }
 
     .header-cart {
-    
+      max-width: 28px;
+
+      span {
+        display: none !important;
+      }
 
       .cart {
+        max-width: 28px;
+
         svg {
-          margin-left: -7rem;
-          margin-top: -50px;
-          width: 86.5%;
+          max-width: 28px;
+          height: 21px;
+          margin-left: 1px;
+          margin-top: -2px;
+          margin-bottom: 53px;
         }
+      }
+
+      @media(min-width:768px) and (max-width:865px) {
+        .cart {
+          svg {
+            margin-left: -10px !important;
+          }
+        }
+
+
+      }
+
+      @media(min-width:768px) and (max-width:841px) {
+        .cart {
+          svg {
+            margin-left: -10px !important;
+          }
+        }
+
+
+      }
+
+      @media(min-width:768px) and (max-width:834px) {
+        .cart {
+          svg {
+            margin-left: -10px !important;
+          }
+        }
+
+
+      }
+
+      @media(min-width:768px) and (max-width:826px) {
+        .cart {
+          svg {
+            margin-left: -15px !important;
+          }
+        }
+
+
       }
     }
 
   }
+
+  @media(min-width:768px) and (max-width:860px) {}
+
 
   #productCard {
     width: 90% !important;
@@ -7247,15 +7360,15 @@ footer {
   }
 
 
- 
+
   footer {
 
 
-    .accordion{
+    .accordion {
       display: block !important;
     }
 
-    .col-lg-8{
+    .col-lg-8 {
       width: 100%;
     }
 
@@ -7263,9 +7376,10 @@ footer {
     .mb-signup {
       display: block;
       position: relative;
-      form{
+
+      form {
         position: relative;
-      top: -265%;
+        top: -265%;
       }
     }
 
@@ -7315,7 +7429,7 @@ footer {
     }
 
     .footer-subtext {
-      margin-bottom: 35px;
+      margin-bottom: 7px;
     }
 
     .mb-signup {
@@ -7346,8 +7460,14 @@ footer {
 
       }
 
+      #app-text {
+        padding-left: 6px;
+      }
+
 
       .footer-signup {
+
+        // margin-top: -42px;
         p {
           margin-left: 15px;
         }

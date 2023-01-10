@@ -4814,20 +4814,16 @@ footer #hr {
 }
 
 @media (min-width: 767.8px) and (max-width: 1024px) {
-  .account-header {
-    display: none !important;
-  }
   .header-main .container-fluid {
     padding-left: 0px !important;
     padding-right: 0px !important;
-  }
-  .header-cart {
-    display: none;
   }
   .footer-item {
     position: relative;
     top: 50%;
     gap: 4.8rem !important;
+    margin-bottom: 57px;
+    margin-top: 60px;
   }
   .footer-item .content:last-child {
     margin-left: -79px;
@@ -4847,11 +4843,6 @@ footer #hr {
   }
   .card-boxes {
     width: auto !important;
-  }
-  .header-cart .cart svg {
-    margin-top: -101px !important;
-    width: 162.5% !important;
-    margin-left: -14px !important;
   }
   #productCard .card {
     width: 236px !important;
@@ -5004,18 +4995,81 @@ footer #hr {
   .header-wrapper .header-search .search input {
     border-radius: 0px !important;
     margin-top: -45px;
-    width: 76.5%;
+    width: 83.5%;
   }
   .header-wrapper .header-search .fa-search {
     top: 22px !important;
-    left: 182.5px !important;
+    left: 212.5px !important;
     font-size: 11.7px !important;
   }
-  .header-wrapper .header-cart .cart svg {
-    margin-left: -7rem;
-    margin-top: -50px;
-    width: 86.5%;
+  .header-wrapper .account-header {
+    display: flex;
   }
+  .header-wrapper .account-header .account i {
+    margin-bottom: 60px;
+    margin-left: 62px;
+    font-size: 16px;
+  }
+  .header-wrapper .account-header .user {
+    margin-left: -110px;
+  }
+  .header-wrapper .account-header .account {
+    margin-left: 0px;
+  }
+  .header-wrapper .account-header .account span {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 11px;
+    margin-top: -131px;
+  }
+  .header-wrapper .account-header .account .signin-option {
+    width: 63px;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 892px) {
+  .header-wrapper .header-search .search input {
+    width: 79.5% !important;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  .header-wrapper .header-cart {
+    max-width: 28px;
+  }
+  .header-wrapper .header-cart span {
+    display: none !important;
+  }
+  .header-wrapper .header-cart .cart {
+    max-width: 28px;
+  }
+  .header-wrapper .header-cart .cart svg {
+    max-width: 28px;
+    height: 21px;
+    margin-left: 1px;
+    margin-top: -2px;
+    margin-bottom: 53px;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 865px) {
+  .header-wrapper .header-cart .cart svg {
+    margin-left: -10px !important;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 841px) {
+  .header-wrapper .header-cart .cart svg {
+    margin-left: -10px !important;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 834px) {
+  .header-wrapper .header-cart .cart svg {
+    margin-left: -10px !important;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 826px) {
+  .header-wrapper .header-cart .cart svg {
+    margin-left: -15px !important;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
   #productCard {
     width: 90% !important;
     margin-left: 65.5px !important;
@@ -5023,12 +5077,18 @@ footer #hr {
     gap: 1rem;
     margin-bottom: -110px;
   }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
   .options {
     margin-left: 0.5rem;
   }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
   .mainOptions {
     top: 55px !important;
   }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
   footer .accordion {
     display: block !important;
   }
@@ -5079,7 +5139,7 @@ footer #hr {
     margin: 0px 9px !important;
   }
   footer .footer-subtext {
-    margin-bottom: 35px;
+    margin-bottom: 7px;
   }
   footer .mb-signup {
     display: block;
@@ -5102,6 +5162,9 @@ footer #hr {
     box-shadow: none;
     background-color: white;
     box-shadow: 0 0 16px 0 #e0e0e0;
+  }
+  footer .mb-signup #app-text {
+    padding-left: 6px;
   }
   footer .mb-signup .footer-signup p {
     margin-left: 15px;
