@@ -7636,20 +7636,193 @@ footer {
   }
 
 
-
 }
 
-@media (min-width:1025.8px) and (max-width: 1680px){
+
+@media (min-width:576.7px) and (max-width:767.8px) {
+
+  
+
+  .header-main {
+    // position: fixed;
 
 
-  .container-fluid{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
   }
 
-  .header-main{
-    width: 100%;
+
+  .pagination-container {
+    display: none !important;
   }
+
+  .hr-btm {
+    display: none !important;
+  }
+
+  .pagination-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: auto;
+    height: auto;
+    position: relative;
+    top: 78px;
+    margin-top: 27px;
+
+    #prev-button {
+
+
+      border: 2px solid black !important;
+      border-radius: 50%;
+      background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -2px -4px;
+      transform: scale(.5);
+      width: 48px;
+      height: 48px;
+    }
+
+
+    .pagination-button.disabled {
+      opacity: .35;
+    }
+
+    #next-button {
+      border: 2px solid black !important;
+      border-radius: 50%;
+      background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -130px -4px;
+      transform: scale(.5);
+      width: 48px;
+      height: 48px;
+    }
+
+  }
+
+
+  .paginationRes {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+  }
+
+  .pagination-number,
+  .pagination-button {
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 12px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0.25rem 0.375rem;
+    color: black;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-weight: bold;
+    border-radius: .2rem;
+
+
+  }
+
+
+
+  .pagination-number:hover,
+  .pagination-button:not(.disabled):hover {
+    background: #fff;
+  }
+
+  .pagination-number.active {
+    color: #fff;
+    background: black;
+    border-radius: 50%;
+
+  }
+
+
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    position: relative;
+    top: -57px;
+
+    #prev-button {
+
+
+      border: 2px solid black !important;
+      border-radius: 50%;
+      background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -2px -4px;
+      transform: scale(.5);
+      width: 48px;
+      height: 48px;
+    }
+
+
+    .pagination-button.disabled {
+      opacity: .35;
+    }
+
+    #next-button {
+      border: 2px solid black !important;
+      border-radius: 50%;
+      background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672874433348/images/plp-icons-sprite.png') -130px -4px;
+      transform: scale(.5);
+      width: 48px;
+      height: 48px;
+    }
+
+  }
+
+
+  .product-content {
+    .heading {
+      h2 {
+        margin-left: 0px;
+      }
+
+      a {
+        margin-right: 12px !important;
+        margin-left: 0rem !important;
+      }
+    }
+  }
+
+
+  .header-banner {
+    background-color: #282828;
+
+    .navbar-toggler {
+      display: none;
+    }
+
+    .shopping {
+      display: none;
+    }
+
+    .check-order {
+      display: none;
+    }
+
+    .navbar-brand {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-top: -15px;
+    }
+  }
+
+  .promo-header {
+    .text {
+      font-size: 14.8px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+  }
+
+
 
   .main-header {
     margin-left: 0rem;
@@ -7701,41 +7874,60 @@ footer {
 
   .header-wrapper {
     box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
-    height: 66px !important;
 
     nav {
-      height: 68.5px;
-
+      height: 98.5px;
+      margin-left: -1.8rem;
     }
 
-
-
-    .header-cart {
+    #m-menu {
       display: none !important;
     }
 
-   
-
     .m-menu__toggle {
-      span{
-        margin-left: -36px;
-      }
       .hamburger {
-        width: 1.8% !important;
-        margin-top: 11px !important;
-        margin-left: -32px;
+        width: 5.8% !important;
+        margin-top: -40px !important;
+        margin-left: -12px;
       }
     }
 
     .nav-logo {
-      width: 131px !important;
-      margin-left: -4px !important;
-      margin-top: 0px;
+      width: 105px !important;
+      margin-left: 2px !important;
+      margin-top: -53px;
     }
 
+    .header-options {
+      display: none !important;
+    }
+
+    .powerup {
+      display: none;
+    }
+
+    // .header-search {
+    //   .search {
+    //     top: 4%;
+    //     left: -22%;
+
+    //     input {
+    //       border-radius: 0px !important;
+    //       margin-left: -97px;
+    //       width: 350px;
+    //       margin-top: 28px;
+    //     }
+    //   }
+
+    //   .fa-search {
+    //     top: 41px !important;
+    //     left: -77.5px !important;
+    //     font-size: 11.7px !important;
+    //   }
+    // }
 
     .header-search {
-      min-width: 81%;
+      min-width: 95%;
 
       .search {
         top: 4%;
@@ -7745,35 +7937,209 @@ footer {
 
         input {
           border-radius: 0px !important;
-          margin-left: 20px;
-          margin-top: -4px;
-          width: 74.5%;
-          height: 35px;
-          text-indent: 18px;
-          border: none;
-          margin-left: 14px;
-          background: #f0f0f0 0 0;
-          border-radius: 0rem !important;
-          font-size: 15.5px !important;
-      
-
+          margin-left: -157px;
+          margin-top: 28px;
+          width: 100%;
 
         }
       }
 
       .fa-search {
-        top: 27px !important;
-        left: 229.5px !important;
-        font-size: 10.7px !important;
+        top: 56px !important;
+        left: 9.5px !important;
+        font-size: 11.7px !important;
       }
     }
 
-    .header-cart{
-      display: block !important;
+    .account-header {
+      margin-left: -4.5rem;
+
+      .account {
+        margin-left: -9.5rem;
+        margin-top: -48px;
+      }
+
+      .user {
+        margin-top: -6px;
+
+        span {
+          position: relative;
+          left: -35%;
+          font-weight: 600;
+        }
+
+        display: flex !important;
+
+      }
+
+      .account i {
+        margin-left: 11px;
+        margin-bottom: -17px;
+        display: flex;
+        font-size: 14px;
+      }
+    }
+
+    .header-cart {
+      #cart {
+        display: none;
+      }
+
+      .cart {
+        svg {
+          margin-left: -7.3rem;
+          margin-top: -42px;
+          width: 161.5%;
+          height: 77px;
+        }
+      }
     }
 
   }
+
+  .home-content {
+    display: none;
+  }
+
+
+  .mb-home-content {
+    display: block;
+
+    a {
+      text-decoration: none;
+    }
+
+    .home-card {
+      gap: 1rem;
+      margin: 34px 9px;
+    }
+
+    .home-img {
+      img {
+        height: 354px;
+        max-width: 115%;
+      }
+
+    }
+
+    .center-content {
+      img {
+        width: 93.9%;
+        margin-left: 0.7rem;
+      }
+
+    }
+
+    #card-title {
+      margin-left: -59px;
+    }
+
+    #card-sub-title {
+      margin-left: -59px;
+    }
+
+    .card-title {
+      a {
+        display: block;
+      }
+    }
+
+    .h-title {
+      width: 160px;
+      margin-top: 5px;
+      margin-bottom: 6px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      color: #000000;
+    }
+
+    .h-subtitle {
+      font-family: 'Open Sans', sans-serif;
+      color: #625656;
+      font-size: 14px;
+    }
+  }
+
+
+  .main-content {
+    overflow-x: hidden !important;
+
+    .main-image {
+      gap: 0rem !important;
+      padding: 0 0px !important;
+
+    }
+
+    .mb-img a {
+      img {
+        width: 96.5% !important;
+        margin-left: 1px !important;
+
+      }
+
+    }
+
+  }
+
+  .product-content {
+
+
+    #slidero {
+      width: 365px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+      margin-left: 25px;
+
+
+    }
+
+
+    .card-box>div {
+      scroll-snap-align: start;
+    }
+
+    .heading {
+      display: flex;
+
+      h2 {
+        font-size: 16px;
+        text-align: left;
+        max-width: 273px;
+        padding-left: 14px;
+      }
+
+      a {
+        margin-left: 7rem;
+        margin-top: 6px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+    .card {
+      width: 158px !important;
+      margin-bottom: 0rem !important;
+      flex-shrink: 0;
+      height: 100%;
+
+      img {
+        width: 90% !important;
+      }
+
+      &:hover {
+        background: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .pageInfo {
+      display: none;
+    }
+  }
+
+
 }
+
 
 
 
