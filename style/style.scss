@@ -877,8 +877,8 @@ body {
 
   .center-content {
     img {
-      width: 95.7%;
-      margin-left: 2rem;
+      width: 97.2%;
+      margin-left: 1.2rem;
       height: 196px;
     }
 
@@ -2195,7 +2195,7 @@ footer {
   #hr {
     border-top: 1px solid rgb(241 238 238);
     display: inline-block;
-    width: 1500px;
+    width: 100%;
     margin-top: 105px;
     margin-bottom: 20px;
   }
@@ -6745,6 +6745,10 @@ footer {
   }
 
 
+  // html {
+  //   overflow-x: hidden;
+  // }
+
 
   .pagination-container {
     display: none !important;
@@ -8008,7 +8012,7 @@ footer {
 
     .home-card {
       gap: 1rem;
-      margin: 16px 1px;
+      margin: 16px 0px;
     }
 
     .home-img {
@@ -8021,8 +8025,7 @@ footer {
 
     .center-content {
       img {
-        width: 93.9%;
-        margin-left: 0.7rem;
+        width: 100%;
       }
 
     }
@@ -8161,6 +8164,7 @@ footer {
 
     .product-carousel{
       #slidero{
+        width: 554px;
         overflow-y: hidden !important;
       }
     }
@@ -8270,9 +8274,9 @@ footer {
 
 
     #slider {
-      margin-left: 0.9rem;
+      margin-left: 0.2rem;
       display: flex;
-      width: 707px;
+      width: 536px;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scroll-snap-type: x mandatory;
