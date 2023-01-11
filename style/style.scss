@@ -8024,11 +8024,13 @@ footer {
 
     .center-content {
       img {
-        width: 93.9%;
-        margin-left: 0.7rem;
+        width: 95% !important;
+
+        margin-left: 18px;
       }
 
     }
+
 
     #card-title {
       margin-left: -59px;
@@ -8085,7 +8087,7 @@ footer {
 
 
     #slidero {
-      width: 365px;
+      width: 722px;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scroll-snap-type: x mandatory;
@@ -8137,6 +8139,85 @@ footer {
     }
   }
 
+
+  .main-content{
+    .main-image{
+      img{
+        
+          width: 98.2% !important;
+          margin-left: 0px !important;
+      }
+    }
+  }
+
+  .pageInfo2{
+    display: none !important;
+  }
+
+  .product-content{
+    .heading{
+      margin-left: -8px;
+
+      h2{
+        max-width: 281px;
+      }
+    }
+
+    .product-carousel{
+      #slidero{
+        overflow-y: hidden !important;
+      }
+    }
+  }
+
+  .product-content2{
+
+    .card-box{
+      margin-left: 3.5px !important;
+    }
+
+
+    .card{
+      &:hover{
+        background-color: transparent;
+        box-shadow: none;
+      }
+
+      .card-text{
+        min-width: 105px;
+      }
+    }
+  }
+
+  .product-brand{
+    .heading{
+      text-align: start !important;
+      h2{
+        font-size: 18px !important;
+        margin-left: 40px;
+    
+      }
+    }
+    .brand-card{
+      img{
+        width: 334px;
+      }
+     
+    }
+  }
+
+  .home-card{
+    .home-img{
+      a{
+        .mb-img{
+      display: block !important;
+    }
+    .h-img{
+      display: none !important;
+    }
+      }
+    }
+  }
 
 }
 
