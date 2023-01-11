@@ -10,8 +10,12 @@ $('#slider').slick({
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
+          dots: false
         }
+      },
+      {
+        breakpoint: 767,
+        settings: "unslick"
       },
       {
         breakpoint: 600,
@@ -41,6 +45,10 @@ $('#slider1').slick({
         }
       },
       {
+        breakpoint: 767,
+        settings: "unslick"
+      },
+      {
         breakpoint: 600,
         settings: "unslick"
       },
@@ -67,6 +75,10 @@ $('#slider2').slick({
         infinite: true,
         dots: true
       }
+    },
+    {
+      breakpoint: 767,
+      settings: "unslick"
     },
     {
       breakpoint: 600,
