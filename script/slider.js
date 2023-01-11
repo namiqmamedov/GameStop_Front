@@ -107,6 +107,10 @@ $('#slidero').slick({
       }
     },
     {
+      breakpoint: 767,
+      settings: "unslick"
+    },
+    {
       breakpoint: 600,
       settings: "unslick"
     },

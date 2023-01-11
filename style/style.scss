@@ -8012,26 +8012,24 @@ footer {
 
     .home-card {
       gap: 1rem;
-      margin: 34px 9px;
+      margin: 16px 1px;
     }
 
     .home-img {
       img {
-        height: 354px;
-        max-width: 115%;
+        max-width: 100%;
+        height: 100%;
       }
 
     }
 
     .center-content {
       img {
-        width: 95% !important;
-
-        margin-left: 18px;
+        width: 93.9%;
+        margin-left: 0.7rem;
       }
 
     }
-
 
     #card-title {
       margin-left: -59px;
@@ -8062,6 +8060,7 @@ footer {
       font-size: 14px;
     }
   }
+
 
 
   .main-content {
@@ -8199,12 +8198,16 @@ footer {
     
       }
     }
+
     .brand-card{
-      img{
-        width: 334px;
-      }
-     
+      margin-left: 0.1rem !important;
     }
+    // .brand-card{
+    //   img{
+    //     width: 334px;
+    //   }
+     
+    // }
   }
 
   .home-card{
@@ -8231,8 +8234,8 @@ footer {
     }
 
     .home-card {
-      gap: 3.5rem !important;
-      margin: 13px 31px;
+      gap: 1.5rem !important;
+      margin: 13px 0px;
       // padding-right: 301px;
     }
 
@@ -8248,8 +8251,9 @@ footer {
 
       .mb-img {
         display: block !important;
-        width: 335px;
-        height: 287px;
+        width: 387px;
+        height: auto;
+        max-width: 100%;
         margin-right: -31px !important;
       }
 
@@ -8562,9 +8566,9 @@ footer {
   .top-deals{
     
   #slider1{
-    margin-left: -3.8rem;
+    margin-left: -2.8rem;
     display: flex;
-    width: 694px;
+    width: 697px;
   }
 
 }
@@ -8913,10 +8917,35 @@ footer {
     display: block;
   }
 
+  
 }
 
 
-  
+.bottom-content{
+  .text{
+    p{
+      margin-left: auto !important; 
+  margin-right: auto !important;
+
+    }
+  }
+}
+
+.top-deals{
+  .heading-text{
+    h2{
+      margin-left: -30px;
+    }
+   
+  }
+  .main-image{
+    img{
+      width: 100% !important;
+      margin-left: -32px !important;
+    }
+  }
+}
+
 
 }
 
