@@ -5703,7 +5703,7 @@ footer #hr {
   .product-content3 #slider {
     margin-left: 0.9rem;
     display: flex;
-    width: 350px;
+    width: 707px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-scroll-snap-type: x mandatory;
@@ -5902,6 +5902,15 @@ footer #hr {
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
   }
+  .product-content4 .heading {
+    justify-content: space-between;
+  }
+  .product-content4 .heading a {
+    margin-right: 40px !important;
+  }
+  .product-content4 .card-box {
+    width: 682px !important;
+  }
   .product-content4 .card-body .card-text {
     font-size: 13px;
     font-family: "Open Sans", sans-serif;
@@ -5944,7 +5953,7 @@ footer #hr {
     height: 100%;
     margin-top: 3.5rem;
     margin-bottom: 2rem;
-    width: 155.5px !important;
+    width: 176.5px !important;
     height: 284px !important;
   }
   .product-content4 .card:hover {
@@ -5954,6 +5963,189 @@ footer #hr {
   .product-content4 .card img {
     width: 94% !important;
     padding-top: 13px;
+    display: block;
+  }
+  .featured-categories .amp-card img {
+    width: auto;
+    max-width: 92% !important;
+  }
+  footer #h-item {
+    display: none;
+  }
+  footer .mb-signup {
+    display: block;
+  }
+  footer .accordion {
+    display: block;
+  }
+  footer #h-signup {
+    display: none;
+  }
+  footer a img {
+    width: 120px !important;
+    height: 40px !important;
+  }
+  footer .footer-icon a {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  footer .footer-copyright span {
+    font-size: 14px;
+    position: relative;
+    top: 142%;
+    min-width: 157px;
+    display: block;
+    left: 13%;
+    font-family: "Open Sans", sans-serif;
+  }
+  footer .footer-country-list {
+    line-height: 25px;
+    max-width: 620px;
+    margin-left: -8.4rem !important;
+    flex-wrap: wrap;
+  }
+  footer .footer-country-list li {
+    font-size: 14px;
+  }
+  footer .footer-country-list li:after {
+    margin: 0px 9px !important;
+  }
+  footer .footer-subtext {
+    margin-bottom: 35px;
+  }
+  footer .mb-signup {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: -0.2rem;
+  }
+  footer .mb-signup .footer-signup input {
+    height: 40px;
+    text-indent: 2px;
+    border: none;
+    border-radius: 0px !important;
+    margin-left: 14px;
+    width: 758px;
+    background: #f0f0f0 0 0 no-repeat padding-box;
+  }
+  footer .mb-signup .footer-signup input:focus::-webkit-input-placeholder {
+    opacity: 0;
+  }
+  footer .mb-signup .footer-signup input:focus {
+    box-shadow: none;
+    background-color: white;
+    box-shadow: 0 0 16px 0 #e0e0e0;
+  }
+  footer .mb-signup .footer-signup p {
+    margin-left: 15px;
+  }
+  footer .mb-signup .footer-signup input {
+    width: 895px;
+  }
+  footer .mb-signup .footer-signup .mb-2 {
+    font-size: 12px;
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 400;
+  }
+  footer .mb-signup .footer-signup .input-group {
+    background-color: red;
+    text-align: center;
+    margin-right: 8.2px;
+    display: block;
+    width: 140px !important;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  footer .mb-signup .footer-signup .input-group button {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+  }
+  footer .mb-signup .footer-signup .input-group button:hover {
+    color: black !important;
+  }
+  footer .mb-signup .footer-signup .ftr-title h5 {
+    font-size: 16px;
+    font-family: Poppins, Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 14px;
+  }
+  footer .mb-signup .footer-signup p {
+    font-size: 13px;
+  }
+  footer .accordion {
+    display: flex;
+    border-color: red !important;
+  }
+  footer .accordion-item {
+    border: none;
+    border-top: 1px solid #d9d9d9 !important;
+  }
+  footer .accordion-item:last-child {
+    border-bottom: 1px solid #d9d9d9 !important;
+    padding-right: 20px;
+    border-bottom-right-radius: 0px;
+  }
+  footer .accordion-button::after {
+    content: "+" !important;
+    background-image: none;
+    font-size: 32px;
+    position: absolute;
+    left: 91%;
+    top: 7%;
+  }
+  footer .accordion-collapse {
+    transition: 0.02s ease-in-out;
+  }
+  footer .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  footer .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  footer .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "-" !important;
+    font-size: 32px;
+    position: absolute;
+    left: 92.5%;
+    top: 7%;
+    border-color: transparent !important;
+  }
+  footer .accordion-collapse.show {
+    border-color: transparent !important;
+    border-bottom: 0px !important;
+  }
+  footer .accordion-button:focus {
+    border-color: transparent !important;
+    box-shadow: none;
+    background-color: none;
+  }
+  footer .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white !important;
+    border-color: transparent !important;
+    box-shadow: none;
+  }
+  footer .accordion-header button {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  footer #app-title h5 {
+    margin-left: 10.5px !important;
+  }
+  footer .app {
+    margin-left: 11px;
+    margin-top: 12px;
     display: block;
   }
 }/*# sourceMappingURL=style.css.map */
