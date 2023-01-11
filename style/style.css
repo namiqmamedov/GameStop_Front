@@ -62,8 +62,12 @@ body {
   position: sticky;
   top: 0;
   left: 0;
-  width: 112%;
+  width: 100%;
   z-index: 99999999;
+}
+.header-main .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .header-banner nav {
@@ -133,12 +137,8 @@ body {
 .main-header {
   position: relative;
   z-index: 1;
-  margin-left: -1rem;
-  width: 102%;
+  width: 100%;
   /* Mixin */
-}
-.main-header nav {
-  padding-left: 2rem !important;
 }
 .main-header #menu1::-webkit-scrollbar {
   display: none;
@@ -3841,31 +3841,25 @@ footer #hr {
   .header-wrapper {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
   }
+  .header-wrapper .header-search {
+    min-width: 99% !important;
+  }
   .header-wrapper nav {
     height: 98.5px;
     margin-left: -1.8rem;
+    overflow-x: hidden;
   }
   .header-wrapper #m-menu {
     display: none !important;
   }
-  .header-wrapper .header-cart {
-    display: none !important;
-  }
-  .header-wrapper .account-header {
-    margin-left: -6rem;
-  }
-  .header-wrapper .account-header .account .user {
-    position: relative;
-    left: 41% !important;
-  }
   .header-wrapper .m-menu__toggle .hamburger {
-    width: 2.4% !important;
+    width: 2.8% !important;
     margin-top: -40px !important;
-    margin-left: -12px;
+    margin-left: 12px;
   }
   .header-wrapper .nav-logo {
-    width: 105px !important;
-    margin-left: 2px !important;
+    width: 112px !important;
+    margin-left: 24px !important;
     margin-top: -53px;
   }
   .header-wrapper .header-options {
@@ -3875,7 +3869,7 @@ footer #hr {
     display: none;
   }
   .header-wrapper .header-search {
-    min-width: 81%;
+    min-width: 95%;
   }
   .header-wrapper .header-search .search {
     top: 4%;
@@ -3887,18 +3881,18 @@ footer #hr {
     border-radius: 0px !important;
     margin-left: -157px;
     margin-top: 28px;
-    width: 116.5%;
+    width: 100%;
   }
   .header-wrapper .header-search .fa-search {
     top: 56px !important;
-    left: 9.5px !important;
+    left: 25.5px !important;
     font-size: 11.7px !important;
   }
   .header-wrapper .account-header {
-    margin-left: 1rem;
+    margin-left: -4.5rem;
   }
   .header-wrapper .account-header .account {
-    margin-left: -10.5rem;
+    margin-left: -9.5rem;
     margin-top: -48px;
   }
   .header-wrapper .account-header .user {
@@ -3920,9 +3914,10 @@ footer #hr {
     display: none;
   }
   .header-wrapper .header-cart .cart svg {
-    margin-left: -7rem;
-    margin-top: -50px;
-    width: 86.5%;
+    margin-left: -7.3rem;
+    margin-top: -42px;
+    width: 161.5%;
+    height: 77px;
   }
   .sort-section {
     position: relative;
@@ -5419,117 +5414,6 @@ footer #hr {
     font-size: 14.8px;
     font-family: "Open Sans", sans-serif;
   }
-  .main-header {
-    margin-left: 0rem;
-    position: -webkit-sticky;
-    position: sticky;
-    width: 100%;
-    left: 0%;
-    top: 0%;
-  }
-  .main-header .store-icon i {
-    margin-left: -3.8rem !important;
-  }
-  .main-header .menu-ul-1 {
-    padding-left: 30px;
-  }
-  .main-header .m-menu__toggle .close {
-    left: 84.7%;
-  }
-  .main-header .m-menu {
-    left: -12px !important;
-    width: calc(100vw - 0px) !important;
-    max-width: 375px !important;
-    position: fixed !important;
-    overflow-y: auto;
-    margin-top: 0rem !important;
-    height: 100% !important;
-    width: 404px !important;
-    max-width: none !important;
-  }
-  .main-header .m-menu .a-label__chevron:after {
-    right: 45px !important;
-  }
-  .main-header #menu-header span {
-    margin-left: -18px;
-  }
-  .header-wrapper {
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-  }
-  .header-wrapper nav {
-    height: 98.5px;
-    margin-left: -1.8rem;
-  }
-  .header-wrapper #m-menu {
-    display: none !important;
-  }
-  .header-wrapper .m-menu__toggle .hamburger {
-    width: 5.8% !important;
-    margin-top: -40px !important;
-    margin-left: -12px;
-  }
-  .header-wrapper .nav-logo {
-    width: 105px !important;
-    margin-left: 2px !important;
-    margin-top: -53px;
-  }
-  .header-wrapper .header-options {
-    display: none !important;
-  }
-  .header-wrapper .powerup {
-    display: none;
-  }
-  .header-wrapper .header-search {
-    min-width: 95%;
-  }
-  .header-wrapper .header-search .search {
-    top: 4%;
-    left: -22%;
-    position: static;
-    min-width: 100%;
-  }
-  .header-wrapper .header-search .search input {
-    border-radius: 0px !important;
-    margin-left: -157px;
-    margin-top: 28px;
-    width: 100%;
-  }
-  .header-wrapper .header-search .fa-search {
-    top: 56px !important;
-    left: 9.5px !important;
-    font-size: 11.7px !important;
-  }
-  .header-wrapper .account-header {
-    margin-left: -4.5rem;
-  }
-  .header-wrapper .account-header .account {
-    margin-left: -9.5rem;
-    margin-top: -48px;
-  }
-  .header-wrapper .account-header .user {
-    margin-top: -6px;
-    display: flex !important;
-  }
-  .header-wrapper .account-header .user span {
-    position: relative;
-    left: -35%;
-    font-weight: 600;
-  }
-  .header-wrapper .account-header .account i {
-    margin-left: 11px;
-    margin-bottom: -17px;
-    display: flex;
-    font-size: 14px;
-  }
-  .header-wrapper .header-cart #cart {
-    display: none;
-  }
-  .header-wrapper .header-cart .cart svg {
-    margin-left: -7.3rem;
-    margin-top: -42px;
-    width: 161.5%;
-    height: 77px;
-  }
   .home-content {
     display: none;
   }
@@ -5541,7 +5425,7 @@ footer #hr {
   }
   .mb-home-content .home-card {
     gap: 1rem;
-    margin: 16px 0px;
+    margin: 16px 0px !important;
   }
   .mb-home-content .home-img img {
     max-width: 100%;
