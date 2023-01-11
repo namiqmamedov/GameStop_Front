@@ -1915,7 +1915,7 @@ body {
 
     img {
       width: 264px;
-      margin: 12.5px 12.5px;
+      margin: 12.5px 10.5px;
 
     }
 
@@ -6745,10 +6745,6 @@ footer {
   }
 
 
-  html {
-    overflow-x: hidden;
-  }
-
 
   .pagination-container {
     display: none !important;
@@ -8202,12 +8198,13 @@ footer {
     .brand-card{
       margin-left: 0.1rem !important;
     }
-    // .brand-card{
-    //   img{
-    //     width: 334px;
-    //   }
+    .brand-card{
+      img{
+        width: 93% !important;
+        max-width: 281px !important;
+      }
      
-    // }
+    }
   }
 
   .home-card{
@@ -8519,7 +8516,7 @@ footer {
       h2 {
         font-size: 16px !important;
         text-align: left;
-        margin-left: 0.8rem;
+        margin-left: 1.6rem;
         font-weight: normal !important;
       }
     }

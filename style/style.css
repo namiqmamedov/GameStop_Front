@@ -1315,7 +1315,7 @@ body {
 }
 .featured-categories .category-card img {
   width: 264px;
-  margin: 12.5px 12.5px;
+  margin: 12.5px 10.5px;
 }
 
 .bottom-content {
@@ -4711,9 +4711,6 @@ footer #hr {
     margin-top: 12px;
     display: block;
   }
-  html {
-    overflow-x: hidden;
-  }
   .pagination-container {
     display: none !important;
   }
@@ -5664,6 +5661,10 @@ footer #hr {
   .product-brand .brand-card {
     margin-left: 0.1rem !important;
   }
+  .product-brand .brand-card img {
+    width: 93% !important;
+    max-width: 281px !important;
+  }
   .home-card .home-img a .mb-img {
     display: block !important;
   }
@@ -5860,7 +5861,7 @@ footer #hr {
   .featured-categories .heading h2 {
     font-size: 16px !important;
     text-align: left;
-    margin-left: 0.8rem;
+    margin-left: 1.6rem;
     font-weight: normal !important;
   }
   .featured-categories .amp-card:last-child {
