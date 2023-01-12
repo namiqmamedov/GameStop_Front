@@ -5522,7 +5522,7 @@ footer #hr {
     max-width: 281px;
   }
   .product-content .product-carousel #slidero {
-    width: 554px;
+    width: 707px;
     overflow-y: hidden !important;
   }
   .product-content2 .card-box {
@@ -5589,7 +5589,8 @@ footer #hr {
   .product-content3 #slider {
     margin-left: 0.2rem;
     display: flex;
-    width: 536px;
+    width: 100%;
+    max-width: 704px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-scroll-snap-type: x mandatory;
@@ -5655,7 +5656,7 @@ footer #hr {
     height: 100%;
     margin-top: 3.5rem;
     margin-bottom: 2rem;
-    width: 96px !important;
+    width: 93px !important;
     height: 284px !important;
     border: none;
   }
@@ -5774,7 +5775,7 @@ footer #hr {
     bottom: 11px !important;
   }
   .top-deals #slider1 {
-    margin-left: -2.8rem;
+    margin-left: 0.9rem;
     display: flex;
     width: 697px;
   }
@@ -6044,5 +6045,24 @@ footer #hr {
   .top-deals .main-image img {
     width: 100% !important;
     margin-left: -32px !important;
+  }
+  #hardware {
+    overflow-x: hidden;
+  }
+  #deal-content {
+    overflow-x: hidden;
+    margin-left: -4rem;
+  }
+  #preOrder {
+    overflow-x: hidden;
+  }
+  .featured-categories .category-card {
+    margin-right: -2px;
+  }
+  #hardwareAccess {
+    overflow-x: hidden;
+  }
+  #videoGames {
+    overflow-x: hidden;
   }
 }/*# sourceMappingURL=style.css.map */
