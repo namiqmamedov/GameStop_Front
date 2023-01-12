@@ -1550,6 +1550,31 @@ footer #hr {
   html {
     overflow-x: hidden;
   }
+  .footer-copyright {
+    margin-bottom: 19px;
+  }
+  .bottom-content .text p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .featured-categories .category-card {
+    margin-left: 0rem;
+    margin-right: 10px;
+  }
+  .featured-categories .heading h2 {
+    font-size: 16px !important;
+    text-align: left;
+    margin-left: 1.6rem;
+    font-weight: normal !important;
+  }
+  .featured-categories .amp-card:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .featured-categories .amp-card img {
+    width: 46% !important;
+    max-width: 100% !important !important;
+  }
   .pagination-container {
     display: none !important;
   }
@@ -1804,8 +1829,7 @@ footer #hr {
     height: 100%;
   }
   .mb-home-content .center-content img {
-    width: 93.9%;
-    margin-left: 0.7rem;
+    width: 100%;
   }
   .mb-home-content #card-title {
     margin-left: -59px;
@@ -1841,7 +1865,7 @@ footer #hr {
     margin-left: 1px !important;
   }
   .product-content #slidero {
-    width: 365px;
+    width: 722px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-scroll-snap-type: x mandatory;
@@ -1901,16 +1925,19 @@ footer #hr {
     margin-left: 11px;
   }
   .product-content2 .card-box {
-    margin-left: 7.5px !important;
+    margin-left: -10.5px !important;
     gap: 0.59rem;
     margin-top: -49px;
   }
   .product-content2 #hardware {
-    width: 350px;
+    width: 511px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
+  }
+  .product-content2 #hardwareAccess {
+    overflow-x: hidden;
   }
   .product-content2 .card {
     width: 158px !important;
@@ -1959,31 +1986,25 @@ footer #hr {
     margin-top: -1rem;
     color: #9b9b9b;
   }
+  .product-brand .heading {
+    text-align: start !important;
+  }
   .product-brand .heading h2 {
     font-size: 16px !important;
-    padding-left: 14px;
-    text-align: left;
-    font-weight: 500;
-  }
-  .product-brand .br-card {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .product-brand .br-card img {
-    width: 180px;
+    margin-left: 20px;
   }
   .product-brand .brand-card {
-    display: flex;
-    margin-right: 0.6rem;
-    margin-left: 0rem;
+    margin-top: 26px;
+    gap: 2.7rem;
   }
-  .product-brand .amp-card {
-    margin: 0 0 -12px;
-    width: 50%;
-    max-width: 220px;
+  .product-brand .brand-card img {
+    width: 297px !important;
+    max-width: 113% !important;
+    margin: -9.5px -10.5px;
   }
-  .product-brand .amp-card img {
-    width: 170px;
+  .product-brand .brand-card .amp-card {
+    display: block;
+    width: 43%;
   }
   .home-content2 .h-img {
     display: none;
@@ -1992,8 +2013,8 @@ footer #hr {
     display: block;
   }
   .home-content2 .home-card {
-    gap: 3.5rem !important;
-    margin: 13px 1px;
+    gap: 0.9rem !important;
+    margin: 30px 2px;
   }
   .home-content2 .mb-img {
     display: block !important;
@@ -2003,9 +2024,10 @@ footer #hr {
   }
   .home-content2 .home-img .mb-img {
     display: block !important;
-    width: 169px;
-    height: 167px;
-    margin-right: -41px !important;
+    width: 387px;
+    height: auto;
+    max-width: 98%;
+    margin-right: -31px !important;
   }
   .home-content2 .center-content img {
     width: 100%;
@@ -2015,10 +2037,14 @@ footer #hr {
   .product-content3 {
     margin-top: 15px;
   }
+  .product-content3 #videoGames {
+    overflow-x: hidden;
+  }
   .product-content3 #slider {
-    margin-left: 0.9rem;
+    margin-left: 0rem;
     display: flex;
-    width: 350px;
+    width: 100%;
+    max-width: 704px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-scroll-snap-type: x mandatory;
@@ -2109,9 +2135,10 @@ footer #hr {
     margin-top: -34px;
   }
   .top-deals #slider1 {
-    margin-left: -3.1rem;
+    margin-left: -3.8rem;
     display: flex;
-    width: 350px;
+    width: 112%;
+    max-width: 600px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-scroll-snap-type: x mandatory;
@@ -2164,8 +2191,8 @@ footer #hr {
     display: block !important;
   }
   .top-deals .main-image img {
-    width: 112%;
-    margin-left: -49px;
+    width: 112.2%;
+    margin-left: -61px;
   }
   .product-content4 #slider2 {
     margin-left: -0.1rem;
@@ -2176,6 +2203,15 @@ footer #hr {
     -webkit-overflow-scrolling: touch;
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
+  }
+  .product-content4 .heading {
+    justify-content: space-between;
+  }
+  .product-content4 .heading a {
+    margin-right: 40px !important;
+  }
+  .product-content4 .card-box {
+    width: 682px !important;
   }
   .product-content4 .card-body .card-text {
     font-size: 13px;
@@ -2219,7 +2255,7 @@ footer #hr {
     height: 100%;
     margin-top: 3.5rem;
     margin-bottom: 2rem;
-    width: 155.5px !important;
+    width: 176.5px !important;
     height: 284px !important;
   }
   .product-content4 .card:hover {
@@ -2233,7 +2269,7 @@ footer #hr {
   }
   .featured-categories .category-card {
     margin-left: 0rem;
-    margin-right: 10px;
+    margin-right: -53px;
   }
   .featured-categories .heading h2 {
     font-size: 16px !important;
@@ -2246,7 +2282,7 @@ footer #hr {
     margin-right: auto;
   }
   .featured-categories .amp-card {
-    width: 50%;
+    width: 46%;
     margin-bottom: -15px !important;
   }
   .featured-categories .amp-card .card-title {
@@ -2254,7 +2290,8 @@ footer #hr {
     font-family: "Open Sans", sans-serif;
   }
   .featured-categories .amp-card img {
-    width: 167.5px;
+    width: 91% !important;
+    margin: 12.5px 7.5px !important;
   }
   .bottom-content .text p {
     line-height: 18px;
@@ -2291,7 +2328,7 @@ footer #hr {
   }
   footer .footer-country-list {
     line-height: 25px;
-    max-width: 326px;
+    max-width: 540px;
     margin-left: -8.4rem !important;
     flex-wrap: wrap;
   }
@@ -5539,15 +5576,21 @@ footer #hr {
     text-align: start !important;
   }
   .product-brand .heading h2 {
-    font-size: 18px !important;
-    margin-left: 40px;
+    font-size: 16px !important;
+    margin-left: 20px;
   }
   .product-brand .brand-card {
-    margin-left: 0.1rem !important;
+    margin-top: 26px;
+    gap: 2.7rem;
   }
   .product-brand .brand-card img {
-    width: 93% !important;
-    max-width: 281px !important;
+    width: 241px !important;
+    min-width: 106% !important;
+    margin: -8.5px -14.5px;
+  }
+  .product-brand .brand-card .amp-card {
+    display: block;
+    width: 46%;
   }
   .home-card .home-img a .mb-img {
     display: block !important;
@@ -5775,9 +5818,10 @@ footer #hr {
     bottom: 11px !important;
   }
   .top-deals #slider1 {
-    margin-left: 0.9rem;
+    margin-left: 0.2rem;
     display: flex;
-    width: 697px;
+    width: 99.2%;
+    min-width: 600px;
   }
   .product-content4 #slider2 {
     margin-left: -0.1rem;
@@ -6040,11 +6084,18 @@ footer #hr {
     margin-right: auto !important;
   }
   .top-deals .heading-text h2 {
-    margin-left: -30px;
+    margin-left: -47px;
+  }
+  .top-deals .main-image {
+    gap: 1rem !important;
+    flex-wrap: wrap;
+  }
+  .top-deals .main-image .mb-img {
+    display: block !important;
   }
   .top-deals .main-image img {
-    width: 100% !important;
-    margin-left: -32px !important;
+    width: 109%;
+    margin-left: -61px;
   }
   #hardware {
     overflow-x: hidden;
