@@ -3243,14 +3243,18 @@ footer {
     .main-image {
       gap: 1rem !important;
       flex-wrap: wrap;
+      margin-left: -75px;
 
       .mb-img {
         display: block !important;
       }
 
       img {
-        width: 121.2%;
-        margin-left: -62px;
+        width: 97.7%;
+        height: auto;
+        max-width: 745px;
+        margin-left: 12.5px;
+        margin-right: 2px;
       }
     }
   }
@@ -5676,7 +5680,7 @@ footer {
           border-radius: 0px !important;
           margin-left: -157px;
           margin-top: 28px;
-          width: 100%;
+          width: 100.6%;
 
         }
       }
