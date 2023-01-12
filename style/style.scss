@@ -1267,7 +1267,7 @@ body {
   }
 
   .brand-card {
-    margin-left: 1.1rem;
+    margin-left: 0.6rem;
 
     a {
       width: 100%;
@@ -1275,8 +1275,8 @@ body {
     }
 
     img {
-      width: 264px;
-      margin: 12.5px 12.5px;
+      width: 270px;
+      margin: 12.5px 8.5px;
 
     }
   }
@@ -1528,8 +1528,8 @@ body {
     img {
 
       width: 696px;
-      margin-left: -24px;
-      margin-right: 20px;
+      margin-left: -26px;
+      margin-right: 9px;
       height: auto;
     }
 
@@ -2253,35 +2253,32 @@ footer {
 @media (max-width: 576px) {
 
 
-
-  html {
+  #hardware {
     overflow-x: hidden;
   }
 
-
-
-
-  .header-main {
-    // position: fixed;
-
-
+  #hardwareAccess {
+    overflow-x: hidden;
   }
 
+  #preOrder {
+    overflow-x: hidden;
+  }
 
-  .footer-copyright{
+  .footer-copyright {
     margin-bottom: 19px;
   }
 
-  .bottom-content{
-    .text{
-      p{
+  .bottom-content {
+    .text {
+      p {
         margin-left: auto !important;
         margin-right: auto !important;
       }
     }
   }
 
-  
+
   .featured-categories {
     .category-card {
       margin-left: 0rem;
@@ -2302,12 +2299,14 @@ footer {
       margin-right: auto;
     }
 
-   
+
 
     .amp-card {
+
+
       img {
-        width: 46% !important;
-        max-width: 100% !important !important;
+        width: 100% !important;
+        max-width: 100% !important;
       }
     }
   }
@@ -2486,7 +2485,6 @@ footer {
   }
 
 
-
   .main-header {
     margin-left: 0rem;
     position: sticky;
@@ -2538,9 +2536,15 @@ footer {
   .header-wrapper {
     box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
 
+    .header-search {
+      min-width: 99% !important;
+    }
+
+
     nav {
       height: 98.5px;
       margin-left: -1.8rem;
+      overflow-x: hidden;
     }
 
     #m-menu {
@@ -2549,15 +2553,15 @@ footer {
 
     .m-menu__toggle {
       .hamburger {
-        width: 5.8% !important;
+        width: 3.5% !important;
         margin-top: -40px !important;
-        margin-left: -12px;
+        margin-left: 12px;
       }
     }
 
     .nav-logo {
-      width: 105px !important;
-      margin-left: 2px !important;
+      width: 112px !important;
+      margin-left: 24px !important;
       margin-top: -53px;
     }
 
@@ -2609,7 +2613,7 @@ footer {
 
       .fa-search {
         top: 56px !important;
-        left: 9.5px !important;
+        left: 25.5px !important;
         font-size: 11.7px !important;
       }
     }
@@ -2674,7 +2678,7 @@ footer {
 
     .home-card {
       gap: 1rem;
-      margin: 16px 1px;
+      margin: 16px 0px;
     }
 
     .home-img {
@@ -2734,8 +2738,8 @@ footer {
 
     .mb-img a {
       img {
-        width: 96.5% !important;
-        margin-left: 1px !important;
+        width: 95.5% !important;
+        margin-left: 0px !important;
 
       }
 
@@ -2746,7 +2750,7 @@ footer {
   .product-content {
 
 
-   
+
     #slidero {
       width: 722px;
       overflow-x: auto;
@@ -2850,17 +2854,21 @@ footer {
     }
 
     #hardware {
-      width: 511px;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scroll-snap-type: x mandatory;
+      overflow-x: hidden;
+
+      .card-box {
+        width: 511px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+      }
 
     }
 
-    #hardwareAccess{
+    #hardwareAccess {
       overflow-x: hidden;
     }
-    
+
 
 
 
@@ -2885,6 +2893,7 @@ footer {
 
     .heading {
       display: flex;
+      justify-content: space-between;
 
 
       h2 {
@@ -2895,8 +2904,8 @@ footer {
       }
 
       a {
-        margin-left: 7rem;
         margin-top: 6px;
+        margin-right: 18.5px;
         color: black;
         font-family: 'Open Sans', sans-serif;
       }
@@ -2937,16 +2946,18 @@ footer {
 
     .brand-card {
       margin-top: 26px;
-      gap: 2.7rem;
+      gap: 2.5rem;
+      margin-left: 1.2rem !important;
+
       img {
-        width: 297px !important;
-        max-width: 113% !important;
-        margin: -9.5px -10.5px;
+        width: 284px !important;
+        max-width: 115.8% !important;
+        margin: -8.5px -19.5px;
       }
 
-      .amp-card{
+      .amp-card {
         display: block;
-    width: 43%;
+        width: 43%;
       }
 
     }
@@ -2964,7 +2975,7 @@ footer {
 
     .home-card {
       gap: 0.9rem !important;
-      margin: 30px 2px;
+      margin: 30px 0px;
       // padding-right: 301px;
     }
 
@@ -2975,18 +2986,18 @@ footer {
       //  width: 102%;
     }
 
-      .home-img {
-        height: auto !important;
-    
-        .mb-img {
-          display: block !important;
-          width: 387px;
-          height: auto;
-          max-width: 98%;
-          margin-right: -31px !important;
-        }
-    
+    .home-img {
+      height: auto !important;
+
+      .mb-img {
+        display: block !important;
+        width: 387px;
+        height: auto;
+        max-width: 98%;
+        margin-right: -31px !important;
       }
+
+    }
 
 
     .center-content {
@@ -3001,10 +3012,10 @@ footer {
 
   .product-content3 {
 
-    #videoGames{
+    #videoGames {
       overflow-x: hidden;
     }
-    
+
     #slider {
       margin-left: 0rem;
       display: flex;
@@ -3161,7 +3172,7 @@ footer {
   }
 
   .top-deals {
-    margin-top: -34px;
+    margin-top: 15px;
 
 
     #slider1 {
@@ -3238,8 +3249,8 @@ footer {
       }
 
       img {
-        width: 112.2%;
-        margin-left: -61px;
+        width: 121.2%;
+        margin-left: -62px;
       }
     }
   }
@@ -3290,8 +3301,8 @@ footer {
       }
 
       a {
-        margin-left: 7rem;
-        margin-top: 6px;
+        margin-left: 5rem;
+        margin-top: -1px;
         color: black;
         font-family: 'Open Sans', sans-serif;
       }
@@ -3344,7 +3355,7 @@ footer {
   .featured-categories {
     .category-card {
       margin-left: 0rem;
-      margin-right: -53px;
+      gap: 1rem
     }
 
     .heading {
@@ -3362,7 +3373,7 @@ footer {
     }
 
     .amp-card {
-      width: 46%;
+      width: 47%;
       margin-bottom: -15px !important;
 
       .card-title {
@@ -3371,7 +3382,7 @@ footer {
       }
 
       img {
-        width: 91% !important;
+        width: 100% !important;
         margin: 12.5px 7.5px !important;
       }
     }
@@ -6966,26 +6977,36 @@ footer {
   //   display: none !important;
   // }
 
+  .featured-categories {
+    .category-card {
+      margin-left: 0rem !important;
+
+      img {
+        width: 164px !important;
+        margin: 11.5px 17.5px !important;
+      }
+    }
+  }
+
+  .home-content {
+    .home-card {
+      gap: 1.5rem;
+      margin: 16px 3px;
+
+      .home-img {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
   .header-main {
     .container-fluid {
       padding-left: 0px !important;
       padding-right: 0px !important;
     }
   }
-
-
-
-  // .header-cart {
-  //   margin-top: 0px !important;
-  //   display: block !important;
-
-  //   position: absolute;
-  //   top: 27%;
-  //   left: 90%;
-  //   display: none;
-
-  // }
-
 
 
   .footer-item {
@@ -7066,6 +7087,15 @@ footer {
 
 
 
+  }
+
+  .bottom-content {
+    .text {
+      p {
+        line-height: 21px;
+
+      }
+    }
   }
 
   .page-count {
@@ -7492,7 +7522,7 @@ footer {
 
     .footer-country-list {
       line-height: 25px;
-      max-width: 620px;
+      max-width: 669px;
       margin-left: -8.4rem !important;
       flex-wrap: wrap;
 
@@ -8109,15 +8139,16 @@ footer {
     .brand-card {
       margin-top: 26px;
       gap: 2.7rem;
+
       img {
         width: 241px !important;
         min-width: 106% !important;
-        margin: -8.5px -14.5px;
+        margin: -0.5px -9.5px;
       }
 
-      .amp-card{
+      .amp-card {
         display: block;
-    width: 46%;
+        width: 46%;
       }
 
     }
@@ -8184,7 +8215,7 @@ footer {
   }
 
   .product-content3 {
-  
+
 
     #slider {
       margin-left: 0.2rem;
@@ -8309,7 +8340,7 @@ footer {
       margin-top: 3.5rem;
       margin-bottom: 2rem;
       width: 93px !important;
-      height: 284px !important;
+      height: 223px !important;
       border: none;
 
       img {
@@ -8341,7 +8372,7 @@ footer {
   }
 
   .top-deals {
-    margin-top: -34px;
+    margin-top: 8px;
 
 
     #slider1 {
@@ -8857,6 +8888,8 @@ footer {
     }
 
     .main-image {
+      margin-left: -75px;
+      margin-top: 28px;
       gap: 1rem !important;
       flex-wrap: wrap;
 
@@ -8865,8 +8898,11 @@ footer {
       }
 
       img {
-        width: 109%;
-        margin-left: -61px;
+        width: 97.7%;
+        height: auto;
+        max-width: 745px;
+        margin-left: 15px;
+        margin-right: 2px;
       }
     }
   }
@@ -8876,29 +8912,128 @@ footer {
 
   }
 
-  #deal-content{
+  .product-content2 {
+
+    .pageInfo2 {
+      display: none;
+    }
+
+
+    .card-body {
+      .card-text {
+        margin-left: 11px;
+      }
+    }
+
+    .card-box {
+      margin-left: -10.5px !important;
+
+      gap: 0.59rem;
+      margin-top: -49px;
+    }
+
+
+    #hardware {
+      overflow-x: hidden;
+      margin-left: -12px;
+
+      .card-box {
+        width: 584px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+      }
+
+    }
+
+    #hardwareAccess {
+      overflow-x: hidden;
+    }
+
+
+
+
+    .card {
+      width: 158px !important;
+      margin-bottom: 0rem !important;
+      flex-shrink: 0;
+      height: 100%;
+
+      img {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-left: 27px;
+      }
+
+      &:hover {
+        background-color: none;
+        box-shadow: none;
+      }
+    }
+
+    .heading {
+      display: flex;
+      justify-content: space-between;
+
+
+      h2 {
+        font-size: 16px;
+        text-align: left;
+        min-width: 194px;
+        padding-left: 14px;
+      }
+
+      a {
+        margin-left: 7rem;
+        margin-top: 6px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      img {
+        width: 90%;
+        padding-top: 13px;
+        display: block;
+      }
+
+      .card-text {
+        font-size: .875rem;
+        font-weight: 600;
+        max-width: 134px;
+        color: black;
+      }
+
+      .card-subtext {
+        font-size: 12px;
+        margin-top: -1rem;
+        color: #9b9b9b;
+      }
+    }
+
+  }
+
+  #deal-content {
     overflow-x: hidden;
     margin-left: -4rem;
   }
 
-
-
-  #preOrder{
-    overflow-x:  hidden;
+  #preOrder {
+    overflow-x: hidden;
   }
 
 
-  .featured-categories{
-    .category-card{
+  .featured-categories {
+    .category-card {
       margin-right: -2px;
     }
   }
 
-  #hardwareAccess{
+  #hardwareAccess {
     overflow-x: hidden;
   }
-  
-  #videoGames{
+
+  #videoGames {
     overflow-x: hidden;
   }
 }
