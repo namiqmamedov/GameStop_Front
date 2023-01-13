@@ -7,9 +7,9 @@ $('#slider').slick({
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 5,
           slidesToScroll: 3,
-          infinite: true,
+          infinite: false,
           dots: false    
         }
       },
@@ -75,7 +75,7 @@ $('#slider2').slick({
         slidesToShow: 6,
         slidesToScroll: 4,
         infinite: true,
-        dots: true
+        dots: false
       }
     },
     {
@@ -102,15 +102,11 @@ $('#slidero').slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
+        slidesToShow: 6,
+        slidesToScroll: 4,
+        infinite: false,
+        dots: false
       }
-    },
-    {
-      breakpoint: 992,
-      settings: "unslick"
     },
     {
       breakpoint: 600,
