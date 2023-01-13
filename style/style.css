@@ -4924,11 +4924,11 @@ footer #hr {
     gap: 2.5rem !important;
   }
   .top-deals .main-image img {
-    margin-right: 6px;
-    width: 105.7%;
+    margin-right: 0px;
+    width: 105.5%;
     height: auto;
     max-width: 745px;
-    margin-left: -26px;
+    margin-left: -27px;
   }
   .home-content2 {
     margin-top: 16.3px;
@@ -6367,15 +6367,21 @@ footer #hr {
     gap: 1.35rem;
   }
   .featured-categories .amp-card {
-    width: 18%;
+    width: 17.82%;
   }
   .featured-categories .category-card {
-    margin-left: 0rem !important;
-    gap: 1.35rem;
+    margin-left: -0.6rem !important;
+    gap: 1.5rem;
   }
   .featured-categories .category-card img {
-    max-width: 100%;
-    margin: 11.5px 3.5px !important;
+    width: 102.7%;
+    height: auto;
+    max-width: 759px;
+    margin: 16.5px 9.5px;
+  }
+  .featured-categories .card-box {
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   .product-content4 #preOrder {
     overflow-x: hidden !important;
@@ -6404,27 +6410,29 @@ footer #hr {
   .top-deals #deal-content {
     overflow-x: hidden;
     overflow-y: hidden;
+    margin-left: -15px !important;
   }
   .top-deals #slider1 {
-    margin-left: -45px;
+    margin-left: -31px;
   }
   .top-deals .slick-slide > div {
     margin-left: 20px;
     display: flex;
   }
   .top-deals .card {
-    width: 232px !important;
+    width: 275px !important;
+    height: 351px !important;
   }
   .top-deals .card img {
     margin-right: 6px;
-    width: 100% !important;
+    width: 99% !important;
   }
   .top-deals .main-image {
-    gap: 2.5rem !important;
+    gap: 3rem !important;
   }
   .top-deals .main-image img {
-    margin-right: 6px;
-    width: 105.7%;
+    margin-right: 0px;
+    width: 104.7%;
     height: auto;
     max-width: 745px;
     margin-left: -26px;
@@ -6489,9 +6497,8 @@ footer #hr {
     overflow-x: hidden;
   }
   .main-content .main-image img {
-    width: 98.7%;
-    margin-left: 0px;
-    margin-right: 20px;
+    width: 100%;
+    margin-left: -10px;
     height: auto;
   }
   .product-content3 .card-box {
@@ -6518,16 +6525,6 @@ footer #hr {
     margin-bottom: -38px;
     margin-top: 0px;
     display: block !important;
-  }
-  .footer-item {
-    position: relative;
-    top: 50%;
-    gap: 4.8rem !important;
-    margin-bottom: 57px;
-    margin-top: 60px;
-  }
-  .footer-item .content:last-child {
-    margin-left: -79px;
   }
   #h-item {
     position: relative;
@@ -6789,64 +6786,59 @@ footer #hr {
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
-  footer .accordion {
-    display: block !important;
-  }
-  footer .col-lg-8 {
-    width: 100%;
-  }
   footer .mb-signup {
-    display: block;
-    position: relative;
-  }
-  footer .mb-signup form {
-    position: relative;
-    top: -265%;
-  }
-  footer .accordion {
-    display: none !important;
-  }
-  footer #h-signup {
     display: none;
   }
-  footer a img {
-    width: 120px !important;
-    height: 40px !important;
+  footer .accordion {
+    display: none;
   }
-  footer .footer-icon a {
-    width: 32px !important;
-    height: 32px !important;
+  footer .footer-item {
+    gap: 2rem;
   }
-  footer .footer-copyright span {
+  footer .content {
+    padding: 0 9px;
+    margin-top: 17px;
+  }
+  footer .content:first-child {
+    margin-left: 37px;
+  }
+  footer .content:last-child {
+    margin-left: -39px;
+  }
+  footer .footer-copyright {
+    margin-left: -4px;
+    margin-bottom: 27px;
+  }
+  footer ul {
+    padding: 0rem !important;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  footer li {
+    list-style-type: none;
+    max-width: 207px;
+  }
+  footer li a {
     font-size: 14px;
-    position: relative;
-    top: 142%;
-    min-width: 157px;
+    font-weight: 400;
+    color: #121212;
+  }
+  footer li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  footer .title {
     display: block;
-    left: 13%;
-    font-family: "Open Sans", sans-serif;
   }
-  footer .footer-country-list {
-    line-height: 25px;
-    max-width: 669px;
-    margin-left: -8.4rem !important;
-    flex-wrap: wrap;
+  footer .title h5 {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-family: "Poppins", sans-serif;
   }
-  footer .footer-country-list li {
-    font-size: 14px;
-  }
-  footer .footer-country-list li:after {
-    margin: 0px 9px !important;
-  }
-  footer .footer-subtext {
-    margin-bottom: 7px;
-  }
-  footer .mb-signup {
-    display: block;
-    margin-bottom: 25px;
-    margin-left: -0.2rem;
-  }
-  footer .mb-signup .footer-signup input {
+  footer .footer-social .footer-signup input {
     height: 40px;
     text-indent: 2px;
     border: none;
@@ -6855,46 +6847,34 @@ footer #hr {
     width: 758px;
     background: #f0f0f0 0 0 no-repeat padding-box;
   }
-  footer .mb-signup .footer-signup input:focus::-webkit-input-placeholder {
+  footer .footer-social .footer-signup input:focus::-webkit-input-placeholder {
     opacity: 0;
   }
-  footer .mb-signup .footer-signup input:focus {
+  footer .footer-social .footer-signup input:focus {
     box-shadow: none;
     background-color: white;
     box-shadow: 0 0 16px 0 #e0e0e0;
   }
-  footer .mb-signup #app-text {
-    padding-left: 6px;
-  }
-  footer .mb-signup .footer-signup p {
+  footer .footer-social .footer-signup p {
     margin-left: 15px;
   }
-  footer .mb-signup .footer-signup input {
-    width: 895px;
-  }
-  footer .mb-signup .footer-signup .mb-2 {
-    font-size: 12px;
-    font-family: "Open-Sans", sans-serif;
-    font-weight: 400;
-  }
-  footer .mb-signup .footer-signup .input-group {
+  footer .footer-social .footer-signup .input-group {
     background-color: red;
     text-align: center;
-    margin-right: 8.2px;
     display: block;
-    width: 140px !important;
+    width: 245px !important;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
-  footer .mb-signup .footer-signup .input-group button {
+  footer .footer-social .footer-signup .input-group button {
     font-weight: bold;
     color: white;
     font-size: 14px;
   }
-  footer .mb-signup .footer-signup .input-group button:hover {
+  footer .footer-social .footer-signup .input-group button:hover {
     color: black !important;
   }
-  footer .mb-signup .footer-signup .ftr-title h5 {
+  footer .footer-social .footer-signup .ftr-title h5 {
     font-size: 16px;
     font-family: Poppins, Open Sans, sans-serif;
     font-style: normal;
@@ -6903,81 +6883,99 @@ footer #hr {
     font-weight: 600;
     margin-left: 14px;
   }
-  footer .mb-signup .footer-signup p {
+  footer .footer-social .footer-signup p {
     font-size: 13px;
   }
-  footer .accordion {
-    display: flex;
-    border-color: red !important;
-  }
-  footer .accordion-item {
-    border: none;
-    border-top: 1px solid #d9d9d9 !important;
-  }
-  footer .accordion-item:last-child {
-    border-bottom: 1px solid #d9d9d9 !important;
-    padding-right: 20px;
-    border-bottom-right-radius: 0px;
-  }
-  footer .accordion-button::after {
-    content: "+" !important;
-    background-image: none;
-    font-size: 32px;
-    position: absolute;
-    left: 91%;
-    top: 7%;
-  }
-  footer .accordion-collapse {
-    transition: 0.02s ease-in-out;
-  }
-  footer .accordion-item:first-of-type {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  footer .accordion-item:last-of-type .accordion-button.collapsed {
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  footer .accordion-button:not(.collapsed)::after {
-    background-image: none;
-    transform: none;
-    content: "-" !important;
-    font-size: 32px;
-    position: absolute;
-    left: 92.5%;
-    top: 7%;
-    border-color: transparent !important;
-  }
-  footer .accordion-collapse.show {
-    border-color: transparent !important;
-    border-bottom: 0px !important;
-  }
-  footer .accordion-button:focus {
-    border-color: transparent !important;
-    box-shadow: none;
-    background-color: none;
-  }
-  footer .accordion-button:not(.collapsed) {
-    color: black;
-    background-color: white !important;
-    border-color: transparent !important;
-    box-shadow: none;
-  }
-  footer .accordion-header button {
-    font-weight: bold;
-    font-size: 16px;
+  footer .content-app #app-title h5 {
     text-transform: uppercase;
-    padding-left: 12px;
-    font-family: "Open Sans", sans-serif;
-  }
-  footer #app-title h5 {
-    margin-left: 10.5px !important;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-family: Poppins, Open Sans, sans-serif;
+    margin-left: 10px;
+    margin-left: 15px;
+    margin-top: 19px;
   }
   footer .app {
-    margin-left: 11px;
-    margin-top: 12px;
-    display: block;
+    display: flex;
+    gap: 0.6rem;
+    margin-left: 14px;
+  }
+  footer a img {
+    width: 137px !important;
+    height: 42px !important;
+  }
+  footer .footer-social-spacer {
+    margin-top: 1.5rem;
+  }
+  footer .footer-social-spacer .footer-icon {
+    margin-left: 1rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  footer .footer-social-spacer h5 {
+    font-size: 16px;
+    font-family: Poppins, Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 14px;
+    margin-top: 15px;
+  }
+  footer .footer-social-spacer .icon {
+    vertical-align: middle;
+    width: 32px !important;
+    height: 32px !important;
+    display: inline-table;
+  }
+  footer .footer-social-spacer a {
+    padding-left: 1rem;
+  }
+  footer .footer-social-spacer .icon-facebook {
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/facebook.svg") no-repeat 0 0;
+  }
+  footer .footer-social-spacer .icon-twitter {
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/twitter.svg");
+  }
+  footer .footer-social-spacer .icon-youtube {
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/youtube.svg");
+  }
+  footer .footer-social-spacer .icon-instagram {
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/instagram.svg");
+  }
+  footer .footer-subtext {
+    margin-top: 20px;
+    margin-left: -2px;
+  }
+  footer .footer-subtext .content-text {
+    display: flex;
+    padding-left: 46px;
+  }
+  footer .footer-subtext .footer-country-list {
+    display: flex;
+    margin-left: 4.35rem;
+  }
+  footer .footer-subtext .footer-country-list li:after {
+    content: "|";
+    margin: 0 5px;
+  }
+  footer .footer-subtext .country:hover {
+    cursor: pointer;
+    color: #e7230d;
+    text-decoration: underline;
+  }
+  footer .footer-subtext .country:last-child:after {
+    content: "";
+  }
+  footer #hr {
+    border-top: 1px solid rgb(241, 238, 238);
+    display: inline-block;
+    width: 100%;
+    margin-top: 105px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) and (min-width: 768px) and (max-width: 825px) {
