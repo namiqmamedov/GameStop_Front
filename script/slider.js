@@ -14,7 +14,7 @@ $('#slider').slick({
         }
       },
       {
-        breakpoint: 992,
+        breakpoint: 767,
         settings: "unslick"
       },
       {
@@ -47,7 +47,7 @@ $('#slider1').slick({
         }
       },
       {
-        breakpoint: 992,
+        breakpoint: 767,
         settings: "unslick"
       },
       {
@@ -79,7 +79,7 @@ $('#slider2').slick({
       }
     },
     {
-      breakpoint: 992,
+      breakpoint: 767,
       settings: "unslick"
     },
     {
@@ -107,6 +107,10 @@ $('#slidero').slick({
         infinite: false,
         dots: false
       }
+    },
+    {
+      breakpoint: 767,
+      settings: "unslick"
     },
     {
       breakpoint: 600,

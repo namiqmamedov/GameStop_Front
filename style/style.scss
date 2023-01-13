@@ -3086,9 +3086,6 @@ footer {
 
 
 
-
-
-
     // .slick-next{
     //   border: none;
     //   border-radius: 6px;
@@ -6989,12 +6986,16 @@ footer {
   // }
 
   .featured-categories {
+    gap: 1.35rem;
+    .amp-card{
+      width: 18%;
+    }
     .category-card {
       margin-left: 0rem !important;
-      gap: 1.1rem;
+      gap: 1.35rem;
 
       img {
-        width: 178.5px !important;
+        max-width: 100%;
         margin: 11.5px 3.5px !important;
       }
     }
@@ -7047,11 +7048,11 @@ footer {
       }
     }
     .main-image{
-      gap: 2.765rem !important;
+      gap: 2.5rem !important;
       
       img{
         margin-right: 6px;
-        width: 486.55px;
+        width: 488.55px;
         margin-left: -26px;
       }
     }
@@ -7076,6 +7077,12 @@ footer {
     }
   }
 
+  .product-content3{
+    .slick-slide > div{
+      margin: 0 22px;
+      display: flex;
+    }
+  }
   
   .product-content2{
     .card-box{
@@ -7089,6 +7096,9 @@ footer {
         width: 89%;
       }
     }
+  } 
+  .pageInfo2{
+    display: none;
   }
 
   .product-content{
@@ -7096,7 +7106,7 @@ footer {
     #slidero{
       margin-left: -8px !important;
     }
-    
+
     .card{
       width: 149px !important;
       height: 270px !important;
@@ -7104,13 +7114,19 @@ footer {
         width: 73%;
       }
     }
+
+    .pageInfo{
+      left: 90%;
+    }
   }
 
   .main-content{
     .main-image{
+      gap: 0rem;
+      padding: 0px;
       img{
-        width: 109%;
-        margin-left: -49px;
+        width: 98.7%;
+        margin-left: 0px;
         margin-right: 20px;
         height: auto;
       }
@@ -7120,13 +7136,13 @@ footer {
   .product-content3{
 
     .card-box{
-      margin-left: 3.5px;
+      margin-left: -18.5px;
     }
 
     .card{
       width: 170px !important;
       a img{
-        width: 100% !important;
+        width: 118% !important;
       }
     }
   }
@@ -7134,7 +7150,7 @@ footer {
   .home-content {
     .home-card {
       gap: 1.5rem;
-      margin: 16px 3px;
+      margin: 16px -1px;
 
       .home-img {
         img {
@@ -7192,9 +7208,6 @@ footer {
   .card-boxes {
     width: auto !important;
   }
-
-
-
 
 
   #productCard {

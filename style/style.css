@@ -4867,12 +4867,18 @@ footer #hr {
   html {
     overflow-x: hidden;
   }
+  .featured-categories {
+    gap: 1.35rem;
+  }
+  .featured-categories .amp-card {
+    width: 18%;
+  }
   .featured-categories .category-card {
     margin-left: 0rem !important;
-    gap: 1.1rem;
+    gap: 1.35rem;
   }
   .featured-categories .category-card img {
-    width: 178.5px !important;
+    max-width: 100%;
     margin: 11.5px 3.5px !important;
   }
   .product-content4 .card-body {
@@ -4910,11 +4916,11 @@ footer #hr {
     width: 100% !important;
   }
   .top-deals .main-image {
-    gap: 2.765rem !important;
+    gap: 2.5rem !important;
   }
   .top-deals .main-image img {
     margin-right: 6px;
-    width: 486.55px;
+    width: 488.55px;
     margin-left: -26px;
   }
   .home-content2 .center-content img {
@@ -4928,6 +4934,10 @@ footer #hr {
   .home-content2 .home-img .h-img {
     width: 100%;
   }
+  .product-content3 .slick-slide > div {
+    margin: 0 22px;
+    display: flex;
+  }
   .product-content2 .card-box {
     margin-left: -10.5px !important;
     gap: 0.9rem;
@@ -4935,6 +4945,9 @@ footer #hr {
   }
   .product-content2 .card img {
     width: 89%;
+  }
+  .pageInfo2 {
+    display: none;
   }
   .product-content #slidero {
     margin-left: -8px !important;
@@ -4946,24 +4959,31 @@ footer #hr {
   .product-content .card img {
     width: 73%;
   }
+  .product-content .pageInfo {
+    left: 90%;
+  }
+  .main-content .main-image {
+    gap: 0rem;
+    padding: 0px;
+  }
   .main-content .main-image img {
-    width: 109%;
-    margin-left: -49px;
+    width: 98.7%;
+    margin-left: 0px;
     margin-right: 20px;
     height: auto;
   }
   .product-content3 .card-box {
-    margin-left: 3.5px;
+    margin-left: -18.5px;
   }
   .product-content3 .card {
     width: 170px !important;
   }
   .product-content3 .card a img {
-    width: 100% !important;
+    width: 118% !important;
   }
   .home-content .home-card {
     gap: 1.5rem;
-    margin: 16px 3px;
+    margin: 16px -1px;
   }
   .home-content .home-card .home-img img {
     width: 100%;
