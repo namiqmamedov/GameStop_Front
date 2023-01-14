@@ -10763,18 +10763,17 @@ footer {
     }
 
     .amp-card {
-      width: 18.51%;
+      flex: 19%;
     }
 
     .category-card {
-      margin-left: -0.6rem !important;
-      gap: 1.5rem;
+      gap: 1.1rem;
 
       img {
-        width: 96.7%;
+        width: auto;
         height: auto;
-        max-width: 759px;
-        margin: -16.5px 11.5px;
+        max-width: 93%;
+        margin: -18.5px 11.5px;
       }
     }
 
@@ -11108,7 +11107,8 @@ footer {
     }
 
     .card{
-      width: 247px !important;
+      width: 301px !important;
+      height: 364px !important;
       img{
         width: 108.3% !important;
         
