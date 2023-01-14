@@ -10722,7 +10722,7 @@ footer {
 
       img {
         width: 100%;
-        margin-left: -10px;
+        margin-left: -2px;
         height: auto;
       }
     }
@@ -10738,7 +10738,7 @@ footer {
       width: 170px !important;
 
       a img {
-        width: 118% !important;
+        width: 108% !important;
       }
     }
   }
@@ -10746,9 +10746,11 @@ footer {
 
   .featured-categories {
     gap: 1.35rem;
-    p{
+
+    p {
       margin-top: 18px;
     }
+
     .amp-card {
       width: 18.51%;
     }
@@ -10758,7 +10760,7 @@ footer {
       gap: 1.5rem;
 
       img {
-        width: 98.7%;
+        width: 96.7%;
         height: auto;
         max-width: 759px;
         margin: -16.5px 11.5px;
@@ -10771,7 +10773,332 @@ footer {
     }
   }
 
+  footer {
+    .mb-signup {
+      display: none;
+    }
 
+    .accordion {
+      display: none;
+    }
+
+    .footer-item {
+      gap: 2rem;
+
+
+    }
+
+    .content {
+      padding: 0 9px;
+      margin-top: 17px;
+
+      &:first-child {
+        margin-left: 37px;
+      }
+
+      &:last-child {
+        margin-left: -39px;
+      }
+    }
+
+    .footer-copyright {
+      margin-left: -4px;
+      margin-bottom: 27px;
+    }
+
+    ul {
+      padding: 0rem !important;
+    }
+
+    a {
+      text-decoration: none;
+
+    }
+
+    li {
+      list-style-type: none;
+      max-width: 207px;
+
+      a {
+        font-size: 14px;
+        font-weight: 400;
+        color: #121212;
+
+        &:hover {
+          color: black;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .title {
+
+      display: block;
+
+      h5 {
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 16px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+      }
+    }
+
+    .footer-social {
+      margin-top: 10px;
+
+      .footer-signup input {
+        height: 40px;
+        text-indent: 2px;
+        border: none;
+        border-radius: 0px !important;
+        margin-left: 14px;
+        width: 758px;
+        background: #f0f0f0 0 0 no-repeat padding-box;
+      }
+
+      .footer-signup input:focus::-webkit-input-placeholder {
+        opacity: 0;
+      }
+
+
+      .footer-signup input:focus {
+
+        box-shadow: none;
+        background-color: white;
+        box-shadow: 0 0 16px 0 #e0e0e0;
+
+      }
+
+
+      .footer-signup {
+        p {
+          margin-left: 15px;
+        }
+
+        .input-group {
+          background-color: red;
+          text-align: center;
+          display: block;
+          width: 245px !important;
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+
+          button {
+            font-weight: bold;
+            color: white;
+            font-size: 14px;
+
+            &:hover {
+              color: black !important;
+            }
+
+
+          }
+        }
+
+        .ftr-title {
+          h5 {
+            font-size: 16px;
+            font-family: Poppins, Open Sans, sans-serif;
+            font-style: normal;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-left: 14px;
+          }
+        }
+
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+
+    .content-app {
+      #app-title {
+        h5 {
+          text-transform: uppercase;
+          cursor: pointer;
+          font-size: 16px;
+          color: black;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 500;
+          font-family: Poppins, Open Sans, sans-serif;
+          margin-left: 10px;
+          margin-left: 15px;
+          margin-top: 19px;
+        }
+      }
+
+    }
+
+    .app {
+      display: flex;
+      gap: 0.6rem;
+      margin-left: 14px;
+
+    }
+
+    a img {
+      width: 137px !important;
+      height: 42px !important;
+    }
+
+
+
+    .footer-social-spacer {
+      margin-top: 1.5rem;
+
+      .footer-icon {
+        margin-left: 1rem;
+        display: flex;
+        gap: 0.4rem;
+      }
+
+      h5 {
+        font-size: 16px;
+        font-family: Poppins, Open Sans, sans-serif;
+        font-style: normal;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left: 14px;
+        margin-top: 15px;
+      }
+
+      .icon {
+        vertical-align: middle;
+        width: 32px !important;
+        height: 32px !important;
+        display: inline-table;
+      }
+
+      a {
+        padding-left: 1rem;
+      }
+
+      .icon-facebook {
+        background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/facebook.svg") no-repeat 0 0;
+      }
+
+      .icon-twitter {
+        background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/twitter.svg');
+      }
+
+      .icon-youtube {
+        background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/youtube.svg');
+      }
+
+      .icon-instagram {
+        background: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/instagram.svg');
+      }
+
+    }
+
+    .footer-subtext {
+      margin-top: 20px;
+      margin-left: -2px;
+
+      .content-text {
+        display: flex;
+        padding-left: 46px;
+      }
+
+      .footer-country-list {
+        display: flex;
+        margin-left: 4.35rem;
+
+        li {
+          &:after {
+            content: "|";
+            margin: 0 5px;
+          }
+        }
+      }
+
+      .country {
+        &:hover {
+          cursor: pointer;
+          color: #e7230d;
+          text-decoration: underline;
+        }
+      }
+
+      .country:last-child:after {
+        content: "";
+      }
+
+    }
+
+    #hr {
+      border-top: 1px solid rgb(241 238 238);
+      display: inline-block;
+      width: 100%;
+      margin-top: 105px;
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .product-brand {
+    .brand-card {
+      gap: 1.45rem;
+      margin-left: -1.9rem;
+      overflow-x: hidden;
+    }
+
+    .amp-card {
+      width: 18%;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 756px;
+        margin: 2.5px 32.5px;
+      }
+    }
+  }
+
+  .home-content2 {
+    .home-card {
+      gap: 2rem;
+      margin: 16px 0px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .center-content {
+      img {
+        width: 100%;
+        margin-left: 0px !important;
+      }
+    }
+
+  }
+
+  .product-content3 {
+    .slick-slide>div {
+      margin: 0 22px;
+      display: flex;
+    }
+
+    #videoGames {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    .card{
+      width: 247px !important;
+      img{
+        width: 108.3% !important;
+        
+      }
+    }
+
+  }
 
 
 }

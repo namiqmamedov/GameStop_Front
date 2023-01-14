@@ -7187,7 +7187,7 @@ footer #hr {
   }
   .main-content .main-image img {
     width: 100%;
-    margin-left: -10px;
+    margin-left: -2px;
     height: auto;
   }
   .product-content3 .card-box {
@@ -7197,7 +7197,7 @@ footer #hr {
     width: 170px !important;
   }
   .product-content3 .card a img {
-    width: 118% !important;
+    width: 108% !important;
   }
   .featured-categories {
     gap: 1.35rem;
@@ -7213,7 +7213,7 @@ footer #hr {
     gap: 1.5rem;
   }
   .featured-categories .category-card img {
-    width: 98.7%;
+    width: 96.7%;
     height: auto;
     max-width: 759px;
     margin: -16.5px 11.5px;
@@ -7221,5 +7221,238 @@ footer #hr {
   .featured-categories .card-box {
     overflow-x: hidden;
     overflow-y: hidden;
+  }
+  footer .mb-signup {
+    display: none;
+  }
+  footer .accordion {
+    display: none;
+  }
+  footer .footer-item {
+    gap: 2rem;
+  }
+  footer .content {
+    padding: 0 9px;
+    margin-top: 17px;
+  }
+  footer .content:first-child {
+    margin-left: 37px;
+  }
+  footer .content:last-child {
+    margin-left: -39px;
+  }
+  footer .footer-copyright {
+    margin-left: -4px;
+    margin-bottom: 27px;
+  }
+  footer ul {
+    padding: 0rem !important;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  footer li {
+    list-style-type: none;
+    max-width: 207px;
+  }
+  footer li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #121212;
+  }
+  footer li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  footer .title {
+    display: block;
+  }
+  footer .title h5 {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+  }
+  footer .footer-social {
+    margin-top: 10px;
+  }
+  footer .footer-social .footer-signup input {
+    height: 40px;
+    text-indent: 2px;
+    border: none;
+    border-radius: 0px !important;
+    margin-left: 14px;
+    width: 758px;
+    background: #f0f0f0 0 0 no-repeat padding-box;
+  }
+  footer .footer-social .footer-signup input:focus::-webkit-input-placeholder {
+    opacity: 0;
+  }
+  footer .footer-social .footer-signup input:focus {
+    box-shadow: none;
+    background-color: white;
+    box-shadow: 0 0 16px 0 #e0e0e0;
+  }
+  footer .footer-social .footer-signup p {
+    margin-left: 15px;
+  }
+  footer .footer-social .footer-signup .input-group {
+    background-color: red;
+    text-align: center;
+    display: block;
+    width: 245px !important;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  footer .footer-social .footer-signup .input-group button {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+  }
+  footer .footer-social .footer-signup .input-group button:hover {
+    color: black !important;
+  }
+  footer .footer-social .footer-signup .ftr-title h5 {
+    font-size: 16px;
+    font-family: Poppins, Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 14px;
+  }
+  footer .footer-social .footer-signup p {
+    font-size: 13px;
+  }
+  footer .content-app #app-title h5 {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-family: Poppins, Open Sans, sans-serif;
+    margin-left: 10px;
+    margin-left: 15px;
+    margin-top: 19px;
+  }
+  footer .app {
+    display: flex;
+    gap: 0.6rem;
+    margin-left: 14px;
+  }
+  footer a img {
+    width: 137px !important;
+    height: 42px !important;
+  }
+  footer .footer-social-spacer {
+    margin-top: 1.5rem;
+  }
+  footer .footer-social-spacer .footer-icon {
+    margin-left: 1rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  footer .footer-social-spacer h5 {
+    font-size: 16px;
+    font-family: Poppins, Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 14px;
+    margin-top: 15px;
+  }
+  footer .footer-social-spacer .icon {
+    vertical-align: middle;
+    width: 32px !important;
+    height: 32px !important;
+    display: inline-table;
+  }
+  footer .footer-social-spacer a {
+    padding-left: 1rem;
+  }
+  footer .footer-social-spacer .icon-facebook {
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/facebook.svg") no-repeat 0 0;
+  }
+  footer .footer-social-spacer .icon-twitter {
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/twitter.svg");
+  }
+  footer .footer-social-spacer .icon-youtube {
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/youtube.svg");
+  }
+  footer .footer-social-spacer .icon-instagram {
+    background: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672246282215/images/svg-icons/instagram.svg");
+  }
+  footer .footer-subtext {
+    margin-top: 20px;
+    margin-left: -2px;
+  }
+  footer .footer-subtext .content-text {
+    display: flex;
+    padding-left: 46px;
+  }
+  footer .footer-subtext .footer-country-list {
+    display: flex;
+    margin-left: 4.35rem;
+  }
+  footer .footer-subtext .footer-country-list li:after {
+    content: "|";
+    margin: 0 5px;
+  }
+  footer .footer-subtext .country:hover {
+    cursor: pointer;
+    color: #e7230d;
+    text-decoration: underline;
+  }
+  footer .footer-subtext .country:last-child:after {
+    content: "";
+  }
+  footer #hr {
+    border-top: 1px solid rgb(241, 238, 238);
+    display: inline-block;
+    width: 100%;
+    margin-top: 105px;
+    margin-bottom: 10px;
+  }
+  .product-brand .brand-card {
+    gap: 1.45rem;
+    margin-left: -1.9rem;
+    overflow-x: hidden;
+  }
+  .product-brand .amp-card {
+    width: 18%;
+  }
+  .product-brand .amp-card img {
+    width: 100%;
+    height: auto;
+    max-width: 756px;
+    margin: 2.5px 32.5px;
+  }
+  .home-content2 .home-card {
+    gap: 2rem;
+    margin: 16px 0px;
+  }
+  .home-content2 .home-card img {
+    width: 100%;
+  }
+  .home-content2 .center-content img {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .product-content3 .slick-slide > div {
+    margin: 0 22px;
+    display: flex;
+  }
+  .product-content3 #videoGames {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .product-content3 .card {
+    width: 247px !important;
+  }
+  .product-content3 .card img {
+    width: 108.3% !important;
   }
 }/*# sourceMappingURL=style.css.map */
