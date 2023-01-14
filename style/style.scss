@@ -9845,32 +9845,23 @@ footer {
     background-color: #282828;
 
     .navbar-toggler {
-      display: none;
+
     }
 
     .shopping {
-      display: none;
+ 
     }
 
     .check-order {
-      display: none;
+     
     }
 
     .navbar-brand {
-      margin-left: auto !important;
-      margin-right: auto !important;
-      margin-top: -1px;
+      margin-left: -48px !important;
+      margin-top: 3px;
 
     }
 
-    @media (min-width:767.8px) and (max-width:993px) {
-      .navbar-brand {
-        margin-left: auto !important;
-        margin-right: auto !important;
-        margin-top: -14px;
-
-      }
-    }
 
 
   }
@@ -9943,19 +9934,25 @@ footer {
       }
     }
   }
+  .main-header{
+    a{
+      width: 77px;
+      margin-bottom: -2px;
+    }
+  }
 
   .header-wrapper {
     box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
-    height: 54px !important;
+    height: 75px !important;
 
     .header-search {
-      min-width: 81% !important;
+      min-width: 67% !important;
 
     }
 
 
     nav {
-      height: 55.5px;
+      height: 75.5px;
       margin-left: -1.8rem;
       overflow-x: hidden;
       overflow-y: hidden;
@@ -9967,16 +9964,16 @@ footer {
 
     .m-menu__toggle {
       .hamburger {
-        width: 2.3% !important;
+        width: 1.7% !important;
         margin-top: -15px !important;
         margin-left: 12px;
       }
     }
 
     .nav-logo {
-      width: 115px !important;
-      margin-left: 24px !important;
-      margin-top: -7px;
+      width: 160px;
+      margin-left: 39px !important;
+      margin-top: 2px;
     }
 
     .header-options {
@@ -10020,31 +10017,32 @@ footer {
           border-radius: 0px !important;
           margin-left: 13px;
           margin-top: 2px;
-          width: 84.6%;
+          width: 100%;
         }
       }
 
       .fa-search {
-        top: 23px !important;
-        left: 198.5px !important;
+        top: 35px !important;
+        left: 254.5px !important;
         font-size: 11.7px !important
       }
     }
 
     .account-header {
-      margin-left: -4.5rem;
+      max-width: 100%;
+    width: 100%;
 
       .account {
-        margin-left: -9.5rem;
-        margin-top: -48px;
+        margin-top: 1px;
+    width: auto;
+    /* justify-content: space-between; */
+    height: 26px;
       }
 
       .user {
-        margin-top: 60px;
+        display: flex !important;
 
         span {
-          position: relative;
-          left: -35%;
           font-weight: 600;
         }
 
@@ -10053,24 +10051,35 @@ footer {
       }
 
       .account i {
-        margin-left: 11px;
+ 
         margin-bottom: -17px;
         display: flex;
-        font-size: 14px;
+        padding-left: 45px;
+        font-size: 18px;
       }
     }
 
     .header-cart {
+      margin-top: -2px;
+    height: 22px;
+    position: relative;
       #cart {
         display: none;
       }
 
       .cart {
+        position: relative;
+        width: -1%;
+        top: 21%;
+        left: 152%;
         svg {
-          margin-left: -7.3rem;
-          margin-top: 20px;
-          width: 161.5%;
+          margin-top: -32px;
+          width: 189.5%;
           height: 77px;
+        }
+
+        #cart{
+          visibility: hidden !important;
         }
       }
     }
