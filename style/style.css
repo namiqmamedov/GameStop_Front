@@ -7455,4 +7455,37 @@ footer #hr {
   .product-content3 .card img {
     width: 108.3% !important;
   }
+  .top-deals {
+    margin-left: 27px;
+  }
+  .top-deals #deal-content {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: -15px !important;
+  }
+  .top-deals #slider1 {
+    margin-left: -31px;
+  }
+  .top-deals .slick-slide > div {
+    margin-left: 20px;
+    display: flex;
+  }
+  .top-deals .card {
+    width: 363px !important;
+    height: 351px !important;
+  }
+  .top-deals .card img {
+    margin-right: 6px;
+    width: 99% !important;
+  }
+  .top-deals .main-image {
+    gap: 3rem !important;
+  }
+  .top-deals .main-image img {
+    margin-right: 0px;
+    width: 103.7%;
+    height: auto;
+    max-width: 745px;
+    margin-left: -26px;
+  }
 }/*# sourceMappingURL=style.css.map */

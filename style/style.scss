@@ -11100,5 +11100,53 @@ footer {
 
   }
 
+  .top-deals {
+
+    margin-left: 27px;
+    //   .slick-slide {
+    //     margin: 0 25px;
+    // }
+
+    #deal-content {
+      overflow-x: hidden;
+      overflow-y: hidden;
+      margin-left: -15px !important;
+    }
+
+    #slider1 {
+
+      margin-left: -31px;
+    }
+
+    .slick-slide>div {
+      margin-left: 20px;
+      display: flex;
+    }
+
+
+
+    .card {
+      width: 363px !important;
+      height: 351px !important;
+
+      img {
+        margin-right: 6px;
+        width: 99% !important;
+      }
+    }
+
+    .main-image {
+      gap: 3rem !important;
+
+      img {
+        margin-right: 0px;
+        width: 103.7%;
+        height: auto;
+        max-width: 745px;
+        margin-left: -26px;
+      }
+    }
+  }
+
 
 }
