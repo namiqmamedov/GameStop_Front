@@ -7053,7 +7053,7 @@ footer #hr {
     width: 3.2% !important;
     height: 28px;
     margin-top: 9px !important;
-    margin-left: 2px;
+    margin-left: 5px;
   }
   .header-wrapper .nav-logo {
     width: 160px;
@@ -7175,5 +7175,51 @@ footer #hr {
   }
   .product-content .pageInfo {
     left: 90%;
+  }
+  .main-content {
+    margin-left: 0.678rem;
+    margin-right: 0.678rem;
+  }
+  .main-content .main-image {
+    gap: 0rem;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  .main-content .main-image img {
+    width: 100%;
+    margin-left: -10px;
+    height: auto;
+  }
+  .product-content3 .card-box {
+    margin-left: -18.5px;
+  }
+  .product-content3 .card {
+    width: 170px !important;
+  }
+  .product-content3 .card a img {
+    width: 118% !important;
+  }
+  .featured-categories {
+    gap: 1.35rem;
+  }
+  .featured-categories p {
+    margin-top: 18px;
+  }
+  .featured-categories .amp-card {
+    width: 18.51%;
+  }
+  .featured-categories .category-card {
+    margin-left: -0.6rem !important;
+    gap: 1.5rem;
+  }
+  .featured-categories .category-card img {
+    width: 98.7%;
+    height: auto;
+    max-width: 759px;
+    margin: -16.5px 11.5px;
+  }
+  .featured-categories .card-box {
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 }/*# sourceMappingURL=style.css.map */
