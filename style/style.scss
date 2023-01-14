@@ -10391,7 +10391,7 @@ footer {
 @media(min-width:1200px) {
 
   .container {
-    max-width: 1760px;
+    max-width: 1760px !important;
   }
  
   
@@ -10524,7 +10524,7 @@ footer {
 
     .nav-logo {
       width: 160px;
-      margin-left: 39px !important;
+      margin-left: 5px !important;
       margin-top: 2px;
     }
 
@@ -10624,16 +10624,22 @@ footer {
         position: relative;
         width: -1%;
         top: 21%;
-        left: 152%;
+        left: 256%;
 
         svg {
           margin-top: -32px;
-          width: 189.5%;
+          width: 457.5%;
           height: 77px;
+          padding-left: 2px;
         }
 
         #cart {
-          visibility: hidden !important;
+          font-size: 12px;
+          font-weight: 600;
+          font-family: "Open Sans", sans-serif;
+          margin-left: -32px;
+          padding-top: -35px;
+          margin-top: -25px;
         }
       }
     }
@@ -10643,18 +10649,66 @@ footer {
   .home-content {
     .home-card {
       gap: 1.5rem;
-      margin: 1px -68px;
+      margin: 16px -1px;
 
       .home-img {
-        width: 703.5px;
-        height: 100%;
         img {
           width: 100%;
-          height: 100%;
         }
       }
     }
   }
+
+
+  .product-content2 {
+    .card-box {
+      margin-left: -10.5px !important;
+      gap: 0.9rem;
+      margin-top: -51px !important;
+    }
+
+    #hardware {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    .card {
+      img {
+        width: 89%;
+      }
+    }
+  }
+
+  .pageInfo2 {
+    display: none;
+  }
+
+  .product-content {
+    #hardwareAccess {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+
+    #slidero {
+      margin-left: -8px !important;
+    }
+
+    .card {
+      width: 199px !important;
+      height: 270px !important;
+
+      img {
+        width: 73%;
+      }
+    }
+
+    .pageInfo {
+      left: 90%;
+    }
+  }
+
+
 
 
 }
