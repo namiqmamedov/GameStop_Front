@@ -1160,6 +1160,12 @@ body {
 .product-content4 .heading {
   position: relative;
 }
+.product-content4 .slick-slide > div {
+  margin: 0 25px;
+}
+.product-content4 .card-box {
+  margin-left: -38.5px !important;
+}
 .product-content4 .pageInfo3 {
   position: absolute;
   top: 50%;
@@ -7052,8 +7058,8 @@ footer #hr {
   .header-wrapper .m-menu__toggle .hamburger {
     width: 3.2% !important;
     height: 28px;
-    margin-top: 9px !important;
-    margin-left: 5px;
+    margin-top: 11px !important;
+    margin-left: 2px;
   }
   .header-wrapper .nav-logo {
     width: 160px;
@@ -7139,14 +7145,14 @@ footer #hr {
   }
   .home-content .home-card {
     gap: 1.5rem;
-    margin: 16px -1px;
+    margin: 1px -1px;
   }
   .home-content .home-card .home-img img {
     width: 100%;
   }
   .product-content2 .card-box {
-    margin-left: -10.5px !important;
-    gap: 0.9rem;
+    margin-left: -5.5px !important;
+    gap: 3.5rem;
     margin-top: -51px !important;
   }
   .product-content2 #hardware {
@@ -7445,6 +7451,9 @@ footer #hr {
     margin: 0 22px;
     display: flex;
   }
+  .product-content3 #slider .slick-prev {
+    left: -11%;
+  }
   .product-content3 #videoGames {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -7454,6 +7463,22 @@ footer #hr {
   }
   .product-content3 .card img {
     width: 108.3% !important;
+  }
+  .product-content4 #preOrder {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .product-content4 #preOrder .container-fluid {
+    padding-right: 0px !important;
+  }
+  .product-content4 .slick-slide > div {
+    margin: 0 24px;
+  }
+  .product-content4 .card {
+    width: 203.8px !important;
+  }
+  .product-content4 .slick-prev:hover {
+    left: -9.8% !important;
   }
   .top-deals {
     margin-left: 27px;
@@ -7472,7 +7497,7 @@ footer #hr {
   }
   .top-deals .card {
     width: 363px !important;
-    height: 351px !important;
+    height: 395px !important;
   }
   .top-deals .card img {
     margin-right: 6px;
