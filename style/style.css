@@ -3207,9 +3207,13 @@ footer #hr {
   .paginationRes {
     display: block !important;
   }
+  #br_crumbs {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
   .breadcrumbs {
     padding-top: 12px;
-    margin-left: -5px;
+    margin-left: -18px;
   }
   .breadcrumbs nav {
     margin-left: -15px;
@@ -3325,6 +3329,9 @@ footer #hr {
     margin-top: 10px;
     height: 61px;
   }
+  #prod-cart .product-filter .dropdown {
+    display: none !important;
+  }
   #prod-cart .menu_container {
     position: relative;
     z-index: 2000;
@@ -3425,49 +3432,79 @@ footer #hr {
   #prod-cart .menu_container .list_items_container .btn-outline-secondary:focus {
     background-color: transparent;
   }
-  #productCard {
+  .category-card .product-main .card-boxes {
+    width: auto !important;
+    max-width: 100%;
+  }
+  .category-card .product-main .row {
+    padding-left: 0px !important;
+  }
+  .category-card .product-main .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .category-card .card-boxes .card-box {
+    margin-left: 0px !important;
+  }
+  .category-card #productCard {
     margin-top: 32px !important;
+    max-width: 115%;
+    width: 100%;
   }
-  #productCard .card {
-    height: 156.5px;
+  .category-card #productCard .card {
+    height: 200px;
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-top: -1.85rem;
+    margin-bottom: 2rem;
+    margin-left: -2px;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
-  #productCard .card .badge-content {
+  .category-card #productCard .card .card-text {
+    min-width: 25px !important;
+  }
+  .category-card #productCard .card .image-box {
+    width: 35%;
+  }
+  .category-card #productCard .card .badge-content {
     top: -2.5%;
+    text-align: center;
   }
-  #productCard .card .badge-content .badge {
-    padding: 4px 16px;
+  .category-card #productCard .card .badge-content .badge {
+    padding: 6px 16px;
+    margin-top: 3px;
     background-color: #087845;
   }
-  #productCard .card img {
-    width: 39%;
-    height: 133px;
+  .category-card #productCard .card img {
+    width: 100%;
+    max-width: 162px;
     margin-left: 0px;
+    mix-blend-mode: multiply;
   }
-  #productCard .card:hover {
+  .category-card #productCard .card:hover {
     box-shadow: none;
   }
-  #productCard .card a {
+  .category-card #productCard .card a {
     display: flex;
-    border-bottom: 1px solid #e1e7ef;
     margin: -13px 0px 0;
-    width: 330px;
   }
-  #productCard .card .price {
+  .category-card #productCard .card .price {
     margin-top: 20px;
   }
-  #productCard .card .currentPrice {
+  .category-card #productCard .card .currentPrice {
     margin-top: 16px;
   }
-  #productCard .card .price-design {
+  .category-card #productCard .card .price-design {
     margin-top: 20px;
   }
-  #productCard .pagination-container {
+  .category-card #productCard .pagination-container {
     top: -37px;
   }
-  #productCard .pagination-container #prev-button {
+  .category-card #productCard .pagination-container #prev-button {
     transform: scale(0.71);
   }
-  #productCard .pagination-container #next-button {
+  .category-card #productCard .pagination-container #next-button {
     transform: scale(0.71);
   }
   .menu_container .list_items_container {
@@ -5048,6 +5085,7 @@ footer #hr {
   }
   #br_crumbs {
     margin-right: 0px;
+    margin-left: 0px;
   }
   .card-boxes {
     width: auto !important;
@@ -7009,10 +7047,6 @@ footer #hr {
     top: 0%;
     margin-bottom: 16.5px;
   }
-  .main-header a {
-    width: 77px;
-    margin-bottom: -2px;
-  }
   .main-header .store-icon i {
     margin-left: -3.8rem !important;
   }
@@ -7054,12 +7088,17 @@ footer #hr {
   }
   .header-wrapper #m-menu {
     margin-left: 9px;
+    font-size: 12px;
+    color: black;
+    margin-top: -40px;
+    font-family: "Open-Sans", sans-serif;
   }
   .header-wrapper .m-menu__toggle .hamburger {
-    width: 3.2% !important;
-    height: 28px;
-    margin-top: 11px !important;
-    margin-left: 2px;
+    width: 83.2% !important;
+    height: 31px;
+    position: static;
+    margin-top: 2px !important;
+    margin-left: 9px;
   }
   .header-wrapper .nav-logo {
     width: 160px;
@@ -7152,12 +7191,15 @@ footer #hr {
   }
   .product-content2 .card-box {
     margin-left: -5.5px !important;
-    gap: 3.5rem;
+    gap: 4.8rem;
     margin-top: -51px !important;
   }
   .product-content2 #hardware {
     overflow-x: hidden;
     overflow-y: hidden;
+  }
+  .product-content2 .card {
+    height: 311px;
   }
   .product-content2 .card img {
     width: 89%;
@@ -7214,14 +7256,18 @@ footer #hr {
   .featured-categories .amp-card {
     flex: 19%;
   }
+  .featured-categories .heading h2 {
+    margin-bottom: 23px;
+  }
   .featured-categories .category-card {
     gap: 1.1rem;
+    margin-left: -0.3rem;
   }
   .featured-categories .category-card img {
     width: auto;
     height: auto;
-    max-width: 93%;
-    margin: -18.5px 11.5px;
+    max-width: 95%;
+    margin: -8.5px 11.5px;
   }
   .featured-categories .card-box {
     overflow-x: hidden;
@@ -7422,18 +7468,17 @@ footer #hr {
     margin-bottom: 10px;
   }
   .product-brand .brand-card {
-    gap: 1.45rem;
-    margin-left: -1.9rem;
-    overflow-x: hidden;
+    gap: 2rem;
+    margin-left: 0.25rem;
   }
   .product-brand .amp-card {
-    width: 18%;
+    flex: 16%;
   }
   .product-brand .amp-card img {
-    width: 100%;
+    width: 336px;
     height: auto;
-    max-width: 756px;
-    margin: 2.5px 32.5px;
+    max-width: 100%;
+    margin: -3.5px -3.5px;
   }
   .home-content2 .home-card {
     gap: 2rem;
@@ -7496,8 +7541,8 @@ footer #hr {
     display: flex;
   }
   .top-deals .card {
-    width: 363px !important;
-    height: 395px !important;
+    width: 425px !important;
+    height: 407px !important;
   }
   .top-deals .card img {
     margin-right: 6px;
@@ -7508,9 +7553,8 @@ footer #hr {
   }
   .top-deals .main-image img {
     margin-right: 0px;
-    width: 103.7%;
+    width: 103.2%;
     height: auto;
-    max-width: 745px;
-    margin-left: -26px;
+    max-width: 965px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1703,12 +1703,12 @@ body {
     position: relative;
   }
 
-  .slick-slide > div {
+  .slick-slide>div {
     margin: 0 25px;
   }
 
 
-  .card-box{
+  .card-box {
     margin-left: -38.5px !important;
   }
 
@@ -4629,9 +4629,14 @@ footer {
     display: block !important;
   }
 
+  #br_crumbs {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
   .breadcrumbs {
     padding-top: 12px;
-    margin-left: -5px;
+    margin-left: -18px;
 
     nav {
       margin-left: -15px;
@@ -4764,10 +4769,10 @@ footer {
 
 
   #prod-cart {
-
     .options {
       display: none;
     }
+
 
 
     .card-options {
@@ -4793,6 +4798,10 @@ footer {
       margin-left: -11px;
       margin-top: 10px;
       height: 61px;
+
+      .dropdown {
+        display: none !important;
+      }
     }
 
 
@@ -4920,76 +4929,122 @@ footer {
   }
 
 
+  .category-card {
+    .product-main .card-boxes {
+      width: auto !important;
+      max-width: 100%;
+    }
 
-  #productCard {
-    margin-top: 32px !important;
+    .product-main {
+      .row {
+        padding-left: 0px !important;
+      }
 
-    .card {
-      height: 156.5px;
+      .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
 
-      &:first-child {}
+    .card-boxes{
+      .card-box{
+        margin-left: 0px !important;
+      }
+    }
 
-      .badge-content {
-        top: -2.5%;
 
-        .badge {
-          padding: 4px 16px;
-          background-color: #087845;
+    #productCard {
+      margin-top: 32px !important;
+      max-width: 115%;
+      width: 100%;
+      
+
+
+      .card {
+        height: 200px;
+        width: 100%;
+        background-color: #f3f3f3;
+        margin-top: -1.85rem;
+        margin-bottom: 2rem;
+        margin-left: -2px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        .card-text{
+          min-width: 25px !important;
+        }
+
+        .image-box{
+          width: 35%;
+        }
+
+
+        .badge-content {
+          top: -2.5%;
+          text-align: center;
+          .badge {
+            padding: 6px 16px;
+            margin-top: 3px;
+            background-color: #087845;
+
+          }
+
+          
+        }
+
+
+
+        img {
+          width: 100%;
+          max-width: 162px;
+          margin-left: 0px;
+          mix-blend-mode: multiply;
+        }
+
+        &:hover {
+          box-shadow: none;
+        }
+
+        a {
+          display: flex;
+          // border-bottom: 1px solid #e1e7ef;
+          margin: -13px 0px 0;
+        }
+
+
+        .price {
+          margin-top: 20px;
+        }
+
+        .currentPrice {
+          margin-top: 16px;
+        }
+
+        .price-design {
+          margin-top: 20px;
+        }
+
+
+      }
+
+
+
+
+      .pagination-container {
+        top: -37px;
+
+
+        #prev-button {
+          transform: scale(0.71);
+        }
+
+        #next-button {
+          transform: scale(0.71);
         }
       }
 
 
-
-      img {
-        width: 39%;
-        height: 133px;
-        margin-left: 0px;
-      }
-
-      &:hover {
-        box-shadow: none;
-      }
-
-      a {
-        display: flex;
-        border-bottom: 1px solid #e1e7ef;
-        margin: -13px 0px 0;
-        width: 330px;
-      }
-
-
-      .price {
-        margin-top: 20px;
-      }
-
-      .currentPrice {
-        margin-top: 16px;
-      }
-
-      .price-design {
-        margin-top: 20px;
-      }
-
-
     }
-
-
-    .pagination-container {
-      top: -37px;
-
-
-      #prev-button {
-        transform: scale(0.71);
-      }
-
-      #next-button {
-        transform: scale(0.71);
-      }
-    }
-
-    .card-body {}
-
-
 
   }
 
@@ -7248,6 +7303,7 @@ footer {
 
   #br_crumbs {
     margin-right: 0px;
+    margin-left: 0px;
   }
 
   .card-boxes {
@@ -10446,10 +10502,6 @@ footer {
     top: 0%;
     margin-bottom: 16.5px;
 
-    a {
-      width: 77px;
-      margin-bottom: -2px;
-    }
 
     .store-icon i {
       margin-left: -3.8rem !important;
@@ -10493,10 +10545,6 @@ footer {
 
     // }
 
-
-
-    .all-menu {}
-
     #menu-header {
       span {
         margin-left: -18px;
@@ -10524,15 +10572,22 @@ footer {
 
     #m-menu {
       margin-left: 9px;
+      font-size: 12px;
+      color: black;
+      margin-top: -40px;
+      font-family: "Open-Sans", sans-serif;
     }
 
     .m-menu__toggle {
       .hamburger {
-        width: 3.2% !important;
-        height: 28px;
-        margin-top: 11px !important;
-        margin-left: 2px;
+        width: 83.2% !important;
+        height: 31px;
+        position: static;
+        margin-top: 2px !important;
+        margin-left: 9px;
       }
+
+
     }
 
     .nav-logo {
@@ -10676,7 +10731,7 @@ footer {
   .product-content2 {
     .card-box {
       margin-left: -5.5px !important;
-      gap: 3.5rem;
+      gap: 4.8rem;
       margin-top: -51px !important;
     }
 
@@ -10686,6 +10741,8 @@ footer {
     }
 
     .card {
+      height: 311px;
+
       img {
         width: 89%;
       }
@@ -10766,14 +10823,21 @@ footer {
       flex: 19%;
     }
 
+    .heading {
+      h2 {
+        margin-bottom: 23px;
+      }
+    }
+
     .category-card {
       gap: 1.1rem;
+      margin-left: -0.3rem;
 
       img {
         width: auto;
         height: auto;
-        max-width: 93%;
-        margin: -18.5px 11.5px;
+        max-width: 95%;
+        margin: -8.5px 11.5px;
       }
     }
 
@@ -11053,19 +11117,18 @@ footer {
 
   .product-brand {
     .brand-card {
-      gap: 1.45rem;
-      margin-left: -1.9rem;
-      overflow-x: hidden;
+      gap: 2rem;
+      margin-left: 0.25rem;
     }
 
     .amp-card {
-      width: 18%;
+      flex: 16%;
 
       img {
-        width: 100%;
+        width: 336px;
         height: auto;
-        max-width: 756px;
-        margin: 2.5px 32.5px;
+        max-width: 100%;
+        margin: -3.5px -3.5px;
       }
     }
   }
@@ -11095,8 +11158,8 @@ footer {
       display: flex;
     }
 
-    #slider{
-      .slick-prev{
+    #slider {
+      .slick-prev {
         left: -11%;
       }
     }
@@ -11106,35 +11169,38 @@ footer {
       overflow-y: hidden;
     }
 
-    .card{
+    .card {
       width: 301px !important;
       height: 364px !important;
-      img{
+
+      img {
         width: 108.3% !important;
-        
+
       }
     }
 
   }
 
-  .product-content4{
-    #preOrder{
+  .product-content4 {
+    #preOrder {
       overflow-x: hidden;
       overflow-y: hidden;
-      .container-fluid{
+
+      .container-fluid {
         padding-right: 0px !important;
       }
     }
 
-    .slick-slide > div {
+    .slick-slide>div {
       margin: 0 24px;
     }
-    .card{
+
+    .card {
       width: 203.8px !important;
 
     }
 
-    .slick-prev:hover{
+    .slick-prev:hover {
       left: -9.8% !important;
     }
   }
@@ -11165,8 +11231,8 @@ footer {
 
 
     .card {
-      width: 363px !important;
-      height: 395px !important;
+      width: 425px !important;
+      height: 407px !important;
 
       img {
         margin-right: 6px;
@@ -11179,10 +11245,9 @@ footer {
 
       img {
         margin-right: 0px;
-        width: 103.7%;
+        width: 103.2%;
         height: auto;
-        max-width: 745px;
-        margin-left: -26px;
+        max-width: 965px;
       }
     }
   }
