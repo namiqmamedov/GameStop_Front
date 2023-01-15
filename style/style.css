@@ -5172,14 +5172,17 @@ footer #hr {
   #productCard .card {
     width: 31% !important;
     max-width: 100%;
-    height: 323.5px !important;
+    height: 339.5px !important;
+    background-color: #f2f2f2;
   }
   #productCard .card img {
     width: 75% !important;
+    mix-blend-mode: multiply;
   }
   #productCard .card .card-text {
-    max-width: 110px !important;
     min-width: 110px !important;
+    max-height: 3.8rem;
+    height: 4rem;
   }
   .card-options {
     width: 236.5px !important;
