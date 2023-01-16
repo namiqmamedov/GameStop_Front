@@ -2901,7 +2901,7 @@ footer #hr {
 }
 .product-main .sort-section .dropdown {
   margin-top: -1.5rem;
-  display: block;
+  display: inline-block;
   margin-right: 1.5rem;
 }
 .product-main .sort-section .dropdown-menu.show {
@@ -3157,6 +3157,7 @@ footer #hr {
   margin-bottom: 2rem;
   width: 259px;
   height: 360.5px;
+  background-color: #F8F8F8;
   border: none;
 }
 .product-main .card-boxes .card:hover {
@@ -3170,6 +3171,7 @@ footer #hr {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  mix-blend-mode: multiply;
 }
 .product-main .card-boxes .card a {
   text-decoration: none;
@@ -3456,7 +3458,7 @@ footer #hr {
   .category-card #productCard .card {
     height: 200px;
     width: 100%;
-    background-color: #f3f3f3;
+    background-color: #F8F8F8;
     margin-top: -1.85rem;
     margin-bottom: 2rem;
     margin-left: -2px;
@@ -3465,9 +3467,6 @@ footer #hr {
   }
   .category-card #productCard .card .card-text {
     min-width: 25px !important;
-  }
-  .category-card #productCard .card .image-box {
-    width: 35%;
   }
   .category-card #productCard .card .badge-content {
     top: -2.5%;
@@ -4286,7 +4285,7 @@ footer #hr {
   .category-card #productCard .card {
     height: 200px;
     width: 100%;
-    background-color: #f3f3f3;
+    background-color: #F8F8F8;
     margin-top: -1.85rem;
     margin-bottom: 2rem;
     margin-left: -2px;
@@ -5173,7 +5172,7 @@ footer #hr {
     width: 31% !important;
     max-width: 100%;
     height: 339.5px !important;
-    background-color: #f3f3f3;
+    background-color: #F8F8F8;
   }
   #productCard .card img {
     width: 75% !important;
@@ -5402,14 +5401,10 @@ footer #hr {
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
   #productCard {
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
     width: 91% !important;
     margin-left: 65.5px !important;
-    /* margin-top: 50px !important; */
     gap: 1rem;
     margin-bottom: -110px;
-    /* overflow-x: hidden; */
     max-width: 100%;
   }
 }
@@ -6694,10 +6689,10 @@ footer #hr {
     gap: 1.6rem !important;
   }
   #productCard .card {
-    width: 30% !important;
+    width: 30.5% !important;
     max-width: 100%;
     height: 389.5px !important;
-    background-color: #f3f3f3;
+    background-color: #F8F8F8;
   }
   #productCard .card img {
     width: 75% !important;
@@ -6907,7 +6902,7 @@ footer #hr {
     visibility: hidden !important;
   }
   #productCard {
-    width: 90% !important;
+    width: 95% !important;
     margin-left: 65.5px !important;
     margin-top: 50px !important;
     gap: 1rem;
@@ -6917,7 +6912,7 @@ footer #hr {
     margin-left: 0.5rem;
   }
   .mainOptions {
-    top: 55px !important;
+    top: 69px !important;
   }
   footer .mb-signup {
     display: none;
@@ -7290,6 +7285,48 @@ footer #hr {
   }
   .home-content .home-card .home-img img {
     width: 100%;
+  }
+  #br_crumbs {
+    margin-right: 0px !important;
+  }
+  .hr-btm {
+    display: none !important;
+  }
+  .product-main .card-boxes {
+    width: auto;
+  }
+  #productCard {
+    margin-top: 50px !important;
+    margin-bottom: -110px;
+    gap: 1.35rem !important;
+  }
+  #productCard .card {
+    width: 23% !important;
+    max-width: 100%;
+    height: 405.5px !important;
+    background-color: #F8F8F8;
+  }
+  #productCard .card img {
+    width: 75% !important;
+    mix-blend-mode: multiply;
+  }
+  #productCard .card .card-text {
+    min-width: 110px !important;
+    max-height: 3.8rem;
+    height: 4rem;
+  }
+  .product-main .sort-section .dropdown {
+    margin-right: 0.9rem !important;
+  }
+  .product-main .sort-section .dropdown-menu.show {
+    inset: 10px auto auto -680.5px !important;
+    width: auto !important;
+  }
+  .options {
+    margin-left: 0.5rem;
+  }
+  .mainOptions {
+    top: 71px !important;
   }
   .product-content2 .card-box {
     margin-left: -5.5px !important;
