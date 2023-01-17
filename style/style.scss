@@ -11970,6 +11970,67 @@ Product section stylling
   }
 
   .label-check{
+
+    .values{
+      display: flex;
+      margin-left: -2rem;
+      margin-top: -18px;
+    }
+    .form-check{
+      margin-bottom: 2.125rem !important;
+      position: relative;
+    }
+  .form-check-input:checked {
+    box-shadow: none !important;
+    background-color: white !important;
+    border: #D9D9D9;
+    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwcf0a1c6d/images/svg-icons/checkmark-nero.svg');
+    background-size: cover;
+    border: 1px solid #d9d9d9;
+    background-position: 6px 5px;
+  }
+
+  .form-check-input:active {
+    border: #D9D9D9;
+    background-color: transparent !important;
+  }
+
+  .form-check-input[type=checkbox]:focus {
+
+
+    background-color: transparent;
+    border: 1px solid #d9d9d9 !important;
+  }
+
+
+    .custom-control-label {
+      font-size: 14px;
+      padding-top: 5px;
+      // margin-left: -90px;
+      font-family: "Open Sans", sans-serif;
+      color: black;
+      cursor: pointer;
+      left: 15%;
+      position: absolute;
+      top: 35%;
+    }
+
+    input {
+      width: 120px;
+      height: 46px;
+      border-radius: 0.50rem !important;
+      cursor: pointer;
+      border-color: #D9D9D9;
+      box-shadow: none !important;
+  
+    }
+
+    ul {
+      list-style-type: none;
+    }
+  }
+
+  .label-check{
     
 
 .wrap {
