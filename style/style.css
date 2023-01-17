@@ -8145,6 +8145,30 @@ Product section stylling
   gap: 2rem;
   width: 35% !important;
 }
+.price-main .card-price {
+  margin-top: -11px;
+  margin-left: 18px;
+}
+.price-main .pro-reward {
+  margin-top: -25px;
+}
+.price-main .rewardsPro {
+  background-color: #CFCBF3;
+}
+.price-main .rewardsPro .rw-text {
+  padding-left: 8px !important;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #2d219a;
+  font-weight: 600;
+  padding-top: 1px;
+  padding-right: 8px !important;
+  border-bottom-right-radius: 0.25rem;
+}
+.price-main .rewardsPro svg {
+  margin-top: -6px;
+  margin-left: 5px;
+}
 .price-main .currentPrice {
   color: #E7220C;
   font-weight: bold;
@@ -8176,6 +8200,89 @@ Product section stylling
 .price-main .price-saving {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  padding-left: 11px;
+  padding-top: 1px;
+}
+.price-main .label-check {
+  /*input custom*/
+}
+.price-main .label-check .wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price-main .label-check .choiceBox {
+  width: 350px;
+  padding: 10px 0;
+  color: #eeeeee;
+  font-size: 13px;
+  border-bottom: solid 1px #333333;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  word-break: keep-all;
+  line-height: 1.5;
+}
+.price-main .label-check .choiceDelete {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  color: #7d7d7d;
+}
+.price-main .label-check .checkClose {
+  padding: 0 10px 0 0;
+  margin: 0 0 10px;
+  text-align: right;
+}
+.price-main .label-check .checkClose i {
+  cursor: pointer;
+  color: #7d7d7d;
+}
+.price-main .label-check p.ttl {
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.price-main .label-check .type {
+  width: 350px;
+  color: red;
+  margin: 40px 0;
+}
+.price-main .label-check .type ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 30px;
+}
+.price-main .label-check .type ul li {
+  margin: 0 0 15px;
+}
+.price-main .label-check input[type=checkbox], .price-main .label-check input[type=radio] {
+  display: none;
+}
+.price-main .label-check input[type=checkbox] + label, .price-main .label-check input[type=radio] + label {
+  width: 110px;
+  display: block;
+  padding: 10px 20px;
+  font-size: 13px;
+  border: solid 1px #aaaaaa;
+  color: #aaaaaa;
+  line-height: 1;
+  border-radius: 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all ease 0.3s;
+}
+.price-main .label-check input[type=checkbox]:checked + label, .price-main .label-check input[type=radio]:checked + label {
+  border: solid 1px #ffd500;
+  background-color: #ffd500;
+  color: #000000;
+}
+.price-main .customer-rating {
+  margin-left: 2px;
 }
 .price-main .customer-rating .accordion-collapse {
   transition: 0.01s ease-in-out;
@@ -8285,6 +8392,10 @@ Product section stylling
   font-family: "Open Sans", sans-serif;
   color: #484848;
 }
+.price-main .brand-product {
+  margin-bottom: -25px;
+  margin-left: 3px;
+}
 .price-main .brand-product a {
   color: black;
   font-size: 14px;
@@ -8391,15 +8502,6 @@ Product section stylling
   font-weight: 700;
 }
 
-.price-cart__btn {
-  width: 50%;
-  box-shadow: 0px 10px 25px 3px rgba(255, 125, 26, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-}
-
 /* Attribution */
 .attribution {
   margin-top: 7rem;
@@ -8503,10 +8605,6 @@ Media Queries
     flex-direction: column;
   }
   .price-btns {
-    padding: 3rem 5rem;
-    width: 100%;
-  }
-  .price-cart__btn {
     padding: 3rem 5rem;
     width: 100%;
   }
