@@ -8146,11 +8146,23 @@ Product section stylling
   width: 35% !important;
 }
 .price-main .card-price {
-  margin-top: -11px;
+  margin-top: 17px;
   margin-left: 18px;
 }
+.price-main .label-platform {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #5f5f5f;
+}
+.price-main .label-platform .platform-name {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
 .price-main .pro-reward {
-  margin-top: -25px;
+  margin-top: 9px;
+  margin-bottom: 15px;
 }
 .price-main .rewardsPro {
   background-color: #CFCBF3;
@@ -8254,10 +8266,8 @@ Product section stylling
   /*input custom*/
 }
 .price-main .label-check .wrap {
-  height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-top: 8px;
   align-items: center;
 }
 .price-main .label-check .choiceBox {
@@ -8293,42 +8303,43 @@ Product section stylling
   font-size: 14px;
 }
 .price-main .label-check .type {
-  width: 350px;
+  width: auto;
   color: red;
-  margin: 40px 0;
 }
 .price-main .label-check .type ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 0 30px;
+  padding: 0 10px !important;
+  gap: 0.575rem;
+  padding-left: 0px !important;
 }
-.price-main .label-check .type ul li {
-  margin: 0 0 15px;
-}
-.price-main .label-check input[type=checkbox], .price-main .label-check input[type=radio] {
+.price-main .label-check input[type=checkbox],
+.price-main .label-check input[type=radio] {
   display: none;
 }
-.price-main .label-check input[type=checkbox] + label, .price-main .label-check input[type=radio] + label {
-  width: 110px;
+.price-main .label-check input[type=checkbox] + label,
+.price-main .label-check input[type=radio] + label {
+  width: auto;
   display: block;
-  padding: 10px 20px;
-  font-size: 13px;
+  padding: 13px 16px;
+  height: 44px;
   border: solid 1px #aaaaaa;
-  color: #aaaaaa;
+  color: black;
   line-height: 1;
-  border-radius: 30px;
+  border-radius: 6px;
   cursor: pointer;
   box-sizing: border-box;
   text-align: center;
   transition: all ease 0.3s;
 }
-.price-main .label-check input[type=checkbox]:checked + label, .price-main .label-check input[type=radio]:checked + label {
+.price-main .label-check input[type=checkbox]:checked + label,
+.price-main .label-check input[type=radio]:checked + label {
   border: solid 1px #ffd500;
   background-color: #ffd500;
   color: #000000;
 }
 .price-main .customer-rating {
+  margin-top: 4px;
   margin-left: 2px;
 }
 .price-main .customer-rating .accordion-collapse {
@@ -8463,7 +8474,7 @@ Product section stylling
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.01em;
   margin-top: 14px;
-  margin-bottom: -2rem;
+  margin-bottom: -1px;
 }
 
 .price-txt {

@@ -11799,16 +11799,16 @@ Product section stylling
 /////////////////////// */
 
 .item {
-     /* padding: 0 3rem; */
-     max-width: 100%;
-     margin: auto;
-     display: flex;
-     grid-template-columns: 0.8fr 1fr;
-     gap: 10rem;
-     
-    .row{
-      margin-top: -38px !important;
-    }
+  /* padding: 0 3rem; */
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 10rem;
+
+  .row {
+    margin-top: -38px !important;
+  }
 }
 
 /* Left img container stylling */
@@ -11832,7 +11832,7 @@ Product section stylling
 
 }
 
-.img{
+.img {
   width: 65% !important;
   background-color: #FAFAFA;
 }
@@ -11862,13 +11862,15 @@ Product section stylling
   right: 0;
   opacity: 0;
 }
-.main-img{
+
+.main-img {
   width: 100% !important;
   text-align: center;
   position: relative;
-  .img-main{
-      max-width: 100%;
-      max-height: 30rem;
+
+  .img-main {
+    max-width: 100%;
+    max-height: 30rem;
 
   }
 }
@@ -11901,21 +11903,35 @@ Product section stylling
   gap: 2rem;
   width: 35% !important;
 
-  .card-price{
-    margin-top: -11px;
+  .card-price {
+    margin-top: 17px;
     margin-left: 18px;
   }
 
-  .pro-reward{
-    margin-top: -25px;
+.label-platform{
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
+  color: #5f5f5f;
+  .platform-name{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
   }
-  .rewardsPro{
+}
+
+  .pro-reward {
+    margin-top: 9px;
+    margin-bottom: 15px;
+  }
+
+  .rewardsPro {
     background-color: #CFCBF3;
 
-    .rw-text{
+    .rw-text {
       padding-left: 8px !important;
       font-size: 14px;
-      font-family: 'Poppins',sans-serif;
+      font-family: 'Poppins', sans-serif;
       color: #2d219a;
       font-weight: 600;
       padding-top: 1px;
@@ -11923,10 +11939,10 @@ Product section stylling
       border-bottom-right-radius: 0.25rem;
     }
 
-    svg{
+    svg {
       margin-top: -6px;
       margin-left: 5px;
-      
+
     }
   }
 
@@ -11962,45 +11978,47 @@ Product section stylling
     margin-left: 10px;
   }
 
-  .price-saving{
+  .price-saving {
     font-size: 14px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 11px;
     padding-top: 1px;
   }
 
-  .label-check{
+  .label-check {
 
-    .values{
+    .values {
       display: flex;
       margin-left: -2rem;
       margin-top: -18px;
     }
-    .form-check{
+
+    .form-check {
       margin-bottom: 2.125rem !important;
       position: relative;
     }
-  .form-check-input:checked {
-    box-shadow: none !important;
-    background-color: white !important;
-    border: #D9D9D9;
-    background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwcf0a1c6d/images/svg-icons/checkmark-nero.svg');
-    background-size: cover;
-    border: 1px solid #d9d9d9;
-    background-position: 6px 5px;
-  }
 
-  .form-check-input:active {
-    border: #D9D9D9;
-    background-color: transparent !important;
-  }
+    .form-check-input:checked {
+      box-shadow: none !important;
+      background-color: white !important;
+      border: #D9D9D9;
+      background-image: url('https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwcf0a1c6d/images/svg-icons/checkmark-nero.svg');
+      background-size: cover;
+      border: 1px solid #d9d9d9;
+      background-position: 6px 5px;
+    }
 
-  .form-check-input[type=checkbox]:focus {
+    .form-check-input:active {
+      border: #D9D9D9;
+      background-color: transparent !important;
+    }
+
+    .form-check-input[type=checkbox]:focus {
 
 
-    background-color: transparent;
-    border: 1px solid #d9d9d9 !important;
-  }
+      background-color: transparent;
+      border: 1px solid #d9d9d9 !important;
+    }
 
 
     .custom-control-label {
@@ -12022,7 +12040,7 @@ Product section stylling
       cursor: pointer;
       border-color: #D9D9D9;
       box-shadow: none !important;
-  
+
     }
 
     ul {
@@ -12030,121 +12048,111 @@ Product section stylling
     }
   }
 
-  .label-check{
-    
+  .label-check {
 
-.wrap {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
 
-.choiceBox {
-  width: 350px;
-  padding: 10px 0;
-  color: #eeeeee;
-  font-size: 13px;
-  border-bottom: solid 1px #333333;
-  letter-spacing: .1em;
-  cursor: pointer;
-  text-transform: uppercase;
-  word-break: keep-all;
-  line-height: 1.5;
-}
+    .wrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 8px;
+      align-items: center;
+      
+     
+    }
 
-.choiceDelete {
-  font-size: 13px;
-  letter-spacing: .1em;
-  cursor: pointer;
-  color: #7d7d7d;
-}
+    .choiceBox {
+      width: 350px;
+      padding: 10px 0;
+      color: #eeeeee;
+      font-size: 13px;
+      border-bottom: solid 1px #333333;
+      letter-spacing: .1em;
+      cursor: pointer;
+      text-transform: uppercase;
+      word-break: keep-all;
+      line-height: 1.5;
+    }
 
-.checkClose {
-  padding: 0 10px 0 0;
-  margin: 0 0 10px;
-  text-align: right;
-}
+    .choiceDelete {
+      font-size: 13px;
+      letter-spacing: .1em;
+      cursor: pointer;
+      color: #7d7d7d;
+    }
 
-.checkClose i {
-  cursor: pointer;
-  color: #7d7d7d;
-}
+    .checkClose {
+      padding: 0 10px 0 0;
+      margin: 0 0 10px;
+      text-align: right;
+    }
 
-p.ttl {
-  margin: 0 0 20px;
-  text-transform: uppercase;
-  font-size: 14px;
-}
+    .checkClose i {
+      cursor: pointer;
+      color: #7d7d7d;
+    }
 
-.type {
-  width: 350px;
-  color: red;
-  margin: 40px 0;
+    p.ttl {
+      margin: 0 0 20px;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
 
-}
+    .type {
+      width: auto;
+      color: red;
 
-.type ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
+    }
+
+    .type ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin: 0 0 30px;
-}
+      padding: 0 10px !important;
+      gap: 0.575rem;
+      padding-left: 0px !important;
+    }
 
-.type ul li {
-  margin: 0 0 15px;
-}
 
-/*input custom*/
-input[type="checkbox"],input[type="radio"] {
-  display: none;
-}
+    /*input custom*/
+    input[type="checkbox"],
+    input[type="radio"] {
+      display: none;
+    }
 
-input[type="checkbox"] + label,input[type="radio"] + label {
-  width: 110px;
-  display: block;
-  padding: 10px 20px;
-  font-size: 13px;
-  border: solid 1px #aaaaaa;
-  color: #aaaaaa;
-  line-height: 1;
-  border-radius: 30px;
-  cursor: pointer;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: center;
-  -webkit-transition: all ease .3s;
-          transition: all ease .3s;
-}
+    input[type="checkbox"]+label,
+    input[type="radio"]+label {
+      width: auto;
+      display: block;
+      padding: 13px 16px;
+      height: 44px;
+      border: solid 1px #aaaaaa;
+      color: black;
+      line-height: 1;
+      border-radius: 6px;
+      cursor: pointer;
+      box-sizing: border-box;
+      text-align: center;
+      transition: all ease 0.3s;
+    }
 
-input[type="checkbox"]:checked + label,input[type="radio"]:checked + label {
-  border: solid 1px #ffd500;
-  background-color: #ffd500;
-  color: #000000;
-}
+    input[type="checkbox"]:checked+label,
+    input[type="radio"]:checked+label {
+      border: solid 1px #ffd500;
+      background-color: #ffd500;
+      color: #000000;
+    }
 
   }
 
 
 
   .customer-rating {
-
+    margin-top: 4px;
     margin-left: 2px;
+
     .accordion {
       $transition: height .35s ease !default;
     }
@@ -12277,12 +12285,12 @@ input[type="checkbox"]:checked + label,input[type="radio"]:checked + label {
       background-position: 16px -1px;
     }
 
-    .rating-count{
+    .rating-count {
       margin-top: -1.4px;
       margin-left: 10px;
       text-decoration: underline;
       font-size: 12px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
       color: #484848;
     }
 
@@ -12292,10 +12300,11 @@ input[type="checkbox"]:checked + label,input[type="radio"]:checked + label {
   }
 
 
-  .brand-product{
+  .brand-product {
     margin-bottom: -25px;
     margin-left: 3px;
-    a{
+
+    a {
       color: black;
       font-size: 14px;
     }
@@ -12314,10 +12323,10 @@ input[type="checkbox"]:checked + label,input[type="radio"]:checked + label {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: .01em;
   margin-top: 14px;
-  margin-bottom: -2rem;
+  margin-bottom: -1px;
 }
 
 .price-txt {
@@ -12403,9 +12412,7 @@ input[type="checkbox"]:checked + label,input[type="radio"]:checked + label {
   font-weight: 700;
 }
 
-.price-cart__btn {
- 
-}
+.price-cart__btn {}
 
 /* Attribution */
 .attribution {
@@ -12536,9 +12543,7 @@ Media Queries
     width: 100%;
   }
 
-  .price-cart__btn {
- 
-  }
+  .price-cart__btn {}
 
   .price-box {
     flex-direction: row;
