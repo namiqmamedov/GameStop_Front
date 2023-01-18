@@ -12180,6 +12180,47 @@ Product section stylling
 
   }
 
+  .plan-details{
+    .plan-box{
+      .pl-text{
+        font-size: 16px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+      }
+
+      .icon-pl{
+        padding-top: 12px;
+        font-size: 40px;
+       svg{
+
+
+        path:first-of-type{
+          fill: #ffc21a;
+        }
+       }
+      }
+
+      .text-box{
+        padding-left: 10px;
+        padding-top: 12.5px;
+        .main-text{
+          letter-spacing: -.03em;
+          font-weight: 600;
+          line-height: 20px;
+          font-family: 'Open Sans',sans-serif;
+        }
+
+        .sub-text{
+          font-family: 'Open-Sans',sans-serif;
+          letter-spacing: -.03em;
+        }
+      }
+
+
+    }
+
+  }
+
 
 
   .customer-rating {

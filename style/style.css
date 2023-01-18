@@ -8358,6 +8358,32 @@ Product section stylling
   border: solid 1px black;
   color: #000000;
 }
+.price-main .plan-details .plan-box .pl-text {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.price-main .plan-details .plan-box .icon-pl {
+  padding-top: 12px;
+  font-size: 40px;
+}
+.price-main .plan-details .plan-box .icon-pl svg path:first-of-type {
+  fill: #ffc21a;
+}
+.price-main .plan-details .plan-box .text-box {
+  padding-left: 10px;
+  padding-top: 12.5px;
+}
+.price-main .plan-details .plan-box .text-box .main-text {
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.price-main .plan-details .plan-box .text-box .sub-text {
+  font-family: "Open-Sans", sans-serif;
+  letter-spacing: -0.03em;
+}
 .price-main .customer-rating {
   margin-top: 4px;
   margin-left: 2px;
