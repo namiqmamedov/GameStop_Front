@@ -7708,21 +7708,21 @@ Overlay image modal
 .overlay-container {
   display: none;
   z-index: 1000;
-  top: 0%;
+  top: 6.9%;
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
 .item-overlay {
-  max-width: 79rem;
+  max-width: 83rem;
   padding-top: 0rem;
   margin: auto;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
   background-color: white;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 }
 
 .item-overlay__btn {
@@ -7743,9 +7743,12 @@ Overlay image modal
   align-self: center;
   width: 63%;
   height: 100%;
-  max-height: 80vh;
+  max-height: 64vh;
   -o-object-fit: contain;
      object-fit: contain;
+}
+.item-overlay__img:hover {
+  cursor: zoom-in;
 }
 
 .overlay-btn {
@@ -7803,8 +7806,8 @@ Overlay image modal
 
 .overlay-img__btn-img {
   display: inline-block;
-  width: 80%;
-  height: 55%;
+  width: 83%;
+  height: 42%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.3s;
