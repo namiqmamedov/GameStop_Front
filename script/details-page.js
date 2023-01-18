@@ -65,7 +65,7 @@ function imgBtns(btns, img, imgName) {
         if (nextImg <= 0) nextImg = 3;
         else nextImg--;
 
-        img.src = `/images/image-product-${nextImg + 1}.jpg`;
+        img.src = `/images/image-product${nextImg + 1}.jpg`;
       }
 
       if (e.target.classList.contains(`${imgName}__btnrgt-img`)) {
@@ -202,7 +202,7 @@ overlayCloseBtn.addEventListener("click", function () {
 /*  Eventlistener for overlay image modal btn to change overlay image same as button image  */
 overlayImgBtn.forEach((btn, i) => {
   btn.addEventListener("click", function (e) {
-    overlayImg.src = `/images/image-product-${i + 1}.jpg`;
+    overlayImg.src = overlayBtnImgs[i].src;
     nextImg = e.target.dataset.img;
   });
 });
@@ -210,7 +210,7 @@ overlayImgBtn.forEach((btn, i) => {
 /*  Eventlistener for  image to change when image button is clicked  */
 imgBtn.forEach((btn, i) => {
   btn.addEventListener("click", function () {
-    img.src = `/images/image-product-${i + 1}.jpg`;
+    img.src = overlayBtnImgs[i].src;
   });
 });
 

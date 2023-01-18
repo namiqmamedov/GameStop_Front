@@ -7729,14 +7729,19 @@ Overlay image modal
   align-self: flex-end;
   background: none;
   border: none;
-  filter: invert(52%) sepia(14%) saturate(3126%) hue-rotate(344deg) brightness(107%) contrast(102%);
+  color: black;
   cursor: pointer;
+  padding-top: -4rem;
+  position: absolute;
+  top: 3%;
+  left: 91.7%;
 }
 
 .item-overlay__mainImg {
   position: relative;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .item-overlay__img {

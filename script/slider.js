@@ -28,6 +28,7 @@ $('#slider').slick({
     ]
   });
 
+
   
 $('#slider1').slick({
     infinite: false,
