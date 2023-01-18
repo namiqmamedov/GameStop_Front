@@ -81,27 +81,56 @@ function imgBtns(btns, img, imgName) {
 imgBtns(overlayBtns, overlayImg, "item-overlay");
 imgBtns(mainImgBtns, img, "img-main");
 
-
+/* Function to show single and total items price in the cart  */
+function productPrice(items) {
+  totalItems.textContent = items;
+  priceSingle.textContent = `$125 * ${items}`;
+  priceTotal.textContent = `$${125 * items}`;
+  if (items >= 1) {
+    headerCart.setAttribute("data-content", `${items}`);
+    headerCart.style.setProperty("--display", `block`);
+  } else {
+    headerCart.style.setProperty("--display", `none`);
+  }
+}
 
 /* Function to close navigation menu */
 function closeMenu() {
   menu.classList.remove("open-menu");
   body.style.overflow = "visible";
   bodyOverlay.classList.remove("open-overlay");
-  menuBtnImg.src = "images/icon-menu.svg";
+  menuBtnImg.src = "/images/icon-menu.svg";
 }
 
 /* Function to open navigation menu */
 
 function openMenu() {
   menu.classList.add(".open-menu");
-  menuBtnImg.src = "images/icon-close.svg";
+  menuBtnImg.src = "/images/icon-close.svg";
   body.style.overflow = "hidden";
   cart.classList.remove("open-cart");
   bodyOverlay.classList.add("open-overlay");
 }
 
+/* Function to delete cart item when cart items are zero */
 
+function cartIt() {
+  cartItem.classList.add("open-cart");
+  emptyCartTxt.classList.remove("open-cart");
+}
+
+/* Function to delete cart text 'empty cart' when cart items are > 0 */
+
+function cartTx() {
+  cartItem.classList.remove("open-cart");
+  emptyCartTxt.classList.add("open-cart");
+}
+
+/* Function to delete cart text cart item  */
+function emptyCart() {
+  cartItem.classList.remove("open-cart");
+  emptyCartTxt.classList.remove("open-cart");
+}
 
 /*//////////////////////
  Event Listeners 
@@ -135,7 +164,25 @@ priceBtns.forEach((btn) => {
   });
 });
 
+/*  Eventlistener for add to cart button  */
+addToCart.addEventListener("click", function (e) {
+  clicked = true;
+  if (cart.classList.contains("open-cart")) {
+    if (noOfItems >= 1) {
+      cartIt();
+    } else if (noOfItems <= 0) {
+      cartTx();
+    }
+  }
+});
 
+/*  Eventlistener for delete cart item button   */
+clearCart.addEventListener("click", function () {
+  cartTx();
+  noOfItems = 0;
+  totalItems.textContent = noOfItems;
+  headerCart.style.setProperty("--display", `none`);
+});
 
 /*  Eventlistener to open overlay image modal   */
 img.addEventListener("click", function () {

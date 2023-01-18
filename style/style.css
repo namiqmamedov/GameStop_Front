@@ -7764,9 +7764,6 @@ Overlay image modal
 .item-overlay__btnlft-img {
   transform: rotate(180deg);
 }
-.item-overlay__btnlft-img:hover {
-  color: black !important;
-}
 
 .overlay-btn:hover .overlay-btn__img {
   filter: invert(52%) sepia(14%) saturate(3126%) hue-rotate(344deg) brightness(107%) contrast(102%);
@@ -7807,6 +7804,22 @@ Overlay image modal
 .overlay-img__btn:focus {
   border: 1px solid black;
   border-radius: 4px;
+}
+
+.overlay-img__btn::after {
+  content: "";
+  max-width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  border-radius: 10%;
+  border: 3px solid transparent;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
 }
 
 .overlay-img__btn:hover {
@@ -8402,32 +8415,6 @@ Product section stylling
   width: 84px;
   background-position: 0 -16px;
 }
-.price-main .customer-rating .star2 {
-  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
-  height: 16px;
-  width: 31px;
-  background-position: 16px -1px;
-}
-.price-main .customer-rating .star-rating1 {
-  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
-  height: 16px;
-  width: 84px;
-  background-position: 0 -16px;
-}
-.price-main .customer-rating .star1 {
-  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/star-ratings-black.svg");
-  height: 16px;
-  width: 16px;
-  background-position: 16px -1px;
-}
-.price-main .customer-rating .rating-count {
-  margin-top: -1.4px;
-  margin-left: 10px;
-  text-decoration: underline;
-  font-size: 12px;
-  font-family: "Open Sans", sans-serif;
-  color: #484848;
-}
 .price-main .brand-product {
   margin-bottom: -25px;
   margin-left: 3px;
@@ -8767,4 +8754,5 @@ JavaScript Triggered Classes
 
 .preload * {
   transition: none !important;
+  display: none;
 }/*# sourceMappingURL=style.css.map */
