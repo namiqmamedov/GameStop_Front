@@ -11908,17 +11908,32 @@ Product section stylling
     margin-left: 18px;
   }
 
-.label-platform{
-  font-size: 14px;
-  font-family: 'Open Sans',sans-serif;
-  color: #5f5f5f;
-  .platform-name{
-    color: black;
-    font-weight: 600;
+  .label-platform {
     font-size: 14px;
-  font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #5f5f5f;
+
+    .platform-name {
+      color: black;
+      font-weight: 600;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+    }
   }
-}
+
+
+  .label-condition {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5f5f5f;
+
+    .condition-name {
+      color: black;
+      font-weight: 600;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
 
   .pro-reward {
     margin-top: 9px;
@@ -12051,14 +12066,25 @@ Product section stylling
   .label-check {
 
 
-    .wrap {
+    .platform-box {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       margin-top: 8px;
       align-items: center;
-      
-     
+
+
+    }
+
+
+    .condition-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 8px;
+      align-items: center;
+
+
     }
 
     .choiceBox {
@@ -12120,6 +12146,7 @@ Product section stylling
     input[type="checkbox"],
     input[type="radio"] {
       display: none;
+
     }
 
     input[type="checkbox"]+label,
@@ -12136,13 +12163,19 @@ Product section stylling
       box-sizing: border-box;
       text-align: center;
       transition: all ease 0.3s;
+
+      &:hover {
+        background-color: #F8F8F8;
+        border: solid 1px black;
+      }
     }
 
     input[type="checkbox"]:checked+label,
     input[type="radio"]:checked+label {
-      border: solid 1px #ffd500;
-      background-color: #ffd500;
+      border: solid 1px black;
       color: #000000;
+
+
     }
 
   }
