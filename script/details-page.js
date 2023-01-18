@@ -72,7 +72,7 @@ function imgBtns(btns, img, imgName) {
         if (nextImg >= 3) nextImg = 0;
         else nextImg++;
 
-        img.src = `/mages/image-product-${nextImg + 1}.jpg`;
+        img.src = `/images/image-product-${nextImg + 1}.jpg`;
       }
     });
   });
