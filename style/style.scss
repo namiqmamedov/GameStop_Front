@@ -10592,6 +10592,9 @@ footer {
     max-width: 1760px !important;
   }
 
+  h1{
+    font-size: 20px !important;
+  }
 
   .header-banner {
     background-color: #282828;
@@ -11735,6 +11738,7 @@ Product section stylling
   grid-template-columns: 0.8fr 1fr;
   gap: 10rem;
   margin-top: -33px;
+  height: 1500px;
 
  #br_crumbs-details{
   margin-left: -21px !important;
@@ -12757,22 +12761,27 @@ JavaScript Triggered Classes
 
 // start product description
 
-.priceContext{
+.price-main{
   // position: sticky !important;
   // top: 0;
   // left: 0;
-  // height: 1px !important;
+  // height: 1px;
+  // background-color: white;
   // z-index: 1111111111 !important;
 }
 .product-description{
+  margin-top: 5.5rem;
   .container-fluid{
-    padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  position: absolute;
-  top: 103%;
+
+
+  .tracking-text{
+    font-size: 1.5rem !important;
+  }
   .all-table{
     padding-left: 3px;
+    margin-bottom: 22px;
     button{
       border: none;
       padding: 0 12px;
@@ -12783,6 +12792,18 @@ JavaScript Triggered Classes
         background-color: #eeeeee;
       }
     }
+
+   
+  }
+
+  .tableProd{
+    .trackingText{
+      font-weight: 700;
+      margin-bottom: 17px;
+      font-family: 'Poppins',sans-serif;
+      font-size: 20px;
+      color: #000000;
+    }
   }
 
   .productFeatures{
@@ -12790,8 +12811,10 @@ JavaScript Triggered Classes
     padding-left: 0px !important;
     display: grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
+    margin-left: 14px;
     .trackingText2{
       color: black;
+      max-width: 395px;
     }
   }
 }
