@@ -11803,9 +11803,23 @@ Product section stylling
   transition: all 0.3s;
   position: relative;
   background: white;
-  padding: 5px;
+  padding: 2px;
   border-radius: 0.25rem;
   box-shadow: 0px 0px 99px 0px rgb(0 0 0 / 13%);
+  height: 100%;
+
+  &:focus {
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 120%;
+    height: 100%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+
 }
 
 
@@ -12878,23 +12892,52 @@ JavaScript Triggered Classes
 
   .specifications {
     .product-table {
+      margin: 17.5px 0;
+
       table {
         tbody {
           th {
             width: 33%;
             background-color: #F9F9F9;
-            height: 36px;
+            height: 38.5px;
             padding-left: 0.5rem;
           }
+
           tr {
             margin: 60px;
-            border-top-width: 1px;border-color: #EEEEEE;
+            border-top-width: 1px;
+            border-color: #EEEEEE;
           }
-          td{
+
+          td {
             background-color: transparent;
+            padding-left: 6.7px;
           }
         }
       }
+    }
+  }
+
+  .feedback-section {
+    .rating-count {
+      margin-right: 11px;
+
+      span {
+        font-size: 56px;
+        line-height: 64px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+      }
+    }
+
+    .feedback{
+      padding-top: 5px;
+    }
+
+    .feedbackCount{
+      font-family: 'Open Sans',sans-serif;
+      font-size: 12px;
+      color: #5f5f5f;
     }
   }
 }

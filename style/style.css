@@ -8024,9 +8024,19 @@ Product section stylling
   transition: all 0.3s;
   position: relative;
   background: white;
-  padding: 5px;
+  padding: 2px;
   border-radius: 0.25rem;
   box-shadow: 0px 0px 99px 0px rgba(0, 0, 0, 0.13);
+  height: 100%;
+}
+.img-btn:focus {
+  border-radius: 4px;
+  border: 1px solid black;
+  width: 120%;
+  height: 100%;
+}
+.img-btn:focus img {
+  height: 100%;
 }
 
 .img-btn::after {
@@ -8876,10 +8886,13 @@ JavaScript Triggered Classes
   margin-top: 13px;
   display: block;
 }
+.product-description .specifications .product-table {
+  margin: 17.5px 0;
+}
 .product-description .specifications .product-table table tbody th {
   width: 33%;
   background-color: #F9F9F9;
-  height: 36px;
+  height: 38.5px;
   padding-left: 0.5rem;
 }
 .product-description .specifications .product-table table tbody tr {
@@ -8889,4 +8902,22 @@ JavaScript Triggered Classes
 }
 .product-description .specifications .product-table table tbody td {
   background-color: transparent;
+  padding-left: 6.7px;
+}
+.product-description .feedback-section .rating-count {
+  margin-right: 11px;
+}
+.product-description .feedback-section .rating-count span {
+  font-size: 56px;
+  line-height: 64px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.product-description .feedback-section .feedback {
+  padding-top: 5px;
+}
+.product-description .feedback-section .feedbackCount {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #5f5f5f;
 }/*# sourceMappingURL=style.css.map */
