@@ -8875,4 +8875,18 @@ JavaScript Triggered Classes
   padding-bottom: 13px;
   margin-top: 13px;
   display: block;
+}
+.product-description .specifications .product-table table tbody th {
+  width: 33%;
+  background-color: #F9F9F9;
+  height: 36px;
+  padding-left: 0.5rem;
+}
+.product-description .specifications .product-table table tbody tr {
+  margin: 60px;
+  border-top-width: 1px;
+  border-color: #EEEEEE;
+}
+.product-description .specifications .product-table table tbody td {
+  background-color: transparent;
 }/*# sourceMappingURL=style.css.map */

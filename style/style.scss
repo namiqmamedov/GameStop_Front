@@ -10592,7 +10592,7 @@ footer {
     max-width: 1760px !important;
   }
 
-  h1{
+  h1 {
     font-size: 20px !important;
   }
 
@@ -11697,10 +11697,10 @@ Cart  stylling
 }
 
 .head-cart__item-btn {
-visibility: hidden !important;
+  visibility: hidden !important;
 }
 
-.head-rgt__btn{
+.head-rgt__btn {
   display: none;
 }
 
@@ -11738,19 +11738,21 @@ Product section stylling
   gap: 10rem;
   margin-top: -33px;
   min-height: 500vh;
- #br_crumbs-details{
-  margin-left: -21px !important;
-  .breadcrumbs{
-   margin-left: -40px;
-  }
 
-  .breadcrumb li{
-    font-family: -apple-system, -apple-system, 
-    BlinkMacSystemFont, 'Segoe UI', Roboto,  
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 
-    'Helvetica Neue', sans-serif; 
+  #br_crumbs-details {
+    margin-left: -21px !important;
+
+    .breadcrumbs {
+      margin-left: -40px;
+    }
+
+    .breadcrumb li {
+      font-family: -apple-system, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+    }
   }
- }
 
 
 }
@@ -11789,9 +11791,7 @@ Product section stylling
   height: 497px;
   position: relative;
 
-  .breadcrumb li {
-
-  }
+  .breadcrumb li {}
 }
 
 .img-btn {
@@ -12381,7 +12381,8 @@ Product section stylling
       font-size: 14px;
     }
   }
-  .shipping-prod{
+
+  .shipping-prod {
     width: 100%;
   }
 
@@ -12776,7 +12777,7 @@ JavaScript Triggered Classes
 
 // start product description
 
-.price-main{
+.price-main {
   // position: sticky !important;
   // top: -570px;
   // left: 0;
@@ -12785,7 +12786,7 @@ JavaScript Triggered Classes
   // z-index: 1111111111 !important;
 }
 
-.base-product{
+.base-product {
   position: sticky !important;
   left: 0;
   background-color: white;
@@ -12794,7 +12795,7 @@ JavaScript Triggered Classes
   grid-row: span 2/span 2;
   top: 0;
 
-  .product-box{
+  .product-box {
     position: sticky !important;
     left: 0;
     background-color: white;
@@ -12803,17 +12804,20 @@ JavaScript Triggered Classes
     top: 0;
   }
 }
-.product-description{
+
+.product-description {
   margin-top: 5.5rem;
-  .container-fluid{
+
+  .container-fluid {
     padding-right: 0px !important;
   }
 
 
-  .tracking-text{
+  .tracking-text {
     font-size: 1.5rem !important;
   }
-  .all-table{
+
+  .all-table {
     padding-left: 3px;
     margin-bottom: 22px;
     position: sticky;
@@ -12822,51 +12826,75 @@ JavaScript Triggered Classes
     z-index: 111111111;
     background: white;
     border-bottom: 1px solid #f1ebeb;
-    button{
+
+    button {
       border: none;
       padding: 0 12px;
       background-color: transparent;
       height: 41.5px;
 
-      &:hover{
+      &:hover {
         background-color: #eeeeee;
       }
     }
 
-   
+
   }
 
-  .tableProd{
-    .trackingText{
+  .tableProd {
+    .trackingText {
       font-weight: 700;
       margin-bottom: 17px;
-      font-family: 'Poppins',sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-size: 20px;
       color: #000000;
     }
   }
 
-  .productFeatures{
+  .productFeatures {
     gap: 3rem;
     padding-left: 0px !important;
     display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     margin-left: 14px;
-    .trackingText2{
+
+    .trackingText2 {
       color: black;
       max-width: 395px;
     }
   }
 
-  .description{
-    p{
+  .description {
+    p {
       margin-bottom: 0.8rem;
     }
 
-    .strongText{
+    .strongText {
       padding-bottom: 13px;
       margin-top: 13px;
       display: block;
+    }
+  }
+
+  .specifications {
+    .product-table {
+      table {
+        tbody {
+          th {
+            width: 33%;
+            background-color: #F9F9F9;
+            height: 36px;
+            padding-left: 0.5rem;
+          }
+          tr {
+            margin: 60px;
+            border-top-width: 1px;border-color: #EEEEEE;
+          }
+          td{
+            background-color: transparent;
+          }
+        }
+      }
     }
   }
 }
