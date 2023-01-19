@@ -2,6 +2,8 @@
 
 const imgBtn = Array.from(document.querySelectorAll(".img-btn"));
 const img = document.querySelector(".img-main");
+const video = document.querySelector(".img");
+const source = document.querySelector(".source-main");
 const mainImgBtns = Array.from(document.querySelectorAll(".img-main__btn"));
 
 const overlayCon = document.querySelector(".overlay-container");
@@ -239,3 +241,5 @@ window.addEventListener("resize", function () {
 window.addEventListener("load", function () {
   transitionDelay();
 });
+
+

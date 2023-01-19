@@ -7715,14 +7715,16 @@ Overlay image modal
 }
 
 .item-overlay {
-  max-width: 83rem;
+  max-width: 75rem;
   padding-top: 0rem;
   margin: auto;
+  height: 89.2vh;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
   background-color: white;
-  border-radius: 0.3rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
 }
 
 .item-overlay__btn {
@@ -7732,16 +7734,16 @@ Overlay image modal
   color: black;
   cursor: pointer;
   padding-top: -4rem;
-  position: absolute;
-  top: 3%;
-  left: 91.7%;
+  padding-top: 20px;
+  padding-left: -2px;
+  padding-right: 16px;
 }
 
 .item-overlay__mainImg {
   position: relative;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  margin-top: -28px;
 }
 
 .item-overlay__img {
@@ -7807,6 +7809,10 @@ Overlay image modal
   padding-bottom: 6px;
 }
 .overlay-img__btn:focus {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.overlay-img__btn:active {
   border: 1px solid black;
   border-radius: 4px;
 }
@@ -7923,10 +7929,11 @@ Cart  stylling
 }
 
 .head-cart__item-btn {
-  align-self: center;
-  background: none;
-  border: none;
-  cursor: pointer;
+  visibility: hidden !important;
+}
+
+.head-rgt__btn {
+  display: none;
 }
 
 .head-cart__des {
@@ -7961,13 +7968,22 @@ Product section stylling
   display: flex;
   grid-template-columns: 0.8fr 1fr;
   gap: 10rem;
+  margin-top: -33px;
 }
-.item .row {
-  margin-top: -38px !important;
+.item #br_crumbs-details {
+  margin-left: -21px !important;
+}
+.item #br_crumbs-details .breadcrumbs {
+  margin-left: -40px;
 }
 
 /* Left img container stylling */
 .img-main {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.source-main {
   max-width: 100%;
   cursor: pointer;
   margin-top: 55px;
@@ -7981,15 +7997,17 @@ Product section stylling
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-  width: 4.5%;
+  width: 5.5%;
   position: absolute;
-  top: 5%;
-  left: -1.3%;
+  top: 0%;
+  left: 1.7%;
 }
 
 .img {
   width: 66.4% !important;
   background-color: #FAFAFA;
+  height: 497px;
+  position: relative;
 }
 
 .img-btn {
@@ -8000,6 +8018,10 @@ Product section stylling
   border-radius: 10%;
   transition: all 0.3s;
   position: relative;
+  background: white;
+  padding: 5px;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 99px 0px rgba(0, 0, 0, 0.13);
 }
 
 .img-btn::after {
@@ -8025,7 +8047,9 @@ Product section stylling
 }
 .main-img .img-main {
   max-width: 100%;
-  max-height: 30rem;
+  margin-left: 117px;
+  max-height: 25rem;
+  margin-top: 8px;
 }
 
 .img-btn:hover {
@@ -8060,6 +8084,13 @@ Product section stylling
 .price-main .card-price {
   margin-top: 17px;
   margin-left: 18px;
+}
+.price-main .rating-count {
+  margin-left: 10px;
+  text-decoration: underline;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #484848;
 }
 .price-main .label-platform {
   font-size: 14px;
@@ -8237,7 +8268,6 @@ Product section stylling
 .price-main .label-check .type ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 10px !important;
   gap: 0.575rem;
   padding-left: 0px !important;
 }
@@ -8462,13 +8492,13 @@ Product section stylling
 }
 
 .price-main__heading {
-  font-size: 24px;
+  font-size: 23px;
   line-height: 32px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
-  letter-spacing: 0.01em;
   margin-top: 14px;
   margin-bottom: -1px;
+  word-spacing: -2.3px;
 }
 
 .price-txt {
@@ -8760,4 +8790,34 @@ JavaScript Triggered Classes
 .preload * {
   transition: none !important;
   display: none;
+}
+
+.product-description {
+  position: absolute;
+  top: 103%;
+}
+.product-description .container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.product-description .all-table {
+  padding-left: 3px;
+}
+.product-description .all-table button {
+  border: none;
+  padding: 0 12px;
+  background-color: transparent;
+  height: 41.5px;
+}
+.product-description .all-table button:hover {
+  background-color: #eeeeee;
+}
+.product-description .productFeatures {
+  gap: 3rem;
+  padding-left: 0px !important;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.product-description .productFeatures .trackingText2 {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
