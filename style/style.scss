@@ -12381,6 +12381,9 @@ Product section stylling
       font-size: 14px;
     }
   }
+  .shipping-prod{
+    width: 100%;
+  }
 
   .product-cart {
     margin-top: 1.5rem;
@@ -12388,7 +12391,8 @@ Product section stylling
 
     button {
       border: none;
-      width: 100%;
+      width: 454px;
+      max-width: 100%;
       background: #DE0F04;
       border-radius: 4px;
       height: 47px;
@@ -12773,12 +12777,31 @@ JavaScript Triggered Classes
 // start product description
 
 .price-main{
+  // position: sticky !important;
+  // top: -570px;
+  // left: 0;
+  // height: 0px;
+  // background-color: white;
+  // z-index: 1111111111 !important;
+}
+
+.base-product{
   position: sticky !important;
-  top: -570px;
   left: 0;
-  height: 1px;
   background-color: white;
   z-index: 1111111111 !important;
+  height: 3500px;
+  grid-row: span 2/span 2;
+  top: 0;
+
+  .product-box{
+    position: sticky !important;
+    left: 0;
+    background-color: white;
+    z-index: 1111111111 !important;
+    grid-row: span 2/span 2;
+    top: 0;
+  }
 }
 .product-description{
   margin-top: 5.5rem;

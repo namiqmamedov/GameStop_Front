@@ -8463,13 +8463,17 @@ Product section stylling
   color: black;
   font-size: 14px;
 }
+.price-main .shipping-prod {
+  width: 100%;
+}
 .price-main .product-cart {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 .price-main .product-cart button {
   border: none;
-  width: 100%;
+  width: 454px;
+  max-width: 100%;
   background: #DE0F04;
   border-radius: 4px;
   height: 47px;
@@ -8797,14 +8801,24 @@ JavaScript Triggered Classes
   display: none;
 }
 
-.price-main {
+.base-product {
   position: -webkit-sticky !important;
   position: sticky !important;
-  top: -570px;
   left: 0;
-  height: 1px;
   background-color: white;
   z-index: 1111111111 !important;
+  height: 3500px;
+  grid-row: span 2/span 2;
+  top: 0;
+}
+.base-product .product-box {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0;
+  background-color: white;
+  z-index: 1111111111 !important;
+  grid-row: span 2/span 2;
+  top: 0;
 }
 
 .product-description {
