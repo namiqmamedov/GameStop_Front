@@ -8831,6 +8831,15 @@ JavaScript Triggered Classes
   top: 0;
 }
 
+.title-text {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-left: 12px;
+  padding-top: 10px;
+  margin-bottom: 2px;
+}
+
 .product-description {
   margin-top: 5.5rem;
 }
@@ -8853,12 +8862,17 @@ JavaScript Triggered Classes
 }
 .product-description .all-table button {
   border: none;
-  padding: 0 12px;
+  padding: 0 21px;
+  margin-left: -9px;
   background-color: transparent;
   height: 41.5px;
 }
 .product-description .all-table button:hover {
   background-color: #eeeeee;
+}
+.product-description .all-table button span {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
 }
 .product-description .tableProd .trackingText {
   font-weight: 700;
@@ -8904,6 +8918,34 @@ JavaScript Triggered Classes
   background-color: transparent;
   padding-left: 6.7px;
 }
+.product-description .reviewsProd .nt-1 {
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif;
+}
+.product-description .reviewsProd .nt-2 {
+  font-family: "Open Sans", sans-serif;
+}
+.product-description .reviewsProd .rangeRating .progressBar .progress {
+  width: 65%;
+  height: 8.9px;
+  margin-top: 5px;
+  margin-left: 11px;
+  margin-right: 9px;
+}
+.product-description .reviewsProd .rangeRating .progressBar .progress .progress-bar {
+  background-color: black !important;
+}
+.product-description .reviewsProd .rangeRating .progressBar .progress .t-1 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.product-description .reviewsProd .progressRating {
+  display: flex;
+}
+.product-description .feedback-section {
+  margin-top: -13px;
+  width: 40%;
+}
 .product-description .feedback-section .rating-count {
   margin-right: 11px;
 }
@@ -8920,4 +8962,31 @@ JavaScript Triggered Classes
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   color: #5f5f5f;
+}
+.product-description .customer-section {
+  width: 60%;
+}
+.product-description .customer-section .main-reviews {
+  padding-left: 11px;
+}
+.product-description .t-1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #5f5f5f;
+}
+.product-description .bottomSection button {
+  margin: 4px 0;
+  height: 50px;
+  width: 89% !important;
+  border-radius: 5px;
+}
+.product-description .bottomSection .bt-1 {
+  border: none;
+  background-color: black;
+}
+.product-description .bottomSection .bt-1 span {
+  color: white;
+}
+.product-description .bottomSection .bt-2 {
+  background-color: transparent;
 }/*# sourceMappingURL=style.css.map */

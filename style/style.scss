@@ -12166,7 +12166,7 @@ Product section stylling
     }
 
   }
-
+  
   .plan-details {
     .plan-box {
       .pl-text {
@@ -12818,7 +12818,14 @@ JavaScript Triggered Classes
     top: 0;
   }
 }
-
+.title-text {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-left: 12px;
+  padding-top: 10px;
+  margin-bottom: 2px;
+}
 .product-description {
   margin-top: 5.5rem;
 
@@ -12841,14 +12848,22 @@ JavaScript Triggered Classes
     background: white;
     border-bottom: 1px solid #f1ebeb;
 
+    
+  
     button {
       border: none;
-      padding: 0 12px;
+      padding: 0 21px;
+      margin-left: -9px;
       background-color: transparent;
       height: 41.5px;
+      
 
       &:hover {
         background-color: #eeeeee;
+      }
+      span{
+        font-size: 14px;
+        font-family: 'Poppins',sans-serif;
       }
     }
 
@@ -12918,7 +12933,47 @@ JavaScript Triggered Classes
     }
   }
 
+  .reviewsProd{
+    .nt-1{
+      font-size: 16px !important;
+      font-family: 'Poppins',sans-serif;
+    }
+  
+    .nt-2{
+      font-family: 'Open Sans',sans-serif;
+    }
+    .rangeRating{
+      .progressBar{
+        .progress{
+          width: 65%;
+          height: 8.9px;
+          margin-top: 5px;
+          margin-left: 11px;
+          margin-right: 9px;
+          .progress-bar{
+            background-color: black !important;
+          }
+          .t-1{
+            margin-left: 4rem;
+            margin-right: 4rem;
+          }
+        }
+      }
+      
+    }
+    .progressRating{
+      display: flex;
+    }
+    
+
+  }
+
   .feedback-section {
+    margin-top: -13px;
+
+    width: 40%;
+    
+
     .rating-count {
       margin-right: 11px;
 
@@ -12940,4 +12995,44 @@ JavaScript Triggered Classes
       color: #5f5f5f;
     }
   }
+
+  .customer-section{
+    width: 60%;
+
+    .main-reviews{
+      padding-left: 11px;
+    }
+  }
+  .t-1{
+    font-family: 'Open Sans',sans-serif;
+      font-size: 12px;
+      color: #5f5f5f;
+  }
+
+  .bottomSection{
+
+    button{
+      margin: 4px 0;
+      height: 50px;
+      width: 89%!important;
+      border-radius: 5px;
+    }
+    .bt-1{
+      border: none;
+      background-color: black;
+      
+
+      span{
+        color: white;
+      }
+    }
+    .bt-2{
+      background-color: transparent;
+    }
+  }
+
+ 
+
+
+ 
 }
