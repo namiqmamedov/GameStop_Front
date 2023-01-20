@@ -4196,7 +4196,6 @@ footer {
     }
   }
 
-  .product-filter {}
 
   .sort-section {
     // margin-bottom: 40px;
@@ -11788,7 +11787,6 @@ Product section stylling
 .img {
   width: 66.4% !important;
   background-color: #FAFAFA;
-  height: 497px;
   position: relative;
 
   .breadcrumb li {}
@@ -12166,7 +12164,7 @@ Product section stylling
     }
 
   }
-  
+
   .plan-details {
     .plan-box {
       .pl-text {
@@ -12253,21 +12251,20 @@ Product section stylling
           text-decoration-line: underline;
         }
 
-        .sub-text {
-          font-family: 'Open-Sans', sans-serif;
-          letter-spacing: -.03em;
-          padding-left: 10.7px;
-          font-size: 14px;
-          color: #5f5f5f;
-
-        }
       }
 
+    }
+
+    .sub-text {
+      font-family: 'Open-Sans', sans-serif;
+      letter-spacing: -.03em;
+      padding-left: 10.7px;
+      font-size: 14px;
+      color: #5f5f5f;
 
     }
 
   }
-
 
 
   .customer-rating {
@@ -12818,6 +12815,7 @@ JavaScript Triggered Classes
     top: 0;
   }
 }
+
 .title-text {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -12826,6 +12824,7 @@ JavaScript Triggered Classes
   padding-top: 10px;
   margin-bottom: 2px;
 }
+
 .product-description {
   margin-top: 5.5rem;
 
@@ -12848,22 +12847,23 @@ JavaScript Triggered Classes
     background: white;
     border-bottom: 1px solid #f1ebeb;
 
-    
-  
+
+
     button {
       border: none;
       padding: 0 21px;
       margin-left: -9px;
       background-color: transparent;
       height: 41.5px;
-      
+
 
       &:hover {
         background-color: #eeeeee;
       }
-      span{
+
+      span {
         font-size: 14px;
-        font-family: 'Poppins',sans-serif;
+        font-family: 'Poppins', sans-serif;
       }
     }
 
@@ -12933,38 +12933,44 @@ JavaScript Triggered Classes
     }
   }
 
-  .reviewsProd{
-    .nt-1{
-      font-size: 16px !important;
-      font-family: 'Poppins',sans-serif;
+  .reviewsProd {
+    .nt-1 {
+      font-size: 14px !important;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      letter-spacing: .02em;
     }
-  
-    .nt-2{
-      font-family: 'Open Sans',sans-serif;
+
+    .nt-2 {
+      font-family: 'Open Sans', sans-serif;
     }
-    .rangeRating{
-      .progressBar{
-        .progress{
+
+    .rangeRating {
+      .progressBar {
+        .progress {
           width: 65%;
           height: 8.9px;
           margin-top: 5px;
           margin-left: 11px;
           margin-right: 9px;
-          .progress-bar{
+
+          .progress-bar {
             background-color: black !important;
           }
-          .t-1{
+
+          .t-1 {
             margin-left: 4rem;
             margin-right: 4rem;
           }
         }
       }
-      
+
     }
-    .progressRating{
+
+    .progressRating {
       display: flex;
     }
-    
+
 
   }
 
@@ -12972,7 +12978,7 @@ JavaScript Triggered Classes
     margin-top: -13px;
 
     width: 40%;
-    
+
 
     .rating-count {
       margin-right: 11px;
@@ -12980,59 +12986,132 @@ JavaScript Triggered Classes
       span {
         font-size: 56px;
         line-height: 64px;
-        font-family: 'Poppins',sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: bold;
       }
     }
 
-    .feedback{
+    .feedback {
       padding-top: 5px;
     }
 
-    .feedbackCount{
-      font-family: 'Open Sans',sans-serif;
+    .feedbackCount {
+      font-family: 'Open Sans', sans-serif;
       font-size: 12px;
       color: #5f5f5f;
     }
   }
 
-  .customer-section{
+  .customer-section {
     width: 60%;
+    margin-top: -1.05rem;
 
-    .main-reviews{
+    .main-reviews {
       padding-left: 11px;
+      padding-top: 12px;
+
+      .sub-text {
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+      }
     }
-  }
-  .t-1{
-    font-family: 'Open Sans',sans-serif;
+
+    .starRating {
+      .nt2 {
+        margin-bottom: 2rem;
+      }
+    }
+
+    #starRating1 {
+      word-spacing: -4px;
+      margin-top: -6px;
+    }
+
+    .verifiedPurch {
+      color: #007D53;
       font-size: 12px;
-      color: #5f5f5f;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      font-weight: 500;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .ratingTime {
+      margin-bottom: 12px !important;
+    }
+
+    .nickname {
+      margin-top: 0.7rem;
+      font-family: 'Open Sans', sans-serif;
+    }
+
   }
 
-  .bottomSection{
+  .t-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #5f5f5f;
+  }
 
-    button{
+  .bottomSection {
+
+    button {
       margin: 4px 0;
-      height: 50px;
-      width: 89%!important;
+      height: 48.2px;
+      width: 89% !important;
       border-radius: 5px;
-    }
-    .bt-1{
-      border: none;
-      background-color: black;
-      
 
-      span{
+
+      .sub-text {
+        font-weight: 600 !important;
+      }
+
+    }
+
+    .bt-1 {
+      border: none;
+      background-color: #212322;
+      &:hover{
+        background-color: black;
+      }
+
+
+      span {
         color: white;
       }
     }
-    .bt-2{
+
+    .bt-2 {
       background-color: transparent;
+
+      &:hover{
+        background-color: #F9F9F9;
+      }
     }
   }
 
- 
+  .button-container {
+    button {
+      margin-top: 7px;
+      border: none;
+      padding: 5px 14px;
+      border-radius: 13px;
+
+      &:hover {
+        background-color: #E5E5E5;
+      }
+
+      .nt-1 {
+        padding-left: 5.5px;
+      }
+    }
+  }
 
 
- 
+
+
+
 }
+
