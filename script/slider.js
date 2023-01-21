@@ -154,4 +154,34 @@ $('#productCard-more-like-this').slick({
   ]
 });
 
+$('#productCard-ppl-also-bought').slick({
+  infinite: false,
+  slidesToShow: 3.1,
+  slidesToScroll: 4,
+ 
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 4,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: "unslick"
+    },
+    {
+      breakpoint: 600,
+      settings: "unslick"
+    },
+    {
+      breakpoint: 480,
+      settings: "unslick"
+    }
+  ]
+});
+
 
