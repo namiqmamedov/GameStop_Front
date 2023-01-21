@@ -12974,6 +12974,8 @@ JavaScript Triggered Classes
 
   }
 
+
+
   .feedback-section {
     margin-top: -13px;
 
@@ -13018,10 +13020,26 @@ JavaScript Triggered Classes
       }
     }
 
-    .starRating {
+    .main-questions {
+      padding-left: 11px;
+      padding-top: 12px;
+
+      .sub-text {
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+    .ratingReviews {
       .nt2 {
         margin-bottom: 2rem;
       }
+    }
+
+    .queAnswers {
+    
     }
 
     #starRating1 {
@@ -13039,6 +13057,10 @@ JavaScript Triggered Classes
     }
 
     .ratingTime {
+      margin-bottom: 12px !important;
+    }
+
+    .questionTime {
       margin-bottom: 12px !important;
     }
 
@@ -13094,6 +13116,8 @@ JavaScript Triggered Classes
   }
 
   .button-container {
+    display: flex;
+    gap: 0.5rem;
     button {
       margin-top: 7px;
       border: none;
@@ -13141,7 +13165,7 @@ JavaScript Triggered Classes
       display: inline-block;
       background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
       height: 2.2rem;
-    width: 2.2rem;
+      width: 2.2rem;
       background-size: auto;
       border-radius: 50%;
       background-position: -362.5px -2px;
@@ -13339,7 +13363,77 @@ JavaScript Triggered Classes
     }
   }
 
+  .qa-Prod {
+    .nt-1 {
+      font-size: 14px !important;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      letter-spacing: .02em;
+    }
 
+    .nt-2 {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .rangeRating {
+      .progressBar {
+        .progress {
+          width: 65%;
+          height: 8.9px;
+          margin-top: 5px;
+          margin-left: 11px;
+          margin-right: 9px;
+
+          .progress-bar {
+            background-color: black !important;
+          }
+
+          .t-1 {
+            margin-left: 4rem;
+            margin-right: 4rem;
+          }
+        }
+      }
+
+    }
+
+    .nickname {
+      margin-top: 0px !important;
+    }
+
+    .queTitle {
+      margin-bottom: 0.2rem;
+      margin-top: -2.2px;
+      padding-left: 6px;
+    }
+
+    .queTime {
+      padding-left: 9.5px;
+    }
+
+    .answTitle {
+      margin-bottom: 0.2rem;
+      margin-top: -2.2px;
+      padding-left: 6px;
+    }
+
+    .answTime {
+      padding-left: 9.5px;
+    }
+    
+    .answTop{
+      margin-top: 11.5px;
+    }
+    .answBottom{
+      margin-bottom: 10px;
+    }
+
+    .progressRating {
+      display: flex;
+    }
+
+
+  }
 
 
 }

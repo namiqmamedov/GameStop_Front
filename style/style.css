@@ -8977,7 +8977,17 @@ JavaScript Triggered Classes
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
-.product-description .customer-section .starRating .nt2 {
+.product-description .customer-section .main-questions {
+  padding-left: 11px;
+  padding-top: 12px;
+}
+.product-description .customer-section .main-questions .sub-text {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.product-description .customer-section .ratingReviews .nt2 {
   margin-bottom: 2rem;
 }
 .product-description .customer-section #starRating1 {
@@ -8993,6 +9003,9 @@ JavaScript Triggered Classes
   font-family: "Open Sans", sans-serif;
 }
 .product-description .customer-section .ratingTime {
+  margin-bottom: 12px !important;
+}
+.product-description .customer-section .questionTime {
   margin-bottom: 12px !important;
 }
 .product-description .customer-section .nickname {
@@ -9028,6 +9041,10 @@ JavaScript Triggered Classes
 }
 .product-description .bottomSection .bt-2:hover {
   background-color: #F9F9F9;
+}
+.product-description .button-container {
+  display: flex;
+  gap: 0.5rem;
 }
 .product-description .button-container button {
   margin-top: 7px;
@@ -9229,4 +9246,55 @@ JavaScript Triggered Classes
   font-size: 12px;
   color: white;
   font-weight: 600;
+}
+.product-description .qa-Prod .nt-1 {
+  font-size: 14px !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.product-description .qa-Prod .nt-2 {
+  font-family: "Open Sans", sans-serif;
+}
+.product-description .qa-Prod .rangeRating .progressBar .progress {
+  width: 65%;
+  height: 8.9px;
+  margin-top: 5px;
+  margin-left: 11px;
+  margin-right: 9px;
+}
+.product-description .qa-Prod .rangeRating .progressBar .progress .progress-bar {
+  background-color: black !important;
+}
+.product-description .qa-Prod .rangeRating .progressBar .progress .t-1 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.product-description .qa-Prod .nickname {
+  margin-top: 0px !important;
+}
+.product-description .qa-Prod .queTitle {
+  margin-bottom: 0.2rem;
+  margin-top: -2.2px;
+  padding-left: 6px;
+}
+.product-description .qa-Prod .queTime {
+  padding-left: 9.5px;
+}
+.product-description .qa-Prod .answTitle {
+  margin-bottom: 0.2rem;
+  margin-top: -2.2px;
+  padding-left: 6px;
+}
+.product-description .qa-Prod .answTime {
+  padding-left: 9.5px;
+}
+.product-description .qa-Prod .answTop {
+  margin-top: 11.5px;
+}
+.product-description .qa-Prod .answBottom {
+  margin-bottom: 10px;
+}
+.product-description .qa-Prod .progressRating {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
