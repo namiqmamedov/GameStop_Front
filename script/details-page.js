@@ -226,4 +226,3 @@ window.addEventListener("load", function () {
   transitionDelay();
 });
 
-

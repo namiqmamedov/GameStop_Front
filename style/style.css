@@ -9115,11 +9115,34 @@ JavaScript Triggered Classes
 .product-description .bottomSection .mobile-menu .feedback-section .content-top {
   position: relative;
   overflow: auto;
+  overflow-y: hidden;
 }
 .product-description .bottomSection .mobile-menu .feedback-section .content-top .topContext {
   position: absolute;
-  top: 40%;
-  left: 16%;
+  padding-left: 12px;
+  top: 27%;
+  left: 1%;
+  text-align: left;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-top .topContext .trackingText {
+  margin-bottom: 0px;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-top .topContext .textBtm {
+  line-height: 18px;
+  max-width: 290px;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-top .topContext .sub-text {
+  padding-left: 0px;
+  color: #5f5f5f;
+  font-weight: normal !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-top .topContext .nd-text {
+  font-weight: 700;
+  color: #5f5f5f;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-top .topContext img {
+  width: 21.5%;
+  margin-bottom: 7px;
 }
 .product-description .bottomSection .mobile-menu .feedback-section .content-top .backImg {
   background-size: 150% !important;
@@ -9127,6 +9150,222 @@ JavaScript Triggered Classes
   height: 210px;
   filter: blur(8px);
   opacity: 0.2 !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .overall {
+  padding-left: 12px;
+  padding-top: 24px;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section {
+  text-align: left;
+  position: relative;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating {
+  position: absolute;
+  width: auto;
+  font-size: 30px;
+  overflow: hidden;
+  left: 6%;
+  top: 125%;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating input {
+  float: right;
+  opacity: 0;
+  position: absolute;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating a,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating label {
+  float: right;
+  color: #b1b1b1;
+  text-decoration: none;
+  width: 23.4px;
+  transition: color 0.4s;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating label:hover ~ label,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating input:focus ~ label,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating label:hover,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating a:hover,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating a:hover ~ a,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating a:focus,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating a:focus ~ a {
+  color: black;
+  cursor: pointer;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .title-text {
+  padding-top: 72px !important;
+  padding-left: 14px !important;
+  max-width: 364px !important;
+  text-align: left !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check {
+  padding-left: 0px;
+  padding-top: 10px;
+  border-radius: 0px !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check .custom-control-label {
+  padding-right: 36px;
+  padding-left: 8px;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input:checked[type=checkbox] {
+  float: none !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input {
+  float: none !important;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input:active {
+  background-color: black;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input:focus {
+  background-color: black;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input::before {
+  background-color: black;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input::after {
+  background-color: black;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input:checked {
+  background-color: black;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input[type=checkbox]:focus {
+  background-color: black;
+  border: 1px solid #d9d9d9 !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input[type=checkbox]:active {
+  background-color: black;
+  border: 1px solid #d9d9d9 !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input[type=checkbox]::before {
+  background-color: black;
+  border: 1px solid #d9d9d9 !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input[type=checkbox]::after {
+  background-color: black;
+  border: 1px solid #d9d9d9 !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .recommended-item .form-check-input[type=checkbox]:checked {
+  background-color: black;
+  border: 1px solid #d9d9d9 !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section body {
+  background: url(http://www.timurtek.com/wp-content/uploads/2014/10/form-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "HelveticaNeue", "Arial", sans-serif;
+}
+.product-description .bottomSection .mobile-menu .feedback-section a {
+  color: #58bff6;
+  text-decoration: none;
+}
+.product-description .bottomSection .mobile-menu .feedback-section a:hover {
+  color: #aaa;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .pull-right {
+  float: right;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .pull-left {
+  float: left;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .clear-fix {
+  clear: both;
+}
+.product-description .bottomSection .mobile-menu .feedback-section div.logo {
+  text-align: center;
+  margin: 20px 20px 30px 20px;
+  fill: #566375;
+}
+.product-description .bottomSection .mobile-menu .feedback-section div.logo svg {
+  width: 180px;
+  height: 100px;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .logo-active {
+  fill: #44aacc !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section #formWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.product-description .bottomSection .mobile-menu .feedback-section div#form {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
+  padding: 20px;
+  top: 143%;
+}
+.product-description .bottomSection .mobile-menu .feedback-section div.form-item {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+.product-description .bottomSection .mobile-menu .feedback-section input {
+  transition: all 0.2s ease;
+}
+.product-description .bottomSection .mobile-menu .feedback-section input.form-style {
+  color: #8a8a8a;
+  display: block;
+  width: 90%;
+  height: 54px;
+  padding: 5px 5%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #fff;
+  font-family: "HelveticaNeue", "Arial", sans-serif;
+  font-size: 105%;
+  letter-spacing: 0.8px;
+}
+.product-description .bottomSection .mobile-menu .feedback-section div.form-item .form-style:focus {
+  outline: none;
+  border: 1px solid black;
+  color: black;
+}
+.product-description .bottomSection .mobile-menu .feedback-section div.form-item p.formLabel {
+  position: absolute;
+  left: 26px;
+  top: 12px;
+  transition: all 0.2s ease;
+  color: black;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .formTop {
+  top: -13.5px !important;
+  left: 26px;
+  background-color: #fff;
+  padding: 0 5px;
+  font-size: 14px;
+  color: black !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .formStatus {
+  color: #8a8a8a !important;
+}
+.product-description .bottomSection .mobile-menu .feedback-section input[type=submit].login {
+  float: right;
+  width: 112px;
+  height: 37px;
+  border-radius: 19px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #55b1df;
+  border: 1px solid #55b1df;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.product-description .bottomSection .mobile-menu .feedback-section input[type=submit].login:hover {
+  background-color: #fff;
+  border: 1px solid #55b1df;
+  color: #55b1df;
+  cursor: pointer;
+}
+.product-description .bottomSection .mobile-menu .feedback-section input[type=submit].login:focus {
+  outline: none;
 }
 .product-description .bottomSection .mobile-menu.active {
   left: 0;
