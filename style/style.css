@@ -9018,12 +9018,6 @@ JavaScript Triggered Classes
   /*---------------------
   Mobiles Menu - Design 
   ----------------------*/
-  /*---------------------
-  Mobiles Menu - Slide IN 
-  ----------------------*/
-  /*---------------------
-  Mobiles Menu - Dropdown Submenu
-  ----------------------*/
 }
 .product-description .bottomSection button {
   margin: 4px 0;
@@ -9032,6 +9026,11 @@ JavaScript Triggered Classes
   border-radius: 5px;
 }
 .product-description .bottomSection button .sub-text {
+  font-family: "Open-Sans", sans-serif;
+  letter-spacing: -0.03em;
+  padding-left: 10.7px;
+  font-size: 14px;
+  color: #5f5f5f;
   font-weight: 600 !important;
 }
 .product-description .bottomSection .bt-1 {
@@ -9041,7 +9040,7 @@ JavaScript Triggered Classes
 .product-description .bottomSection .bt-1:hover {
   background-color: black;
 }
-.product-description .bottomSection .bt-1 span {
+.product-description .bottomSection .bt-1 .writeReview {
   color: white;
 }
 .product-description .bottomSection .bt-2 {
@@ -9053,7 +9052,7 @@ JavaScript Triggered Classes
 .product-description .bottomSection .hamburger-menu {
   top: 0;
   left: 0;
-  margin-top: -25px;
+  margin-top: -35px;
   width: 100%;
   height: 100%;
   cursor: pointer;
@@ -9102,31 +9101,37 @@ JavaScript Triggered Classes
 }
 .product-description .bottomSection .mobile-menu {
   top: 0;
-  max-width: 250px;
+  max-width: 383px;
   left: -100%;
   width: 100%;
-  background: #EBEBEB;
+  background: white;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
   color: black;
   height: 100%;
   position: fixed;
   z-index: 9997;
   overflow-y: auto;
-  transform: translate3d(0, 0, 205px);
-  transition: all 500ms ease-in-out;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-top {
+  position: relative;
+  overflow: auto;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-top .topContext {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-top .backImg {
+  background-size: 150% !important;
+  background-position: center center !important;
+  height: 210px;
+  filter: blur(8px);
+  opacity: 0.2 !important;
 }
 .product-description .bottomSection .mobile-menu.active {
   left: 0;
-  transform: translate3d(0, 0, 0);
-  transition: all 500ms ease-in-out;
-}
-.product-description .bottomSection .has-children:hover {
-  cursor: hand;
-}
-.product-description .bottomSection .children {
-  display: none;
-}
-.product-description .bottomSection .mobile-menu .children li:first-child {
-  margin-top: 0px;
+  transform: translate3d(1099px, 0, 0);
+  transition: all 300ms ease-in-out;
 }
 .product-description .bottomSection .icon-arrow {
   position: absolute;
