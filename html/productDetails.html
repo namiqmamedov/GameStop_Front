@@ -608,8 +608,8 @@
     <div class="body-wrapper"></div>
 
     <!-- Overlay image Modal -->
-    <div class="overlay-container">
-        <div class="item-overlay">
+    <div class="overlay-container slider">
+        <div class="item-overlay slide">
             <button class="item-overlay__btn">
                 <svg class="item-overlay__btn-img" stroke="currentColor" fill="currentColor" stroke-width="0"
                     viewBox="0 0 24 24" class="text-grey-20" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -620,12 +620,12 @@
                 </svg>
             </button>
             <div class="item-overlay__mainImg">
-                <img id="mainImg1" src="/images/image-product-1.jpg" alt="" class="item-overlay__img" />
-                <button style="visibility: hidden;" class="item-overlay__btnlft overlay-btn">
+                <img id="mainImg1" src="https://media.gamestop.com/i/gamestop/11097389/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery2x$" alt="" class="item-overlay__img" />
+                <button id="prev" style="visibility: hidden;"  class="item-overlay__btnlft overlay-btn">
                     <img src="/images/icon-next.svg" alt="next symbol image"
                         class="item-overlay__btnlft-img overlay-btn__img next-btn" />
                 </button>
-                <button style="visibility: hidden;" class="item-overlay__btnrgt overlay-btn">
+                <button id="next" style="visibility: hidden;" class="item-overlay__btnrgt overlay-btn">
                     <img src="/images/icon-next.svg" alt="next symbol image"
                         class="item-overlay__btnrgt-img overlay-btn__img prev-btn" />
                 </button>
@@ -636,17 +636,26 @@
                         class="overlay-img__btn-img" />
                 </button>
                 <button class="overlay-img__btn" data-img="1">
-                    <img src="/images/image-product-2-thumbnail.jpg" alt="shoe product image"
+                    <img src="https://media.gamestop.com/i/gamestop/11097389_ALT01/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$" alt="shoe product image"
                         class="overlay-img__btn-img" />
                 </button>
                 <button class="overlay-img__btn" data-img="2">
-                    <img src="/images/image-product-3-thumbnail.jpg" alt="shoe product image"
+                    <img src="https://media.gamestop.com/i/gamestop/11097392_11097391_11097390_11097389_SCR17/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$" alt="shoe product image"
                         class="overlay-img__btn-img" />
                 </button>
                 <button class="overlay-img__btn" data-img="3">
-                    <img src="/images/image-product-4-thumbnail.jpg" alt="shoe product image"
+                    <img src="https://media.gamestop.com/i/gamestop/11097392_11097391_11097390_11097389_SCR21/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$" alt="shoe product image"
                         class="overlay-img__btn-img" />
                 </button>
+                <button class="overlay-img__btn" data-img="4">
+                    <img src="https://media.gamestop.com/i/gamestop/11097392_11097391_11097390_11097389_SCR20/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$" alt="shoe product image"
+                        class="overlay-img__btn-img" />
+                </button>
+                <button class="overlay-img__btn" data-img="4">
+                    <img src="https://media.gamestop.com/i/gamestop/11097392_11097391_11097390_11097389_SCR19/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$"" alt="shoe product image"
+                        class="overlay-img__btn-img" />
+                </button>
+                
             </div>
         </div>
     </div>
@@ -686,24 +695,33 @@
                                 class="img-main__btnrgt-img img-main__btn-img" />
                         </button>
                         <div class="main-img">
-                            <img src="/images/image-product-1.jpg" alt="" class="img-main" />
+                            <img src="https://media.gamestop.com/i/gamestop/11097389/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$" alt="" class="img-main" />
                             <div class="img-btns">
                                 <button class="img-btn">
-                                    <img src="/images/image-product-1-thumbnail.jpg" alt="shoe product image"
+                                    <img src="https://media.gamestop.com/i/gamestop/11097389/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$thumb$" alt="shoe product image"
                                         class="img-btn__img" />
                                 </button>
                                 <button class="img-btn">
-                                    <img src="/images/image-product-2-thumbnail.jpg" alt="shoe product image"
+                                    <img src="https://media.gamestop.com/i/gamestop/11097389_ALT01/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$thumb$" alt="shoe product image"
                                         class="img-btn__img" />
                                 </button>
                                 <button class="img-btn">
-                                    <img src="/images/image-product-3-thumbnail.jpg" alt="shoe product image"
+                                    <img src="https://media.gamestop.com/i/gamestop/11097392_11097391_11097390_11097389_SCR17/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$" alt="shoe product image"
                                         class="img-btn__img" />
                                 </button>
                                 <button class="img-btn">
-                                    <img src="/images/image-product-4-thumbnail.jpg" alt="shoe product image"
+                                    <img src="https://media.gamestop.com/i/gamestop/11097392_11097391_11097390_11097389_SCR21/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$thumb$" alt="shoe product image"
                                         class="img-btn__img" />
                                 </button>
+                                <button class="img-btn">
+                                    <img src="https://media.gamestop.com/i/gamestop/11097392_11097391_11097390_11097389_SCR20/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$" alt="shoe product image"
+                                        class="img-btn__img" />
+                                </button>
+                                <button class="img-btn">
+                                    <img src="https://media.gamestop.com/i/gamestop/11097392_11097391_11097390_11097389_SCR19/The-Last-of-Us-Part-II---PlayStation-4?fmt=auto&$pdp-gallery$" alt="shoe product image"
+                                        class="img-btn__img" />
+                                </button>
+                               
                             </div>
 
                         </div>
@@ -1257,12 +1275,32 @@
                                                     <div class="bottomSection mt-4">
                                                         <h3 class="rev-title nt-1">Bought this product?</h3>
                                                         <p class="nt-2">Share your thought with the community</p>
-                                                        <button class="bt-1 w-100 ">
-                                                            <span class="nt-1">Write a Review</span>
+                                                        <button class="bt-1 w-100 feedbackButton">
+                                                            <span class="nt-1 writeReview">Write a Review</span>
+                                                            <div class="hamburger-menu">
+                                                                <div class="bar"></div>	
+                                                            </div>
+                                                            
+                                                            <div class="mobile-menu">
+                                                                <ul>
+                                                                  <li><a href="index.html">Home</a></li>
+                                                                  <li class="has-children">About <span class="icon-arrow"></span>
+                                                                    <ul class="children">
+                                                                      <li><a href="submenu1.html">Submenu #1</a></li>
+                                                                      <li><a href="submenu2.html">Submenu #2</a></li>
+                                                                      <li><a href="submenu3.html">Submenu #3</a></li>
+                                                                    </ul>
+                                                                  </li>
+                                                                  <li><a href="blog.html">Blog</a></li>
+                                                                  <li><a href="contact.html">Contact</a></li>				
+                                                                </ul>    
+                                                            </div>
                                                         </button>
                                                         <button class="bt-2 w-100 ">
                                                             <span class="nt-1">See All Review</span>
                                                         </button>
+                                                        
+                                                        
                                                     </div>
                                                 </div>
                                                 <div class="customer-section">
@@ -2382,7 +2420,7 @@
                                         <ul>
                                             <li>
                                                 <input type="checkbox" name="check" id="check1">
-                                                <label class="labelfora" for="check1">PlayStation 5</label>
+                                                <label class="unselected-label" for="check1">PlayStation 5</label>
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="check" id="check2">
@@ -2390,11 +2428,11 @@
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="check" id="check3">
-                                                <label for="check3">Xbox Series X</label>
+                                                <label class="unselected-label" for="check3">Xbox Series X</label>
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="check" id="check4">
-                                                <label for="check4">Xbox One</label>
+                                                <label class="unselected-label" for="check4">Xbox One</label>
                                             </li>
                                         </ul>
                                     </div>
@@ -2815,6 +2853,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/script/details-page.js"></script>
 <script src="/script/scrollSpecific.js"></script>
+<script src="/script/bootstrap.modallery.min.js"></script>
 <script src="/script/nav-menu.js"></script>
 <script src="/script/slider.js"></script>
 <script src="/script/scroll-top.js"></script>

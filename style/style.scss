@@ -5047,7 +5047,6 @@ footer {
         }
       }
 
-
     }
 
   }
@@ -6342,11 +6341,6 @@ footer {
 
       padding-left: 0rem !important;
     }
-
-
-    #defaultCheck1:checked::after {}
-
-    #defaultCheck1:checked {}
 
     #defaultCheck1:checked {
       width: 36px;
@@ -11777,7 +11771,7 @@ Product section stylling
 
 .img-btns {
   display: flex;
-  gap: 2rem;
+  gap: 0.8rem;
   flex-wrap: wrap;
   width: 5.5%;
   position: absolute;
@@ -11790,7 +11784,6 @@ Product section stylling
   // background-color: #FAFAFA;
   position: relative;
 
-  .breadcrumb li {}
 }
 
 .img-btn {
@@ -12140,6 +12133,10 @@ Product section stylling
 
     }
 
+    .unselected-label{
+      background: linear-gradient(to bottom left,#0000 calc(50% - 1px),grey 50%,#0000 calc(50% + 1px)) no-repeat;
+    }
+
     input[type="checkbox"]+label,
     input[type="radio"]+label {
       width: auto;
@@ -12154,7 +12151,7 @@ Product section stylling
       box-sizing: border-box;
       text-align: center;
       transition: all ease 0.3s;
-
+  
       &:hover {
         background-color: #F8F8F8;
         border: solid 1px black;
@@ -12165,8 +12162,6 @@ Product section stylling
     input[type="radio"]:checked+label {
       border: solid 1px black;
       color: #000000;
-
-
     }
 
   }
@@ -13119,6 +13114,162 @@ JavaScript Triggered Classes
         background-color: #F9F9F9;
       }
     }
+
+    
+/*---------------------
+HAMBURGER MENU
+----------------------*/
+
+.hamburger-menu {
+  // position: fixed;
+top: 0;
+left: 0;
+margin-top: -25px;
+width: 100%;
+height: 100%;
+cursor: pointer;
+z-index: 9998;
+}
+
+.writeReview{
+display: block;
+padding-top: 14px;
+}
+
+
+
+.bar {
+position: relative;
+transform: translateY(10px);
+background: black;
+transition: all 0ms 300ms;
+}
+
+.bar.animate {
+
+width: 30px;
+border-radius: 50%;
+color: black;
+height: 30px;
+}
+
+
+
+
+/*---------------------
+Mobiles Menu 
+----------------------*/
+/*---------------------
+Mobiles Menu - Design 
+----------------------*/
+
+.mobile-menu ul {
+margin: 0;
+padding: 0;
+}
+
+.mobile-menu li {
+font-size: 20px;
+line-height: 30px;
+margin: 0;
+overflow: hidden;
+padding: 5px;
+position: relative;
+text-align: left;
+text-transform: uppercase;
+padding-left:15px;
+}
+
+.mobile-menu li:first-child {
+margin-top: 70px;
+}
+
+.mobile-menu li:hover {
+background: #CCCCCC;
+}
+
+.mobile-menu li a {
+text-decoration: none;
+color: black;
+}
+
+/*---------------------
+Mobiles Menu - Slide IN 
+----------------------*/
+
+.mobile-menu {
+top: 0;
+max-width: 250px;
+left: -100%;
+width: 100%;
+background: #EBEBEB;
+color: black;
+height: 100%;
+position: fixed;
+z-index: 9997;
+overflow-y: auto;
+-webkit-transform: translate3d(0, 0, 205px);
+-moz-transform: translate3d(0, 0, 205px);
+transform: translate3d(0, 0, 205px);
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
+}
+
+.mobile-menu.active {
+left: 0;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
+}
+
+/*---------------------
+Mobiles Menu - Dropdown Submenu
+----------------------*/
+
+.has-children:hover{
+cursor:hand;
+}
+
+.children {
+display:none;	
+}
+
+.mobile-menu .children li:first-child {
+margin-top: 0px;
+}
+
+.icon-arrow {
+position: absolute;
+display: block;
+font-size: 0.7em;
+color: black;
+top: 5px;
+right: 10px;
+transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg); 
+transition: .6s;
+-webkit-transition: .6s;
+-moz-transition: .6s;	 
+}
+
+.icon-arrow:after {
+  content: "\25BC";
+}
+
+.icon-arrow.open {
+transform: rotate(-180deg);
+-webkit-transform: rotate(-180deg);
+-moz-transform: rotate(-180deg); 
+transition: .6s;
+-webkit-transition: .6s;
+-moz-transition: .6s; 		
+}
+
   }
 
   .button-container {
@@ -13662,3 +13813,14 @@ JavaScript Triggered Classes
 
 
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18pt;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30pt;
+}
+

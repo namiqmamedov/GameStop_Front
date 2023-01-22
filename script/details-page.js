@@ -61,23 +61,7 @@ function transitionDelay() {
 
 /* Function to get next and previous images*/
 function imgBtns(btns, img, imgName) {
-  btns.forEach((btn) => {
-    btn.addEventListener("click", function (e) {
-      if (e.target.classList.contains(`${imgName}__btnlft-img`)) {
-        if (nextImg <= 0) nextImg = 3;
-        else nextImg--;
 
-        img.src = `/images/image-product${nextImg + 1}.jpg`;
-      }
-
-      if (e.target.classList.contains(`${imgName}__btnrgt-img`)) {
-        if (nextImg >= 3) nextImg = 0;
-        else nextImg++;
-
-        img.src = `/images/image-product-${nextImg + 1}.jpg`;
-      }
-    });
-  });
 }
 
 imgBtns(overlayBtns, overlayImg, "item-overlay");
