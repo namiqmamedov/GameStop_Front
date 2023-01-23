@@ -9350,16 +9350,18 @@ JavaScript Triggered Classes
   margin: 12px -18px;
 }
 .product-description .bottomSection .mobile-menu .feedback-section #formWrapper .remove {
-  display: block;
-  background: #444;
-  border: 1px solid black;
+  display: inline-block;
+  background: url(/images/iconmonstr-x-mark-thin.svg);
   color: white;
   text-align: center;
+  width: 21px;
+  position: absolute;
+  height: 21px;
+  border-radius: 50%;
+  background-color: white;
+  top: 8%;
+  left: 51%;
   cursor: pointer;
-}
-.product-description .bottomSection .mobile-menu .feedback-section #formWrapper .remove:hover {
-  background: white;
-  color: black;
 }
 .product-description .bottomSection .mobile-menu .feedback-section div#form {
   position: absolute;

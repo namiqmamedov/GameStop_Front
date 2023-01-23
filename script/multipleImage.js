@@ -10,7 +10,7 @@ $(document).ready(function() {
            var file = e.target;
            $("<span class=\"pip\">" +
              "<img class=\"imageThumb\" src=\"" + e.target.result + "\" title=\"" + file.name + "\"/>" +
-             "<br/><span class=\"remove\">Remove image</span>" +
+             "<br/><span class=\"remove\"></span>" +
              "</span>").insertAfter("#files");
            $(".remove").click(function(){
              $(this).parent(".pip").remove();
@@ -26,7 +26,6 @@ $(document).ready(function() {
          });
          fileReader.readAsDataURL(f);
        }
-       console.log(files);
      });
    } else {
      alert("Your browser doesn't support to File API")
