@@ -5,6 +5,6 @@ $("#success").click(function () {
     setTimeout(function(){
       $(".notify").removeClass("active");
       $("#notifyType").removeClass("success");
-    },3500);
+    },3000);
   });
   

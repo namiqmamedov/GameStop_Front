@@ -11,7 +11,7 @@ body {
 }
 
 .hep {
-  display: none ;
+  display: none;
 }
 
 .blockElem {
@@ -26,13 +26,17 @@ body {
   width: 100% !important;
 }
 
-.lock-scroll1{
+.lock-scroll1 {
   overflow-y: hidden;
 }
 
 
 .none {
   position: static !important;
+}
+
+.stickyPos{
+  position: sticky !important;
 }
 
 .overflow-hidden {
@@ -13077,30 +13081,31 @@ JavaScript Triggered Classes
   }
 
   .bottomSection {
-    .feedbackButton{
+    .feedbackButton {
       position: static;
     }
 
-    .notfMsg{
+    .notfMsg {
       position: relative;
     }
+
     .notify {
-      position: absolute;
-      top: 70px;
-    min-width: 100%;
-    height: 0;
-    z-index: 111111111111;
-    color: white;
-    left: 167%;
-      text-align: center;
+      width: 300px;
+      visibility: visible;
+      min-width: 23%;
+      height: 0;
+      z-index: 111111111111;
+      color: white;
+      transform: translate(182%,1318%);
+
       border-radius: 5px;
-     background-color: black;
+      background-color: black;
       transition: height .2s;
     }
 
     #notifyType:before {
       display: block;
-      margin-top: 13px;
+      padding-top: 10px;
 
     }
 
@@ -13173,7 +13178,7 @@ JavaScript Triggered Classes
       left: 0%;
       height: 126%;
       background-color: rgb(9 9 9 / 10%);
-      
+
     }
 
     .writeReview {
@@ -13185,19 +13190,15 @@ JavaScript Triggered Classes
 
     .bar {
       position: relative;
-      transform: translateY(10px);
-      width: 27px;
-      height: 27px;
+      left: 90%;
+      top: 13px;
+      width: 29px;
+      height: 29px;
       border-radius: 50%;
+      box-shadow: 0px 0px 1.7px grey;
       background-color: white;
       transition: all 0ms 300ms;
     }
-
-    .bar.animate{
-      width: 31px;
-      height: 32px;
-    }
-
 
     .mobile-menu {
       top: 0;
@@ -13485,7 +13486,7 @@ JavaScript Triggered Classes
             }
 
 
-           
+
           }
 
 
@@ -13536,19 +13537,21 @@ JavaScript Triggered Classes
           #files:hover::before {
             border-color: black;
           }
-          .privacy-policy{
+
+          .privacy-policy {
             position: absolute;
             top: 131%;
             left: 36%;
-           a{
-            text-decoration: underline;
-            color: black !important;
-            font-size: 14px;
-            font-family: 'Open Sans',sans-serif;
-            margin-bottom: 25px;
-            display: block;
 
-           }
+            a {
+              text-decoration: underline;
+              color: black !important;
+              font-size: 14px;
+              font-family: 'Open Sans', sans-serif;
+              margin-bottom: 25px;
+              display: block;
+
+            }
           }
 
           #files:active {
@@ -13579,9 +13582,10 @@ JavaScript Triggered Classes
             display: inline-block;
             position: relative;
             margin-right: -30px;
-            
+
           }
-          .imgFile{
+
+          .imgFile {
             display: inline-block;
             margin-top: -7px;
 
