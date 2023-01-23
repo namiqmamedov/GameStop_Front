@@ -19,13 +19,66 @@
 
 
   (function () {
-    $('.hamburger-menu').on('click', function() {
+    $('.write-menu').on('click', function() {
+      $(".overlay-back").css({
+        width: "100%"
+      });
+      $(".mobile-menu").show();
+      
       $('.bar').toggleClass('animate');
       $('.mobile-menu').toggleClass('active');
       return false;
     })
-    $('.has-children').on ('click', function() {
-         $(this).children('ul').slideToggle('slow', 'swing');
-         $('.icon-arrow').toggleClass('open');
+
+    $(".overlay-back").on('click', function(){
+      $(".overlay-back").css({
+        width: "0%"
+      });
+      
+    
     });
+
+    $(".bar").on('click', function(){
+      $(".overlay-back").css({
+        width: "0%"
+      });
+      
+    
+    });
+
+
+    // $(".bar").click(function(){
+    //   $(".mobile-menu").css({
+    //     display: "none"
+    //   });
+    // });
+
+ 
+
+    
   })();
+
+
+  const ratingRemove = $(".bar").click(function () {
+    if ($('.mobile-menu').removeClass("active")) {}
+
+    if ($('.overlay-back').removeClass("active")) {}
+
+
+ })
+
+ const ratingActive = $(".write-menu").click(function () {
+  if ($('.mobile-menu').addClass("active")) {}
+
+})
+
+const ratingOverlay = $(".overlay-back").click(function () {
+  if ($('.mobile-menu').removeClass("active")) {}
+
+})
+
+
+
+
+
+ 

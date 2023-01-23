@@ -11,9 +11,12 @@ body {
 }
 
 .hep {
-  display: none;
+  display: none ;
 }
 
+.blockElem {
+  display: block !important;
+}
 
 .lock-scroll {
   overflow: hidden;
@@ -21,6 +24,10 @@ body {
   -ms-touch-action: none;
   position: fixed !important;
   width: 100% !important;
+}
+
+.lock-scroll1{
+  overflow-y: hidden;
 }
 
 
@@ -13070,6 +13077,9 @@ JavaScript Triggered Classes
   }
 
   .bottomSection {
+    .feedbackButton{
+      position: static;
+    }
 
     .notfMsg{
       position: relative;
@@ -13145,19 +13155,25 @@ JavaScript Triggered Classes
     }
 
 
-    /*---------------------
-HAMBURGER MENU
-----------------------*/
 
-    .hamburger-menu {
-      // position: fixed;
-      top: 0;
-      left: 0;
+
+    .write-menu {
       margin-top: -35px;
       width: 100%;
       height: 100%;
       cursor: pointer;
       z-index: 9998;
+
+    }
+
+    .overlay-back {
+      position: fixed;
+      top: -24px;
+      width: 0%;
+      left: 0%;
+      height: 126%;
+      background-color: rgb(9 9 9 / 10%);
+      
     }
 
     .writeReview {
@@ -13170,28 +13186,17 @@ HAMBURGER MENU
     .bar {
       position: relative;
       transform: translateY(10px);
-      background: black;
+      width: 27px;
+      height: 27px;
+      border-radius: 50%;
+      background-color: white;
       transition: all 0ms 300ms;
     }
 
-    .bar.animate {
-
-      width: 30px;
-      border-radius: 50%;
-      color: black;
-      height: 30px;
+    .bar.animate{
+      width: 31px;
+      height: 32px;
     }
-
-
-
-
-    /*---------------------
-Mobiles Menu 
-----------------------*/
-    /*---------------------
-Mobiles Menu - Design 
-----------------------*/
-
 
 
     .mobile-menu {
@@ -13540,7 +13545,7 @@ Mobiles Menu - Design
             color: black !important;
             font-size: 14px;
             font-family: 'Open Sans',sans-serif;
-            margin-bottom: 40px;
+            margin-bottom: 25px;
             display: block;
 
            }
