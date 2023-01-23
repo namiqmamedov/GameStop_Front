@@ -8,20 +8,13 @@ $(document).ready(function() {
          var fileReader = new FileReader();
          fileReader.onload = (function(e) {
            var file = e.target;
-           $("<span class=\"pip\">" +
+           $("<div class=\"imgFile\"><span class=\"pip\">" +
              "<img class=\"imageThumb\" src=\"" + e.target.result + "\" title=\"" + file.name + "\"/>" +
-             "<br/><span class=\"remove\"></span>" +
+             "<br/><span class=\"remove\"></span></div>" +
              "</span>").insertAfter("#files");
            $(".remove").click(function(){
              $(this).parent(".pip").remove();
            });
-           
-           // Old code here
-           /*$("<img></img>", {
-             class: "imageThumb",
-             src: e.target.result,
-             title: file.name + " | Click to remove"
-           }).insertAfter("#files").click(function(){$(this).remove();});*/
            
          });
          fileReader.readAsDataURL(f);
