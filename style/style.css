@@ -8929,6 +8929,13 @@ JavaScript Triggered Classes
 .product-description .reviewsProd .nt-2 {
   font-family: "Open Sans", sans-serif;
 }
+.product-description .reviewsProd .all-review-text {
+  font-weight: 600;
+  margin-left: 11px;
+  padding-top: 10px;
+  margin-top: -2rem;
+  margin-bottom: 40px;
+}
 .product-description .reviewsProd .rangeRating .progressBar .progress {
   width: 65%;
   height: 8.9px;
@@ -8971,13 +8978,19 @@ JavaScript Triggered Classes
   width: 60%;
   margin-top: -1.05rem;
 }
+.product-description .customer-section .all-review {
+  color: #5f5f5f !important;
+  display: block;
+  text-align: center;
+  font-size: 14px !important;
+  font-family: "Poppins", sans-serif;
+}
 .product-description .customer-section .main-reviews {
   padding-left: 11px;
   padding-top: 12px;
 }
 .product-description .customer-section .main-reviews .sub-text {
   color: black;
-  font-weight: 500;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
@@ -9055,6 +9068,11 @@ JavaScript Triggered Classes
   height: 48.2px;
   width: 89% !important;
   border-radius: 5px;
+}
+.product-description .bottomSection .bt-1 a,
+.product-description .bottomSection .bt-2 a {
+  color: black;
+  text-decoration: none;
 }
 .product-description .bottomSection .bt-1 .sub-text,
 .product-description .bottomSection .bt-2 .sub-text {
@@ -9167,6 +9185,56 @@ JavaScript Triggered Classes
   padding-left: 12px;
   padding-top: 24px;
 }
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .rating {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: row-reverse;
+  position: relative;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .rating-0 {
+  filter: grayscale(100%);
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .rating > input {
+  display: none;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .rating > label {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: auto;
+  background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' height='24' width='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EStar Outlined%3C/title%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 16.686L17.4239 19.9596L15.9845 13.7897L20.7769 9.63803L14.4673 9.10272L12 3.2813L9.5327 9.10272L3.22308 9.63803L8.01549 13.7897L6.57613 19.9596L12 16.686ZM5.82 21L7.46 13.97L2 9.24L9.19 8.63L12 2L14.81 8.63L22 9.24L16.54 13.97L18.18 21L12 17.27L5.82 21Z' fill='black' role='presentation'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 113%;
+  transition: 0.3s;
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .rating > input:checked ~ label,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .rating > input:checked ~ label ~ label {
+  background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' height='24' width='24'%3E%3Ctitle%3EStar Filled%3C/title%3E%3Cpath fill='currentColor' d='M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z' role='presentation'%3E%3C/path%3E%3C/svg%3E");
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .rating > input:not(:checked) ~ label:hover,
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .rating > input:not(:checked) ~ label:hover ~ label {
+  background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' height='24' width='24'%3E%3Ctitle%3EStar Filled%3C/title%3E%3Cpath fill='currentColor' d='M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z' role='presentation'%3E%3C/path%3E%3C/svg%3E");
+}
+.product-description .bottomSection .mobile-menu .feedback-section .content-main .feedbackRating .feedback {
+  max-width: 360px;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section {
   text-align: left;
   position: relative;
@@ -9176,8 +9244,8 @@ JavaScript Triggered Classes
   width: auto;
   font-size: 30px;
   overflow: hidden;
-  left: 6%;
-  top: 125%;
+  left: 6.5%;
+  top: 112.5%;
 }
 .product-description .bottomSection .mobile-menu .feedback-section .content-main .rating-section .rating input {
   float: right;
