@@ -133,37 +133,40 @@ const owHidden1 = $(".question-menu").click(function () {
 
 })
 
-const owStatic = $(".overlay-back").click(function () {
+const owStatic1 = $(".overlay-back1").click(function () {
   if ($('body').removeClass("overflow-hidden")) {}
 
+})
 
+const owStatic = $(".overlay-back").click(function () {
+  if ($('body').removeClass("overflow-hidden")) {}
 
 })
 
 const owStaticBar = $(".bar").click(function () {
   if ($('body').removeClass("overflow-hidden")) {}
 
-
+  if ($('.scroll-up').removeClass("filterRemove")) {}
 
 })
 const owStaticBar1 = $(".bar1").click(function () {
   if ($('body').removeClass("overflow-hidden")) {}
 
-
+  if ($('.scroll-up').removeClass("filterRemove")) {}
 
 })
+
+
 
 const posStatic = $(".overlay-back").click(function () {
   if ($('.all-table').removeClass("filterRemove")) {}
 
 })
 
-
 const ratingOverlay = $(".overlay-back").click(function () {
   if ($('.navMenu').removeClass("active")) {}
 
 })
-
 
 const posStaticc = $(".overlay-back1").click(function () {
   if ($('.all-table').removeClass("filterRemove")) {}
@@ -172,8 +175,27 @@ const posStaticc = $(".overlay-back1").click(function () {
 
 })
 
-
 const ratingOverlayy = $(".overlay-back1").click(function () {
   if ($('.navMenu1').removeClass("active")) {}
+
+})
+
+const scrollNone = $(".question-menu").click(function () {
+  if ($('.scroll-up').addClass("filterRemove")) {}
+
+})
+
+const scrollBlock = $(".overlay-back1").click(function () {
+  if ($('.scroll-up').removeClass("filterRemove")) {}
+
+})
+
+const scrollNone1 = $(".write-menu").click(function () {
+  if ($('.scroll-up').addClass("filterRemove")) {}
+
+})
+
+const scrollBlock1 = $(".overlay-back").click(function () {
+  if ($('.scroll-up').removeClass("filterRemove")) {}
 
 })
