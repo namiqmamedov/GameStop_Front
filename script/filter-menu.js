@@ -17,7 +17,6 @@ $(".over_lay, .close_btn").click(function () {
 
 
 (function () {
-  var unClick = true;
   $('.write-menu').on('click', function () {
     $(".overlay-back").css({
       width: "100%"
@@ -25,7 +24,20 @@ $(".over_lay, .close_btn").click(function () {
 
 
     $('.bar').toggleClass('animate');
-    $('.mobile-menu').toggleClass('active');
+    $('.navMenu').toggleClass('active');
+    return false;
+  })
+
+  $('.question-menu').on('click', function () {
+    $(".overlay-back1").css({
+      width: "100%"
+    });
+
+
+    $('.bar').toggleClass('animate');
+    $('.navMenu').toggleClass('active');
+    $('.bar1').toggleClass('animate');
+    $('.navMenu1').toggleClass('active');
     return false;
   })
 
@@ -37,8 +49,25 @@ $(".over_lay, .close_btn").click(function () {
 
   });
 
+  $(".overlay-back1").on('click', function () {
+    $(".overlay-back1").css({
+      width: "0%"
+    });
+
+
+  });
+
+
   $(".bar").on('click', function () {
     $(".overlay-back").css({
+      width: "0%"
+    });
+
+
+  });
+
+  $(".bar1").on('click', function () {
+    $(".overlay-back1").css({
       width: "0%"
     });
 
@@ -51,15 +80,27 @@ $(".over_lay, .close_btn").click(function () {
 
 
 const ratingRemove = $(".bar").click(function () {
-  if ($('.mobile-menu').removeClass("active")) {}
+  if ($('.navMenu').removeClass("active")) {}
 
   if ($('.overlay-back').removeClass("active")) {}
 
 
 })
 
+const askRemove = $(".bar1").click(function () {
+  if ($('.navMenu1').removeClass("active")) {}
+
+  if ($('.navMenu').removeClass("active")) {}
+
+  if ($('.overlay-back1').removeClass("active")) {}
+
+
+})
+
+
+
 const ratingActive = $(".write-menu").click(function () {
-  if ($('.mobile-menu').addClass("active")) {}
+  if ($('.navMenu').addClass("active")) {}
 
 })
 
@@ -69,8 +110,16 @@ const posSticky = $(".write-menu").click(function () {
   if ($('.all-table').addClass("filterRemove")) {}
 
 })
+const posStickyy = $(".question-menu").click(function () {
+  if ($('.all-table').addClass("filterRemove")) {}
+
+})
 
 const posStatic1 = $(".bar").click(function () {
+  if ($('.all-table').removeClass("filterRemove")) {}
+
+})
+const posStatic2 = $(".bar1").click(function () {
   if ($('.all-table').removeClass("filterRemove")) {}
 
 })
@@ -79,6 +128,11 @@ const owHidden = $(".write-menu").click(function () {
   if ($('body').addClass("overflow-hidden")) {}
 
 })
+const owHidden1 = $(".question-menu").click(function () {
+  if ($('body').addClass("overflow-hidden")) {}
+
+})
+
 const owStatic = $(".overlay-back").click(function () {
   if ($('body').removeClass("overflow-hidden")) {}
 
@@ -92,6 +146,12 @@ const owStaticBar = $(".bar").click(function () {
 
 
 })
+const owStaticBar1 = $(".bar1").click(function () {
+  if ($('body').removeClass("overflow-hidden")) {}
+
+
+
+})
 
 const posStatic = $(".overlay-back").click(function () {
   if ($('.all-table').removeClass("filterRemove")) {}
@@ -99,9 +159,21 @@ const posStatic = $(".overlay-back").click(function () {
 })
 
 
-
-
 const ratingOverlay = $(".overlay-back").click(function () {
-  if ($('.mobile-menu').removeClass("active")) {}
+  if ($('.navMenu').removeClass("active")) {}
+
+})
+
+
+const posStaticc = $(".overlay-back1").click(function () {
+  if ($('.all-table').removeClass("filterRemove")) {}
+
+  if ($('.navMenu').removeClass("active")) {}
+
+})
+
+
+const ratingOverlayy = $(".overlay-back1").click(function () {
+  if ($('.navMenu1').removeClass("active")) {}
 
 })
