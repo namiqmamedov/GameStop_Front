@@ -5747,6 +5747,11 @@ footer {
       .shipping-prod{
         padding-left: 20px;
       }
+
+      .rating-prod{
+        margin-left: 14px;
+        margin-top: 20px;
+      }
     }
 
     .rating__text{
@@ -5764,10 +5769,56 @@ footer {
     }
   }
 
+  #mb-product-description{
+    display: block !important;
+    margin-top: 38px;
+
+    .all-table{
+      display: none;
+    }
+
+    .productFeatures{
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      .trackingText2{
+        font-size: 16px;
+        max-width: 533px;
+        font-family: 'Open Sans',sans-serif;
+      }
+    }
+
+    .description {
+      .trackingText2{
+        margin-bottom: 3.5rem;
+      }
+    }   
+  }
+  
+  .product-table{
+
+    .table-auto{
+      tbody{
+        tr{
+          th{
+            span{
+              font-size: 12px !important;
+            }
+          }
+          td{
+            span{
+              font-size: 12px !important;
+            }
+          }
+        }
+      }
+    }
+  }
 
 
 
+}
 
+#mb-product-description{
+  display: none;
 }
 
 
@@ -12931,8 +12982,17 @@ Media Queries
     .trackingText2 {
       color: black;
       max-width: 395px;
+      font-size: 16px;
+      font-family: 'Open Sans',sans-serif;
+
     }
   }
+  .trackingText2 {
+      color: black;
+      font-size: 16px;
+      font-family: 'Open Sans',sans-serif;
+
+    }
 
   .description {
     p {
@@ -12943,6 +13003,7 @@ Media Queries
       padding-bottom: 13px;
       margin-top: 13px;
       display: block;
+      font-size: 16px;
     }
   }
 
@@ -12957,6 +13018,7 @@ Media Queries
             background-color: #F9F9F9;
             height: 38.5px;
             padding-left: 0.5rem;
+            font-size: 14px;
           }
 
           tr {
@@ -12968,6 +13030,7 @@ Media Queries
           td {
             background-color: transparent;
             padding-left: 6.7px;
+            font-size: 14px;
           }
         }
       }
