@@ -4031,6 +4031,64 @@ footer #hr {
   #mb-product-description .description .trackingText2 {
     margin-bottom: 3.5rem;
   }
+  #mb-product-description .reviewsProd {
+    flex-wrap: wrap;
+  }
+  #mb-product-description .reviewsProd .main-section {
+    width: 100%;
+  }
+  #mb-product-description .reviewsProd .customer-section {
+    width: 100%;
+  }
+  #mb-product-description .navMenu {
+    max-width: 580px;
+  }
+  #mb-product-description .navMenu .rating-section .rating {
+    left: 3.8%;
+  }
+  #mb-product-description .navMenu .form-check {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 29px;
+  }
+  #mb-product-description .navMenu .form-check .form-check-input {
+    height: 3rem;
+    width: 3rem;
+  }
+  #mb-product-description .navMenu .form-check .custom-control-label {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  #mb-product-description .navMenu .form-item {
+    margin-bottom: 19.5px;
+  }
+  #mb-product-description .navMenu .form-item .formLabel {
+    font-size: 16px;
+  }
+  #mb-product-description .navMenu .form-item span {
+    display: none;
+  }
+  #mb-product-description .navMenu .share-review-btn #success {
+    position: static;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  #mb-product-description .navMenu .privacy-policy {
+    position: static;
+  }
+  #mb-product-description .bottomSection .nt-2 {
+    font-size: 16px;
+  }
+  #mb-product-description .bottomSection .bt-1 {
+    margin-bottom: 10px;
+  }
+  #mb-product-description .bottomSection .bt-1, #mb-product-description .bottomSection .bt-2 {
+    width: 99% !important;
+    height: 43.2px;
+  }
+  #mb-product-description .navMenu.active {
+    transform: translate3d(1px, 0, 0);
+  }
   .product-table .table-auto tbody tr th span {
     font-size: 12px !important;
   }
@@ -8946,6 +9004,7 @@ Media Queries
   height: 38.5px;
   padding-left: 0.5rem;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 .product-description .specifications .product-table table tbody tr {
   margin: 60px;
@@ -8956,6 +9015,7 @@ Media Queries
   background-color: transparent;
   padding-left: 6.7px;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 .product-description .reviewsProd .nt-1 {
   font-size: 14px !important;

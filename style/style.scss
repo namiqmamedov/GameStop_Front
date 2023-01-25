@@ -5791,6 +5791,82 @@ footer {
         margin-bottom: 3.5rem;
       }
     }   
+
+    .reviewsProd{
+      flex-wrap: wrap;
+      .main-section{
+        width: 100%;
+      }
+      .customer-section{
+        width: 100%;
+      }
+    }
+    .navMenu{
+      max-width: 580px;
+
+      .rating-section{
+        .rating{
+          left: 3.8%;
+        }
+      }
+      .form-check{
+        text-align: left;    
+        padding-top: 10px;
+        padding-left: 29px;
+
+        .form-check-input{
+          height: 3rem;
+          width: 3rem;
+        }
+
+        .custom-control-label{
+          font-size: 16px;
+          font-family: 'Open Sans',sans-serif;
+        }
+
+        
+      }
+      .form-item{
+        margin-bottom: 19.5px;
+        .formLabel{
+          font-size: 16px;
+        }
+        span{
+          display: none;
+        }
+      }
+
+      .share-review-btn{
+        #success{
+          position: static;
+          font-size: 14px;
+          font-family: 'Open Sans',sans-serif;
+        }
+      }
+
+      .privacy-policy{
+        position: static;
+      }
+      
+    }
+
+    .bottomSection{
+      .nt-2{
+        font-size: 16px;
+      }
+      .bt-1{
+        margin-bottom: 10px;
+      }
+      .bt-1,.bt-2{
+        width: 99% !important;
+        height: 43.2px;
+      }
+    }
+
+
+    .navMenu.active{
+      transform: translate3d(1px, 0, 0);
+    }
   }
   
   .product-table{
@@ -13019,6 +13095,7 @@ Media Queries
             height: 38.5px;
             padding-left: 0.5rem;
             font-size: 14px;
+            font-family: 'Open Sans',sans-serif;
           }
 
           tr {
@@ -13031,6 +13108,7 @@ Media Queries
             background-color: transparent;
             padding-left: 6.7px;
             font-size: 14px;
+            font-family: 'Open Sans',sans-serif;
           }
         }
       }
