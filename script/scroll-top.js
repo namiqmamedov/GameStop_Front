@@ -13,7 +13,7 @@ $(document).ready(function() {
 
   $('.one').on('click', function() {
 
-    //this scroll withour animations in chrome
+
     $('.tablist-product').get(0).scrollIntoView({
       block: "start",
       behavior: "smooth"
@@ -21,9 +21,6 @@ $(document).ready(function() {
 
   });
 
-  //this scroll WITH animations in all browsers 
-  
-  //taken from: http://praveenlobo.com/techblog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/
   
   function scrollToElement(element, parent) {
     $(parent)[0].scrollIntoView(true);
@@ -35,21 +32,20 @@ $(document).ready(function() {
     });
   }
 
-  //call animated scroll script on click of 2nd button
   $('.two').on('click', function() {
-    var paretq = $('.productFeatures li:last');
+    var paretq = $('.features li:last-child');
     var elemq = $('.twoDesc');
     scrollToElement(elemq, paretq);
   })
 
   $('.three').on('click', function() {
-    var paretq = $('.description p:last');
+    var paretq = $('.description .body-text:last-of-type');
     var elemq = $('.twoDesc');
     scrollToElement(elemq, paretq);
   })
 
   $('.four').on('click', function() {
-    var paretq = $('.specifications td:last');
+    var paretq = $('.specifications .product-table:last-of-type');
     var elemq = $('.twoDesc');
     scrollToElement(elemq, paretq);
   })
