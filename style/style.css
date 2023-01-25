@@ -3893,14 +3893,17 @@ footer #hr {
     border: 4px solid grey;
   }
   .main-img .mb-image {
-    width: 347px !important;
     margin-bottom: 0rem !important;
     flex-shrink: 0;
     height: 100%;
     display: flex;
+    gap: 30rem;
+    width: 100%;
+    margin-left: -15rem;
+    transform: translate(58%, 0%);
   }
   .main-img .img-main {
-    margin-left: 215px !important;
+    margin-left: 7px !important;
   }
   #mb-price {
     width: 100% !important;
@@ -4070,6 +4073,7 @@ footer #hr {
   }
   #mb-product-description .reviewsProd .progressRating .star {
     color: black;
+    min-width: 45px;
     font-size: 14px;
   }
   #mb-product-description .qa-Prod {
@@ -4141,20 +4145,35 @@ footer #hr {
   #mb-product-description .navMenu #formWrapper #files::before {
     top: 62%;
   }
+  #mb-product-description .navMenu .img-field {
+    width: 27% !important;
+  }
+  #mb-product-description .navMenu .img-field svg {
+    font-size: 18px !important;
+  }
+  #mb-product-description .navMenu #files {
+    width: 160px;
+  }
   #mb-product-description .navMenu1 {
     max-width: 572px;
+  }
+  #mb-product-description .navMenu1 #form {
+    margin-left: 14px;
   }
   #mb-product-description .navMenu1 .formLabel {
     font-size: 16px;
   }
   #mb-product-description .navMenu1 .form-style {
-    width: 104%;
+    width: 100%;
   }
   #mb-product-description .navMenu1 .bar1 svg {
     padding-top: 4px;
   }
   #mb-product-description .navMenu1 .button {
     font-size: 16px;
+  }
+  #mb-product-description .navMenu1 #success {
+    width: 100% !important;
   }
   #mb-product-description .navMenu1 .form-item {
     margin-bottom: 19px;
@@ -4201,6 +4220,11 @@ footer #hr {
     height: 443.5px;
     padding-bottom: 10px;
   }
+  #productCard-more-like-this .card-text {
+    height: 7rem !important;
+    min-width: 128% !important;
+    width: 100% !important;
+  }
   #productCard-more-like-this .price {
     font-size: 2.25rem !important;
   }
@@ -4234,6 +4258,11 @@ footer #hr {
   }
   #productCard-ppl-also-bought .price {
     font-size: 16px !important;
+  }
+  #productCard-ppl-also-bought .card-text {
+    height: 8rem !important;
+    min-width: 131% !important;
+    width: 100% !important;
   }
 }
 #mb-product-description {

@@ -5588,15 +5588,18 @@ footer {
     }
 
     .mb-image {
-      width: 347px !important;
       margin-bottom: 0rem !important;
       flex-shrink: 0;
       height: 100%;
       display: flex;
+      gap: 30rem;
+      width: 100%;
+      margin-left: -15rem;
+      transform: translate(58%, 0%);
     }
 
     .img-main {
-      margin-left: 215px !important;
+      margin-left: 7px !important;
 
     }
   }
@@ -5847,6 +5850,7 @@ footer {
 
         .star {
           color: black;
+          min-width: 45px;
           font-size: 14px;
         }
       }
@@ -5949,18 +5953,39 @@ footer {
         }
       }
 
+      .img-field{
+        svg{
+          font-size: 18px !important;
+
+        }
+
+        width: 27% !important;
+
+
+      }
+
+      #files{
+        width: 160px;
+      }
+
 
     }
 
     .navMenu1{
       max-width: 572px ;
 
+
+      #form{
+        margin-left: 14px;
+      }
+
+
       .formLabel{
         font-size: 16px;
       }
 
       .form-style{
-        width: 104%;
+        width: 100%;
       }
 
       .bar1{
@@ -5971,6 +5996,10 @@ footer {
 
       .button{
         font-size: 16px;
+      }
+
+      #success{
+        width: 100% !important;
       }
 
 
@@ -6045,8 +6074,14 @@ footer {
       width: 47% !important;
       height: 443.5px;
       padding-bottom: 10px;
+
     }
 
+    .card-text{
+      height: 7rem !important;
+      min-width: 128% !important;
+      width: 100% !important;
+    }
     .price{
       font-size: 2.25rem !important;
     }
@@ -6087,8 +6122,14 @@ footer {
     .price{
       font-size: 16px !important;
     }
-  }
 
+    .card-text{
+      height: 8rem !important;
+      min-width: 131% !important;
+      width: 100% !important;
+    }
+  }
+  
 
 
 
@@ -15540,3 +15581,4 @@ Media Queries
 
 
 }
+
