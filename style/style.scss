@@ -5664,6 +5664,7 @@ footer {
   .product-description{
     display: none !important;
   }
+  
 
   .price-main{
     .price{
@@ -5673,6 +5674,14 @@ footer {
       margin-left: -15px;
       margin-top: -11px;
     }
+    .product-cart{
+      width: 100%;
+      max-width: 100%;
+
+      button{
+        width: 100% !important;
+      }
+    }
 
     .oldPrice{
       font-size: 14px !important;
@@ -5681,6 +5690,77 @@ footer {
     .price-design{
       font-size: 1.5rem !important;
       margin-top: 2px !important;
+    }
+
+    .rewardsPro{
+      svg{
+        margin-top: 3px !important;
+      }
+    }
+    .type{
+      ul{
+        gap: 1.2rem !important;
+      }
+    }
+    .label-condition{
+      padding-left: 1px;
+      margin-top: 5px;
+    }
+
+    .platform-box{
+      width: 75%;
+      label{
+        font-size: 16px;
+        padding: 13px 7px;
+      }
+    }
+
+    .plan-details{
+      margin-left: 15px;
+    }
+
+    .base-product{
+    }
+
+    .plan-box{
+      .main-text{
+        font-size: 14px;
+        font-family: 'Open Sans',sans-serif;
+      }
+
+      .sub-text{
+        font-size: 14px;
+        font-family: 'Open Sans',sans-serif;
+      }
+
+
+    }
+
+    .product-box{
+      span{
+          font-size: 14px;
+      }
+      .stock-prod{
+        padding-left: 20px;
+      }
+
+      .shipping-prod{
+        padding-left: 20px;
+      }
+    }
+
+    .rating__text{
+      .text-main{
+        font-size: 14px;
+      }
+    }
+
+
+    .condition-box{
+      font-size: 16px;
+      padding: 13px 7px;
+      margin-left: -7px;
+      margin-top: -8px !important;
     }
   }
 
