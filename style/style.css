@@ -4141,6 +4141,27 @@ footer #hr {
   #mb-product-description .navMenu #formWrapper #files::before {
     top: 62%;
   }
+  #mb-product-description .navMenu1 {
+    max-width: 572px;
+  }
+  #mb-product-description .navMenu1 .formLabel {
+    font-size: 16px;
+  }
+  #mb-product-description .navMenu1 .form-style {
+    width: 104%;
+  }
+  #mb-product-description .navMenu1 .bar1 svg {
+    padding-top: 4px;
+  }
+  #mb-product-description .navMenu1 .button {
+    font-size: 16px;
+  }
+  #mb-product-description .navMenu1 .form-item {
+    margin-bottom: 19px;
+  }
+  #mb-product-description .navMenu1 .form-item span {
+    display: none;
+  }
   #mb-product-description .bottomSection .nt-2 {
     font-size: 16px;
   }
@@ -4153,6 +4174,9 @@ footer #hr {
     height: 43.2px;
   }
   #mb-product-description .navMenu.active {
+    transform: translate3d(1px, 0, 0);
+  }
+  #mb-product-description .navMenu1.active {
     transform: translate3d(1px, 0, 0);
   }
   .product-table .table-auto tbody tr th span {

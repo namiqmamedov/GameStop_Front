@@ -5952,6 +5952,37 @@ footer {
 
     }
 
+    .navMenu1{
+      max-width: 572px ;
+
+      .formLabel{
+        font-size: 16px;
+      }
+
+      .form-style{
+        width: 104%;
+      }
+
+      .bar1{
+        svg{
+          padding-top: 4px;
+        }
+      }
+
+      .button{
+        font-size: 16px;
+      }
+
+
+      .form-item{
+        margin-bottom: 19px;
+        span{
+          display: none;
+        }
+      }
+      
+    }
+
     .bottomSection {
       .nt-2 {
         font-size: 16px;
@@ -5970,6 +6001,10 @@ footer {
 
 
     .navMenu.active {
+      transform: translate3d(1px, 0, 0);
+    }
+
+    .navMenu1.active{
       transform: translate3d(1px, 0, 0);
     }
   }

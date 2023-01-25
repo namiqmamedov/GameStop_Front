@@ -153,6 +153,9 @@ const owStaticBar1 = $(".bar1").click(function () {
   if ($('body').removeClass("overflow-hidden")) {}
 
   if ($('.scroll-up').removeClass("filterRemove")) {}
+  
+  if ($('.navMenu').removeClass("filterRemove")) {}
+
 
 })
 
@@ -183,10 +186,14 @@ const ratingOverlayy = $(".overlay-back1").click(function () {
 const scrollNone = $(".question-menu").click(function () {
   if ($('.scroll-up').addClass("filterRemove")) {}
 
+  if ($('.navMenu').addClass("filterRemove")) {}
+
 })
 
 const scrollBlock = $(".overlay-back1").click(function () {
   if ($('.scroll-up').removeClass("filterRemove")) {}
+
+  if ($('.navMenu').removeClass("filterRemove")) {}
 
 })
 
