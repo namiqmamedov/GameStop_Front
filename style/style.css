@@ -5418,7 +5418,8 @@ footer #hr {
     margin-left: 6px;
   }
   #mb-img #br_crumbs-details {
-    margin-left: -9px !important;
+    margin-left: 7px !important;
+    margin-top: 10px;
   }
   #mb-img .breadcrumbs nav {
     margin-left: 0px;
@@ -6241,10 +6242,14 @@ footer #hr {
     width: 32px !important;
     height: 32px !important;
   }
+  footer .content-text {
+    flex-wrap: wrap-reverse;
+    display: flex;
+  }
   footer .footer-copyright span {
     font-size: 14px;
     position: relative;
-    top: 142%;
+    top: 249%;
     min-width: 157px;
     display: block;
     left: 13%;
@@ -6252,9 +6257,10 @@ footer #hr {
   }
   footer .footer-country-list {
     line-height: 25px;
-    max-width: 669px;
-    margin-left: -8.4rem !important;
+    max-width: 620px;
     flex-wrap: wrap;
+    position: absolute;
+    left: 2%;
   }
   footer .footer-country-list li {
     font-size: 14px;
@@ -6263,7 +6269,7 @@ footer #hr {
     margin: 0px 9px !important;
   }
   footer .footer-subtext {
-    margin-bottom: 7px;
+    margin-bottom: 35px;
   }
   footer .mb-signup {
     display: block;
@@ -6416,19 +6422,26 @@ footer #hr {
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
-  .main-img .for-mb {
+  .imgMain {
+    height: 580px !important;
+  }
+  .imgMain .main-img {
+    width: 100% !important;
+    height: 88% !important;
+  }
+  .imgMain .main-img .for-mb {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
     padding-bottom: 132px;
   }
-  .main-img .for-mb::-webkit-scrollbar {
+  .imgMain .main-img .for-mb::-webkit-scrollbar {
     height: 4px;
     width: 100%;
     border: 4px solid grey;
   }
-  .main-img .mb-image {
+  .imgMain .main-img .mb-image {
     margin-bottom: 0rem !important;
     flex-shrink: 0;
     height: 100%;
@@ -6438,8 +6451,14 @@ footer #hr {
     margin-left: -15rem;
     transform: translate(58%, 0%);
   }
-  .main-img .img-main {
-    margin-left: 49px !important;
+  .imgMain .main-img .img-main {
+    margin-left: 86px !important;
+    width: 86%;
+    max-height: 100%;
+    min-height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-top: 23px;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
@@ -6449,44 +6468,6 @@ footer #hr {
   }
   #mb-price .priceContext {
     position: static !important;
-  }
-}
-@media (min-width: 767.8px) and (max-width: 1024px) {
-  #mb-img {
-    width: 60.4% !important;
-  }
-  #mb-img .img-main {
-    width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
-    min-height: 45rem;
-  }
-  #mb-img .breadcrumbs {
-    margin-left: -2px !important;
-    margin-top: 21px !important;
-    margin-bottom: 50px;
-  }
-  #mb-img .breadcrumb {
-    margin-left: 6px;
-    margin-top: 13px;
-  }
-  #mb-img #br_crumbs-details {
-    margin-left: -9px !important;
-  }
-  #mb-img .breadcrumbs nav {
-    margin-left: 0px;
-  }
-  #mb-img .product-content2 .card-box {
-    margin-left: -10.5px !important;
-    gap: 0.9rem;
-    margin-top: -51px !important;
-  }
-  #mb-img .product-content2 #hardware {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  #mb-img .product-content2 .card img {
-    width: 89%;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
@@ -6753,17 +6734,11 @@ footer #hr {
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
   #productCard-ppl-also-bought {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-    scroll-snap-type: x mandatory;
-    flex-wrap: nowrap !important;
     width: 100%;
     gap: 2.9rem !important;
   }
   #productCard-ppl-also-bought #pp-card {
     display: flex;
-    flex-shrink: 0;
     width: 47% !important;
     height: 443.5px;
     padding-bottom: 10px;
@@ -6792,7 +6767,7 @@ footer #hr {
 @media (min-width: 767.8px) and (max-width: 1024px) {
   .img-btns {
     width: 8.5% !important;
-    top: 1.5% !important;
+    top: 1.7% !important;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
@@ -9232,6 +9207,7 @@ Product section stylling
 }
 .item #br_crumbs-details {
   margin-left: 7px !important;
+  margin-top: 14px;
 }
 .item #br_crumbs-details .breadcrumbs {
   margin-left: -40px;
@@ -11556,11 +11532,11 @@ Media Queries
   content: "";
   display: inline-block;
   background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-  height: 2.2rem;
-  width: 2.2rem;
+  height: 3rem;
+  width: 3rem;
   background-size: auto;
   border-radius: 50%;
-  background-position: -362.5px -2px;
+  background-position: -367.5px -7px;
   transform: rotate(90deg);
   background-color: black;
   border: 1px solid #000;
@@ -11570,6 +11546,19 @@ Media Queries
   background: transparent;
   opacity: 0.9;
   color: transparent;
+}
+.product-description #productCard-ppl-also-bought .slick-next:before {
+  content: "";
+  display: inline-block;
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+  height: 3rem;
+  width: 3rem;
+  background-size: auto;
+  border-radius: 50%;
+  background-position: -367.5px -7px;
+  transform: rotate(270deg);
+  background-color: black;
+  border: 1px solid #000;
 }
 .product-description #productCard-ppl-also-bought .card {
   background-color: #f8f8f8;

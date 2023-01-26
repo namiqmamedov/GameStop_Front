@@ -7728,7 +7728,8 @@ font-family: 'Open Sans',sans-serif;
     }
 
     #br_crumbs-details {
-      margin-left: -9px !important;
+      margin-left: 7px !important;
+      margin-top: 10px;
     }
 
     .breadcrumbs nav {
@@ -8883,283 +8884,6 @@ font-family: 'Open Sans',sans-serif;
 
   }
 
-
-  // .header-main {
-  //   width: 100%;
-  // }
-
-  // .main-header {
-  //   margin-left: 0rem;
-  //   position: sticky;
-  //   width: 100%;
-  //   left: 0%;
-  //   top: 0%;
-
-  //   .store-icon i {
-  //     margin-left: -3.8rem !important;
-  //   }
-
-
-  //   .menu-ul-1 {
-  //     padding-left: 30px;
-  //   }
-
-  //   .m-menu__toggle .close {
-  //     left: 84.7%;
-  //   }
-
-  //   .m-menu {
-  //     left: -12px !important;
-  //     width: calc(100vw - 0px) !important;
-  //     max-width: 375px !important;
-  //     position: fixed !important;
-  //     overflow-y: auto;
-  //     margin-top: 0rem !important;
-  //     height: 100% !important;
-  //     width: 404px !important;
-  //     max-width: none !important;
-
-
-  //     .a-label__chevron {
-  //       &:after {
-  //         right: 45px !important;
-  //       }
-  //     }
-  //   }
-
-  //   .all-menu {}
-
-  //   #menu-header {
-  //     span {
-  //       margin-left: -18px;
-  //     }
-  //   }
-  // }
-
-
-
-  // .header-wrapper {
-  //   box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
-  //   height: 57.5px !important;
-  //   width: 100% !important;
-
-  //   nav {
-  //     width: 100% !important;
-  //     height: 57.5px;
-  //     padding-top: 49px;
-
-  //   }
-
-
-
-  //   #m-menu {
-  //     display: none !important;
-  //   }
-
-  //   // .account-header {
-
-  //   //   margin-left: -6rem;
-
-  //   //   .account {
-  //   //     .user {
-  //   //       position: relative;
-  //   //       left: 41% !important;
-
-  //   //     }
-
-  //   //   }
-
-
-  //   // }
-
-  //   .m-menu__toggle {
-  //     .hamburger {
-  //       width: 1.9% !important;
-  //       margin-top: -40px !important;
-  //       margin-left: -12px;
-  //     }
-  //   }
-
-  //   .nav-logo {
-  //     width: 105px !important;
-  //     margin-left: 2px !important;
-  //     margin-top: -53px;
-  //   }
-
-  //   .header-options {
-  //     display: none !important;
-  //   }
-
-  //   .powerup {
-  //     display: none;
-  //   }
-
-  //   .header-search {
-  //     min-width: 81%;
-
-  //     .search {
-  //       top: 12%;
-  //       left: -22%;
-  //       position: static;
-  //       min-width: 100%;
-
-  //       input {
-  //         border-radius: 0px !important;
-  //         margin-top: -45px;
-  //         width: 83.5%;
-
-  //       }
-
-
-  //     }
-
-  //     .fa-search {
-  //       top: 22px !important;
-  //       left: 212.5px !important;
-  //       font-size: 11.7px !important;
-  //     }
-  //   }
-
-
-
-  //   .account-header {
-  //     display: flex;
-
-  //     .account i {
-  //       margin-bottom: 60px;
-  //       margin-left: 62px;
-  //       font-size: 16px;
-  //     }
-
-  //     .user {
-
-  //       margin-left: -101px;
-  //       margin-top: 2px;
-
-  //     }
-
-  //     .account {
-  //       margin-left: 0px;
-
-  //       span {
-  //         font-size: 12px;
-  //         font-family: 'Open Sans', sans-serif;
-  //         margin-left: 11px;
-  //         margin-top: -131px;
-
-  //       }
-
-  //       .signin-option {
-  //         width: 63px;
-  //         margin-left: -20px;
-  //       }
-  //     }
-  //   }
-
-  //   @media(min-width:768px) and (max-width:892px) {
-  //     .header-search {
-  //       .search {
-  //         input {
-  //           width: 81% !important;
-  //         }
-  //       }
-  //     }
-  //   }
-
-  //   // .account-header {
-  //   //   margin-left: 1rem;
-
-  //   //   .account {
-  //   //     position: absolute;
-  //   //     left: 80%;
-  //   //     top: 20%;
-  //   //   }
-
-  //   //   .user {
-  //   //     margin-top: -6px;
-
-  //   //     span {
-  //   //       position: relative;
-  //   //       left: -35%;
-  //   //       font-weight: 600;
-  //   //     }
-
-  //   //     display: flex !important;
-
-  //   //   }
-
-  //   //   .account i {
-  //   //     margin-left: 11px;
-  //   //     margin-bottom: -17px;
-  //   //     display: flex;
-  //   //     font-size: 14px;
-  //   //   }
-  //   // }
-
-  //   .header-cart {
-  //     max-width: 28px;
-
-  //     span {
-  //       display: none !important;
-  //     }
-
-  //     .cart {
-  //       max-width: 28px;
-
-  //       svg {
-  //         max-width: 28px;
-  //         height: 21px;
-  //         margin-left: 1px;
-  //         margin-top: -2px;
-  //         margin-bottom: 53px;
-  //       }
-  //     }
-
-  //     @media(min-width:768px) and (max-width:865px) {
-  //       .cart {
-  //         svg {
-  //           margin-left: -10px !important;
-  //         }
-  //       }
-
-
-
-  //     }
-
-  //     @media(min-width:768px) and (max-width:841px) {
-  //       .cart {
-  //         svg {
-  //           margin-left: -10px !important;
-  //         }
-  //       }
-
-
-  //     }
-
-  //     @media(min-width:768px) and (max-width:834px) {
-  //       .cart {
-  //         svg {
-  //           margin-left: -10px !important;
-  //         }
-  //       }
-
-
-  //     }
-
-  //     @media(min-width:768px) and (max-width:826px) {
-  //       .cart {
-  //         svg {
-  //           margin-left: -21px !important;
-  //         }
-  //       }
-
-
-  //     }
-  //   }
-
-  // }
-
-
   .product-main {
     .card-boxes {
       max-width: 100%;
@@ -9225,11 +8949,16 @@ font-family: 'Open Sans',sans-serif;
       height: 32px !important;
     }
 
+    
+    .content-text{
+      flex-wrap: wrap-reverse;
+      display: flex;
+    }
     .footer-copyright {
       span {
         font-size: 14px;
         position: relative;
-        top: 142%;
+        top: 249%;
         min-width: 157px;
         display: block;
         left: 13%;
@@ -9239,10 +8968,10 @@ font-family: 'Open Sans',sans-serif;
 
     .footer-country-list {
       line-height: 25px;
-      max-width: 669px;
-      margin-left: -8.4rem !important;
+      max-width: 620px;
       flex-wrap: wrap;
-
+      position: absolute;
+      left: 2%;
       li {
         font-size: 14px;
 
@@ -9253,7 +8982,7 @@ font-family: 'Open Sans',sans-serif;
     }
 
     .footer-subtext {
-      margin-bottom: 7px;
+      margin-bottom: 35px;
     }
 
     .mb-signup {
@@ -9344,6 +9073,7 @@ font-family: 'Open Sans',sans-serif;
           font-size: 13px;
         }
       }
+      
     }
 
     .accordion {
@@ -9461,39 +9191,51 @@ font-family: 'Open Sans',sans-serif;
 
 
   }
+  
+  
+  .imgMain{
+    height: 580px !important;
 
-  .main-img {
-
-
-    .for-mb {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scroll-snap-type: x mandatory;
-      padding-bottom: 132px;
-
-      &::-webkit-scrollbar {
-        height: 4px;
+    .main-img {
+      width: 100% !important;
+      height: 88% !important;
+  
+      .for-mb {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 132px;
+  
+        &::-webkit-scrollbar {
+          height: 4px;
+          width: 100%;
+          border: 4px solid grey;
+        }
+      }
+  
+      .mb-image {
+        margin-bottom: 0rem !important;
+        flex-shrink: 0;
+        height: 100%;
+        display: flex;
+        gap: 33rem;
         width: 100%;
-        border: 4px solid grey;
+        margin-left: -15rem;
+        transform: translate(58%, 0%);
+      }
+  
+      .img-main {
+        margin-left: 86px !important;
+        width: 86%;
+        max-height: 100%;
+        min-height: 100%;
+        object-fit: contain;
+        margin-top: 23px;
+  
       }
     }
-
-    .mb-image {
-      margin-bottom: 0rem !important;
-      flex-shrink: 0;
-      height: 100%;
-      display: flex;
-      gap: 33rem;
-      width: 100%;
-      margin-left: -15rem;
-      transform: translate(58%, 0%);
-    }
-
-    .img-main {
-      margin-left: 49px !important;
-
-    }
   }
+  
 
   #mb-price {
     width: 39.6%;
@@ -9501,60 +9243,6 @@ font-family: 'Open Sans',sans-serif;
     .priceContext {
       position: static !important;
     }
-  }
-
-  #mb-img {
-  
-    width: 60.4% !important;
-
-
-    .img-main{
-      
-      width: 100%;
-      object-fit: contain;
-      min-height: 45rem;
-      
-   
-    }
-    .breadcrumbs {
-      margin-left: -2px !important;
-      margin-top: 21px !important;
-      margin-bottom: 50px;
-    }
-
-    .breadcrumb {
-      margin-left: 6px;
-      margin-top: 13px;
-    }
-
-    #br_crumbs-details {
-      margin-left: -9px !important;
-    }
-
-    .breadcrumbs nav {
-      margin-left: 0px;
-    }
-
-    .product-content2 {
-      .card-box {
-        margin-left: -10.5px !important;
-        gap: 0.9rem;
-        margin-top: -51px !important;
-      }
-
-      #hardware {
-        overflow-x: hidden;
-        overflow-y: hidden;
-      }
-
-      .card {
-        img {
-          width: 89%;
-        }
-      }
-    }
-
-
   }
 
   .promo-header .text {
@@ -9946,17 +9634,11 @@ font-family: 'Open Sans',sans-serif;
 
 
   #productCard-ppl-also-bought{
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-    scroll-snap-type: x mandatory;
-    flex-wrap: nowrap !important;
     width: 100%;
     gap: 2.9rem !important;
 
     #pp-card{
       display: flex;
-    flex-shrink: 0;
     width: 47% !important;
     height: 443.5px;
     padding-bottom: 10px;
@@ -9990,7 +9672,7 @@ font-family: 'Open Sans',sans-serif;
 
   .img-btns{
     width: 8.5% !important;
-    top: 1.5% !important;
+    top: 1.7% !important;
   }
 
   .product-description{
@@ -13464,6 +13146,7 @@ Product section stylling
 
   #br_crumbs-details {
     margin-left: 7px !important;
+    margin-top: 14px;
 
     .breadcrumbs {
       margin-left: -40px;
@@ -16567,11 +16250,11 @@ Media Queries
       content: "";
       display: inline-block;
       background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-      height: 2.2rem;
-      width: 2.2rem;
+      height: 3rem;
+      width: 3rem;
       background-size: auto;
       border-radius: 50%;
-      background-position: -362.5px -2px;
+      background-position: -367.5px -7px;
       transform: rotate(90deg);
       background-color: black;
       border: 1px solid #000;
@@ -16582,6 +16265,20 @@ Media Queries
       background: transparent;
       opacity: 0.9;
       color: transparent;
+    }
+
+    .slick-next:before {
+      content: "";
+      display: inline-block;
+      background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+      height: 3rem;
+      width: 3rem;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -367.5px -7px;
+      transform: rotate(270deg);
+      background-color: black;
+      border: 1px solid #000;
     }
 
     .card {
