@@ -8019,13 +8019,21 @@ footer #hr {
     background-color: #282828;
   }
   .header-banner .navbar-brand {
-    margin-left: -48px !important;
     margin-top: 3px;
   }
+}
+@media (min-width: 1025px) and (max-width: 1200px) and (min-width: 1100px) and (max-width: 1200px) {
+  .header-banner .navbar-brand {
+    margin-left: -48px !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   .promo-header .text {
     font-size: 14.8px;
     font-family: "Open Sans", sans-serif;
   }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   .main-header {
     margin-left: 0rem;
     position: -webkit-sticky;
@@ -8060,10 +8068,14 @@ footer #hr {
   .main-header #menu-header span {
     margin-left: -18px;
   }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   .main-header a {
     width: 77px;
     margin-bottom: -2px;
   }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   .header-wrapper {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     height: 75px !important;
@@ -8161,6 +8173,8 @@ footer #hr {
   .header-wrapper .header-cart .cart #cart {
     visibility: hidden !important;
   }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   #productCard {
     width: 95% !important;
     margin-left: 65.5px !important;
@@ -8168,12 +8182,18 @@ footer #hr {
     gap: 1rem;
     margin-bottom: -110px;
   }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   .options {
     margin-left: 0.5rem;
   }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   .mainOptions {
     top: 69px !important;
   }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   footer .mb-signup {
     display: none;
   }
@@ -8387,7 +8407,8 @@ footer #hr {
   #mb-img .imgMain .main-img {
     width: 100% !important;
     height: 88% !important;
-    text-align: end;
+    padding-left: 73px;
+    text-align: center;
   }
   #mb-img .imgMain .main-img .for-mb {
     overflow-x: auto;
@@ -8427,7 +8448,7 @@ footer #hr {
     margin-top: 16px;
   }
   #mb-price .priceContext {
-    position: static !important;
+    top: -591px;
   }
   #mb-price .price-main__heading {
     max-width: 274px;
@@ -8467,14 +8488,18 @@ footer #hr {
     margin-top: -5px !important;
   }
   .price-main .type ul {
-    gap: 1.2rem !important;
+    gap: 0.9rem !important;
+  }
+  .price-main .type label {
+    padding: 13px 9px !important;
+    height: 42px !important;
   }
   .price-main .label-condition {
     padding-left: 1px;
     margin-top: 5px;
   }
   .price-main .platform-box {
-    width: 117%;
+    width: 100%;
   }
   .price-main .platform-box label {
     font-size: 16px;
@@ -8519,7 +8544,15 @@ footer #hr {
     margin-top: 38px;
   }
   .product-description .all-table {
-    display: none;
+    padding-left: 3px;
+    margin-bottom: 22px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 111111111;
+    background: white;
+    border-bottom: 1px solid #f1ebeb;
   }
   .product-description .descMain .carousel-main {
     margin-bottom: -79px;
@@ -8748,8 +8781,8 @@ footer #hr {
     content: "";
     display: inline-block;
     background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-    height: 2.2rem !important;
-    width: 2.2rem !important;
+    height: 3.3rem !important;
+    width: 3.2rem !important;
     background-size: auto;
     border-radius: 50%;
     background-position: -363.5px -2px !important;
@@ -8762,8 +8795,8 @@ footer #hr {
     content: "";
     display: inline-block;
     background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-    height: 2.2rem !important;
-    width: 2.2rem !important;
+    height: 3.2rem !important;
+    width: 3.2rem !important;
     background-size: auto;
     border-radius: 50%;
     background-position: -363.5px -2px !important;
@@ -8776,7 +8809,7 @@ footer #hr {
 @media (min-width: 1025px) and (max-width: 1200px) {
   .img-btns {
     width: 7.5% !important;
-    top: 1.5% !important;
+    top: 1% !important;
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -8845,12 +8878,6 @@ footer #hr {
     background-color: #fff;
     border: 1px solid #000;
     background-color: black;
-  }
-}
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .item {
-    overflow-x: hidden;
-    overflow-y: hidden;
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {

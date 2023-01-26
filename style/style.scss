@@ -11457,14 +11457,12 @@ font-family: 'Open Sans',sans-serif;
   .header-banner {
     background-color: #282828;
 
-    .navbar-toggler {}
 
-    .shopping {}
-
-    .check-order {}
 
     .navbar-brand {
-      margin-left: -48px !important;
+      @media (min-width: 1100px) and (max-width: 1200px) {
+        margin-left: -48px !important;
+      }
       margin-top: 3px;
 
     }
@@ -12007,7 +12005,8 @@ font-family: 'Open Sans',sans-serif;
     .main-img {
       width: 100% !important;
       height: 88% !important;
-      text-align: end;
+      padding-left: 73px;
+      text-align: center;
 
   
       .for-mb {
@@ -12051,7 +12050,7 @@ font-family: 'Open Sans',sans-serif;
     width: 32.6% !important;
     margin-top: 16px;
     .priceContext {
-      position: static !important;
+      top: -591px;
     }
 
     .price-main__heading{
@@ -12104,7 +12103,12 @@ font-family: 'Open Sans',sans-serif;
 
     .type {
       ul {
-        gap: 1.2rem !important;
+        gap: 0.9rem !important;
+      }
+
+      label{
+        padding: 13px 9px !important;
+            height: 42px !important;
       }
     }
 
@@ -12114,7 +12118,7 @@ font-family: 'Open Sans',sans-serif;
     }
 
     .platform-box {
-      width: 117%;
+      width: 100%;
 
       label {
         font-size: 16px;
@@ -12178,7 +12182,15 @@ font-family: 'Open Sans',sans-serif;
     margin-top: 38px;
 
     .all-table {
-      display: none;
+      padding-left: 3px;
+    margin-bottom: 22px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 111111111;
+    background: white;
+    border-bottom: 1px solid #f1ebeb;
+
     }
 
     .descMain{
@@ -12503,8 +12515,8 @@ font-family: 'Open Sans',sans-serif;
       content: "";
       display: inline-block;
       background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-      height: 2.2rem !important;
-      width: 2.2rem !important;
+      height: 3.3rem !important;
+      width: 3.2rem !important;
       background-size: auto;
       border-radius: 50%;
       background-position: -363.5px -2px !important;
@@ -12518,8 +12530,8 @@ font-family: 'Open Sans',sans-serif;
       content: "";
       display: inline-block;
       background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-      height: 2.2rem !important;
-      width: 2.2rem !important;
+      height: 3.2rem !important;
+      width: 3.2rem !important;
       background-size: auto;
       border-radius: 50%;
       background-position: -363.5px -2px !important;
@@ -12532,7 +12544,7 @@ font-family: 'Open Sans',sans-serif;
 
   .img-btns{
     width: 7.5% !important;
-    top: 1.5% !important;
+    top: 1% !important;
   }
 
   .product-description{
@@ -12612,8 +12624,7 @@ font-family: 'Open Sans',sans-serif;
   }
 
   .item{
-    overflow-x: hidden;
-    overflow-y: hidden;
+
   }
 
   .breadcrumbs{
@@ -12644,11 +12655,6 @@ font-family: 'Open Sans',sans-serif;
       margin-right: 0.2rem !important;
     }
 
-    .navbar-toggler {}
-
-    .shopping {}
-
-    .check-order {}
 
     .navbar-brand {
       margin-left: -48px !important;
