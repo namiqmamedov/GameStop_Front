@@ -9458,8 +9458,6 @@ footer {
 
   }
 
-
-  
   .main-img {
 
 
@@ -9558,8 +9556,6 @@ footer {
       }
     }
   }
-
-
 
   .price-main {
     .price {
@@ -9668,7 +9664,6 @@ footer {
 
   .product-description {
     margin-top: 38px;
-    position: absolute;
 
     .all-table {
       display: none;
@@ -9700,7 +9695,7 @@ footer {
       flex-wrap: wrap;
 
       .main-section {
-        width: 100%;
+        width: 42%;
       }
 
       .nt-2 {
@@ -9709,9 +9704,10 @@ footer {
       }
 
       .customer-section {
-        width: 100%;
+        width: 58%;
         margin-top: 29px;
         margin-left: -8px;
+        padding-left: 20px;
       }
 
       .ratingReviews {
@@ -9944,49 +9940,6 @@ footer {
     }
   }
 
-  #productCard-more-like-this{
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-    scroll-snap-type: x mandatory;
-    flex-wrap: nowrap !important;
-    width: 100%;
-    gap: 2.9rem !important;
-
-    #pc-card{
-      display: flex;
-      flex-shrink: 0;
-      width: 47% !important;
-      height: 443.5px;
-      padding-bottom: 10px;
-
-    }
-
-    .card-text{
-      height: 7rem !important;
-      min-width: 128% !important;
-      width: 100% !important;
-    }
-    .price{
-      font-size: 2.25rem !important;
-    }
-
-    .currentPrice{
-      font-size: 2.25rem !important;
-    }
-
-    .price-design{
-      font-size: 1.6875rem !important;
-    margin-top: -9.9px !important;
-    margin-left: 10px !important;
-    color: black !important;
-    }
-
-    .oldPrice{
-      font-size: 14px !important;
-    }
-
-  }
 
   #productCard-ppl-also-bought{
     overflow-x: auto;
@@ -10017,11 +9970,23 @@ footer {
 
   .img-btns{
     width: 8.5% !important;
-    top: 14% !important;
+    top: 1.5% !important;
   }
 
   .product-description{
     width: 96%;
+  }
+
+  .rating-and-reviews{
+    width: 175% !important;
+  }
+
+  .carousel-bottom{
+    width: 175%;
+  }
+
+  #productCard-more-like-this{
+    width: 100%;
   }
 
 }

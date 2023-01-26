@@ -140,6 +140,15 @@ $('#productCard-more-like-this').slick({
       }
     },
     {
+      breakpoint: 1023.9,
+      settings: {
+        slidesToShow: 3.1,
+        slidesToScroll: 4,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
       breakpoint: 767,
       settings: "unslick"
     },
@@ -172,6 +181,15 @@ $('#productCard-ppl-also-bought').slick({
     {
       breakpoint: 767,
       settings: "unslick"
+    },
+    {
+      breakpoint: 1023.9,
+      settings: {
+        slidesToShow: 3.1,
+        slidesToScroll: 4,
+        infinite: false,
+        dots: false
+      }
     },
     {
       breakpoint: 600,

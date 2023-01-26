@@ -6569,7 +6569,6 @@ footer #hr {
 @media (min-width: 767.8px) and (max-width: 1024px) {
   .product-description {
     margin-top: 38px;
-    position: absolute;
   }
   .product-description .all-table {
     display: none;
@@ -6592,16 +6591,17 @@ footer #hr {
     flex-wrap: wrap;
   }
   .product-description .reviewsProd .main-section {
-    width: 100%;
+    width: 42%;
   }
   .product-description .reviewsProd .nt-2 {
     font-size: 14px;
     margin-bottom: 12.5px;
   }
   .product-description .reviewsProd .customer-section {
-    width: 100%;
+    width: 58%;
     margin-top: 29px;
     margin-left: -8px;
+    padding-left: 20px;
   }
   .product-description .reviewsProd .ratingReviews {
     margin-top: 13px;
@@ -6755,44 +6755,6 @@ footer #hr {
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
-  #productCard-more-like-this {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-    scroll-snap-type: x mandatory;
-    flex-wrap: nowrap !important;
-    width: 100%;
-    gap: 2.9rem !important;
-  }
-  #productCard-more-like-this #pc-card {
-    display: flex;
-    flex-shrink: 0;
-    width: 47% !important;
-    height: 443.5px;
-    padding-bottom: 10px;
-  }
-  #productCard-more-like-this .card-text {
-    height: 7rem !important;
-    min-width: 128% !important;
-    width: 100% !important;
-  }
-  #productCard-more-like-this .price {
-    font-size: 2.25rem !important;
-  }
-  #productCard-more-like-this .currentPrice {
-    font-size: 2.25rem !important;
-  }
-  #productCard-more-like-this .price-design {
-    font-size: 1.6875rem !important;
-    margin-top: -9.9px !important;
-    margin-left: 10px !important;
-    color: black !important;
-  }
-  #productCard-more-like-this .oldPrice {
-    font-size: 14px !important;
-  }
-}
-@media (min-width: 767.8px) and (max-width: 1024px) {
   #productCard-ppl-also-bought {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -6821,12 +6783,27 @@ footer #hr {
 @media (min-width: 767.8px) and (max-width: 1024px) {
   .img-btns {
     width: 8.5% !important;
-    top: 14% !important;
+    top: 1.5% !important;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
   .product-description {
     width: 96%;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  .rating-and-reviews {
+    width: 175% !important;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  .carousel-bottom {
+    width: 175%;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  #productCard-more-like-this {
+    width: 100%;
   }
 }
 @media (min-width: 576.7px) and (max-width: 767.8px) {
