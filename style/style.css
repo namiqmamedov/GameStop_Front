@@ -8435,7 +8435,7 @@ footer #hr {
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
   .promo-header .text .price p {
-    margin-top: -16.5px;
+    margin-top: -25.5px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -8460,11 +8460,11 @@ footer #hr {
     font-size: 14px !important;
   }
   .price-main .price-design {
-    font-size: 1.5rem !important;
-    margin-top: 2px !important;
+    font-size: 0.8rem !important;
+    margin-top: 1.5px !important;
   }
   .price-main .rewardsPro svg {
-    margin-top: 3px !important;
+    margin-top: -5px !important;
   }
   .price-main .type ul {
     gap: 1.2rem !important;
@@ -8549,7 +8549,7 @@ footer #hr {
     width: 58%;
     margin-top: 29px;
     margin-left: -8px;
-    padding-left: 20px;
+    padding-left: 34px;
   }
   .product-description .reviewsProd .ratingReviews {
     margin-top: 13px;
@@ -8608,14 +8608,15 @@ footer #hr {
   }
   .product-description .navMenu .form-check {
     text-align: left;
-    padding-top: 10px;
     padding-left: 29px !important;
   }
   .product-description .navMenu .form-check .form-check-input {
-    height: 3rem !important;
-    width: 3rem !important;
+    height: 1.7rem !important;
+    width: 1.7rem !important;
   }
   .product-description .navMenu .form-check .custom-control-label {
+    padding-top: 9px !important;
+    padding-top: 12px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
   }
@@ -8646,7 +8647,7 @@ footer #hr {
     font-size: 16px;
   }
   .product-description .navMenu #formWrapper .share-review-btn {
-    margin-top: 78px;
+    margin-top: 92px;
   }
   .product-description .navMenu #formWrapper .share-review-btn .button {
     position: static !important;
@@ -8654,7 +8655,7 @@ footer #hr {
     margin-bottom: 15px;
   }
   .product-description .navMenu #formWrapper #files::before {
-    top: 57.2% !important;
+    top: 56% !important;
   }
   .product-description .navMenu #formWrapper .imgFile {
     margin-top: -1px;
@@ -8726,19 +8727,50 @@ footer #hr {
     width: 100% !important;
   }
   #productCard-ppl-also-bought .price {
-    font-size: 2.25rem !important;
+    font-size: 1.25rem !important;
   }
   #productCard-ppl-also-bought .currentPrice {
-    font-size: 2.25rem !important;
+    font-size: 1.25rem !important;
   }
   #productCard-ppl-also-bought .price-design {
-    font-size: 1.6875rem !important;
-    margin-top: -9.9px !important;
+    font-size: 0.9rem !important;
+    margin-top: -6.9px !important;
     margin-left: 10px !important;
     color: black !important;
   }
   #productCard-ppl-also-bought .oldPrice {
     font-size: 14px !important;
+  }
+  #productCard-ppl-also-bought .slick-prev {
+    left: 88% !important;
+  }
+  #productCard-ppl-also-bought .slick-next:before {
+    content: "";
+    display: inline-block;
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+    height: 2.2rem !important;
+    width: 2.2rem !important;
+    background-size: auto;
+    border-radius: 50%;
+    background-position: -363.5px -2px !important;
+    transform: rotate(270deg);
+    background-color: #fff;
+    border: 1px solid #000;
+    background-color: black;
+  }
+  #productCard-ppl-also-bought .slick-prev:before {
+    content: "";
+    display: inline-block;
+    background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+    height: 2.2rem !important;
+    width: 2.2rem !important;
+    background-size: auto;
+    border-radius: 50%;
+    background-position: -363.5px -2px !important;
+    transform: rotate(270deg);
+    background-color: #fff;
+    border: 1px solid #000;
+    background-color: black;
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -8769,29 +8801,32 @@ footer #hr {
     width: 100% !important;
   }
   #productCard-more-like-this .price {
-    font-size: 2.25rem !important;
+    font-size: 1.25rem !important;
   }
   #productCard-more-like-this .currentPrice {
-    font-size: 2.25rem !important;
+    font-size: 1.25rem !important;
   }
   #productCard-more-like-this .price-design {
-    font-size: 1.6875rem !important;
-    margin-top: -9.9px !important;
+    font-size: 0.9rem !important;
+    margin-top: -6.9px !important;
     margin-left: 10px !important;
     color: black !important;
   }
   #productCard-more-like-this .oldPrice {
     font-size: 14px !important;
   }
+  #productCard-more-like-this .slick-prev {
+    left: 88% !important;
+  }
   #productCard-more-like-this .slick-next:before {
     content: "";
     display: inline-block;
     background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-    height: 3rem !important;
-    width: 3rem !important;
+    height: 2.2rem !important;
+    width: 2.2rem !important;
     background-size: auto;
     border-radius: 50%;
-    background-position: -367.5px -7px !important;
+    background-position: -363.5px -2px !important;
     transform: rotate(270deg);
     background-color: #fff;
     border: 1px solid #000;
@@ -8801,11 +8836,11 @@ footer #hr {
     content: "";
     display: inline-block;
     background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-    height: 3rem !important;
-    width: 3rem !important;
+    height: 2.2rem !important;
+    width: 2.2rem !important;
     background-size: auto;
     border-radius: 50%;
-    background-position: -367.5px -7px !important;
+    background-position: -363.5px -2px !important;
     transform: rotate(270deg);
     background-color: #fff;
     border: 1px solid #000;

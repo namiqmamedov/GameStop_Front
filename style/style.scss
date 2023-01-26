@@ -12062,7 +12062,7 @@ font-family: 'Open Sans',sans-serif;
   .promo-header .text {
     .price {
       p {
-        margin-top: -16.5px;
+        margin-top: -25.5px;
       }
     }
   }
@@ -12091,13 +12091,14 @@ font-family: 'Open Sans',sans-serif;
     }
 
     .price-design {
-      font-size: 1.5rem !important;
-      margin-top: 2px !important;
+      font-size: 0.8rem !important;
+      margin-top: 1.5px !important;
+ 
     }
 
     .rewardsPro {
       svg {
-        margin-top: 3px !important;
+        margin-top: -5px !important;
       }
     }
 
@@ -12218,7 +12219,7 @@ font-family: 'Open Sans',sans-serif;
         width: 58%;
         margin-top: 29px;
         margin-left: -8px;
-        padding-left: 20px;
+        padding-left: 34px;
       }
 
       .ratingReviews {
@@ -12299,15 +12300,16 @@ font-family: 'Open Sans',sans-serif;
 
       .form-check {
         text-align: left;
-        padding-top: 10px;
         padding-left: 29px !important;
 
         .form-check-input {
-          height: 3rem !important;
-          width: 3rem !important;
+          height: 1.7rem !important;
+          width: 1.7rem !important;
         }
 
         .custom-control-label {
+          padding-top: 9px !important;
+          padding-top: 12px;
           font-size: 16px;
           font-family: 'Open Sans', sans-serif;
         }
@@ -12351,7 +12353,7 @@ font-family: 'Open Sans',sans-serif;
         #formWrapper{
 
           .share-review-btn{
-            margin-top: 78px;
+            margin-top: 92px;
             .button{
               position: static !important;
               width: 100% !important;
@@ -12359,7 +12361,7 @@ font-family: 'Open Sans',sans-serif;
             }
           }
           #files::before{
-            top: 57.2% !important;
+            top: 56% !important;
           }
 
           .imgFile{
@@ -12475,22 +12477,56 @@ font-family: 'Open Sans',sans-serif;
       width: 100% !important;
     }
     .price{
-      font-size: 2.25rem !important;
+      font-size: 1.25rem !important;
     }
 
     .currentPrice{
-      font-size: 2.25rem !important;
+      font-size: 1.25rem !important;
     }
 
     .price-design{
-      font-size: 1.6875rem !important;
-    margin-top: -9.9px !important;
-    margin-left: 10px !important;
-    color: black !important;
+      font-size: 0.9rem !important;
+      margin-top: -6.9px !important;
+      margin-left: 10px !important;
+      color: black !important;
     }
 
     .oldPrice{
       font-size: 14px !important;
+    }
+
+    .slick-prev{
+      left: 88% !important;
+    }
+
+    .slick-next:before {
+      content: "";
+      display: inline-block;
+      background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+      height: 2.2rem !important;
+      width: 2.2rem !important;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -363.5px -2px !important;
+      transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+      background-color: black;
+    }
+
+    .slick-prev:before {
+      content: "";
+      display: inline-block;
+      background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+      height: 2.2rem !important;
+      width: 2.2rem !important;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -363.5px -2px !important;
+      transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+      background-color: black;
     }
   }
 
@@ -12522,33 +12558,37 @@ font-family: 'Open Sans',sans-serif;
       width: 100% !important;
     }
     .price{
-      font-size: 2.25rem !important;
+      font-size: 1.25rem !important;
     }
 
     .currentPrice{
-      font-size: 2.25rem !important;
+      font-size: 1.25rem !important;
     }
 
     .price-design{
-      font-size: 1.6875rem !important;
-    margin-top: -9.9px !important;
-    margin-left: 10px !important;
-    color: black !important;
+      font-size: 0.9rem !important;
+      margin-top: -6.9px !important;
+      margin-left: 10px !important;
+      color: black !important;
     }
 
     .oldPrice{
       font-size: 14px !important;
     }
 
+    .slick-prev{
+      left: 88% !important;
+    }
+
     .slick-next:before {
       content: "";
       display: inline-block;
       background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-      height: 3rem !important;
-      width: 3rem !important;
+      height: 2.2rem !important;
+      width: 2.2rem !important;
       background-size: auto;
       border-radius: 50%;
-      background-position: -367.5px -7px !important;
+      background-position: -363.5px -2px !important;
       transform: rotate(270deg);
       background-color: #fff;
       border: 1px solid #000;
@@ -12559,11 +12599,11 @@ font-family: 'Open Sans',sans-serif;
       content: "";
       display: inline-block;
       background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
-      height: 3rem !important;
-      width: 3rem !important;
+      height: 2.2rem !important;
+      width: 2.2rem !important;
       background-size: auto;
       border-radius: 50%;
-      background-position: -367.5px -7px !important;
+      background-position: -363.5px -2px !important;
       transform: rotate(270deg);
       background-color: #fff;
       border: 1px solid #000;
