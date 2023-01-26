@@ -9957,14 +9957,30 @@ footer {
     height: 443.5px;
     padding-bottom: 10px;
     }
-    .price{
-      font-size: 16px !important;
-    }
+    
 
     .card-text{
-      height: 8rem !important;
-      min-width: 131% !important;
+      height: 7rem !important;
+      min-width: 128% !important;
       width: 100% !important;
+    }
+    .price{
+      font-size: 2.25rem !important;
+    }
+
+    .currentPrice{
+      font-size: 2.25rem !important;
+    }
+
+    .price-design{
+      font-size: 1.6875rem !important;
+    margin-top: -9.9px !important;
+    margin-left: 10px !important;
+    color: black !important;
+    }
+
+    .oldPrice{
+      font-size: 14px !important;
     }
   }
 
@@ -9985,8 +10001,47 @@ footer {
     width: 175%;
   }
 
+  .carousel-main{
+    width: 175%;
+  }
+
   #productCard-more-like-this{
     width: 100%;
+
+    
+    #pc-card{
+      display: flex;
+      flex-shrink: 0;
+      width: 47% !important;
+      height: 443.5px;
+      padding-bottom: 10px;
+
+    }
+
+    .card-text{
+      height: 7rem !important;
+      min-width: 128% !important;
+      width: 100% !important;
+    }
+    .price{
+      font-size: 2.25rem !important;
+    }
+
+    .currentPrice{
+      font-size: 2.25rem !important;
+    }
+
+    .price-design{
+      font-size: 1.6875rem !important;
+    margin-top: -9.9px !important;
+    margin-left: 10px !important;
+    color: black !important;
+    }
+
+    .oldPrice{
+      font-size: 14px !important;
+    }
+
   }
 
 }
