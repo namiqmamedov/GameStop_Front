@@ -3648,6 +3648,27 @@ footer {
     bottom: 11px !important;
   }
 
+  #proDesc{
+    display: block !important;
+
+    #qaAnswer{
+      padding-top: 50px;
+      .queTitle{
+        font-size: 14px;
+        font-family: 'Open Sans',sans-serif;
+        padding-top: 3px;
+      }
+      .answTitle{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 14px;
+        padding-top: 3px;
+      }
+    }
+  
+  }
+
+
+
   
 
   
@@ -8242,6 +8263,41 @@ font-family: 'Open Sans',sans-serif;
       width: 100% !important;
     }
   }
+
+  
+  #proDesc{
+    display: block !important;
+
+    #qaAnswer{
+      padding-top: 50px;
+      .queTitle{
+        font-size: 14px;
+        font-family: 'Open Sans',sans-serif;
+        padding-top: 3px;
+      }
+      .answTitle{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 14px;
+        padding-top: 3px;
+      }
+    }
+
+    #qaRating{
+      .queTitle{
+        font-size: 14px;
+        font-family: 'Open Sans',sans-serif;
+        padding-top: 3px;
+      }
+      .answTitle{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 14px;
+        padding-top: 3px;
+      }
+    }
+
+
+  
+  }
   
 
 }
@@ -8472,9 +8528,6 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
-  #pd-header{
-    position: static !important;
-  }
 
   .header-main {
     .container-fluid {
@@ -8673,14 +8726,6 @@ font-family: 'Open Sans',sans-serif;
 
     }
 
-    @media (min-width:767.8px) and (max-width:993px) {
-      .navbar-brand {
-        margin-left: auto !important;
-        margin-right: auto !important;
-        margin-top: -14px;
-
-      }
-    }
 
 
   }
@@ -9196,13 +9241,18 @@ font-family: 'Open Sans',sans-serif;
   
   #mb-img{
     width: 60.4% !important;
+
+   .img-btns{
+      width: 8.5% !important;
+      top: 2.15% !important;
+    }
     
   .imgMain{
     height: 580px !important;
 
     .main-img {
       width: 100% !important;
-      height: 88% !important;
+      height: 84% !important;
       text-align: end;
 
   
@@ -9246,10 +9296,8 @@ font-family: 'Open Sans',sans-serif;
   }
   #mb-price {
     width: 39.6% !important;
-    margin-top: 16px;
-    .priceContext {
-      position: static !important;
-    }
+    margin-top: 38px;
+   
 
     .price-main__heading{
       max-width: 274px;
@@ -9374,14 +9422,7 @@ font-family: 'Open Sans',sans-serif;
     margin-top: 38px;
 
     .all-table {
-      padding-left: 3px;
-      margin-bottom: 22px;
-      position: sticky;
-      top: 0;
-      left: 0;
-      z-index: 111111111;
-      background: white;
-      border-bottom: 1px solid #f1ebeb;
+     display: none;
     }
 
     .descMain{
@@ -9698,10 +9739,7 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
-  .img-btns{
-    width: 8.5% !important;
-    top: 1.15% !important;
-  }
+ 
 
   .product-description{
     width: 96%;
@@ -9775,13 +9813,21 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
-
   .rating-and-reviews{
     width: 175% !important;
   }
 
   .question-and-answers{
     width: 175% !important;    
+  }
+
+  #qaAnswer{
+    .queTitle{
+      font-size: 14px;
+    }
+    .answTitle{
+      font-size: 14px;
+    }
   }
 
   .carousel-bottom{
@@ -9791,9 +9837,26 @@ font-family: 'Open Sans',sans-serif;
   .carousel-main{
     width: 175%;
   }
+  
+  .priceContext{
+    position: static !important;
+  }
+
+  #qaAnswer{
+    width: 100% !important ;
+        padding-top: 44px;
+  }
+
+  #qaRating{
+    width: 100% !important;
+  }
+
+  
+  
+
+
  
 }
-
 
 
 @media (min-width:576.7px) and (max-width:767.8px) {
@@ -11307,6 +11370,11 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
+    #pd-header{
+    position: static !important;
+  }
+
+
   .header-main {
     .container-fluid {
       padding-left: 0px !important;
@@ -11476,8 +11544,6 @@ font-family: 'Open Sans',sans-serif;
       margin-top: 3px;
 
     }
-
-
 
   }
 
@@ -12056,11 +12122,12 @@ font-family: 'Open Sans',sans-serif;
   }
 
   }
+
   #mb-price {
     width: 32.6% !important;
     margin-top: 16px;
     .priceContext {
-      top: -591px;
+      top: -597px;
     }
 
     .price-main__heading{
@@ -12309,6 +12376,12 @@ font-family: 'Open Sans',sans-serif;
       .customer-section{
         width: 100%;
       }
+    }
+
+    #qaAnswer{
+     .qa-all-list{
+      margin-bottom: 84px;
+     }
     }
 
     .navMenu {
@@ -12633,10 +12706,6 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
-  .item{
-
-  }
-
   .breadcrumbs{
     .breadcrumb{
       margin-left: 0.8rem;
@@ -12684,6 +12753,9 @@ font-family: 'Open Sans',sans-serif;
 
   }
 
+  #pd-header{
+    position: static !important;
+  }
 
   .main-header {
     margin-left: 0rem;
@@ -12918,8 +12990,6 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
-  #product-base {}
-
   #br_crumbs {
     margin-right: 0px !important;
   }
@@ -12971,9 +13041,6 @@ font-family: 'Open Sans',sans-serif;
       }
     }
   }
-
-
-
 
   .options {
     margin-left: 0.5rem;
@@ -13065,7 +13132,6 @@ font-family: 'Open Sans',sans-serif;
       }
     }
   }
-
 
   .featured-categories {
     gap: 1.35rem;
@@ -13507,6 +13573,656 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
+  
+   
+  #mb-img{
+    width: 67.4% !important;
+    
+  .imgMain{
+    height: 530px !important;
+
+    .main-img {
+      width: 100% !important;
+      height: 88% !important;
+      padding-left: 73px;
+      text-align: center;
+
+  
+      .for-mb {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 132px;
+  
+        &::-webkit-scrollbar {
+          height: 4px;
+          width: 100%;
+          border: 4px solid grey;
+        }
+      }
+  
+      .mb-image {
+        margin-bottom: 0rem !important;
+        flex-shrink: 0;
+        height: 100%;
+        display: flex;
+        gap: 33rem;
+        width: 100%;
+        margin-left: -15rem;
+        transform: translate(58%, 0%);
+      }
+  
+      .img-main {
+        margin-left: 0px !important;
+        width: 100%;
+        max-height: 100%;
+        min-height: 100%;
+        object-fit: contain;
+        margin-top: -4px;
+  
+      }
+    }
+  }
+
+  }
+
+  #mb-price {
+    width: 32.6% !important;
+    margin-top: 16px;
+    .priceContext {
+      top: -517px;
+    }
+
+    @media (min-width: 1200px) and (max-width:1589px) {
+      .priceContext{
+        top: -570px;
+      }
+    }
+
+    .price-main__heading{
+      max-width: 453px;
+    }
+  }
+
+  .promo-header .text {
+    .price {
+      p {
+        margin-top: -25.5px;
+      }
+    }
+  }
+
+  .price-main {
+    width: 39.6% !important;
+    .price {
+      font-weight: bold;
+      color: black;
+      font-size: 28px !important;
+      margin-left: -15px;
+      margin-top: -11px;
+      font-family: 'Poppins','Open Sans',sans-serif;
+    }
+
+    .product-cart {
+      width: 100%;
+      max-width: 100%;
+
+      button {
+        width: 100% !important;
+      }
+    }
+
+    .oldPrice {
+      font-size: 14px !important;
+    }
+
+    .price-design {
+      font-size: 0.8rem !important;
+      margin-top: 1.5px !important;
+ 
+    }
+
+    .rewardsPro {
+      svg {
+        margin-top: -5px !important;
+      }
+    }
+
+    .type {
+      ul {
+        gap: 0.9rem !important;
+      }
+
+      label{
+        padding: 13px 9px !important;
+            height: 42px !important;
+      }
+    }
+
+    .label-condition {
+      padding-left: 1px;
+      margin-top: 5px;
+    }
+
+    .platform-box {
+      width: 100%;
+
+      label {
+        font-size: 16px;
+        padding: 13px 7px;
+      }
+    }
+
+    .plan-details {
+      margin-left: 15px;
+    }
+
+    .plan-box {
+      .main-text {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      .sub-text {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+
+    }
+
+    .product-box {
+      span {
+        font-size: 14px;
+      }
+
+      .stock-prod {
+        padding-left: 20px;
+      }
+
+      .shipping-prod {
+        padding-left: 20px;
+      }
+
+      .rating-prod {
+        margin-left: 14px;
+        margin-top: 20px;
+      }
+    }
+
+    .rating__text {
+      .text-main {
+        font-size: 14px;
+      }
+    }
+
+
+    .condition-box {
+      font-size: 16px;
+      padding: 13px 7px;
+      margin-left: -7px;
+      margin-top: -8px !important;
+    }
+  }
+
+  .product-description {
+    margin-top: 38px;
+
+    .all-table {
+      padding-left: 3px;
+    margin-bottom: 22px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 111111111;
+    background: white;
+    border-bottom: 1px solid #f1ebeb;
+
+    }
+
+    .descMain{
+      .carousel-main{
+        margin-bottom: -79px;
+      }
+    }
+
+    .productFeatures {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+
+      .trackingText2 {
+        font-size: 16px;
+        max-width: 533px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+    .description {
+      .trackingText2 {
+        margin-bottom: 3.5rem;
+      }
+    }
+
+    .reviewsProd {
+      flex-wrap: wrap;
+
+      .main-section {
+        width: 42%;
+      }
+
+      .nt-2 {
+        font-size: 14px;
+        margin-bottom: 12.5px;
+      }
+
+      .customer-section {
+        width: 58%;
+        margin-top: 29px;
+        margin-left: -8px;
+        padding-left: 34px;
+      }
+
+      .ratingReviews {
+        margin-top: 13px;
+      }
+
+      .rangeRating {
+        margin-top: 11px;
+        margin-bottom: 28px;
+      }
+
+
+      .progressRating {
+        margin-bottom: 7px;
+
+        .progress {
+          margin-top: 7px;
+          margin-left: 48px;
+          margin-right: 48px !important;
+        }
+
+        .star {
+          color: black;
+          min-width: 46px;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .qa-Prod{
+      
+      flex-wrap: nowrap;
+      .main-section{
+        width: 53%;
+      }
+
+      .customer-section{
+        width: 47%;
+        margin-top: -0.05rem;
+        padding-left: 22px;
+      }
+
+
+      .nt-2 {
+        font-size: 14px;
+        margin-bottom: 12.5px;
+      }
+
+      .queTitle{
+        padding-top: 2px;
+      }
+
+      .answTitle{
+        padding-top: 2px;
+      }
+
+     .bottomSection1{
+      button{
+        width: 98.8% !important;
+        height: 42.2px;
+        margin-bottom: 12px;
+      }
+     }
+
+      .customer-section{
+        width: 100%;
+      }
+    }
+
+    .navMenu {
+      max-width: 580px;
+
+      .rating-section {
+        .rating {
+          left: 3.8%;
+        }
+      }
+
+      .form-check {
+        text-align: left;
+        padding-left: 29px !important;
+
+        .form-check-input {
+          height: 1.7rem !important;
+          width: 1.7rem !important;
+        }
+
+        .custom-control-label {
+          padding-top: 9px !important;
+          padding-top: 12px;
+          font-size: 16px;
+          font-family: 'Open Sans', sans-serif;
+        }
+
+
+      }
+
+      .form-item {
+        margin-bottom: 19.5px;
+
+        .formLabel {
+          font-size: 16px;
+        }
+
+        span {
+          display: none;
+        }
+      }
+
+      .share-review-btn {
+        margin-top: 50px;
+
+        #success {
+          position: static;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+        }
+      }
+
+      .privacy-policy {
+        position: static !important;
+      }
+    
+        .img-field{
+          width: 39% !important;
+          svg{
+            font-size: 16px;
+          }
+        }
+        
+        #formWrapper{
+
+          .share-review-btn{
+            margin-top: 92px;
+            .button{
+              position: static !important;
+              width: 100% !important;
+              margin-bottom: 15px;
+            }
+          }
+          #files::before{
+            top: 55.5% !important;
+          }
+
+          .imgFile{
+            margin-top: -1px;
+          }
+        }
+
+
+      #files{
+        width: 160px;
+      }
+
+
+    }
+
+    .navMenu1{
+      max-width: 572px ;
+
+
+      #form{
+        margin-left: 14px;
+      }
+
+
+      .formLabel{
+        font-size: 16px;
+      }
+
+      .form-style{
+        width: 100%;
+      }
+
+      .bar1{
+        svg{
+          padding-top: 4px;
+        }
+      }
+
+      .button{
+        font-size: 16px;
+      }
+
+      #success{
+        width: 100% !important;
+      }
+
+
+      .form-item{
+        margin-bottom: 19px;
+        span{
+          display: none;
+        }
+      }
+      
+    }
+
+    .bottomSection {
+      .nt-2 {
+        font-size: 16px;
+      }
+
+      .bt-1 {
+        margin-bottom: 10px;
+      }
+
+      .bt-1,
+      .bt-2 {
+        width: 99% !important;
+        height: 43.2px;
+      }
+    }
+
+
+  
+  }
+
+  .product-table {
+
+    .table-auto {
+      tbody {
+        tr {
+          th {
+            span {
+              font-size: 14px !important;
+            }
+          }
+
+          td {
+            span {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #productCard-ppl-also-bought{
+    width: 100%;
+    gap: 2.9rem !important;
+
+    #pp-card{
+      display: flex;
+    width: 47% !important;
+    height: 443.5px;
+    padding-bottom: 10px;
+    }
+    
+
+    .card-text{
+      height: 7rem !important;
+      min-width: 128% !important;
+      width: 100% !important;
+    }
+    .price{
+      font-size: 1.25rem !important;
+      font-family: 'Open-Sans',sans-serif;
+    }
+
+    .currentPrice{
+      font-size: 1.25rem !important;
+    }
+
+    .price-design{
+      font-size: 0.9rem !important;
+      margin-top: -6.9px !important;
+      margin-left: 10px !important;
+      color: black !important;
+    }
+
+    .oldPrice{
+      font-size: 14px !important;
+    }
+
+    .slick-prev{
+      left: 90% !important;
+    }
+
+    .slick-next:before {
+      content: "";
+      display: inline-block;
+      background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+      height: 2.2rem !important;
+      width: 2.2rem !important;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -363.5px -2px !important;
+      transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+      background-color: black;
+    }
+
+    .slick-prev:before {
+      content: "";
+      display: inline-block;
+      background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+      height: 2.2rem !important;
+      width: 2.2rem !important;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -363.5px -2px !important;
+      transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+      background-color: black;
+    }
+  }
+
+  .img-btns{
+    width: 7.5% !important;
+    top: 1% !important;
+  }
+
+  .product-description{
+    width: 96%;
+  }
+
+  #productCard-more-like-this{
+    width: 100%;
+
+    
+    #pc-card{
+      display: flex;
+      flex-shrink: 0;
+      width: 47% !important;
+      height: 443.5px;
+      padding-bottom: 10px;
+
+    }
+
+    .card-text{
+      height: 7rem !important;
+      min-width: 128% !important;
+      width: 100% !important;
+    }
+    .price{
+      font-size: 1.25rem !important;
+      font-family: 'Open-Sans',sans-serif;
+    }
+
+    .currentPrice{
+      font-size: 1.25rem !important;
+    }
+
+    .price-design{
+      font-size: 0.9rem !important;
+      margin-top: -6.9px !important;
+      margin-left: 10px !important;
+      color: black !important;
+    }
+
+    .oldPrice{
+      font-size: 14px !important;
+    }
+
+    .slick-prev{
+      left: 90% !important;
+    }
+
+    .slick-next:before {
+      content: "";
+      display: inline-block;
+      background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+      height: 2.2rem !important;
+      width: 2.2rem !important;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -363.5px -2px !important;
+      transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+      background-color: black;
+    }
+
+    .slick-prev:before {
+      content: "";
+      display: inline-block;
+      background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1672563075804/images/plp-icons-sprite.png");
+      height: 2.2rem !important;
+      width: 2.2rem !important;
+      background-size: auto;
+      border-radius: 50%;
+      background-position: -363.5px -2px !important;
+      transform: rotate(270deg);
+      background-color: #fff;
+      border: 1px solid #000;
+      background-color: black;
+    }
+  }
+
+  .breadcrumbs{
+    .breadcrumb{
+      margin-left: 0.8rem;
+      margin-top: 4.5px;
+    }
+  }
+
+  .overlay-container{
+    top: 1% !important;
+  }
+
 
 }
 
@@ -13516,14 +14232,10 @@ font-family: 'Open Sans',sans-serif;
   z-index: 50;
 }
 
-/*/////////////
-Overlay image modal
- //////////////*/
-
 .overlay-container {
   display: none;
   z-index: 1000;
-  top: 6.90%;
+  top: 2.2%;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -13533,7 +14245,7 @@ Overlay image modal
   max-width: 75rem;
   padding-top: 0rem;
   margin: auto;
-  height: 89.2vh;
+  height: 87vh;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -13783,26 +14495,20 @@ Cart  stylling
   font-weight: 700;
 }
 
-/* //////////////////
-Product section stylling
-/////////////////////// */
+
 
 .item {
-  /* padding: 0 3rem; */
   max-width: 100%;
   margin: auto;
   display: flex;
   gap: 10rem;
-  margin-top: -33px;
+  margin-top: -48px;
 
 
   #br_crumbs-details {
-    margin-left: 7px !important;
-    margin-top: 14px;
+    padding-top: 24px;
+    padding-left: 4px;
 
-    .breadcrumbs {
-      margin-left: -40px;
-    }
 
     .breadcrumb li {
       font-family: -apple-system, -apple-system,
@@ -13841,10 +14547,10 @@ Product section stylling
   display: flex;
   gap: 0.8rem;
   flex-wrap: wrap;
-  width: 5.5%;
+  width: 5.5% !important;
+  top: 1.8% !important;
   position: absolute;
-  top: 1.5%;
-  left: 2.3%;
+  left: 1.5%;
 }
 
 .img {
@@ -13865,10 +14571,7 @@ Product section stylling
   border-radius: 10%;
   transition: all 0.3s;
   position: relative;
-  background: white;
-  padding: 2px;
   border-radius: 0.25rem;
-  box-shadow: 0px 0px 99px 0px rgb(0 0 0 / 13%);
   height: 100%;
 
   &:focus {
@@ -13946,9 +14649,9 @@ Product section stylling
   border: 3px solid transparent;
   transition: all 0.3s;
   transform-origin: bottom;
+  mix-blend-mode: multiply;
 }
 
-/*Right item details stylling */
 .price-main {
   margin-top: 3.5rem;
   display: flex;
@@ -14050,7 +14753,8 @@ Product section stylling
     color: black;
     font-size: 1.25rem;
     margin-left: -15px;
-    margin-top: -11px
+    margin-top: -11px;
+    font-family: 'Open Sans',sans-serif;
   }
 
   .price-design {
@@ -14526,7 +15230,7 @@ Product section stylling
 }
 
 .price-main__heading {
-  font-size: 23px;
+  font-size: 24px;
   line-height: 32px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
@@ -16627,7 +17331,7 @@ Media Queries
       background-color: #f8f8f8;
       border: none;
       width: 94.5% !important;
-      height: 513.5px;
+      height: 557.5px;
       text-decoration: none !important;
       transition-timing-function: ease-in;
       transition: .3s;
@@ -16685,6 +17389,8 @@ Media Queries
           font-size: 0.875rem;
           color: #727272;
           font-weight: 400;
+          font-family: 'Open Sans',sans-serif;
+
         }
 
         .price {
@@ -16937,7 +17643,7 @@ Media Queries
       background-color: #f8f8f8;
       border: none;
       width: 94.5% !important;
-      height: 513.5px;
+      height: 557.5px;
       text-decoration: none !important;
       transition-timing-function: ease-in;
       transition: .3s;
@@ -16995,6 +17701,7 @@ Media Queries
           font-size: 0.875rem;
           color: #727272;
           font-weight: 400;
+          font-family: 'Open Sans',sans-serif;
         }
 
         .price {

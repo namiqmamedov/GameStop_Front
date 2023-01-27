@@ -15,6 +15,36 @@ $(".over_lay, .close_btn").click(function () {
   });
 });
 
+$(".write-menu").click(function () {
+  $(".header-main").css({
+    position: "static"
+  });
+
+});
+
+$(".bar").click(function () {
+  $(".header-main").css({
+    position: "sticky"
+  });
+
+});
+
+
+$(".question-menu").click(function () {
+  $(".header-main").css({
+    position: "static"
+  });
+
+});
+
+$(".bar1").click(function () {
+  $(".header-main").css({
+    position: "sticky"
+  });
+
+});
+
+
 
 (function () {
   $('.write-menu').on('click', function () {

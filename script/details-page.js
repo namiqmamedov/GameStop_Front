@@ -1,5 +1,40 @@
 "use strict";
 
+const menuOverflow = $(".img-main").click(function () {
+	if ($('body').addClass("lock-scroll")) {}
+  })
+
+  const closeModel = $(".item-overlay__btn-img").click(function () {
+	if ($('body').removeClass("lock-scroll")) {}
+  })
+
+  const closeModel1 = $(".item-overlay slide").click(function () {
+	if ($('body').removeClass("lock-scroll")) {}
+  })
+  $(".img-main").click(function () {
+    $(".all-table").css({
+      top: "100%"
+    });  
+  });
+
+  $(".item-overlay__btn-img").click(function () {
+    $(".all-table").css({
+      top: "0%"
+    });  
+  });
+
+
+  // const posStatic = $(".img-main").click(function () {
+  //   if ($('.all-table').addClass("none")) {}
+  
+  // })
+  
+  // const posSticky = $(".item-overlay__btn-img").click(function () {
+  //   if ($('.all-table').removeClass("none")) {}
+  
+  // })
+  
+
 const imgBtn = Array.from(document.querySelectorAll(".img-btn"));
 const img = document.querySelector(".img-main");
 const video = document.querySelector(".img");
@@ -225,4 +260,11 @@ window.addEventListener("resize", function () {
 window.addEventListener("load", function () {
   transitionDelay();
 });
+
+
+
+
+
+
+
 
