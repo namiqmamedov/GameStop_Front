@@ -3650,6 +3650,8 @@ footer {
 
   
 
+  
+
 
 }
 
@@ -8470,6 +8472,10 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
+  #pd-header{
+    position: static !important;
+  }
+
   .header-main {
     .container-fluid {
       padding-left: 0px !important;
@@ -9230,10 +9236,11 @@ font-family: 'Open Sans',sans-serif;
         max-height: 100%;
         min-height: 100%;
         object-fit: contain;
-        margin-top: 23px;
+        margin-top: 16px;
   
       }
     }
+
   }
 
   }
@@ -9303,7 +9310,7 @@ font-family: 'Open Sans',sans-serif;
     }
 
     .platform-box {
-      width: 117%;
+      width: 100%;
 
       label {
         font-size: 16px;
@@ -9367,7 +9374,14 @@ font-family: 'Open Sans',sans-serif;
     margin-top: 38px;
 
     .all-table {
-      display: none;
+      padding-left: 3px;
+      margin-bottom: 22px;
+      position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 111111111;
+      background: white;
+      border-bottom: 1px solid #f1ebeb;
     }
 
     .descMain{
@@ -9761,10 +9775,6 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
-  .item{
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
 
   .rating-and-reviews{
     width: 175% !important;

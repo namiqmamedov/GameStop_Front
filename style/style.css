@@ -5913,6 +5913,9 @@ footer #hr {
   .home-content .home-card .home-img img {
     width: 100%;
   }
+  #pd-header {
+    position: static !important;
+  }
   .header-main .container-fluid {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -6462,7 +6465,7 @@ footer #hr {
     min-height: 100%;
     -o-object-fit: contain;
        object-fit: contain;
-    margin-top: 23px;
+    margin-top: 16px;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
@@ -6518,7 +6521,7 @@ footer #hr {
     margin-top: 5px;
   }
   .price-main .platform-box {
-    width: 117%;
+    width: 100%;
   }
   .price-main .platform-box label {
     font-size: 16px;
@@ -6563,7 +6566,15 @@ footer #hr {
     margin-top: 38px;
   }
   .product-description .all-table {
-    display: none;
+    padding-left: 3px;
+    margin-bottom: 22px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 111111111;
+    background: white;
+    border-bottom: 1px solid #f1ebeb;
   }
   .product-description .descMain .carousel-main {
     margin-bottom: -79px;
@@ -6854,12 +6865,6 @@ footer #hr {
     background-color: #fff;
     border: 1px solid #000;
     background-color: black;
-  }
-}
-@media (min-width: 767.8px) and (max-width: 1024px) {
-  .item {
-    overflow-x: hidden;
-    overflow-y: hidden;
   }
 }
 @media (min-width: 767.8px) and (max-width: 1024px) {
