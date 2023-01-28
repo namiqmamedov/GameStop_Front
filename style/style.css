@@ -1109,7 +1109,7 @@ body {
   border: none;
   border-radius: 6px;
   z-index: 9999999;
-  left: -11%;
+  left: -10%;
   margin-left: -0.9rem;
   top: 56%;
 }
@@ -1792,11 +1792,11 @@ footer #hr {
   .header-wrapper .m-menu__toggle .hamburger {
     width: 4.2% !important;
     margin-top: -40px !important;
-    margin-left: 12px;
+    margin-left: -13px;
   }
   .header-wrapper .nav-logo {
     width: 112px !important;
-    margin-left: 24px !important;
+    margin-left: 2px !important;
     margin-top: -53px;
   }
   .header-wrapper .header-options {
@@ -1806,55 +1806,79 @@ footer #hr {
     display: none;
   }
   .header-wrapper .header-search {
-    min-width: 95%;
+    width: 71% !important;
+    min-width: 0% !important;
   }
   .header-wrapper .header-search .search {
-    top: 4%;
-    left: -22%;
     position: static;
-    min-width: 100%;
+    width: 100%;
   }
   .header-wrapper .header-search .search input {
     border-radius: 0px !important;
-    margin-left: -157px;
-    margin-top: 28px;
-    width: 101.2%;
+    margin-top: 2px;
+    margin-left: 0px;
+    width: 97.7%;
+    position: absolute;
+    top: 48%;
+    left: 1%;
   }
   .header-wrapper .header-search .fa-search {
-    top: 56px !important;
-    left: 25.5px !important;
+    position: relative !important;
+    top: 18px !important;
+    left: -142.5px !important;
+    z-index: 11111111111;
     font-size: 11.7px !important;
   }
-  .header-wrapper .account-header {
-    margin-left: -4.5rem;
+  .header-wrapper .last-section {
+    width: 100%;
+    margin-top: -49px;
   }
-  .header-wrapper .account-header .account {
-    margin-left: -9.5rem;
-    margin-top: -48px;
-  }
-  .header-wrapper .account-header .user {
-    margin-top: -6px;
-    display: flex !important;
-  }
-  .header-wrapper .account-header .user span {
-    position: relative;
-    left: -35%;
-    font-weight: 600;
-  }
-  .header-wrapper .account-header .account i {
-    margin-left: 11px;
-    margin-bottom: -17px;
+  .header-wrapper .last-section .section-last {
     display: flex;
-    font-size: 14px;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 18px;
+    text-align: center;
+    justify-content: end;
   }
-  .header-wrapper .header-cart #cart {
+  .header-wrapper .last-section .sign-in {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .header-wrapper .last-section .sign-in span {
+    padding-top: 4px;
+  }
+  .header-wrapper .last-section .sign-in .icon {
+    padding-top: 4px;
+  }
+  .header-wrapper .last-section .cart {
     display: none;
   }
-  .header-wrapper .header-cart .cart svg {
-    margin-left: -7.3rem;
-    margin-top: -42px;
-    width: 161.5%;
-    height: 77px;
+  .header-wrapper .last-section span {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    display: block;
+  }
+  .header-wrapper .last-section .icon i {
+    font-size: 16px;
+    padding-left: 6px;
+  }
+  .header-wrapper .last-section .icon img {
+    width: 25%;
+  }
+  .header-wrapper .last-section .icon svg {
+    width: 21px;
+    height: 21px;
+  }
+  .header-wrapper .last-section .text {
+    display: block;
+  }
+  .header-wrapper .last-section .trade-ins {
+    display: none;
+  }
+  .header-wrapper .last-section .popup-rewards {
+    display: none;
   }
   .home-content {
     display: none;
@@ -1907,7 +1931,7 @@ footer #hr {
     padding: 0 0px !important;
   }
   .main-content .mb-img a img {
-    width: 97.6% !important;
+    width: 98.6% !important;
     margin-left: 0px !important;
   }
   .product-content #slidero {
@@ -4552,13 +4576,9 @@ footer #hr {
   .header-wrapper {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
   }
-  .header-wrapper .header-search {
-    min-width: 99% !important;
-  }
   .header-wrapper nav {
     height: 98.5px;
     margin-left: -1.8rem;
-    overflow-x: hidden;
   }
   .header-wrapper #m-menu {
     display: none !important;
@@ -4566,11 +4586,11 @@ footer #hr {
   .header-wrapper .m-menu__toggle .hamburger {
     width: 2.8% !important;
     margin-top: -40px !important;
-    margin-left: 12px;
+    margin-left: -10px;
   }
   .header-wrapper .nav-logo {
     width: 112px !important;
-    margin-left: 24px !important;
+    margin-left: 7px !important;
     margin-top: -53px;
   }
   .header-wrapper .header-options {
@@ -4580,55 +4600,27 @@ footer #hr {
     display: none;
   }
   .header-wrapper .header-search {
-    min-width: 95%;
+    width: 71% !important;
+    min-width: 0% !important;
   }
   .header-wrapper .header-search .search {
-    top: 4%;
-    left: -22%;
     position: static;
-    min-width: 100%;
+    width: 100%;
   }
   .header-wrapper .header-search .search input {
     border-radius: 0px !important;
-    margin-left: -157px;
-    margin-top: 28px;
-    width: 100.6%;
+    margin-top: 2px;
+    margin-left: 0px;
+    width: 98%;
+    position: absolute;
+    top: 48%;
+    left: 1%;
   }
   .header-wrapper .header-search .fa-search {
-    top: 56px !important;
-    left: 25.5px !important;
+    top: 61px !important;
+    left: 13.5px !important;
+    z-index: 11111111111;
     font-size: 11.7px !important;
-  }
-  .header-wrapper .account-header {
-    margin-left: -4.5rem;
-  }
-  .header-wrapper .account-header .account {
-    margin-left: -9.5rem;
-    margin-top: -48px;
-  }
-  .header-wrapper .account-header .user {
-    margin-top: -6px;
-    display: flex !important;
-  }
-  .header-wrapper .account-header .user span {
-    position: relative;
-    left: -35%;
-    font-weight: 600;
-  }
-  .header-wrapper .account-header .account i {
-    margin-left: 11px;
-    margin-bottom: -17px;
-    display: flex;
-    font-size: 14px;
-  }
-  .header-wrapper .header-cart #cart {
-    display: none;
-  }
-  .header-wrapper .header-cart .cart svg {
-    margin-left: -7.3rem;
-    margin-top: -42px;
-    width: 161.5%;
-    height: 77px;
   }
   .sort-section {
     position: relative;
@@ -5844,6 +5836,57 @@ footer #hr {
     font-size: 14px;
     padding-top: 3px;
   }
+  .last-section {
+    width: 100%;
+    margin-top: -49px;
+  }
+  .last-section .section-last {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 18px;
+    text-align: center;
+    justify-content: end;
+  }
+  .last-section .sign-in {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .last-section .sign-in span {
+    padding-top: 2px;
+  }
+  .last-section .sign-in .icon {
+    padding-top: 4px;
+  }
+  .last-section .cart {
+    display: none;
+  }
+  .last-section span {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    display: block;
+  }
+  .last-section .icon i {
+    font-size: 16px;
+    padding-left: 6px;
+  }
+  .last-section .icon img {
+    width: 25%;
+  }
+  .last-section .icon svg {
+    width: 21px;
+    height: 21px;
+  }
+  .last-section .text {
+    display: block;
+  }
+  .last-section .trade-ins {
+    display: none;
+  }
+  .last-section .popup-rewards {
+    display: none;
+  }
 }
 .paginationRes {
   display: none;
@@ -6231,12 +6274,11 @@ footer #hr {
   .header-wrapper .m-menu__toggle .hamburger {
     width: 2.3% !important;
     margin-top: -15px !important;
-    margin-left: 12px;
+    margin-left: -10px;
   }
   .header-wrapper .nav-logo {
     width: 115px !important;
-    margin-left: 24px !important;
-    margin-top: -7px;
+    margin-left: 10px !important;
   }
   .header-wrapper .header-options {
     display: none !important;
@@ -6245,55 +6287,73 @@ footer #hr {
     display: none;
   }
   .header-wrapper .header-search {
-    min-width: 95%;
+    width: 420% !important;
+    min-width: 0% !important;
   }
   .header-wrapper .header-search .search {
-    top: 4%;
-    left: -22%;
     position: static;
-    min-width: 100%;
+    width: 100%;
   }
   .header-wrapper .header-search .search input {
     border-radius: 0px !important;
     margin-left: 13px;
     margin-top: 2px;
-    width: 84.6%;
+    width: 100%;
   }
   .header-wrapper .header-search .fa-search {
-    top: 23px !important;
-    left: 198.5px !important;
+    top: 24px !important;
+    left: 192.5px !important;
     font-size: 11.7px !important;
   }
-  .header-wrapper .account-header {
-    margin-left: -4.5rem;
+  .header-wrapper .last-section {
+    width: 100%;
   }
-  .header-wrapper .account-header .account {
-    margin-left: -9.5rem;
-    margin-top: -48px;
-  }
-  .header-wrapper .account-header .user {
-    margin-top: 60px;
-    display: flex !important;
-  }
-  .header-wrapper .account-header .user span {
-    position: relative;
-    left: -35%;
-    font-weight: 600;
-  }
-  .header-wrapper .account-header .account i {
-    margin-left: 11px;
-    margin-bottom: -17px;
+  .header-wrapper .last-section .section-last {
     display: flex;
-    font-size: 14px;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 18px;
+    text-align: center;
+    justify-content: space-around;
   }
-  .header-wrapper .header-cart #cart {
+  .header-wrapper .last-section .sign-in {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .header-wrapper .last-section .sign-in span {
+    padding-top: 2px;
+  }
+  .header-wrapper .last-section .sign-in .icon {
+    padding-top: 4px;
+  }
+  .header-wrapper .last-section .cart .text {
     display: none;
   }
-  .header-wrapper .header-cart .cart svg {
-    margin-left: -7.3rem;
-    margin-top: 20px;
-    width: 161.5%;
-    height: 77px;
+  .header-wrapper .last-section span {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    display: block;
+  }
+  .header-wrapper .last-section .icon i {
+    font-size: 16px;
+    padding-left: 6px;
+  }
+  .header-wrapper .last-section .icon img {
+    width: 25%;
+  }
+  .header-wrapper .last-section .icon svg {
+    width: 21px;
+    height: 21px;
+  }
+  .header-wrapper .last-section .text {
+    display: block;
+  }
+  .header-wrapper .last-section .trade-ins {
+    display: none;
+  }
+  .header-wrapper .last-section .popup-rewards {
+    display: none;
   }
   .product-main .card-boxes {
     max-width: 100%;
@@ -8229,9 +8289,6 @@ footer #hr {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     height: 75px !important;
   }
-  .header-wrapper .header-search {
-    min-width: 67% !important;
-  }
   .header-wrapper nav {
     height: 75.5px;
     margin-left: -1.8rem;
@@ -8258,13 +8315,12 @@ footer #hr {
     display: none;
   }
   .header-wrapper .header-search {
-    min-width: 95%;
+    width: 516% !important;
+    min-width: 0% !important;
   }
   .header-wrapper .header-search .search {
-    top: 4%;
-    left: -22%;
     position: static;
-    min-width: 100%;
+    width: 100%;
   }
   .header-wrapper .header-search .search input {
     border-radius: 0px !important;
@@ -8277,50 +8333,10 @@ footer #hr {
     left: 254.5px !important;
     font-size: 11.7px !important;
   }
-  .header-wrapper .account-header {
-    max-width: 100%;
-    width: 100%;
-  }
-  .header-wrapper .account-header .account {
-    margin-top: 1px;
-    width: auto;
-    /* justify-content: space-between; */
-    height: 26px;
-  }
-  .header-wrapper .account-header .user {
-    display: flex !important;
-    display: flex !important;
-  }
-  .header-wrapper .account-header .user span {
-    font-weight: 600;
-  }
-  .header-wrapper .account-header .account i {
-    margin-bottom: -17px;
-    display: flex;
-    padding-left: 45px;
-    font-size: 18px;
-  }
-  .header-wrapper .header-cart {
-    margin-top: -2px;
-    height: 22px;
-    position: relative;
-  }
-  .header-wrapper .header-cart #cart {
-    display: none;
-  }
-  .header-wrapper .header-cart .cart {
-    position: relative;
-    width: -1%;
-    top: 21%;
-    left: 152%;
-  }
-  .header-wrapper .header-cart .cart svg {
-    margin-top: -32px;
-    width: 189.5%;
-    height: 77px;
-  }
-  .header-wrapper .header-cart .cart #cart {
-    visibility: hidden !important;
+}
+@media (min-width: 1025px) and (max-width: 1200px) and (min-width: 1025px) and (max-width: 1100px) {
+  .header-wrapper .header-search .fa-search {
+    left: 263.5px !important;
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -8606,6 +8622,11 @@ footer #hr {
 @media (min-width: 1025px) and (max-width: 1200px) {
   .promo-header .text .price p {
     margin-top: -25.5px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) and (min-width: 1025px) and (max-width: 1100px) {
+  .promo-header .text .price p {
+    margin-top: -18.5px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -9036,6 +9057,72 @@ footer #hr {
   .breadcrumbs .breadcrumb {
     margin-top: 4.5px;
     padding-left: 12px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .last-section {
+    width: 100%;
+  }
+  .last-section .section-last {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 18px;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .last-section .sign-in {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .last-section .sign-in span {
+    padding-top: 4px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) and (min-width: 1025px) and (max-width: 1100px) {
+  .last-section .sign-in .icon {
+    padding-top: 5px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .last-section .cart .text {
+    display: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .last-section span {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    display: block;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .last-section .icon i {
+    font-size: 16px;
+    padding-left: 6px;
+  }
+  .last-section .icon img {
+    width: 25%;
+  }
+  .last-section .icon svg {
+    width: 21px;
+    height: 21px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .last-section .text {
+    display: block;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .last-section .trade-ins {
+    display: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .last-section .popup-rewards {
+    display: none;
   }
 }
 @media (min-width: 1200px) {

@@ -72,7 +72,29 @@
 
    const ratingRemove = $(".over_lay").click(function () {
       if ($('body').removeClass("lock-scroll")) {}
+
+      
    })
+
+
+   $("#mMenu").click(function () {
+      $(".search .fa-search").css({
+        display: "none"
+      })   
+    });
+    
+
+    $(".m-menu__toggle .close").click(function () {
+      $(".search .fa-search").css({
+        display: "block"
+      })   
+    });
+
+    $(".m-menu__overlay").click(function () {
+      $(".search .fa-search").css({
+        display: "block"
+      })   
+    });
 
    
  
