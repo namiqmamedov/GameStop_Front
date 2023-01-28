@@ -15,6 +15,7 @@ $(".over_lay, .close_btn").click(function () {
   });
 });
 
+
 $(".write-menu").click(function () {
   $(".header-main").css({
     position: "static"

@@ -114,7 +114,7 @@ $('#slidero').slick({
       settings: "unslick"
     },
     {
-      breakpoint: 600,
+      breakpoint: 576,
       settings: "unslick"
     },
     {
@@ -179,10 +179,6 @@ $('#productCard-ppl-also-bought').slick({
       }
     },
     {
-      breakpoint: 767,
-      settings: "unslick"
-    },
-    {
       breakpoint: 1023.9,
       settings: {
         slidesToShow: 3.1,
@@ -190,6 +186,10 @@ $('#productCard-ppl-also-bought').slick({
         infinite: false,
         dots: false
       }
+    },
+    {
+      breakpoint: 767,
+      settings: "unslick"
     },
     {
       breakpoint: 600,
