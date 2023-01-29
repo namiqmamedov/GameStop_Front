@@ -157,10 +157,6 @@ body {
   cursor: pointer;
 }
 
-#m-menu2 {
-  height: 1184px;
-}
-
 .main-header {
   position: relative;
   z-index: 1;
@@ -213,6 +209,9 @@ body {
 .main-header .menu-ul-1 label {
   padding: 0 15px !important;
 }
+.main-header #m-menu2 {
+  height: auto !important;
+}
 .main-header #m-menu2 .menu-ul:target {
   display: none !important;
 }
@@ -224,12 +223,15 @@ body {
   height: 4.35rem;
   background-color: white;
   justify-content: flex-start;
+  position: relative;
 }
 .main-header #m-menu2 .back-label {
   cursor: pointer;
   display: flex;
   position: absolute;
-  left: 8%;
+  left: 11%;
+  top: 35%;
+  margin-left: 0px !important;
 }
 .main-header #m-menu2 .back-label:hover {
   transition: 0.3s;
@@ -244,8 +246,8 @@ body {
   font-size: 14px;
 }
 .main-header #m-menu2 .prev {
-  margin-left: -9px;
-  margin-top: 1px;
+  margin-left: 5px;
+  margin-top: -58px;
 }
 .main-header body {
   background-color: #f1f1f1;
@@ -273,7 +275,7 @@ body {
   left: 0;
   max-width: 375px;
   width: calc(100vw - 30px);
-  height: 800%;
+  height: 100%;
   transform: translate3d(-450px, 0, 0);
   transition: transform 0.35s;
   z-index: 1;
@@ -445,7 +447,8 @@ body {
   border-bottom: 0;
   padding: 0;
   box-sizing: content-box;
-  margin-top: 5px;
+  margin-top: 0px !important;
+  margin: 0px !important;
 }
 .main-header nav .m-menu__checkbox:checked ~ .m-menu__overlay {
   display: block;

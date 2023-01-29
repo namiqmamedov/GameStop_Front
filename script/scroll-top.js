@@ -69,13 +69,17 @@ $(document).ready(function() {
 
 var container = $('#menu1');
 
-function none1() {
+function topNav() {
 	var scrollTo = $("#m-menu2");
     var position = scrollTo.offset().top * 10  - container.offset().top + container.scrollTop() ;
 	container.animate({
 		scrollTop: position
 	});
 }
+
+
+
+
 
 
 
