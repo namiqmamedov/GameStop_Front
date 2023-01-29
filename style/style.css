@@ -13009,6 +13009,24 @@ Media Queries
   font-weight: bold;
 }
 
+.faq-section .all-faq {
+  border: 1px solid #d2d2d2;
+  border-radius: 15px;
+}
+.faq-section .all-faq .content-asset ul li {
+  list-style-type: none;
+  margin: 7px;
+}
+.faq-section .all-faq .content-asset ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #404040;
+}
+.faq-section .all-faq .content-asset .list-group {
+  padding-top: 27px;
+  padding-left: 28px;
+}
 .faq-section .section-faq .accordionContent {
   width: 70%;
 }
