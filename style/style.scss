@@ -29,6 +29,18 @@ body {
 .lock-scroll1 {
   overflow-y: hidden;
 }
+.xfd{
+  position: absolute !important;
+  left: 99999%;
+}
+
+.xdad{
+  position: static !important;
+}
+
+.ads{
+  position: fixed !important;
+}
 
 
 .none {
@@ -235,7 +247,6 @@ body {
     label {
       display: block;
       text-align: left;
-      padding: 0 35px;
       line-height: 47px;
       text-decoration: none;
       color: #333;
@@ -245,14 +256,13 @@ body {
 
       &:hover {
         height: 100%;
-        background: #e4e4e4;
+        
       }
 
     }
 
 
     label {
-      background-color: rgb(251 251 251);
       width: 100%;
 
     }
@@ -285,34 +295,41 @@ body {
     }
 
     .m-menu__header {
-      &:hover {
-        stroke: red;
-        color: red;
-      }
 
       height: 4.35rem;
       background-color: white;
-      //   position: fixed;
-      //   position: -webkit-sticky;
-      // top: 0;
-      // width: 100%;
-      // background-color: #fff;
-
-
-
+      justify-content: flex-start;
     }
 
     .back-label {
-      &:hover {
-        background-color: red !important;
+      cursor: pointer;
+      display: flex;
+      position: absolute;
+      left: 8%;
+
+     &:hover{
+      transition: .3s;
+      span{
+        color: red;
       }
+      i{
+        color: red;
+      }
+     }
+
+     .fa-chevron-left{
+      font-size: 14px;
+     }
     }
 
 
 
     .prev {
-      margin-left: -4px;
+      margin-left: -9px;
+      margin-top: 1px;
     }
+
+   
   }
 
   /* Mixin */
@@ -623,6 +640,7 @@ body {
       border-bottom: 0;
       padding: 0;
       @include box-sizing(content-box);
+      margin-top: 5px;
     }
 
     /* fade in checked menu */
@@ -640,7 +658,7 @@ body {
 
 
   .m-menu__toggle {
-    margin: 0px 18px;
+    margin: 0px 14px;
     cursor: pointer;
 
 
@@ -651,8 +669,8 @@ body {
     }
 
     .back {
-      margin-top: -1rem;
-      margin-left: -0.7rem;
+      margin-top: -0.4rem;
+      margin-left: 0.3rem;
 
 
     }
@@ -1261,6 +1279,7 @@ body {
       font-family: 'Poppins', 'Open Sans', sans-serif;
       font-weight: bold;
       font-size: 25px !important;
+      margin-bottom: 22px;
     }
 
 
@@ -2261,9 +2280,6 @@ footer {
 }
 
 
-//
-
-
 @media (max-width: 576px) {
 
 
@@ -2271,12 +2287,34 @@ footer {
     overflow-x: hidden;
   }
 
+
+  .main-header{
+    .m-menu__toggle{
+      .close{
+        top: -1%;
+      }
+    }
+
+    #menu-header{
+    
+      height: 6.55rem !important;
+    }
+  }
+
+
   #hardwareAccess {
     overflow-x: hidden;
   }
 
   #preOrder {
     overflow-x: hidden;
+  }
+
+  .featured-categories{
+    p{
+      margin-left: 2px;
+      margin-top: 1px;
+    }
   }
 
   .footer-copyright {
@@ -4660,9 +4698,6 @@ font-family: 'Open Sans',sans-serif;
     padding-top: 12px;
     margin-left: -18px;
 
-    nav {
- 
-    }
   }
 
   .product-main {
@@ -6181,6 +6216,8 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
+  
+
   .product-main {
     .page-count {
       padding-left: 16px;
@@ -6428,9 +6465,30 @@ font-family: 'Open Sans',sans-serif;
     left: 0%;
     top: 0%;
 
-    .store-icon i {
-      margin-left: -3.8rem !important;
+    .store-icon {
+      position: relative;
+      i{
+        position: absolute;
+      left: -33px;
+      top: 21%;
+      font-size: 14px;
+      }
     }
+
+      .m-menu__toggle{
+        .close{
+          top: -1%;
+        }
+      }
+  
+      #menu-header{
+      
+        height: 6.55rem !important;
+      }
+
+      .m-menu ul li label,a {
+        font-size: 14px !important;
+      }
 
 
     .menu-ul-1 {
@@ -8373,6 +8431,7 @@ font-family: 'Open Sans',sans-serif;
     }
   }
 
+
   .top-deals {
 
     margin-left: 0px;
@@ -8814,6 +8873,23 @@ font-family: 'Open Sans',sans-serif;
     .store-icon i {
       margin-left: -3.8rem !important;
     }
+
+      .m-menu ul li label,a {
+        font-size: 14px !important;
+      }
+
+      #menu-header{
+        height: 6.35rem !important;
+      }
+
+      .store-icon{
+        position: relative;
+        i{
+          position: absolute;
+          top: 22%;
+          left: -27px;
+        }
+      }
 
 
     .menu-ul-1 {
@@ -12970,8 +13046,8 @@ font-family: 'Open Sans',sans-serif;
       }
 
       .fa-search {
-        top: 35px !important;
-        left: 254.5px !important;
+        top: 33px !important;
+        left: 259.5px !important;
         font-size: 11.7px !important
       }
     }
@@ -12986,6 +13062,16 @@ font-family: 'Open Sans',sans-serif;
         padding-left: 18px;
         text-align: center;
         justify-content: space-between;
+
+
+        .trade-ins{
+          margin-top: 2px;
+        }
+
+        .sign-in{
+          margin-top: 4px;
+        }
+
       }
      
       span{

@@ -29,6 +29,19 @@ body {
   overflow-y: hidden;
 }
 
+.xfd {
+  position: absolute !important;
+  left: 99999%;
+}
+
+.xdad {
+  position: static !important;
+}
+
+.ads {
+  position: fixed !important;
+}
+
 .none {
   position: static !important;
 }
@@ -178,7 +191,6 @@ body {
 .main-header .menu-ul label {
   display: block;
   text-align: left;
-  padding: 0 35px;
   line-height: 47px;
   text-decoration: none;
   color: #333;
@@ -189,10 +201,8 @@ body {
 .main-header .menu-ul a:hover,
 .main-header .menu-ul label:hover {
   height: 100%;
-  background: #e4e4e4;
 }
 .main-header .menu-ul label {
-  background-color: rgb(251, 251, 251);
   width: 100%;
 }
 .main-header .menu-ul li {
@@ -213,16 +223,29 @@ body {
 .main-header #m-menu2 .m-menu__header {
   height: 4.35rem;
   background-color: white;
+  justify-content: flex-start;
 }
-.main-header #m-menu2 .m-menu__header:hover {
-  stroke: red;
-  color: red;
+.main-header #m-menu2 .back-label {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  left: 8%;
 }
 .main-header #m-menu2 .back-label:hover {
-  background-color: red !important;
+  transition: 0.3s;
+}
+.main-header #m-menu2 .back-label:hover span {
+  color: red;
+}
+.main-header #m-menu2 .back-label:hover i {
+  color: red;
+}
+.main-header #m-menu2 .back-label .fa-chevron-left {
+  font-size: 14px;
 }
 .main-header #m-menu2 .prev {
-  margin-left: -4px;
+  margin-left: -9px;
+  margin-top: 1px;
 }
 .main-header body {
   background-color: #f1f1f1;
@@ -422,6 +445,7 @@ body {
   border-bottom: 0;
   padding: 0;
   box-sizing: content-box;
+  margin-top: 5px;
 }
 .main-header nav .m-menu__checkbox:checked ~ .m-menu__overlay {
   display: block;
@@ -430,7 +454,7 @@ body {
   transform: translate3d(0, 0, 0);
 }
 .main-header .m-menu__toggle {
-  margin: 0px 18px;
+  margin: 0px 14px;
   cursor: pointer;
 }
 .main-header .m-menu__toggle svg {
@@ -438,8 +462,8 @@ body {
   margin-top: 10px;
 }
 .main-header .m-menu__toggle .back {
-  margin-top: -1rem;
-  margin-left: -0.7rem;
+  margin-top: -0.4rem;
+  margin-left: 0.3rem;
 }
 .main-header .m-menu__toggle .close {
   left: 86.7%;
@@ -872,6 +896,7 @@ body {
   font-family: "Poppins", "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 25px !important;
+  margin-bottom: 22px;
 }
 .product-brand .brand-card {
   margin-left: 0.6rem;
@@ -1580,11 +1605,21 @@ footer #hr {
   #hardware {
     overflow-x: hidden;
   }
+  .main-header .m-menu__toggle .close {
+    top: -1%;
+  }
+  .main-header #menu-header {
+    height: 6.55rem !important;
+  }
   #hardwareAccess {
     overflow-x: hidden;
   }
   #preOrder {
     overflow-x: hidden;
+  }
+  .featured-categories p {
+    margin-left: 2px;
+    margin-top: 1px;
   }
   .footer-copyright {
     margin-bottom: 19px;
@@ -4547,8 +4582,23 @@ footer #hr {
     left: 0%;
     top: 0%;
   }
+  .main-header .store-icon {
+    position: relative;
+  }
   .main-header .store-icon i {
-    margin-left: -3.8rem !important;
+    position: absolute;
+    left: -33px;
+    top: 21%;
+    font-size: 14px;
+  }
+  .main-header .m-menu__toggle .close {
+    top: -1%;
+  }
+  .main-header #menu-header {
+    height: 6.55rem !important;
+  }
+  .main-header .m-menu ul li label, .main-header a {
+    font-size: 14px !important;
   }
   .main-header .menu-ul-1 {
     padding-left: 30px;
@@ -6231,6 +6281,20 @@ footer #hr {
   }
   .main-header .store-icon i {
     margin-left: -3.8rem !important;
+  }
+  .main-header .m-menu ul li label, .main-header a {
+    font-size: 14px !important;
+  }
+  .main-header #menu-header {
+    height: 6.35rem !important;
+  }
+  .main-header .store-icon {
+    position: relative;
+  }
+  .main-header .store-icon i {
+    position: absolute;
+    top: 22%;
+    left: -27px;
   }
   .main-header .menu-ul-1 {
     padding-left: 30px;
@@ -9233,8 +9297,8 @@ footer #hr {
     width: 100%;
   }
   .header-wrapper .header-search .fa-search {
-    top: 35px !important;
-    left: 254.5px !important;
+    top: 33px !important;
+    left: 259.5px !important;
     font-size: 11.7px !important;
   }
   .header-wrapper .last-section {
@@ -9247,6 +9311,12 @@ footer #hr {
     padding-left: 18px;
     text-align: center;
     justify-content: space-between;
+  }
+  .header-wrapper .last-section .section-last .trade-ins {
+    margin-top: 2px;
+  }
+  .header-wrapper .last-section .section-last .sign-in {
+    margin-top: 4px;
   }
   .header-wrapper .last-section span {
     font-size: 12px;

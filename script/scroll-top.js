@@ -56,4 +56,35 @@ $(document).ready(function() {
     var elemq = $('.twoDesc');
     scrollToElement(elemq, paretq);
   })
+
+  // $('#menuUl').on('click', function() {
+  //   var paretq = $('#backNav');
+  //   var elemq = $('.twoDesc');
+  //   scrollToElement(elemq, paretq);
+  // })
+
 })
+
+
+
+var container = $('#menu1');
+
+function none1() {
+	var scrollTo = $("#m-menu2");
+    var position = scrollTo.offset().top * 10  - container.offset().top + container.scrollTop() ;
+	container.animate({
+		scrollTop: position
+	});
+}
+
+
+
+
+
+
+
+
+
+
+
+
