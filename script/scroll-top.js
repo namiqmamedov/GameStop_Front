@@ -57,12 +57,6 @@ $(document).ready(function() {
     scrollToElement(elemq, paretq);
   })
 
-  // $('#menuUl').on('click', function() {
-  //   var paretq = $('#backNav');
-  //   var elemq = $('.twoDesc');
-  //   scrollToElement(elemq, paretq);
-  // })
-
 })
 
 
