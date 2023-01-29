@@ -1793,7 +1793,8 @@ footer #hr {
     left: 84.7%;
     top: -3%;
   }
-  .main-header .m-menu ul li label, .main-header a {
+  .main-header .m-menu ul li label,
+.main-header a {
     font-size: 14px !important;
   }
   .main-header .m-menu {
@@ -4600,7 +4601,8 @@ footer #hr {
   .main-header #menu-header {
     height: 6.55rem !important;
   }
-  .main-header .m-menu ul li label, .main-header a {
+  .main-header .m-menu ul li label,
+.main-header a {
     font-size: 14px !important;
   }
   .main-header .menu-ul-1 {
@@ -6285,7 +6287,8 @@ footer #hr {
   .main-header .store-icon i {
     margin-left: -3.8rem !important;
   }
-  .main-header .m-menu ul li label, .main-header a {
+  .main-header .m-menu ul li label,
+.main-header a {
     font-size: 14px !important;
   }
   .main-header #menu-header {
@@ -12995,4 +12998,60 @@ Media Queries
   font-size: 12px;
   color: white;
   font-weight: 600;
+}
+
+.faq-header {
+  margin-top: 15px;
+}
+.faq-header span {
+  font-size: 30px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.faq-section .section-faq .accordionContent {
+  width: 70%;
+}
+.faq-section .section-faq .accordion {
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #d2d2d2;
+}
+.faq-section .section-faq .accordion + .faq-section .section-faq .accordion {
+  margin-top: 0.25rem;
+}
+.faq-section .section-faq .accordion:hover {
+  background-color: #f5f5f5;
+}
+.faq-section .section-faq .accordion .accordion__title {
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #555555;
+  padding: 0.875rem 2.5rem 0.875rem 0.875rem;
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/open-accordion.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem top 0.625rem;
+  background-size: 14px;
+}
+.faq-section .section-faq .accordion .accordion__title::marker, .faq-section .section-faq .accordion .accordion__title::-webkit-details-marker {
+  display: none;
+}
+.faq-section .section-faq .accordion .accordion__content {
+  padding: 0 1rem 1rem 1rem;
+}
+.faq-section .section-faq .accordion .accordion__content p {
+  margin: 0;
+}
+.faq-section .section-faq .accordion .accordion__content p + p {
+  margin-top: 0.5em;
+}
+.faq-section .section-faq .accordion[open] {
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+.faq-section .section-faq .accordion[open] .accordion__title {
+  background-size: 14px;
+  background-position: right 0.75rem top 1.525rem;
+  background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/close-accordion.svg");
 }/*# sourceMappingURL=style.css.map */
