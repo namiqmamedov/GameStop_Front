@@ -3721,10 +3721,49 @@ footer {
       display: none;
     }
 
+    .accordion-main{
+      margin-left: 0.7rem;
+      margin-right: 0.7rem;
+    }
+    .accordionContent{
+      width: 100% !important;
+    }
+
+    .faq-accordion-section{
+      border: 1px solid #d2d2d2; 
+      border-radius: 6px;
+
+      .accordion{
+        width: 95%;
+        margin-left: 20px !important;
+      }
+    }
+
     .faq-header{
+      margin-top: 38px !important;
+      margin-bottom: 39px !important;
       span{
         font-size: 20px !important;
+        padding-left: 5.5px;
       }
+    }
+
+    .faq-accordion-header{
+      padding-left: 19px !important;
+      padding-top: 29.5px;
+      span{
+        font-size: 18px !important;
+      } 
+    }
+
+    .accordion__title {
+      padding: 4.235rem 0rem 2rem 0rem !important;
+
+      button{
+      font-size: 14px !important;
+      }
+    
+
     }
   }
 
@@ -18086,7 +18125,7 @@ Media Queries
 
 
     .accordionContent{
-      width: 97.5%;
+      width: 89%;
 
       .faq-accordion-section{
         margin-bottom: 51px;
