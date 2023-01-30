@@ -6,7 +6,7 @@
 }
 
 
-html{
+html {
   scroll-padding-top: 80px;
 }
 
@@ -3676,7 +3676,7 @@ footer {
       margin-top: 12px;
       display: block;
     }
-  
+
   }
 
 
@@ -3712,62 +3712,64 @@ footer {
 
 
 
-  .faq-section{
+  .faq-section {
 
-    .left-table{
+    .left-table {
       display: none;
     }
-    
-    .faq-header{
+
+    .faq-header {
       margin-top: 40.5px !important;
       margin-bottom: 22px !important;
-      span{
+
+      span {
         font-size: 20px !important;
         padding-left: 5.5px;
       }
     }
 
 
-    #accordionMain{
+    #accordionMain {
 
       margin-left: 0.7rem;
       margin-right: 0.7rem;
 
-      .accordionContent{
+      .accordionContent {
         width: 100% !important;
       }
-  
-      .faq-accordion-section{
-        border: 1px solid #d2d2d2; 
+
+      .faq-accordion-section {
+        border: 1px solid #d2d2d2;
         border-radius: 6px;
-  
-        .accordion{
+
+        .accordion {
           width: 95%;
           margin-left: 20px !important;
         }
       }
-  
-      
-      .faq-accordion-header{
+
+
+      .faq-accordion-header {
         padding-left: 19px !important;
         padding-top: 29.5px;
-        span{
+
+        span {
           font-size: 18px !important;
-        } 
+        }
       }
-  
-      .accordion{
+
+      .accordion {
         .accordion__title {
           padding: 4.235rem 0rem 2rem 0rem !important;
-    
-          button{
-          font-size: 14px !important;
+
+          button {
+            font-size: 14px !important;
           }
-        
+
         }
       }
     }
-    
+
   }
 
 
@@ -8457,74 +8459,77 @@ footer {
 
 
 
-  .faq-section{
+  .faq-section {
 
-    .left-table{
+    .left-table {
       display: none;
     }
-    
-    .faq-header{
+
+    .faq-header {
       margin-top: 40.5px !important;
       margin-bottom: 22px !important;
-      span{
+
+      span {
         font-size: 20px !important;
         padding-left: 5.5px;
       }
     }
 
 
-    #accordionMain{
+    #accordionMain {
 
       margin-left: 0.7rem;
       margin-right: 0.7rem;
 
-      .accordionContent{
+      .accordionContent {
         width: 100% !important;
       }
-  
-      .faq-accordion-section{
-        border: 1px solid #d2d2d2; 
+
+      .faq-accordion-section {
+        border: 1px solid #d2d2d2;
         border-radius: 6px;
-  
-        .accordion{
+
+        .accordion {
           width: 95%;
           margin-left: 20px !important;
         }
       }
-  
-      
-      .faq-accordion-header{
+
+
+      .faq-accordion-header {
         padding-left: 19px !important;
         padding-top: 29.5px;
         padding-bottom: 28px;
-        span{
-          font-size: 18px !important;
-        } 
-      }
-  
-      .accordion{
 
-        &:last-child{
+        span {
+          font-size: 18px !important;
+        }
+      }
+
+      .accordion {
+
+        &:last-child {
           margin-bottom: 27px;
         }
+
         .accordion__title {
           padding: 4.235rem 0rem 2.2rem 0rem !important;
-    
-          button{
-          font-size: 14px !important;
-          margin-top: -13px;
-          display: block;
+
+          button {
+            font-size: 14px !important;
+            margin-top: -13px;
+            display: block;
           }
-        
+
         }
       }
 
 
-      .accordion__desc{
+      .accordion__desc {
         margin-bottom: 22px;
       }
     }
-    
+
   }
 
 
@@ -10183,17 +10188,18 @@ footer {
 
 
 
-  
-  .faq-section{
 
-    .left-table{
+  .faq-section {
+
+    .left-table {
       display: none;
     }
-    
-    .faq-header{
+
+    .faq-header {
       margin-top: 40.5px !important;
       margin-bottom: 35px !important;
-      span{
+
+      span {
         font-size: 30px !important;
         padding-left: 5.5px;
         font-weight: bold;
@@ -10201,64 +10207,66 @@ footer {
     }
 
 
-    #accordionMain{
+    #accordionMain {
 
       margin-left: 0.7rem;
       margin-right: 0.7rem;
 
-      .accordionContent{
+      .accordionContent {
         width: 100% !important;
       }
-  
-      .faq-accordion-section{
-        border: 1px solid #d2d2d2; 
+
+      .faq-accordion-section {
+        border: 1px solid #d2d2d2;
         border-radius: 6px;
-  
-        .accordion{
+
+        .accordion {
           width: 95%;
           margin-left: 20px !important;
         }
       }
-  
-      
-      .faq-accordion-header{
+
+
+      .faq-accordion-header {
         padding-left: 19px !important;
         padding-top: 29.5px;
-        span{
-          font-size: 18px !important;
-        } 
-      }
-  
-      .accordion{
 
-        &:last-child{
+        span {
+          font-size: 18px !important;
+        }
+      }
+
+      .accordion {
+
+        &:last-child {
           margin-bottom: 27px;
         }
+
         .accordion__title {
           padding: 4.235rem 0rem 0.5rem 0rem !important;
-    
-          button{
-          font-size: 20px !important;
-          display: block;
+
+          button {
+            font-size: 20px !important;
+            display: block;
           }
-        
+
         }
       }
 
 
-      .accordion__desc{
+      .accordion__desc {
         margin-bottom: 22px;
       }
     }
 
-    .leftSection{
+    .leftSection {
       display: none;
     }
 
-    .rightSection{
+    .rightSection {
       width: 100% !important;
     }
-    
+
   }
 
 
@@ -13154,18 +13162,18 @@ footer {
 
 
 
-  @media (min-width: 1025px) and (max-width:1100px){
+  @media (min-width: 1025px) and (max-width:1100px) {
 
-    .accordion__title{
+    .accordion__title {
       padding: 1.235rem 0rem 1.5rem 0rem;
 
-      button{
+      button {
         margin-top: 30px;
       }
     }
   }
 
-  .accordionContent{
+  .accordionContent {
     width: 97%;
   }
 
@@ -13179,9 +13187,7 @@ footer {
     max-width: 1760px !important;
   }
 
-  h1 {
-    font-size: 20px !important;
-  }
+
 
   .header-banner {
     background-color: #282828;
@@ -13465,7 +13471,7 @@ footer {
   .product-content2 {
     .card-box {
       margin-left: -5.5px !important;
-      gap: 4.8rem;
+      gap: 4rem;
       margin-top: -51px !important;
     }
 
@@ -13476,7 +13482,7 @@ footer {
 
     .card {
       height: 311px;
-
+      width: 261px;
       img {
         width: 89%;
       }
@@ -14659,36 +14665,39 @@ footer {
   .section-faq {
 
 
-    .faq-header{
+    .faq-header {
       margin-top: 15px;
       margin-bottom: 27px;
-      span{
+
+      span {
         font-size: 30px;
-      font-family: 'Poppins','Open Sans',sans-serif;
-      font-weight: bold;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
       }
 
-      
-    
+
+
     }
 
-    .faq-accordion-header{
+    .faq-accordion-header {
       padding-left: 13px;
-      span{
+
+      span {
         font-size: 22px;
-        font-family: 'Poppins','Open Sans',sans-serif;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
         font-weight: bold;
       }
     }
 
 
-    .accordionContent{
+    .accordionContent {
       width: 89%;
 
-      .faq-accordion-section{
+      .faq-accordion-section {
         margin-bottom: 51px;
       }
     }
+
     .accordion {
       transition: all 0.3s ease-in-out;
       border-bottom: 1px solid #d2d2d2;
@@ -14697,7 +14706,7 @@ footer {
       &+& {
         margin-top: 0.25rem;
       }
-      
+
 
       .accordion__title {
         list-style-type: none;
@@ -14715,13 +14724,13 @@ footer {
           display: none;
         }
 
-        h3{
-          font-family: 'Poppins','Open Sans',sans-serif;
+        h3 {
+          font-family: 'Poppins', 'Open Sans', sans-serif;
         }
 
-        button{
+        button {
           font-size: 18px;
-          font-family: 'Poppins','Open Sans',sans-serif;
+          font-family: 'Poppins', 'Open Sans', sans-serif;
           border: none;
           background: transparent;
           color: #424242;
@@ -14730,14 +14739,14 @@ footer {
 
       .accordion__content {
 
-        .pur-info{
+        .pur-info {
           margin: 12px 0;
         }
 
         .accordion__desc {
           margin: 0;
           font-size: 14px;
-          font-family: 'Open Sans',sans-serif;
+          font-family: 'Open Sans', sans-serif;
           line-height: 19.5px;
           max-width: 1141px;
           border-bottom: 1px solid #d2d2d2;
@@ -18335,7 +18344,7 @@ Media Queries
     }
   }
 
- 
+
 }
 
 
@@ -18345,71 +18354,75 @@ Media Queries
 .faq-section {
 
 
- .left-table{
-  position: sticky;
-  left: 0;
-  top: 114px;
+  .left-table {
+    position: sticky;
+    left: 0;
+    top: 114px;
 
-  .all-faq{
-    border: 1px solid #d2d2d2;
-    border-radius: 15px;
+    .all-faq {
+      border: 1px solid #d2d2d2;
+      border-radius: 15px;
 
-    .content-asset{
-    
-      ul li{
-        list-style-type: none;
-        margin: 7px;
-        a{
-          text-decoration: none;
-          font-size: 16px;
-          font-family: 'Open Sans',sans-serif;
-          color: #404040;
+      .content-asset {
+
+        ul li {
+          list-style-type: none;
+          margin: 7px;
+
+          a {
+            text-decoration: none;
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            color: #404040;
+          }
         }
-      }
 
-      .list-group{
-        padding-top: 27px;
-        padding-bottom: 27px;
-        padding-left: 28px;
-    
+        .list-group {
+          padding-top: 27px;
+          padding-bottom: 27px;
+          padding-left: 28px;
+
+        }
       }
     }
   }
- }
 
   .section-faq {
 
 
-    .faq-header{
+    .faq-header {
       margin-top: 15px;
       margin-bottom: 27px;
-      span{
+
+      span {
         font-size: 30px;
-      font-family: 'Poppins','Open Sans',sans-serif;
-      font-weight: bold;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
       }
 
-      
-    
+
+
     }
 
-    .faq-accordion-header{
+    .faq-accordion-header {
       padding-left: 13px;
-      span{
+
+      span {
         font-size: 22px;
-        font-family: 'Poppins','Open Sans',sans-serif;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
         font-weight: bold;
       }
     }
 
 
-    .accordionContent{
+    .accordionContent {
       width: 97.8%;
 
-      .faq-accordion-section{
+      .faq-accordion-section {
         margin-bottom: 51px;
       }
     }
+
     .accordion {
       transition: all 0.3s ease-in-out;
       border-bottom: 1px solid #d2d2d2;
@@ -18418,7 +18431,7 @@ Media Queries
       &+& {
         margin-top: 0.25rem;
       }
-      
+
 
       .accordion__title {
         list-style-type: none;
@@ -18436,13 +18449,13 @@ Media Queries
           display: none;
         }
 
-        h3{
-          font-family: 'Poppins','Open Sans',sans-serif;
+        h3 {
+          font-family: 'Poppins', 'Open Sans', sans-serif;
         }
 
-        button{
+        button {
           font-size: 18px;
-          font-family: 'Poppins','Open Sans',sans-serif;
+          font-family: 'Poppins', 'Open Sans', sans-serif;
           border: none;
           background: transparent;
           color: #424242;
@@ -18451,14 +18464,14 @@ Media Queries
 
       .accordion__content {
 
-        .pur-info{
+        .pur-info {
           margin: 12px 0;
         }
 
         .accordion__desc {
           margin: 0;
           font-size: 14px;
-          font-family: 'Open Sans',sans-serif;
+          font-family: 'Open Sans', sans-serif;
           line-height: 19.5px;
           max-width: 1141px;
           border-bottom: 1px solid #d2d2d2;
@@ -18492,31 +18505,32 @@ Media Queries
 
 // start return section
 
-.allReturn{
+.allReturn {
   display: flex;
   justify-content: center;
   margin-top: 45px !important;
 
-  .returnMain{
+  .returnMain {
     margin-top: 25px;
   }
 
-  .topHeader{
+  .topHeader {
     text-align: center;
     font-size: 32px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
   }
 
-  .returnHeader{
+  .returnHeader {
     font-size: 20px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 24px;
   }
 
-  .returnText{
+  .returnText {
     margin-bottom: 57px;
-    .info-r{
+
+    .info-r {
       font-size: 14px;
       color: #666666;
       max-width: 1150px;
@@ -18526,34 +18540,73 @@ Media Queries
 
 // end return section
 
+
+
 // start accessibility section
 
-.accessContent{
-  .access__header_top{
+.accessContent {
+
+  
+  @media (max-width: 767px) 
+  {
+   h1{
+     font-size: 18px !important;
+
+   } 
+  }
+
+  @media (min-width:767px) and (max-width: 1200px) 
+  {
+   h1{
+     font-size: 18px !important;
+
+   } 
+  }
+  .access__header_top {
     text-align: center;
-    h1{
-      font-size: 64px !important;
-     font-weight: bold;
-     text-transform: uppercase;
-     font-family: 'Poppins','Open Sans',sans-serif;
+
+
+    h1 {
+      
+
+      font-size: 64px;
+
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
     }
-    p{
+
+    p {
       font-size: 14px;
-      font-family: 'Poppins',sans-serif;
+      font-family: 'Poppins', sans-serif;
       color: #000000;
     }
+
+    h2 {
+      font-size: 20px;
+      color: #0362a1;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
   }
 
-  .accessMain{
-    border-bottom: 3px solid #0362a1 ;
+  .accessMain {
+    border-bottom: 3px solid #0362a1;
+    margin-top: 1.1rem;
+    padding-bottom: 18px;
   }
 
-  .access__img{
-    margin-top: 1.3rem;
-    margin-bottom: 1.3rem;
+  .access__desc {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .access__img {
+
     text-align: center;
-    img{
-     width: 33%;
+
+    img {
+      width: 33%;
     }
   }
 }
