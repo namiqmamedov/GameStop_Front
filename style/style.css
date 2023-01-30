@@ -13339,4 +13339,9 @@ Media Queries
   background-size: 14px;
   background-position: right 0.75rem top 1.625rem;
   background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/close-accordion.svg");
+}
+
+.allReturn {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
