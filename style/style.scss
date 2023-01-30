@@ -3680,7 +3680,7 @@ footer {
       margin-top: 12px;
       display: block;
     }
-
+  
   }
 
 
@@ -3714,6 +3714,19 @@ footer {
 
   }
 
+
+
+  .faq-section{
+    .left-table{
+      display: none;
+    }
+
+    .faq-header{
+      span{
+        font-size: 20px !important;
+      }
+    }
+  }
 
 
 }
@@ -18097,7 +18110,7 @@ Media Queries
         padding: 1.235rem 0rem 0rem 0rem;
         background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/open-accordion.svg");
         background-repeat: no-repeat;
-        background-position: right 0.75rem top 0.625rem;
+        background-position: right 0.75rem top 1.625rem;
         background-size: 14px;
 
         &::marker,
@@ -18145,7 +18158,7 @@ Media Queries
 
         .accordion__title {
           background-size: 14px;
-          background-position: right 0.75rem top 1.525rem;
+          background-position: right 0.75rem top 1.625rem;
           background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/close-accordion.svg");
         }
       }
