@@ -5,10 +5,6 @@
 
 }
 
-body {
-  overflow-x: hidden;
-
-}
 
 html{
   scroll-padding-top: 80px;
@@ -2556,7 +2552,7 @@ footer {
 
     .m-menu__toggle .close {
       left: 84.7%;
-      top: -3%;
+      top: -1%;
     }
 
     .m-menu ul li label,
@@ -2614,14 +2610,14 @@ footer {
       .hamburger {
         width: 4.2% !important;
         margin-top: -40px !important;
-        margin-left: -13px;
+        margin-left: -9px;
 
       }
     }
 
     .nav-logo {
       width: 112px !important;
-      margin-left: 2px !important;
+      margin-left: 10.7px !important;
       margin-top: -53px;
     }
 
@@ -3717,54 +3713,61 @@ footer {
 
 
   .faq-section{
+
     .left-table{
       display: none;
     }
-
-    .accordion-main{
-      margin-left: 0.7rem;
-      margin-right: 0.7rem;
-    }
-    .accordionContent{
-      width: 100% !important;
-    }
-
-    .faq-accordion-section{
-      border: 1px solid #d2d2d2; 
-      border-radius: 6px;
-
-      .accordion{
-        width: 95%;
-        margin-left: 20px !important;
-      }
-    }
-
+    
     .faq-header{
-      margin-top: 38px !important;
-      margin-bottom: 39px !important;
+      margin-top: 40.5px !important;
+      margin-bottom: 22px !important;
       span{
         font-size: 20px !important;
         padding-left: 5.5px;
       }
     }
 
-    .faq-accordion-header{
-      padding-left: 19px !important;
-      padding-top: 29.5px;
-      span{
-        font-size: 18px !important;
-      } 
-    }
 
-    .accordion__title {
-      padding: 4.235rem 0rem 2rem 0rem !important;
+    #accordionMain{
 
-      button{
-      font-size: 14px !important;
+      margin-left: 0.7rem;
+      margin-right: 0.7rem;
+
+      .accordionContent{
+        width: 100% !important;
       }
+  
+      .faq-accordion-section{
+        border: 1px solid #d2d2d2; 
+        border-radius: 6px;
+  
+        .accordion{
+          width: 95%;
+          margin-left: 20px !important;
+        }
+      }
+  
+      
+      .faq-accordion-header{
+        padding-left: 19px !important;
+        padding-top: 29.5px;
+        span{
+          font-size: 18px !important;
+        } 
+      }
+  
+      .accordion{
+        .accordion__title {
+          padding: 4.235rem 0rem 2rem 0rem !important;
     
-
+          button{
+          font-size: 14px !important;
+          }
+        
+        }
+      }
     }
+    
   }
 
 
@@ -6622,13 +6625,13 @@ footer {
       .hamburger {
         width: 2.8% !important;
         margin-top: -40px !important;
-        margin-left: -10px;
+        margin-left: -6px;
       }
     }
 
     .nav-logo {
       width: 112px !important;
-      margin-left: 7px !important;
+      margin-left: 12px !important;
       margin-top: -53px;
     }
 
@@ -8454,6 +8457,78 @@ footer {
 
 
 
+  .faq-section{
+
+    .left-table{
+      display: none;
+    }
+    
+    .faq-header{
+      margin-top: 40.5px !important;
+      margin-bottom: 22px !important;
+      span{
+        font-size: 20px !important;
+        padding-left: 5.5px;
+      }
+    }
+
+
+    #accordionMain{
+
+      margin-left: 0.7rem;
+      margin-right: 0.7rem;
+
+      .accordionContent{
+        width: 100% !important;
+      }
+  
+      .faq-accordion-section{
+        border: 1px solid #d2d2d2; 
+        border-radius: 6px;
+  
+        .accordion{
+          width: 95%;
+          margin-left: 20px !important;
+        }
+      }
+  
+      
+      .faq-accordion-header{
+        padding-left: 19px !important;
+        padding-top: 29.5px;
+        padding-bottom: 28px;
+        span{
+          font-size: 18px !important;
+        } 
+      }
+  
+      .accordion{
+
+        &:last-child{
+          margin-bottom: 27px;
+        }
+        .accordion__title {
+          padding: 4.235rem 0rem 2.2rem 0rem !important;
+    
+          button{
+          font-size: 14px !important;
+          margin-top: -13px;
+          display: block;
+          }
+        
+        }
+      }
+
+
+      .accordion__desc{
+        margin-bottom: 22px;
+      }
+    }
+    
+  }
+
+
+
 }
 
 
@@ -10105,6 +10180,87 @@ footer {
   .pagination-container {
     top: -35px !important;
   }
+
+
+
+  
+  .faq-section{
+
+    .left-table{
+      display: none;
+    }
+    
+    .faq-header{
+      margin-top: 40.5px !important;
+      margin-bottom: 35px !important;
+      span{
+        font-size: 30px !important;
+        padding-left: 5.5px;
+        font-weight: bold;
+      }
+    }
+
+
+    #accordionMain{
+
+      margin-left: 0.7rem;
+      margin-right: 0.7rem;
+
+      .accordionContent{
+        width: 100% !important;
+      }
+  
+      .faq-accordion-section{
+        border: 1px solid #d2d2d2; 
+        border-radius: 6px;
+  
+        .accordion{
+          width: 95%;
+          margin-left: 20px !important;
+        }
+      }
+  
+      
+      .faq-accordion-header{
+        padding-left: 19px !important;
+        padding-top: 29.5px;
+        span{
+          font-size: 18px !important;
+        } 
+      }
+  
+      .accordion{
+
+        &:last-child{
+          margin-bottom: 27px;
+        }
+        .accordion__title {
+          padding: 4.235rem 0rem 0.5rem 0rem !important;
+    
+          button{
+          font-size: 20px !important;
+          display: block;
+          }
+        
+        }
+      }
+
+
+      .accordion__desc{
+        margin-bottom: 22px;
+      }
+    }
+
+    .leftSection{
+      display: none;
+    }
+
+    .rightSection{
+      width: 100% !important;
+    }
+    
+  }
+
 
 
 
@@ -12997,6 +13153,23 @@ footer {
   }
 
 
+
+  @media (min-width: 1025px) and (max-width:1100px){
+
+    .accordion__title{
+      padding: 1.235rem 0rem 1.5rem 0rem;
+
+      button{
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .accordionContent{
+    width: 97%;
+  }
+
+
 }
 
 
@@ -14482,6 +14655,112 @@ footer {
     top: 1% !important;
   }
 
+
+  .section-faq {
+
+
+    .faq-header{
+      margin-top: 15px;
+      margin-bottom: 27px;
+      span{
+        font-size: 30px;
+      font-family: 'Poppins','Open Sans',sans-serif;
+      font-weight: bold;
+      }
+
+      
+    
+    }
+
+    .faq-accordion-header{
+      padding-left: 13px;
+      span{
+        font-size: 22px;
+        font-family: 'Poppins','Open Sans',sans-serif;
+        font-weight: bold;
+      }
+    }
+
+
+    .accordionContent{
+      width: 89%;
+
+      .faq-accordion-section{
+        margin-bottom: 51px;
+      }
+    }
+    .accordion {
+      transition: all 0.3s ease-in-out;
+      border-bottom: 1px solid #d2d2d2;
+      margin-left: 11px;
+
+      &+& {
+        margin-top: 0.25rem;
+      }
+      
+
+      .accordion__title {
+        list-style-type: none;
+        cursor: pointer;
+        font-weight: 700;
+        color: #555555;
+        padding: 1.235rem 0rem 0rem 0rem;
+        background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/open-accordion.svg");
+        background-repeat: no-repeat;
+        background-position: right 0.75rem top 1.625rem;
+        background-size: 14px;
+
+        &::marker,
+        &::-webkit-details-marker {
+          display: none;
+        }
+
+        h3{
+          font-family: 'Poppins','Open Sans',sans-serif;
+        }
+
+        button{
+          font-size: 18px;
+          font-family: 'Poppins','Open Sans',sans-serif;
+          border: none;
+          background: transparent;
+          color: #424242;
+        }
+      }
+
+      .accordion__content {
+
+        .pur-info{
+          margin: 12px 0;
+        }
+
+        .accordion__desc {
+          margin: 0;
+          font-size: 14px;
+          font-family: 'Open Sans',sans-serif;
+          line-height: 19.5px;
+          max-width: 1141px;
+          border-bottom: 1px solid #d2d2d2;
+          padding-bottom: 10px;
+        }
+
+        p+p {
+          margin-top: 0.5em;
+        }
+      }
+
+      &[open] {
+        background-color: transparent;
+        border-color: transparent;
+
+        .accordion__title {
+          background-size: 14px;
+          background-position: right 0.75rem top 1.625rem;
+          background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/close-accordion.svg");
+        }
+      }
+    }
+  }
 
 
 
@@ -18125,7 +18404,7 @@ Media Queries
 
 
     .accordionContent{
-      width: 89%;
+      width: 97.8%;
 
       .faq-accordion-section{
         margin-bottom: 51px;
