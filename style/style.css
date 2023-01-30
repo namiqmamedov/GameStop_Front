@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-padding-top: 80px;
+}
+
 .hep {
   display: none;
 }
@@ -13000,53 +13004,68 @@ Media Queries
   font-weight: 600;
 }
 
-.faq-header {
-  margin-top: 15px;
+.faq-section .left-table {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 114px;
 }
-.faq-header span {
-  font-size: 30px;
-  font-family: "Poppins", "Open Sans", sans-serif;
-  font-weight: bold;
-}
-
-.faq-section .all-faq {
+.faq-section .left-table .all-faq {
   border: 1px solid #d2d2d2;
   border-radius: 15px;
 }
-.faq-section .all-faq .content-asset ul li {
+.faq-section .left-table .all-faq .content-asset ul li {
   list-style-type: none;
   margin: 7px;
 }
-.faq-section .all-faq .content-asset ul li a {
+.faq-section .left-table .all-faq .content-asset ul li a {
   text-decoration: none;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   color: #404040;
 }
-.faq-section .all-faq .content-asset .list-group {
+.faq-section .left-table .all-faq .content-asset .list-group {
   padding-top: 27px;
+  padding-bottom: 27px;
   padding-left: 28px;
 }
+.faq-section .section-faq .faq-header {
+  margin-top: 15px;
+  margin-bottom: 27px;
+}
+.faq-section .section-faq .faq-header span {
+  font-size: 30px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.faq-section .section-faq .faq-accordion-header {
+  padding-left: 13px;
+}
+.faq-section .section-faq .faq-accordion-header span {
+  font-size: 22px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+}
 .faq-section .section-faq .accordionContent {
-  width: 70%;
+  width: 97.5%;
+}
+.faq-section .section-faq .accordionContent .faq-accordion-section {
+  margin-bottom: 51px;
 }
 .faq-section .section-faq .accordion {
   transition: all 0.3s ease-in-out;
   border-bottom: 1px solid #d2d2d2;
+  margin-left: 11px;
 }
 .faq-section .section-faq .accordion + .faq-section .section-faq .accordion {
   margin-top: 0.25rem;
 }
-.faq-section .section-faq .accordion:hover {
-  background-color: #f5f5f5;
-}
 .faq-section .section-faq .accordion .accordion__title {
   list-style-type: none;
   cursor: pointer;
-  font-size: 1rem;
   font-weight: 700;
   color: #555555;
-  padding: 0.875rem 2.5rem 0.875rem 0.875rem;
+  padding: 1.235rem 0rem 0rem 0rem;
   background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/open-accordion.svg");
   background-repeat: no-repeat;
   background-position: right 0.75rem top 0.625rem;
@@ -13055,18 +13074,34 @@ Media Queries
 .faq-section .section-faq .accordion .accordion__title::marker, .faq-section .section-faq .accordion .accordion__title::-webkit-details-marker {
   display: none;
 }
-.faq-section .section-faq .accordion .accordion__content {
-  padding: 0 1rem 1rem 1rem;
+.faq-section .section-faq .accordion .accordion__title h3 {
+  font-family: "Poppins", "Open Sans", sans-serif;
 }
-.faq-section .section-faq .accordion .accordion__content p {
+.faq-section .section-faq .accordion .accordion__title button {
+  font-size: 18px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  border: none;
+  background: transparent;
+  color: #424242;
+}
+.faq-section .section-faq .accordion .accordion__content .pur-info {
+  margin: 12px 0;
+}
+.faq-section .section-faq .accordion .accordion__content .accordion__desc {
   margin: 0;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 19.5px;
+  max-width: 1141px;
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 10px;
 }
 .faq-section .section-faq .accordion .accordion__content p + p {
   margin-top: 0.5em;
 }
 .faq-section .section-faq .accordion[open] {
-  background-color: #ebebeb;
-  border-color: #ebebeb;
+  background-color: transparent;
+  border-color: transparent;
 }
 .faq-section .section-faq .accordion[open] .accordion__title {
   background-size: 14px;

@@ -10,6 +10,11 @@ body {
 
 }
 
+html{
+  scroll-padding-top: 80px;
+}
+
+
 .hep {
   display: none;
 }
@@ -18001,15 +18006,6 @@ Media Queries
 
  
 }
-.faq-header{
-  margin-top: 15px;
-  span{
-    font-size: 30px;
-  font-family: 'Poppins','Open Sans',sans-serif;
-  font-weight: bold;
-  }
-
-}
 
 
 // start FAQ section
@@ -18017,12 +18013,18 @@ Media Queries
 
 .faq-section {
 
+
+ .left-table{
+  position: sticky;
+  left: 0;
+  top: 114px;
+
   .all-faq{
     border: 1px solid #d2d2d2;
     border-radius: 15px;
-    
 
     .content-asset{
+    
       ul li{
         list-style-type: none;
         margin: 7px;
@@ -18036,41 +18038,63 @@ Media Queries
 
       .list-group{
         padding-top: 27px;
+        padding-bottom: 27px;
         padding-left: 28px;
+    
       }
     }
   }
+ }
 
   .section-faq {
 
-    #accordionMain{
 
+    .faq-header{
+      margin-top: 15px;
+      margin-bottom: 27px;
+      span{
+        font-size: 30px;
+      font-family: 'Poppins','Open Sans',sans-serif;
+      font-weight: bold;
+      }
+
+      
+    
     }
 
+    .faq-accordion-header{
+      padding-left: 13px;
+      span{
+        font-size: 22px;
+        font-family: 'Poppins','Open Sans',sans-serif;
+        font-weight: bold;
+      }
+    }
+
+
     .accordionContent{
-      width: 70%;
+      width: 97.5%;
+
+      .faq-accordion-section{
+        margin-bottom: 51px;
+      }
     }
     .accordion {
       transition: all 0.3s ease-in-out;
       border-bottom: 1px solid #d2d2d2;
+      margin-left: 11px;
 
-      // max-height: 4em;
-      // overflow: hidden;  
       &+& {
         margin-top: 0.25rem;
       }
-
-      &:hover {
-        background-color: #f5f5f5;
-      }
+      
 
       .accordion__title {
         list-style-type: none;
         cursor: pointer;
-        font-size: 1rem;
         font-weight: 700;
         color: #555555;
-        padding: 0.875rem 2.5rem 0.875rem 0.875rem;
+        padding: 1.235rem 0rem 0rem 0rem;
         background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/open-accordion.svg");
         background-repeat: no-repeat;
         background-position: right 0.75rem top 0.625rem;
@@ -18080,13 +18104,34 @@ Media Queries
         &::-webkit-details-marker {
           display: none;
         }
+
+        h3{
+          font-family: 'Poppins','Open Sans',sans-serif;
+        }
+
+        button{
+          font-size: 18px;
+          font-family: 'Poppins','Open Sans',sans-serif;
+          border: none;
+          background: transparent;
+          color: #424242;
+        }
       }
 
       .accordion__content {
-        padding: 0 1rem 1rem 1rem;
 
-        p {
+        .pur-info{
+          margin: 12px 0;
+        }
+
+        .accordion__desc {
           margin: 0;
+          font-size: 14px;
+          font-family: 'Open Sans',sans-serif;
+          line-height: 19.5px;
+          max-width: 1141px;
+          border-bottom: 1px solid #d2d2d2;
+          padding-bottom: 10px;
         }
 
         p+p {
@@ -18095,8 +18140,8 @@ Media Queries
       }
 
       &[open] {
-        background-color: #ebebeb;
-        border-color: #ebebeb;
+        background-color: transparent;
+        border-color: transparent;
 
         .accordion__title {
           background-size: 14px;

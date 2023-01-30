@@ -14,7 +14,7 @@ $(document).ready(function() {
   $('.one').on('click', function() {
 
 
-    $('.tablist-product').get(0).scrollIntoView({
+    $('.features').get(0).scrollIntoView({
       block: "start",
       behavior: "smooth"
     });
@@ -33,29 +33,30 @@ $(document).ready(function() {
   }
 
   $('.two').on('click', function() {
-    var paretq = $('.features li:last-child');
+    var paretq = $('.description');
     var elemq = $('.twoDesc');
     scrollToElement(elemq, paretq);
   })
 
   $('.three').on('click', function() {
-    var paretq = $('.description .body-text:last-of-type');
+    var paretq = $('.specifications');
     var elemq = $('.twoDesc');
     scrollToElement(elemq, paretq);
   })
 
   $('.four').on('click', function() {
-    var paretq = $('.specifications .product-table:last-of-type');
+    var paretq = $('.rating-and-reviews');
     var elemq = $('.twoDesc');
     scrollToElement(elemq, paretq);
   })
 
 
   $('.five').on('click', function() {
-    var paretq = $('.customer-rating');
+    var paretq = $('.question-and-answers');
     var elemq = $('.twoDesc');
     scrollToElement(elemq, paretq);
   })
+
 
 })
 
@@ -70,9 +71,6 @@ function topNav() {
 		scrollTop: position
 	});
 }
-
-
-
 
 
 
