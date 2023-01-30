@@ -18525,3 +18525,37 @@ Media Queries
 }
 
 // end return section
+
+// start accessibility section
+
+.accessContent{
+  .access__header_top{
+    text-align: center;
+    h1{
+      font-size: 64px !important;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-family: 'Poppins','Open Sans',sans-serif;
+    }
+    p{
+      font-size: 14px;
+      font-family: 'Poppins',sans-serif;
+      color: #000000;
+    }
+  }
+
+  .accessMain{
+    border-bottom: 3px solid #0362a1 ;
+  }
+
+  .access__img{
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    text-align: center;
+    img{
+     width: 33%;
+    }
+  }
+}
+
+// end accessibility section

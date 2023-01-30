@@ -13367,4 +13367,30 @@ Media Queries
   font-size: 14px;
   color: #666666;
   max-width: 1150px;
+}
+
+.accessContent .access__header_top {
+  text-align: center;
+}
+.accessContent .access__header_top h1 {
+  font-size: 64px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Poppins", "Open Sans", sans-serif;
+}
+.accessContent .access__header_top p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+.accessContent .accessMain {
+  border-bottom: 3px solid #0362a1;
+}
+.accessContent .access__img {
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+.accessContent .access__img img {
+  width: 33%;
 }/*# sourceMappingURL=style.css.map */
