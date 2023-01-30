@@ -13344,4 +13344,27 @@ Media Queries
 .allReturn {
   display: flex;
   justify-content: center;
+  margin-top: 45px !important;
+}
+.allReturn .returnMain {
+  margin-top: 25px;
+}
+.allReturn .topHeader {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.allReturn .returnHeader {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 24px;
+}
+.allReturn .returnText {
+  margin-bottom: 57px;
+}
+.allReturn .returnText .info-r {
+  font-size: 14px;
+  color: #666666;
+  max-width: 1150px;
 }/*# sourceMappingURL=style.css.map */
