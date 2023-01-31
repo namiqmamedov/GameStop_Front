@@ -13562,13 +13562,64 @@ Media Queries
   width: 100%;
 }
 
-.mostWantedCard .allCard {
+.most-wanted-items {
+  margin-top: 20px;
+}
+.most-wanted-items .mostWantedCard .allCard {
   gap: 1.35rem;
   display: flex;
 }
-.mostWantedCard .itemsImg {
+.most-wanted-items .mostWantedCard .itemsImg {
   width: 100%;
 }
-.mostWantedCard .itemsImg img {
+.most-wanted-items .mostWantedCard .itemsImg img {
   width: 100%;
+}
+.most-wanted-items .mostWantedCard .itemsText p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.most-wanted-items .header-top {
+  margin-bottom: 13px;
+}
+.most-wanted-items .header-top h2 {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+}
+
+.sellingItems {
+  margin-top: 13px;
+}
+.sellingItems .selling-center h2, .sellingItems .selling-center span {
+  font-size: 40px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sellingItems .selling-items-card {
+  display: flex;
+  margin-top: 10px;
+}
+.sellingItems .selling-items-card .card {
+  border: none;
+}
+.sellingItems .selling-items-card .card img {
+  width: 24.5%;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sellingItems .selling-items-card .card-text, .sellingItems .selling-items-card .card-title {
+  text-align: center;
+}
+.sellingItems .selling-items-card .card-title {
+  font-size: 16px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.sellingItems .selling-items-card .card-text {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */

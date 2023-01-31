@@ -13485,6 +13485,7 @@ footer {
     .card {
       height: 311px;
       width: 261px;
+
       img {
         width: 89%;
       }
@@ -18548,28 +18549,27 @@ Media Queries
 
 .accessContent {
 
-  
-  @media (max-width: 767px) 
-  {
-   h1{
-     font-size: 18px !important;
 
-   } 
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 18px !important;
+
+    }
   }
 
-  @media (min-width:767px) and (max-width: 1200px) 
-  {
-   h1{
-     font-size: 18px !important;
+  @media (min-width:767px) and (max-width: 1200px) {
+    h1 {
+      font-size: 18px !important;
 
-   } 
+    }
   }
+
   .access__header_top {
     text-align: center;
 
 
     h1 {
-      
+
 
       font-size: 64px;
 
@@ -18618,75 +18618,75 @@ Media Queries
 
 // start affiliates section
 
-  .affContent{
-    margin-top: 40px;
-    margin-left: 15px;
-    .af-main{
-      .contentTop{
-        h1{
-        font-size: 36px ;
-        font-family: 'Poppins','Open Sans',sans-serif;
+.affContent {
+  margin-top: 40px;
+  margin-left: 15px;
+
+  .af-main {
+    .contentTop {
+      h1 {
+        font-size: 36px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
         font-weight: 900;
-        }
-
-          @media (min-width:767px) and (max-width: 1200px) 
-          {
-          h1{
-            font-size: 26px !important;
-
-          } 
-          }
-
-        h2{
-          font-size: 24px !important;
-          font-family: 'Poppins','Open Sans',sans-serif;
-          font-weight: 900;
-        }
-
-        p{
-          font-size: 14px !important;
-          font-family: 'Open Sans',sans-serif;
-          color: #000000;
-        }
-
-          
       }
-      
-      .contentDesc{
-        li{
-          font-size: 14px !important;
-        font-family: 'Open Sans',sans-serif;
+
+      @media (min-width:767px) and (max-width: 1200px) {
+        h1 {
+          font-size: 26px !important;
+
         }
       }
+
+      h2 {
+        font-size: 24px !important;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: 900;
+      }
+
+      p {
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+      }
+
 
     }
+
+    .contentDesc {
+      li {
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
   }
+}
 
 // end affiliates section
 
 
 // start trasparency section
 
-.transparencyContent{
+.transparencyContent {
   margin-top: 20px;
-  .allTransparency{
-    h1{
+
+  .allTransparency {
+    h1 {
       font-size: 34px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-weight: 900;
     }
 
-    @media (max-width: 1024px) 
-    {
-    h1{
-      font-size: 21px !important;
+    @media (max-width: 1024px) {
+      h1 {
+        font-size: 21px !important;
 
-    } 
+      }
     }
 
-    p{
+    p {
       font-size: 14px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
   }
 
@@ -18697,31 +18697,31 @@ Media Queries
 
 // start condition section
 
-.conditionContent{
+.conditionContent {
   margin-top: 20px;
-  .allCondition{
-    h1{
+
+  .allCondition {
+    h1 {
       font-size: 34px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-weight: 900;
     }
 
-    @media (max-width: 1024px) 
-    {
-    h1{
-      font-size: 21px !important;
+    @media (max-width: 1024px) {
+      h1 {
+        font-size: 21px !important;
 
-    } 
+      }
     }
 
-    p{
+    p {
       font-size: 14px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
 
-    b{
+    b {
       font-size: 14px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
   }
 
@@ -18732,32 +18732,32 @@ Media Queries
 
 // start privacy policy section
 
-.privacyContent{
+.privacyContent {
   margin-top: 20px;
-  .allPrivacy{
-    h1{
+
+  .allPrivacy {
+    h1 {
       font-size: 34px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-weight: 900;
     }
 
-    @media (max-width: 1024px) 
-    {
-    h1{
-      font-size: 21px !important;
+    @media (max-width: 1024px) {
+      h1 {
+        font-size: 21px !important;
 
-    } 
+      }
     }
 
-    p{
+    p {
       font-size: 14px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
       margin-bottom: 36px;
     }
 
-    strong{
+    strong {
       font-size: 26px;
-      font-family: 'Poppins',sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
   }
 
@@ -18768,93 +18768,168 @@ Media Queries
 
 // start trade section
 
-.tradeTopSection{
+.tradeTopSection {
   margin-top: -15px;
-  .tradeImg{
+
+  .tradeImg {
     width: 100%;
-    img{
+
+    img {
       width: 100%;
     }
 
   }
 }
 
-.tradeMain{
+.tradeMain {
 
   margin-top: 25px;
 
-  .allImg{
+  .allImg {
     width: 100%;
 
   }
 
-  .mb-img{
+  .mb-img {
     display: none;
   }
 
-  .imgTop{
-    .h-img{
+  .imgTop {
+    .h-img {
       display: flex;
       gap: 1.3rem;
-      img{
+
+      img {
         width: 49.3%;
       }
     }
   }
 
-  .centerImg{
+  .centerImg {
     margin-top: 31px;
 
-      .h-img{
-        width: 100%;
+    .h-img {
+      width: 100%;
 
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+
+
+
+}
+
+
+.brandMain {
+  margin-top: 35px;
+
+  .brandHeading {
+    h2 {
+      text-align: center;
+      font-size: 24px !important;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+    }
+  }
+
+  .imgBrand {
+    display: flex;
+    gap: 1.35rem;
+
+    .brandImg {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.most-wanted-items {
+  margin-top: 20px;
+
+  .mostWantedCard {
+    .allCard {
+      gap: 1.35rem;
+      display: flex;
+    }
+
+    .itemsImg {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .itemsText{
+      p{
+        font-size: 16px;
+        font-family: 'Open Sans',sans-serif;
+      }
+    }
+
+
+
+  }
+
+  .header-top {
+    margin-bottom: 13px;
+
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+    }
+
+  }
+}
+
+.sellingItems{
+  margin-top: 13px;
+  .selling-center{
+    h2,span{
+      font-size: 40px;
+      font-family: 'Poppins','Open Sans',sans-serif;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+    .selling-items-card{
+      display: flex;
+      margin-top: 10px;
+
+      .card{
+        border: none;
         img{
-          width: 100%;
+          width: 24.5%;
+          height: 90px;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
-  }
-
   
+      .card-text,.card-title{
+        text-align: center;
+      }
+  
+      .card-title{
+        font-size: 16px;
+        font-family: 'Poppins','Open Sans',sans-serif;
+        font-weight: bold;
+      }
+      .card-text{
+        font-size: 12px;
+        font-family: 'Open Sans',sans-serif;
+      }
+    }
 
-
+    
 }
 
-
-.brandMain{
-  margin-top: 35px;
-  .brandHeading{
-    h2{
-      text-align: center;
-    font-size: 24px !important;
-    font-family: 'Poppins','Open Sans',sans-serif;
-    }
-  }
- .imgBrand{
-  display: flex;
-  gap: 1.35rem;
-  .brandImg{
-    width: 100%;
-    img{
-      width: 100%;
-    }
-  }
- }
-}
-
-
-.mostWantedCard{
-  .allCard{
-    gap: 1.35rem;
-    display: flex;
-  }
-
-  .itemsImg{
-    width: 100%;
-    img{
-      width: 100%;
-    }
-  }
-
-}
 
 // end trade section
