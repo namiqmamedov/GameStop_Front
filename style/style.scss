@@ -19315,7 +19315,7 @@ Media Queries
 }
 
 .proItems {
-  margin-top: 13px;
+  margin-top: 35px;
 
   .col-lg-3{
     width: 20% !important;
@@ -19339,14 +19339,12 @@ Media Queries
 
   .pro-items-card {
     display: flex;
-    margin-top: 10px;
 
     .card {
       border: none;
 
       img {
-        width: 24.5%;
-        height: 90px;
+        width: 66.2%;
         margin-left: auto;
         margin-right: auto;
       }
@@ -19370,6 +19368,100 @@ Media Queries
   }
 
 
+}
+
+.powerUpCenter{
+  margin-top: 25px;
+  background-color: #F6F6F6;
+ 
+  .centerPowerUp{
+    display: flex;
+  }
+
+  .rightSection{
+    width: 50%;
+    img{
+      width: 77%;
+      margin-top: -1.8rem;
+    }
+  }
+
+  .leftSection{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+    margin-top: auto;
+
+    .text-details{
+      padding-left: 40px;
+    }
+
+    .card-title{
+      font-size: 24px;
+      font-family: 'Poppins','Open Sans',sans-serif;
+      font-weight: bold;
+    }
+
+    .card-sub-title{
+      font-size: 16px;
+      font-family: 'Open Sans',sans-serif;
+    }
+  }
+}
+
+
+.pro-card-items{
+  margin-top: 40px;
+
+  .proCenterCard{
+    text-align: center;
+  }
+
+
+  .allCard{
+    display: flex;
+    justify-content: center;
+  }
+
+  .itemsImg{
+    width: 100%;
+
+    img{
+      width: 95%;
+    }
+  }
+
+  .itemsText{
+    .p-card-title{
+      font-size: 16px;
+      font-family: 'Open Sans','Poppins',sans-serif;
+      font-weight: bold;
+    }
+
+    .p-card-sub-title{
+      font-size: 12px;
+      font-family: 'Open Sans',sans-serif;
+      color: grey;
+      font-weight: 400;
+    }
+  }
+
+  .pro-content{
+    text-align: center;
+    .header-title{
+      font-size: 32px;
+      font-weight: bold;
+      font-family: 'Poppins','Open Sans',sans-serif;
+      margin: 0rem;
+    }
+
+    .header-sub-title{
+      font-size: 16px;
+      font-family: 'Open Sans',sans-serif;
+      margin-bottom: 40px !important;
+    }
+  }
 }
 
 

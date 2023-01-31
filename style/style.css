@@ -13884,7 +13884,7 @@ Media Queries
 }
 
 .proItems {
-  margin-top: 13px;
+  margin-top: 35px;
 }
 .proItems .col-lg-3 {
   width: 20% !important;
@@ -13905,14 +13905,12 @@ Media Queries
 }
 .proItems .pro-items-card {
   display: flex;
-  margin-top: 10px;
 }
 .proItems .pro-items-card .card {
   border: none;
 }
 .proItems .pro-items-card .card img {
-  width: 24.5%;
-  height: 90px;
+  width: 66.2%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -13928,4 +13926,80 @@ Media Queries
 .proItems .pro-items-card .card-text {
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
+}
+
+.powerUpCenter {
+  margin-top: 25px;
+  background-color: #F6F6F6;
+}
+.powerUpCenter .centerPowerUp {
+  display: flex;
+}
+.powerUpCenter .rightSection {
+  width: 50%;
+}
+.powerUpCenter .rightSection img {
+  width: 77%;
+  margin-top: -1.8rem;
+}
+.powerUpCenter .leftSection {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.powerUpCenter .leftSection .text-details {
+  padding-left: 40px;
+}
+.powerUpCenter .leftSection .card-title {
+  font-size: 24px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.powerUpCenter .leftSection .card-sub-title {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pro-card-items {
+  margin-top: 40px;
+}
+.pro-card-items .proCenterCard {
+  text-align: center;
+}
+.pro-card-items .allCard {
+  display: flex;
+  justify-content: center;
+}
+.pro-card-items .itemsImg {
+  width: 100%;
+}
+.pro-card-items .itemsImg img {
+  width: 95%;
+}
+.pro-card-items .itemsText .p-card-title {
+  font-size: 16px;
+  font-family: "Open Sans", "Poppins", sans-serif;
+  font-weight: bold;
+}
+.pro-card-items .itemsText .p-card-sub-title {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+  font-weight: 400;
+}
+.pro-card-items .pro-content {
+  text-align: center;
+}
+.pro-card-items .pro-content .header-title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  margin: 0rem;
+}
+.pro-card-items .pro-content .header-sub-title {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px !important;
 }/*# sourceMappingURL=style.css.map */
