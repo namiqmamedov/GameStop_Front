@@ -2657,6 +2657,131 @@ footer #hr {
   .faq-section #accordionMain .accordion .accordion__title button {
     font-size: 14px !important;
   }
+  .tradeTopSection {
+    margin-top: -15px;
+  }
+  .tradeTopSection .mb-img {
+    display: block !important;
+  }
+  .tradeTopSection .h-img {
+    display: none;
+  }
+  .tradeTopSection .tradeImg {
+    width: 100%;
+  }
+  .tradeTopSection .tradeImg img {
+    width: 100%;
+  }
+  .tradeMain {
+    margin-top: 25px;
+  }
+  .tradeMain .allImg {
+    width: 100%;
+  }
+  .tradeMain .h-img {
+    display: none !important;
+  }
+  .tradeMain .imgTop .mb-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+  }
+  .tradeMain .imgTop .mb-img img {
+    width: 100%;
+  }
+  .tradeMain .centerImg {
+    margin-top: 31px;
+  }
+  .tradeMain .centerImg .h-img {
+    width: 100%;
+  }
+  .tradeMain .centerImg .h-img img {
+    width: 100%;
+  }
+  .sellingItems .selling-items-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .sellingItems .selling-items-card .card {
+    border: none;
+  }
+  .sellingItems .selling-items-card .card img {
+    width: 35.5%;
+  }
+  .sellingItems .selling-items-card .card-text,
+.sellingItems .selling-items-card .card-title {
+    text-align: center;
+  }
+  .sellingItems .selling-items-card .card-title {
+    font-size: 16px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .sellingItems .selling-items-card .card-text {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .sellingItems .selling-center span {
+    font-size: 24px !important;
+  }
+  .brandMain {
+    margin-top: 35px;
+  }
+  .brandMain .brandHeading h2 {
+    text-align: center;
+    font-size: 24px !important;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    margin-bottom: 22px;
+  }
+  .brandMain .imgBrand {
+    display: flex;
+    gap: 2.5rem !important;
+    flex-wrap: wrap;
+  }
+  .brandMain .imgBrand .brandImg {
+    width: 48% !important;
+  }
+  .brandMain .imgBrand .brandImg:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .brandMain .imgBrand .brandImg img {
+    width: 100%;
+  }
+  .most-wanted-items {
+    margin-top: 20px;
+  }
+  .most-wanted-items .mostWantedCard .allCard {
+    gap: 2.5rem !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .most-wanted-items .mostWantedCard .itemsCard {
+    width: 48% !important;
+  }
+  .most-wanted-items .mostWantedCard .itemsCard:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .most-wanted-items .mostWantedCard .itemsImg {
+    width: 100% !important;
+  }
+  .most-wanted-items .mostWantedCard .itemsImg img {
+    width: 100%;
+  }
+  .most-wanted-items .mostWantedCard .itemsText p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .most-wanted-items .header-top {
+    margin-bottom: 13px;
+  }
+  .most-wanted-items .header-top h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+  }
 }
 .breadcrumbs {
   font-size: 14px;
@@ -6028,6 +6153,98 @@ footer #hr {
   }
   .faq-section #accordionMain .accordion__desc {
     margin-bottom: 22px;
+  }
+  .tradeTopSection {
+    margin-top: -15px;
+  }
+  .tradeTopSection .mb-img {
+    display: block !important;
+  }
+  .tradeTopSection .h-img {
+    display: none;
+  }
+  .tradeTopSection .tradeImg {
+    width: 100%;
+  }
+  .tradeTopSection .tradeImg img {
+    width: 100%;
+  }
+  .tradeMain {
+    margin-top: 25px;
+  }
+  .tradeMain .allImg {
+    width: 100%;
+  }
+  .tradeMain .h-img {
+    display: none !important;
+  }
+  .tradeMain .imgTop .mb-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+  }
+  .tradeMain .imgTop .mb-img img {
+    width: 100%;
+  }
+  .tradeMain .centerImg {
+    margin-top: 31px;
+  }
+  .tradeMain .centerImg .h-img {
+    width: 100%;
+  }
+  .tradeMain .centerImg .h-img img {
+    width: 100%;
+  }
+  .sellingItems .selling-items-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .sellingItems .selling-items-card .card {
+    border: none;
+  }
+  .sellingItems .selling-items-card .card img {
+    width: 35.5%;
+  }
+  .sellingItems .selling-items-card .card-text,
+.sellingItems .selling-items-card .card-title {
+    text-align: center;
+  }
+  .sellingItems .selling-items-card .card-title {
+    font-size: 16px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .sellingItems .selling-items-card .card-text {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .sellingItems .selling-center span {
+    font-size: 24px !important;
+  }
+  .brandMain {
+    margin-top: 35px;
+  }
+  .brandMain .brandHeading h2 {
+    text-align: center;
+    font-size: 24px !important;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    margin-bottom: 22px;
+  }
+  .brandMain .imgBrand {
+    display: flex;
+    gap: 3.5rem !important;
+    flex-wrap: wrap;
+  }
+  .brandMain .imgBrand .brandImg {
+    width: 48% !important;
+  }
+  .brandMain .imgBrand .brandImg:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .brandMain .imgBrand .brandImg img {
+    width: 100%;
   }
 }
 .paginationRes {
@@ -13510,6 +13727,9 @@ Media Queries
 .tradeTopSection {
   margin-top: -15px;
 }
+.tradeTopSection .mb-img {
+  display: none;
+}
 .tradeTopSection .tradeImg {
   width: 100%;
 }
@@ -13591,7 +13811,8 @@ Media Queries
 .sellingItems {
   margin-top: 13px;
 }
-.sellingItems .selling-center h2, .sellingItems .selling-center span {
+.sellingItems .selling-center h2,
+.sellingItems .selling-center span {
   font-size: 40px;
   font-family: "Poppins", "Open Sans", sans-serif;
   text-align: center;
@@ -13611,7 +13832,8 @@ Media Queries
   margin-left: auto;
   margin-right: auto;
 }
-.sellingItems .selling-items-card .card-text, .sellingItems .selling-items-card .card-title {
+.sellingItems .selling-items-card .card-text,
+.sellingItems .selling-items-card .card-title {
   text-align: center;
 }
 .sellingItems .selling-items-card .card-title {

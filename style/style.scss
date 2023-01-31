@@ -3710,8 +3710,6 @@ footer {
 
   }
 
-
-
   .faq-section {
 
     .left-table {
@@ -3772,6 +3770,192 @@ footer {
 
   }
 
+  .tradeTopSection {
+    margin-top: -15px;
+
+    .mb-img {
+      display: block !important;
+    }
+
+    .h-img {
+      display: none;
+    }
+
+    .tradeImg {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+
+    }
+  }
+
+  .tradeMain {
+
+    margin-top: 25px;
+
+    .allImg {
+      width: 100%;
+
+    }
+
+    .mb-img {}
+
+    .h-img {
+      display: none !important;
+    }
+
+    .imgTop {
+      .mb-img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.6rem;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .centerImg {
+      margin-top: 31px;
+
+      .h-img {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+
+
+
+  }
+
+  .sellingItems {
+    .selling-items-card {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+
+      .card {
+        border: none;
+
+        img {
+          width: 35.5%;
+        }
+      }
+
+      .card-text,
+      .card-title {
+        text-align: center;
+      }
+
+
+
+      .card-title {
+        font-size: 16px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .card-text {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+    .selling-center span {
+      font-size: 24px !important;
+    }
+  }
+
+  .brandMain {
+    margin-top: 35px;
+
+    .brandHeading {
+      h2 {
+        text-align: center;
+        font-size: 24px !important;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        margin-bottom: 22px;
+      }
+    }
+
+    .imgBrand {
+      display: flex;
+      gap: 2.5rem !important; 
+      flex-wrap: wrap;
+
+      .brandImg {
+        width: 48% !important;
+
+        &:last-child {
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .most-wanted-items {
+    margin-top: 20px;
+  
+    .mostWantedCard {
+      .allCard {
+        gap: 2.5rem !important;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .itemsCard{
+        width: 48% !important;
+
+        &:last-child{
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+  
+      .itemsImg {
+        width: 100% !important;
+  
+        img {
+          width: 100%;
+        }
+      }
+  
+      .itemsText{
+        p{
+          font-size: 16px;
+          font-family: 'Open Sans',sans-serif;
+        }
+      }
+  
+  
+  
+    }
+  
+    .header-top {
+      margin-bottom: 13px;
+  
+      h2 {
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+      }
+  
+    }
+  }
+
+  
 
 }
 
@@ -8533,6 +8717,142 @@ footer {
   }
 
 
+  .tradeTopSection {
+    margin-top: -15px;
+
+    .mb-img {
+      display: block !important;
+    }
+
+    .h-img {
+      display: none;
+    }
+
+    .tradeImg {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+
+    }
+  }
+
+
+  .tradeMain {
+
+    margin-top: 25px;
+
+    .allImg {
+      width: 100%;
+
+    }
+
+    .mb-img {}
+
+    .h-img {
+      display: none !important;
+    }
+
+    .imgTop {
+      .mb-img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.6rem;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .centerImg {
+      margin-top: 31px;
+
+      .h-img {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+
+
+
+  }
+
+  .sellingItems {
+    .selling-items-card {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+
+      .card {
+        border: none;
+
+        img {
+          width: 35.5%;
+        }
+      }
+
+      .card-text,
+      .card-title {
+        text-align: center;
+      }
+
+
+
+      .card-title {
+        font-size: 16px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .card-text {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+    .selling-center span {
+      font-size: 24px !important;
+    }
+  }
+
+
+  .brandMain {
+    margin-top: 35px;
+
+    .brandHeading {
+      h2 {
+        text-align: center;
+        font-size: 24px !important;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        margin-bottom: 22px;
+      }
+    }
+
+    .imgBrand {
+      display: flex;
+      gap: 3.5rem !important;
+      flex-wrap: wrap;
+
+      .brandImg {
+        width: 48% !important;
+
+        &:last-child {
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
 
 }
 
@@ -8544,6 +8864,8 @@ footer {
 @media (min-width:767.8px) and (max-width:1024px) {
 
 
+
+  
   .featured-categories {
     gap: 1.35rem;
 
@@ -18771,6 +19093,10 @@ Media Queries
 .tradeTopSection {
   margin-top: -15px;
 
+  .mb-img {
+    display: none;
+  }
+
   .tradeImg {
     width: 100%;
 
@@ -18780,6 +19106,7 @@ Media Queries
 
   }
 }
+
 
 .tradeMain {
 
@@ -18865,10 +19192,10 @@ Media Queries
       }
     }
 
-    .itemsText{
-      p{
+    .itemsText {
+      p {
         font-size: 16px;
-        font-family: 'Open Sans',sans-serif;
+        font-family: 'Open Sans', sans-serif;
       }
     }
 
@@ -18888,47 +19215,54 @@ Media Queries
   }
 }
 
-.sellingItems{
+.sellingItems {
   margin-top: 13px;
-  .selling-center{
-    h2,span{
+
+  .selling-center {
+
+    h2,
+    span {
       font-size: 40px;
-      font-family: 'Poppins','Open Sans',sans-serif;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
       text-align: center;
       font-weight: bold;
       text-transform: uppercase;
     }
   }
-    .selling-items-card{
-      display: flex;
-      margin-top: 10px;
 
-      .card{
-        border: none;
-        img{
-          width: 24.5%;
-          height: 90px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-      }
-  
-      .card-text,.card-title{
-        text-align: center;
-      }
-  
-      .card-title{
-        font-size: 16px;
-        font-family: 'Poppins','Open Sans',sans-serif;
-        font-weight: bold;
-      }
-      .card-text{
-        font-size: 12px;
-        font-family: 'Open Sans',sans-serif;
+  .selling-items-card {
+    display: flex;
+    margin-top: 10px;
+
+    .card {
+      border: none;
+
+      img {
+        width: 24.5%;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
 
-    
+    .card-text,
+    .card-title {
+      text-align: center;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+
+    .card-text {
+      font-size: 12px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+
 }
 
 
