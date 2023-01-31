@@ -9481,6 +9481,8 @@ footer #hr {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     display: block;
+    letter-spacing: -0.04rem;
+    color: #282828;
   }
   .header-wrapper .last-section .icon i {
     font-size: 22px;
@@ -13503,4 +13505,70 @@ Media Queries
 .privacyContent .allPrivacy strong {
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+}
+
+.tradeTopSection {
+  margin-top: -15px;
+}
+.tradeTopSection .tradeImg {
+  width: 100%;
+}
+.tradeTopSection .tradeImg img {
+  width: 100%;
+}
+
+.tradeMain {
+  margin-top: 25px;
+}
+.tradeMain .allImg {
+  width: 100%;
+}
+.tradeMain .mb-img {
+  display: none;
+}
+.tradeMain .imgTop .h-img {
+  display: flex;
+  gap: 1.3rem;
+}
+.tradeMain .imgTop .h-img img {
+  width: 49.3%;
+}
+.tradeMain .centerImg {
+  margin-top: 31px;
+}
+.tradeMain .centerImg .h-img {
+  width: 100%;
+}
+.tradeMain .centerImg .h-img img {
+  width: 100%;
+}
+
+.brandMain {
+  margin-top: 35px;
+}
+.brandMain .brandHeading h2 {
+  text-align: center;
+  font-size: 24px !important;
+  font-family: "Poppins", "Open Sans", sans-serif;
+}
+.brandMain .imgBrand {
+  display: flex;
+  gap: 1.35rem;
+}
+.brandMain .imgBrand .brandImg {
+  width: 100%;
+}
+.brandMain .imgBrand .brandImg img {
+  width: 100%;
+}
+
+.mostWantedCard .allCard {
+  gap: 1.35rem;
+  display: flex;
+}
+.mostWantedCard .itemsImg {
+  width: 100%;
+}
+.mostWantedCard .itemsImg img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

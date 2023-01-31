@@ -13375,6 +13375,8 @@ footer {
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         display: block;
+        letter-spacing: -.04rem;
+        color: #282828;
       }
 
       .icon {
@@ -18762,3 +18764,97 @@ Media Queries
 }
 
 // end privacy policy section
+
+
+// start trade section
+
+.tradeTopSection{
+  margin-top: -15px;
+  .tradeImg{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+
+  }
+}
+
+.tradeMain{
+
+  margin-top: 25px;
+
+  .allImg{
+    width: 100%;
+
+  }
+
+  .mb-img{
+    display: none;
+  }
+
+  .imgTop{
+    .h-img{
+      display: flex;
+      gap: 1.3rem;
+      img{
+        width: 49.3%;
+      }
+    }
+  }
+
+  .centerImg{
+    margin-top: 31px;
+
+      .h-img{
+        width: 100%;
+
+        img{
+          width: 100%;
+        }
+      }
+  }
+
+  
+
+
+}
+
+
+.brandMain{
+  margin-top: 35px;
+  .brandHeading{
+    h2{
+      text-align: center;
+    font-size: 24px !important;
+    font-family: 'Poppins','Open Sans',sans-serif;
+    }
+  }
+ .imgBrand{
+  display: flex;
+  gap: 1.35rem;
+  .brandImg{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+ }
+}
+
+
+.mostWantedCard{
+  .allCard{
+    gap: 1.35rem;
+    display: flex;
+  }
+
+  .itemsImg{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+
+}
+
+// end trade section
