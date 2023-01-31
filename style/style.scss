@@ -13249,7 +13249,7 @@ footer {
       overflow-y: auto;
       margin-top: 0rem !important;
       height: 100% !important;
-      width: 404px !important;
+      width: 350px !important;
       max-width: none !important;
 
 
@@ -18661,3 +18661,24 @@ Media Queries
   }
 
 // end affiliates section
+
+.transparencyContent{
+  .allTransparency{
+    h1{
+      font-size: 34px !important;
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 900;
+    }
+
+    p{
+      font-size: 14px;
+      font-family: 'Open Sans',sans-serif;
+    }
+  }
+}
+
+// start trasparency section
+
+
+
+// end transparency section

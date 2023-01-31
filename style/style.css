@@ -9397,7 +9397,7 @@ footer #hr {
     overflow-y: auto;
     margin-top: 0rem !important;
     height: 100% !important;
-    width: 404px !important;
+    width: 350px !important;
     max-width: none !important;
   }
   .main-header .m-menu .a-label__chevron:after {
@@ -13439,5 +13439,15 @@ Media Queries
 }
 .affContent .af-main .contentDesc li {
   font-size: 14px !important;
+  font-family: "Open Sans", sans-serif;
+}
+
+.transparencyContent .allTransparency h1 {
+  font-size: 34px !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+.transparencyContent .allTransparency p {
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
