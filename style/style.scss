@@ -19267,3 +19267,110 @@ Media Queries
 
 
 // end trade section
+
+
+// start powerup section
+
+
+.powerUpMain{
+  margin-top: -15px;
+  .topImg{
+    .mb-img{
+      display: none;
+    }
+    .h-img{
+      width: 100%;
+      img{
+        max-width: 1760px;
+        width: 100%;
+      }
+    }
+  }
+
+.text-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .card-title{
+    position: absolute;
+    display: inline-block;
+    top: -322px;
+    font-size: 64px;
+    font-family: 'Poppins','Open Sans',sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+
+  .card-sub-title{
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: -233px;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+  }
+}
+}
+
+.proItems {
+  margin-top: 13px;
+
+  .col-lg-3{
+    width: 20% !important;
+  }
+
+  .pro-center {
+    text-align: center;
+    .content-title {
+      font-size: 32px;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+      text-align: center;
+      font-weight: bold;
+      margin: 0rem;
+    }
+
+    .content-sub-title{
+      font-size: 16px;
+      font-family: 'Open Sans',sans-serif;
+    }
+  }
+
+  .pro-items-card {
+    display: flex;
+    margin-top: 10px;
+
+    .card {
+      border: none;
+
+      img {
+        width: 24.5%;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .card-text,
+    .card-title {
+      text-align: center;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+
+    .card-text {
+      font-size: 12px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+
+}
+
+
+// end powerup section

@@ -13844,4 +13844,88 @@ Media Queries
 .sellingItems .selling-items-card .card-text {
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
+}
+
+.powerUpMain {
+  margin-top: -15px;
+}
+.powerUpMain .topImg .mb-img {
+  display: none;
+}
+.powerUpMain .topImg .h-img {
+  width: 100%;
+}
+.powerUpMain .topImg .h-img img {
+  max-width: 1760px;
+  width: 100%;
+}
+.powerUpMain .text-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.powerUpMain .text-container .card-title {
+  position: absolute;
+  display: inline-block;
+  top: -322px;
+  font-size: 64px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.powerUpMain .text-container .card-sub-title {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  top: -233px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.proItems {
+  margin-top: 13px;
+}
+.proItems .col-lg-3 {
+  width: 20% !important;
+}
+.proItems .pro-center {
+  text-align: center;
+}
+.proItems .pro-center .content-title {
+  font-size: 32px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin: 0rem;
+}
+.proItems .pro-center .content-sub-title {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.proItems .pro-items-card {
+  display: flex;
+  margin-top: 10px;
+}
+.proItems .pro-items-card .card {
+  border: none;
+}
+.proItems .pro-items-card .card img {
+  width: 24.5%;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.proItems .pro-items-card .card-text,
+.proItems .pro-items-card .card-title {
+  text-align: center;
+}
+.proItems .pro-items-card .card-title {
+  font-size: 16px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.proItems .pro-items-card .card-text {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
