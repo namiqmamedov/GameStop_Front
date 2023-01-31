@@ -19469,16 +19469,42 @@ Media Queries
 
 
 // start login page
+.loginHeader{
+  height: 65px;
+  box-shadow: 0 0 5px rgba(57, 63, 72, 0.3);
+
+  .header-logo{
+    width: 100%;
+    img{
+      width: 9.6%;
+      padding-top: 15px;
+    margin-left: 15px;
+    }
+  }
+
+}
 
 
+.loginGameStop{
+  height: 100vh;
+
+  background-color: #f5f5f5;
+  
+.login-content{
+  padding-top: 45px;
+  padding-bottom: 32px;
+  h2{
+
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+  }
+}
 .loginPage{
   display: flex;
   justify-content: center;
-  background-color: #F5F5F5;
 
-  .login-content{
-    display: inline-block;
-  }
+  
 
   .loginSection{
     background-color: white;
@@ -19487,14 +19513,59 @@ Media Queries
     height: 370px;
     border-radius: 4px;
 
-    input{
-      background: none;
-      border: 0;
-      flex-grow: 1;
-      outline: none;
-      padding: 8px 16px;
-      width: 100%;
+    .top-text{
+      padding-left: 26px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-around;
+
+    .pull-right{
+      a{
+        margin-left: 33px;
+        font-size: 12.5px;
+        color: #4476eb;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: sans-serif;
+
+
+      }
     }
+
+    .pull-left{
+      margin-left: -26px;
+      label{
+        font-size: 14px;
+        font-family: sans-serif;
+
+
+      }
+    }
+
+   
+  }
+
+  .loginButton{
+    margin-top: 24px;
+    margin-left: 23px;
+    margin-bottom: 11px;
+    .btn-login{
+      border: none;
+      padding: 12.5px 24px;
+      background-color: #e10e71;
+      color: white;
+      border-radius: 4px;
+      transition: all .3s ease-in-out;
+      font-weight: 600;
+      width: 94%;
+
+      &:hover{
+        background-color: #C80D65;
+      }
+
+    }
+  }
+
 
     .login-email-field{
       align-items: center;
@@ -19510,30 +19581,62 @@ Media Queries
     
   }
 
+  .form-label{
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    padding-bottom: 11px;
+    display: block;
+    font-weight: 600;
+  }
+
   .loginEmail{
+    padding-top: 30px;
+    padding-left: 23px;
+    padding-right: 23px;
     
-    
+
+    input{
+      background: none;
+      border: 0;
+      flex-grow: 1;
+      outline: none;
+      padding: 10px 16px;
+      width: 100%;
+    }
   }
 
   .loginPass{
     
+    padding-top: 30px;
+    padding-left: 23px;
+    padding-right: 23px;
 
-  }
-}
-
-.loginHeader{
-  height: 65px;
-  box-shadow: 0 0 5px rgba(57, 63, 72, 0.3);
-
-  .header-logo{
-    width: 100%;
-    img{
-      width: 9.6%;
-      padding-top: 15px;
-    margin-left: 15px;
+    input{
+      background: none;
+      border: 0;
+      flex-grow: 1;
+      outline: none;
+      padding: 10px 16px;
+      width: 100%;
     }
   }
 
+  .helper-text{
+    display: flex;
+    justify-content: center;
+    a{
+      font-size: 12.5px;
+      color: #4476eb;
+      text-decoration: none;
+      font-weight: 600;
+      font-family: sans-serif;
+
+
+    }
+  }
 }
+
+}
+
 
 // end login page

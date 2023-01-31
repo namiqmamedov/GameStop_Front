@@ -14004,39 +14004,6 @@ Media Queries
   margin-bottom: 40px !important;
 }
 
-.loginPage {
-  display: flex;
-  justify-content: center;
-  background-color: #F5F5F5;
-}
-.loginPage .login-content {
-  display: inline-block;
-}
-.loginPage .loginSection {
-  background-color: white;
-  width: 25%;
-  box-shadow: 0 1px 3px 0 rgba(158, 158, 158, 0.3294117647);
-  height: 370px;
-  border-radius: 4px;
-}
-.loginPage .loginSection input {
-  background: none;
-  border: 0;
-  flex-grow: 1;
-  outline: none;
-  padding: 8px 16px;
-  width: 100%;
-}
-.loginPage .loginSection .login-email-field {
-  align-items: center;
-  background: #fff;
-  border: 1px solid #e9e9e9;
-  border-radius: 4px;
-  box-shadow: inset 0 1px 3px 0 #e9e9e9;
-  display: flex;
-  transition: box-shadow 0.25s ease-in-out, border 0.25s ease-in-out;
-  width: 100%;
-}
 .loginHeader {
   height: 65px;
   box-shadow: 0 0 5px rgba(57, 63, 72, 0.3);
@@ -14048,4 +14015,122 @@ Media Queries
   width: 9.6%;
   padding-top: 15px;
   margin-left: 15px;
+}
+
+.loginGameStop {
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+.loginGameStop .login-content {
+  padding-top: 45px;
+  padding-bottom: 32px;
+}
+.loginGameStop .login-content h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.loginGameStop .loginPage {
+  display: flex;
+  justify-content: center;
+}
+.loginGameStop .loginPage .loginSection {
+  background-color: white;
+  width: 25%;
+  box-shadow: 0 1px 3px 0 rgba(158, 158, 158, 0.3294117647);
+  height: 370px;
+  border-radius: 4px;
+}
+.loginGameStop .loginPage .loginSection .top-text {
+  padding-left: 26px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.loginGameStop .loginPage .loginSection .top-text .pull-right a {
+  margin-left: 33px;
+  font-size: 12.5px;
+  color: #4476eb;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.loginGameStop .loginPage .loginSection .top-text .pull-left {
+  margin-left: -26px;
+}
+.loginGameStop .loginPage .loginSection .top-text .pull-left label {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.loginGameStop .loginPage .loginSection .loginButton {
+  margin-top: 24px;
+  margin-left: 23px;
+  margin-bottom: 11px;
+}
+.loginGameStop .loginPage .loginSection .loginButton .btn-login {
+  border: none;
+  padding: 12.5px 24px;
+  background-color: #e10e71;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  width: 94%;
+}
+.loginGameStop .loginPage .loginSection .loginButton .btn-login:hover {
+  background-color: #C80D65;
+}
+.loginGameStop .loginPage .loginSection .login-email-field {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px 0 #e9e9e9;
+  display: flex;
+  transition: box-shadow 0.25s ease-in-out, border 0.25s ease-in-out;
+  width: 100%;
+}
+.loginGameStop .loginPage .form-label {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 11px;
+  display: block;
+  font-weight: 600;
+}
+.loginGameStop .loginPage .loginEmail {
+  padding-top: 30px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.loginGameStop .loginPage .loginEmail input {
+  background: none;
+  border: 0;
+  flex-grow: 1;
+  outline: none;
+  padding: 10px 16px;
+  width: 100%;
+}
+.loginGameStop .loginPage .loginPass {
+  padding-top: 30px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.loginGameStop .loginPage .loginPass input {
+  background: none;
+  border: 0;
+  flex-grow: 1;
+  outline: none;
+  padding: 10px 16px;
+  width: 100%;
+}
+.loginGameStop .loginPage .helper-text {
+  display: flex;
+  justify-content: center;
+}
+.loginGameStop .loginPage .helper-text a {
+  font-size: 12.5px;
+  color: #4476eb;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: sans-serif;
 }/*# sourceMappingURL=style.css.map */
