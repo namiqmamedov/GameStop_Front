@@ -18612,3 +18612,52 @@ Media Queries
 }
 
 // end accessibility section
+
+
+// start affiliates section
+
+  .affContent{
+    margin-top: 40px;
+    margin-left: 15px;
+    .af-main{
+      .contentTop{
+        h1{
+        font-size: 36px ;
+        font-family: 'Poppins','Open Sans',sans-serif;
+        font-weight: 900;
+        }
+
+          @media (min-width:767px) and (max-width: 1200px) 
+          {
+          h1{
+            font-size: 26px !important;
+
+          } 
+          }
+
+        h2{
+          font-size: 24px !important;
+          font-family: 'Poppins','Open Sans',sans-serif;
+          font-weight: 900;
+        }
+
+        p{
+          font-size: 14px !important;
+          font-family: 'Open Sans',sans-serif;
+          color: #000000;
+        }
+
+          
+      }
+      
+      .contentDesc{
+        li{
+          font-size: 14px !important;
+        font-family: 'Open Sans',sans-serif;
+        }
+      }
+
+    }
+  }
+
+// end affiliates section
