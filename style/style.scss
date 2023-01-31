@@ -18726,3 +18726,39 @@ Media Queries
 }
 
 // end condition section
+
+
+// start privacy policy section
+
+.privacyContent{
+  margin-top: 20px;
+  .allPrivacy{
+    h1{
+      font-size: 34px;
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 900;
+    }
+
+    @media (max-width: 1024px) 
+    {
+    h1{
+      font-size: 21px !important;
+
+    } 
+    }
+
+    p{
+      font-size: 14px;
+      font-family: 'Open Sans',sans-serif;
+      margin-bottom: 36px;
+    }
+
+    strong{
+      font-size: 26px;
+      font-family: 'Poppins',sans-serif;
+    }
+  }
+
+}
+
+// end privacy policy section

@@ -13480,4 +13480,27 @@ Media Queries
 .conditionContent .allCondition b {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+}
+
+.privacyContent {
+  margin-top: 20px;
+}
+.privacyContent .allPrivacy h1 {
+  font-size: 34px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+@media (max-width: 1024px) {
+  .privacyContent .allPrivacy h1 {
+    font-size: 21px !important;
+  }
+}
+.privacyContent .allPrivacy p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 36px;
+}
+.privacyContent .allPrivacy strong {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=style.css.map */
