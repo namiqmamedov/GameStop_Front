@@ -18662,12 +18662,24 @@ Media Queries
 
 // end affiliates section
 
+
+// start trasparency section
+
 .transparencyContent{
+  margin-top: 20px;
   .allTransparency{
     h1{
-      font-size: 34px !important;
+      font-size: 34px;
       font-family: 'Open Sans',sans-serif;
       font-weight: 900;
+    }
+
+    @media (max-width: 1024px) 
+    {
+    h1{
+      font-size: 21px !important;
+
+    } 
     }
 
     p{
@@ -18675,10 +18687,42 @@ Media Queries
       font-family: 'Open Sans',sans-serif;
     }
   }
+
 }
 
-// start trasparency section
-
-
-
 // end transparency section
+
+
+// start condition section
+
+.conditionContent{
+  margin-top: 20px;
+  .allCondition{
+    h1{
+      font-size: 34px;
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 900;
+    }
+
+    @media (max-width: 1024px) 
+    {
+    h1{
+      font-size: 21px !important;
+
+    } 
+    }
+
+    p{
+      font-size: 14px;
+      font-family: 'Open Sans',sans-serif;
+    }
+
+    b{
+      font-size: 14px;
+      font-family: 'Open Sans',sans-serif;
+    }
+  }
+
+}
+
+// end condition section

@@ -13442,12 +13442,42 @@ Media Queries
   font-family: "Open Sans", sans-serif;
 }
 
+.transparencyContent {
+  margin-top: 20px;
+}
 .transparencyContent .allTransparency h1 {
-  font-size: 34px !important;
+  font-size: 34px;
   font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
+@media (max-width: 1024px) {
+  .transparencyContent .allTransparency h1 {
+    font-size: 21px !important;
+  }
+}
 .transparencyContent .allTransparency p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.conditionContent {
+  margin-top: 20px;
+}
+.conditionContent .allCondition h1 {
+  font-size: 34px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+@media (max-width: 1024px) {
+  .conditionContent .allCondition h1 {
+    font-size: 21px !important;
+  }
+}
+.conditionContent .allCondition p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.conditionContent .allCondition b {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
