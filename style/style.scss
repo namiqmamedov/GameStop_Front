@@ -22844,3 +22844,101 @@ Media Queries
 
 
 // end forgot password section
+
+
+//  start cart page
+
+.cartSection{
+  .cartBox{
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    width: 69%;
+
+    .all-details{
+      margin-top: 23px;
+      margin-bottom: 23px;
+      border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    }
+
+    .leftDetail{
+      display: flex;
+    }
+
+    .rightDetail{
+      display: flex;
+      width: 49%;
+      .selectpicker{
+        width: 51px;
+        height: 39px;
+        border-radius:4px;
+        padding-left: 4px;
+      }
+
+
+      .price-section{
+        text-align: end;
+        width: 100%;
+      }
+    }
+
+    .product-img{
+      width: 22%;
+      img{
+        width: 100%;
+        margin-top: 11px;
+        margin-bottom: 11px;
+      }
+    }
+  }
+
+  .cart-text{
+    display: flex;
+    align-items: center;
+
+    h1{
+      font-size: 34px !important;
+      font-family: 'Poppins',sans-serif;
+      font-weight: bold;
+    }
+
+    span{
+      font-size: 12px;
+      font-family: 'Poppins',sans-serif;
+    }
+    
+  }
+
+
+  .cart-items{
+      display: flex;
+    justify-content: space-between;
+    
+    
+  }
+
+  .product-name{
+    h3{
+      font-size: 14px;
+      font-family: 'Open Sans',sans-serif;
+      color: black;
+      font-weight: bold;
+      margin-top: 19px;
+
+    }
+
+    a{
+      text-decoration: none;
+    }
+  }
+  
+
+  .priceBox{
+    width: 430px;
+    .product-price{
+      border: 1px solid black;
+    }
+  }
+}
+
+// end cart page

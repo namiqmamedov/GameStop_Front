@@ -16548,4 +16548,74 @@ Media Queries
   text-decoration: none;
   font-weight: 600;
   font-family: sans-serif;
+}
+
+.cartSection .cartBox {
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  width: 69%;
+}
+.cartSection .cartBox .all-details {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+.cartSection .cartBox .leftDetail {
+  display: flex;
+}
+.cartSection .cartBox .rightDetail {
+  display: flex;
+  width: 49%;
+}
+.cartSection .cartBox .rightDetail .selectpicker {
+  width: 51px;
+  height: 39px;
+  border-radius: 4px;
+  padding-left: 4px;
+}
+.cartSection .cartBox .rightDetail .price-section {
+  text-align: end;
+  width: 100%;
+}
+.cartSection .cartBox .product-img {
+  width: 22%;
+}
+.cartSection .cartBox .product-img img {
+  width: 100%;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.cartSection .cart-text {
+  display: flex;
+  align-items: center;
+}
+.cartSection .cart-text h1 {
+  font-size: 34px !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.cartSection .cart-text span {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.cartSection .cart-items {
+  display: flex;
+  justify-content: space-between;
+}
+.cartSection .product-name h3 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-weight: bold;
+  margin-top: 19px;
+}
+.cartSection .product-name a {
+  text-decoration: none;
+}
+.cartSection .priceBox {
+  width: 430px;
+}
+.cartSection .priceBox .product-price {
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
