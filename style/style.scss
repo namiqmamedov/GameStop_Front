@@ -3887,7 +3887,7 @@ footer {
 
     .imgBrand {
       display: flex;
-      gap: 2.5rem !important; 
+      gap: 2.5rem !important;
       flex-wrap: wrap;
 
       .brandImg {
@@ -3907,7 +3907,7 @@ footer {
 
   .most-wanted-items {
     margin-top: 20px;
-  
+
     .mostWantedCard {
       .allCard {
         gap: 2.5rem !important;
@@ -3915,252 +3915,296 @@ footer {
         flex-wrap: wrap;
       }
 
-      .itemsCard{
+      .itemsCard {
         width: 48% !important;
 
-        &:last-child{
+        &:last-child {
           margin-left: auto;
           margin-right: auto;
         }
       }
-  
+
       .itemsImg {
         width: 100% !important;
-  
+
         img {
           width: 100%;
         }
       }
-  
-      .itemsText{
-        p{
+
+      .itemsText {
+        p {
           font-size: 16px;
-          font-family: 'Open Sans',sans-serif;
+          font-family: 'Open Sans', sans-serif;
         }
       }
-  
-  
-  
+
+
+
     }
-  
+
     .header-top {
       margin-bottom: 13px;
-  
+
       h2 {
         text-align: center;
         font-size: 24px;
         font-family: 'Poppins', 'Open Sans', sans-serif;
       }
-  
+
     }
   }
 
-  
-.powerUpMain{
-  margin-top: -15px;
-  .topImg{
-    .mb-img{
-      width: 100%;
-      display: block !important;
-      img{
+
+  .powerUpMain {
+    margin-top: -15px;
+
+    .topImg {
+      .mb-img {
         width: 100%;
-      }
-    }
+        display: block !important;
 
-    .h-img{
-      display: none;
-    }
-
-  }
-
-.text-container{
-  position: relative;
-  display: flex;
-  justify-content: center;
-
-  .card-title{
-    position: absolute;
-    display: inline-block;
-    top: -167px !important;
-    font-size: 32px !important;
-    font-family: 'Poppins','Open Sans',sans-serif;
-    font-weight: bold;
-    color: white;
-  }
-
-  .card-sub-title{
-    color: white;
-    position: absolute;
-    display: inline-block;
-    top: -117px !important;
-    font-size: 20px;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bold;
-  }
-}
-}
-
-.proItems {
-  margin-top: 35px;
-
-  .col-lg-3{
-    width: 20% !important;
-  }
-
-  .pro-center {
-    text-align: center;
-    .content-title {
-      font-size: 32px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
-      text-align: center;
-      font-weight: bold;
-      margin: 0rem;
-    }
-
-    .content-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
-    }
-  }
-
-  .pro-items-card {
-    display: flex;
-    flex-wrap: wrap;
-
-    .col-lg-3{
-      width: 25% !important;
-    }
-
-
-    .card {
-      border: none;
-
-      &:last-child{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-    
-      &:last-child{
-        img{
-          width: 162%;
-          margin-left: -40px;
+        img {
+          width: 100%;
         }
       }
 
-      img {
-        width: 66.2%;
-        margin-left: auto;
-        margin-right: auto;
+      .h-img {
+        display: none;
+      }
+
+    }
+
+    .text-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      .card-title {
+        position: absolute;
+        display: inline-block;
+        top: -167px !important;
+        font-size: 32px !important;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: white;
+      }
+
+      .card-sub-title {
+        color: white;
+        position: absolute;
+        display: inline-block;
+        top: -117px !important;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .proItems {
+    margin-top: 35px;
+
+    .col-lg-3 {
+      width: 20% !important;
+    }
+
+    .pro-center {
+      text-align: center;
+
+      .content-title {
+        font-size: 32px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        margin: 0rem;
+      }
+
+      .content-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
       }
     }
 
-    .card-text,
-    .card-title {
+    .pro-items-card {
+      display: flex;
+      flex-wrap: wrap;
+
+      .col-lg-3 {
+        width: 25% !important;
+      }
+
+
+      .card {
+        border: none;
+
+        &:last-child {
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+
+        &:last-child {
+          img {
+            width: 162%;
+            margin-left: -40px;
+          }
+        }
+
+        img {
+          width: 66.2%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .card-text,
+      .card-title {
+        text-align: center;
+      }
+
+      .card-title {
+        font-size: 16px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .card-text {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+
+  }
+
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
+
+    .centerPowerUp {
+      display: flex;
+    }
+
+    .rightSection {
+      width: 100% !important;
+      overflow-x: hidden;
+
+      .h-img {
+        display: none !important;
+      }
+
+      .mb-img {
+        display: block !important;
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .leftSection {
+      display: none !important;
+    }
+  }
+
+  .pro-card-items {
+    margin-top: 40px;
+
+    .proCenterCard {
       text-align: center;
     }
 
-    .card-title {
-      font-size: 16px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
-      font-weight: bold;
+
+    .allCard {
+      display: flex;
+      justify-content: center;
     }
 
-    .card-text {
-      font-size: 12px;
-      font-family: 'Open Sans', sans-serif;
-    }
-  }
-
-
-}
-
-.powerUpCenter{
-  margin-top: 25px;
-  background-color: #F6F6F6;
- 
-  .centerPowerUp{
-    display: flex;
-  }
-
-  .rightSection{
-   width: 100% !important;
-   overflow-x: hidden;
-    .h-img{
-      display: none !important;
-    }
-
-    .mb-img{
-      display: block !important;
+    .itemsImg {
       width: 100%;
-      
-      img{
-        width: 100%;
+
+      img {
+        width: 95%;
+      }
+    }
+
+    .itemsText {
+      .p-card-title {
+        font-size: 16px;
+        font-family: 'Open Sans', 'Poppins', sans-serif;
+        font-weight: bold;
+      }
+
+      .p-card-sub-title {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: grey;
+        font-weight: 400;
+      }
+    }
+
+    .pro-content {
+      text-align: center;
+
+      .header-title {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        margin: 0rem;
+      }
+
+      .header-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 40px !important;
       }
     }
   }
 
-  .leftSection{
-   display: none !important;
-  }
-}
 
-.pro-card-items{
-  margin-top: 40px;
+  .loginGameStop{
+    .loginSection{
+      width: 70% !important;
+    }
 
-  .proCenterCard{
-    text-align: center;
-  }
+    .loginEmail{
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
 
+    .loginPass{
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
 
-  .allCard{
-    display: flex;
-    justify-content: center;
-  }
+    .top-text{
+      display: block !important;
+    }
 
-  .itemsImg{
-    width: 100%;
+    .loginButton{
+      margin-left: 15px !important;
+      .btn-login{
+        width: 96% !important;
+      }
+    }
+    
 
-    img{
-      width: 95%;
+    .pull-left{
+      margin-left: -11px !important;
+      margin-bottom: 4px !important;
+    }
+
+    .pull-right{
+      a{
+        margin-left: -11px !important;
+        margin-top: 7px !important;
+      }
     }
   }
 
-  .itemsText{
-    .p-card-title{
-      font-size: 16px;
-      font-family: 'Open Sans','Poppins',sans-serif;
-      font-weight: bold;
-    }
-
-    .p-card-sub-title{
-      font-size: 12px;
-      font-family: 'Open Sans',sans-serif;
-      color: grey;
-      font-weight: 400;
-    }
-  }
-
-  .pro-content{
-    text-align: center;
-    .header-title{
-      font-size: 32px;
-      font-weight: bold;
-      font-family: 'Poppins','Open Sans',sans-serif;
-      margin: 0rem;
-    }
-
-    .header-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
-      margin-bottom: 40px !important;
-    }
-  }
-}
-
-
-  
 
 }
 
@@ -9061,209 +9105,255 @@ footer {
 
 
 
-    
-.powerUpMain{
-  margin-top: -15px;
-  .topImg{
-    .mb-img{
-      width: 100%;
-      display: block !important;
-      img{
+
+  .powerUpMain {
+    margin-top: -15px;
+
+    .topImg {
+      .mb-img {
         width: 100%;
-      }
-    }
+        display: block !important;
 
-    .h-img{
-      display: none;
-    }
-
-  }
-
-.text-container{
-  position: relative;
-  display: flex;
-  justify-content: center;
-
-  .card-title{
-    position: absolute;
-    display: inline-block;
-    top: -167px !important;
-    font-size: 32px !important;
-    font-family: 'Poppins','Open Sans',sans-serif;
-    font-weight: bold;
-    color: white;
-  }
-
-  .card-sub-title{
-    color: white;
-    position: absolute;
-    display: inline-block;
-    top: -117px !important;
-    font-size: 20px;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bold;
-  }
-}
-}
-
-.proItems {
-  margin-top: 35px;
-
-  .col-lg-3{
-    width: 20% !important;
-  }
-
-  .pro-center {
-    text-align: center;
-    .content-title {
-      font-size: 32px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
-      text-align: center;
-      font-weight: bold;
-      margin: 0rem;
-    }
-
-    .content-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
-    }
-  }
-
-  .pro-items-card {
-    display: flex;
-    flex-wrap: wrap;
-
-    .col-lg-3{
-      width: 25% !important;
-    }
-
-
-    .card {
-      border: none;
-
-      &:last-child{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-    
-      &:last-child{
-        img{
-          width: 162%;
-          margin-left: -40px;
+        img {
+          width: 100%;
         }
       }
 
-      img {
-        width: 66.2%;
-        margin-left: auto;
-        margin-right: auto;
+      .h-img {
+        display: none;
+      }
+
+    }
+
+    .text-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      .card-title {
+        position: absolute;
+        display: inline-block;
+        top: -167px !important;
+        font-size: 32px !important;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: white;
+      }
+
+      .card-sub-title {
+        color: white;
+        position: absolute;
+        display: inline-block;
+        top: -117px !important;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .proItems {
+    margin-top: 35px;
+
+    .col-lg-3 {
+      width: 20% !important;
+    }
+
+    .pro-center {
+      text-align: center;
+
+      .content-title {
+        font-size: 32px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        margin: 0rem;
+      }
+
+      .content-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
       }
     }
 
-    .card-text,
-    .card-title {
+    .pro-items-card {
+      display: flex;
+      flex-wrap: wrap;
+
+      .col-lg-3 {
+        width: 25% !important;
+      }
+
+
+      .card {
+        border: none;
+
+        &:last-child {
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+
+        &:last-child {
+          img {
+            width: 162%;
+            margin-left: -40px;
+          }
+        }
+
+        img {
+          width: 66.2%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .card-text,
+      .card-title {
+        text-align: center;
+      }
+
+      .card-title {
+        font-size: 16px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .card-text {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+
+  }
+
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
+
+    .centerPowerUp {
+      display: flex;
+    }
+
+    .rightSection {
+      width: 100% !important;
+      overflow-x: hidden;
+
+      .h-img {
+        display: none !important;
+      }
+
+      .mb-img {
+        display: block !important;
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .leftSection {
+      display: none !important;
+    }
+  }
+
+  .pro-card-items {
+    margin-top: 40px;
+
+    .proCenterCard {
       text-align: center;
     }
 
-    .card-title {
-      font-size: 16px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
-      font-weight: bold;
+
+    .allCard {
+      display: flex;
+      justify-content: center;
     }
 
-    .card-text {
-      font-size: 12px;
-      font-family: 'Open Sans', sans-serif;
-    }
-  }
-
-
-}
-
-.powerUpCenter{
-  margin-top: 25px;
-  background-color: #F6F6F6;
- 
-  .centerPowerUp{
-    display: flex;
-  }
-
-  .rightSection{
-   width: 100% !important;
-   overflow-x: hidden;
-    .h-img{
-      display: none !important;
-    }
-
-    .mb-img{
-      display: block !important;
+    .itemsImg {
       width: 100%;
-      
-      img{
-        width: 100%;
+
+      img {
+        width: 95%;
+      }
+    }
+
+    .itemsText {
+      .p-card-title {
+        font-size: 16px;
+        font-family: 'Open Sans', 'Poppins', sans-serif;
+        font-weight: bold;
+      }
+
+      .p-card-sub-title {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: grey;
+        font-weight: 400;
+      }
+    }
+
+    .pro-content {
+      text-align: center;
+
+      .header-title {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        margin: 0rem;
+      }
+
+      .header-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 40px !important;
       }
     }
   }
 
-  .leftSection{
-   display: none !important;
-  }
-}
 
-.pro-card-items{
-  margin-top: 40px;
-
-  .proCenterCard{
-    text-align: center;
-  }
-
-
-  .allCard{
-    display: flex;
-    justify-content: center;
-  }
-
-  .itemsImg{
-    width: 100%;
-
-    img{
-      width: 95%;
-    }
-  }
-
-  .itemsText{
-    .p-card-title{
-      font-size: 16px;
-      font-family: 'Open Sans','Poppins',sans-serif;
-      font-weight: bold;
+  .loginGameStop{
+    .loginSection{
+      width: 51% !important;
     }
 
-    .p-card-sub-title{
-      font-size: 12px;
-      font-family: 'Open Sans',sans-serif;
-      color: grey;
-      font-weight: 400;
-    }
-  }
-
-  .pro-content{
-    text-align: center;
-    .header-title{
-      font-size: 32px;
-      font-weight: bold;
-      font-family: 'Poppins','Open Sans',sans-serif;
-      margin: 0rem;
+    .loginEmail{
+      padding-left: 15px !important;
+      padding-right: 15px !important;
     }
 
-    .header-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
-      margin-bottom: 40px !important;
+    .loginPass{
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
+    .top-text{
+      display: block !important;
+    }
+
+    .loginButton{
+      margin-left: 15px !important;
+      .btn-login{
+        width: 96% !important;
+      }
+    }
+    
+
+    .pull-left{
+      margin-left: -11px !important;
+      margin-bottom: 4px !important;
+    }
+
+    .pull-right{
+      a{
+        margin-left: -11px !important;
+        margin-top: 7px !important;
+      }
     }
   }
-}
 
 
 }
@@ -9277,7 +9367,7 @@ footer {
 
 
 
-  
+
   .featured-categories {
     gap: 1.35rem;
 
@@ -11003,182 +11093,186 @@ footer {
 
   }
 
-    
-.powerUpMain{
-  margin-top: -15px;
-  .topImg{
-    .mb-img{
-      width: 100%;
-      display: block !important;
-      img{
+
+  .powerUpMain {
+    margin-top: -15px;
+
+    .topImg {
+      .mb-img {
         width: 100%;
+        display: block !important;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .h-img {
+        display: none;
+      }
+
+    }
+
+    .text-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      .card-title {
+        position: absolute;
+        display: inline-block;
+        top: -167px !important;
+        font-size: 32px !important;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: white;
+      }
+
+      .card-sub-title {
+        color: white;
+        position: absolute;
+        display: inline-block;
+        top: -117px !important;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .proItems {
+    margin-top: 35px;
+
+    .col-lg-3 {
+      width: 20% !important;
+    }
+
+    .pro-center {
+      text-align: center;
+
+      .content-title {
+        font-size: 32px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        margin: 0rem;
+      }
+
+      .content-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
       }
     }
 
-    .h-img{
-      display: none;
+    .pro-items-card {
+      display: flex;
+
+
+      .card {
+        border: none;
+
+
+
+        img {
+          width: 66.2%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .card-text,
+      .card-title {
+        text-align: center;
+      }
+
+      .card-title {
+        font-size: 16px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .card-text {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
     }
 
+
   }
 
-.text-container{
-  position: relative;
-  display: flex;
-  justify-content: center;
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
 
-  .card-title{
-    position: absolute;
-    display: inline-block;
-    top: -167px !important;
-    font-size: 32px !important;
-    font-family: 'Poppins','Open Sans',sans-serif;
-    font-weight: bold;
-    color: white;
+    .centerPowerUp {
+      display: flex;
+    }
+
+    .rightSection {
+      .h-img {
+        img {
+          width: 95%;
+        }
+      }
+
+    }
+
+
   }
 
-  .card-sub-title{
-    color: white;
-    position: absolute;
-    display: inline-block;
-    top: -117px !important;
-    font-size: 20px;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bold;
-  }
-}
-}
+  .pro-card-items {
+    margin-top: 40px;
 
-.proItems {
-  margin-top: 35px;
-
-  .col-lg-3{
-    width: 20% !important;
-  }
-
-  .pro-center {
-    text-align: center;
-    .content-title {
-      font-size: 32px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
+    .proCenterCard {
       text-align: center;
-      font-weight: bold;
-      margin: 0rem;
     }
 
-    .content-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
+
+    .allCard {
+      display: flex;
+      justify-content: center;
     }
-  }
 
-  .pro-items-card {
-    display: flex;
-
-
-    .card {
-      border: none;
-
-
+    .itemsImg {
+      width: 100%;
 
       img {
-        width: 66.2%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-
-    .card-text,
-    .card-title {
-      text-align: center;
-    }
-
-    .card-title {
-      font-size: 16px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
-      font-weight: bold;
-    }
-
-    .card-text {
-      font-size: 12px;
-      font-family: 'Open Sans', sans-serif;
-    }
-  }
-
-
-}
-
-.powerUpCenter{
-  margin-top: 25px;
-  background-color: #F6F6F6;
- 
-  .centerPowerUp{
-    display: flex;
-  }
-
-  .rightSection{
-    .h-img{
-      img{
         width: 95%;
       }
     }
 
-  }
+    .itemsText {
+      .p-card-title {
+        font-size: 16px;
+        font-family: 'Open Sans', 'Poppins', sans-serif;
+        font-weight: bold;
+      }
 
-  
-}
-
-.pro-card-items{
-  margin-top: 40px;
-
-  .proCenterCard{
-    text-align: center;
-  }
-
-
-  .allCard{
-    display: flex;
-    justify-content: center;
-  }
-
-  .itemsImg{
-    width: 100%;
-
-    img{
-      width: 95%;
-    }
-  }
-
-  .itemsText{
-    .p-card-title{
-      font-size: 16px;
-      font-family: 'Open Sans','Poppins',sans-serif;
-      font-weight: bold;
+      .p-card-sub-title {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: grey;
+        font-weight: 400;
+      }
     }
 
-    .p-card-sub-title{
-      font-size: 12px;
-      font-family: 'Open Sans',sans-serif;
-      color: grey;
-      font-weight: 400;
+    .pro-content {
+      text-align: center;
+
+      .header-title {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        margin: 0rem;
+      }
+
+      .header-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 40px !important;
+      }
     }
   }
-
-  .pro-content{
-    text-align: center;
-    .header-title{
-      font-size: 32px;
-      font-weight: bold;
-      font-family: 'Poppins','Open Sans',sans-serif;
-      margin: 0rem;
-    }
-
-    .header-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
-      margin-bottom: 40px !important;
-    }
-  }
-}
 
 
 }
@@ -14084,182 +14178,186 @@ footer {
   }
 
 
-      
-.powerUpMain{
-  margin-top: -15px;
-  .topImg{
-    .mb-img{
-      width: 100%;
-      display: block !important;
-      img{
+
+  .powerUpMain {
+    margin-top: -15px;
+
+    .topImg {
+      .mb-img {
         width: 100%;
+        display: block !important;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .h-img {
+        display: none;
+      }
+
+    }
+
+    .text-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      .card-title {
+        position: absolute;
+        display: inline-block;
+        top: -438px !important;
+        font-size: 64px !important;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: white;
+      }
+
+      .card-sub-title {
+        color: white;
+        position: absolute;
+        display: inline-block;
+        top: -345px !important;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .proItems {
+    margin-top: 35px;
+
+    .col-lg-3 {
+      width: 20% !important;
+    }
+
+    .pro-center {
+      text-align: center;
+
+      .content-title {
+        font-size: 32px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        margin: 0rem;
+      }
+
+      .content-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
       }
     }
 
-    .h-img{
-      display: none;
+    .pro-items-card {
+      display: flex;
+
+
+      .card {
+        border: none;
+
+
+
+        img {
+          width: 66.2%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .card-text,
+      .card-title {
+        text-align: center;
+      }
+
+      .card-title {
+        font-size: 16px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .card-text {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
     }
 
+
   }
 
-.text-container{
-  position: relative;
-  display: flex;
-  justify-content: center;
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
 
-  .card-title{
-    position: absolute;
-    display: inline-block;
-    top: -438px !important;
-    font-size: 64px !important;
-    font-family: 'Poppins','Open Sans',sans-serif;
-    font-weight: bold;
-    color: white;
+    .centerPowerUp {
+      display: flex;
+    }
+
+    .rightSection {
+      .h-img {
+        img {
+          width: 95%;
+        }
+      }
+
+    }
+
+
   }
 
-  .card-sub-title{
-    color: white;
-    position: absolute;
-    display: inline-block;
-    top: -345px !important;
-    font-size: 20px;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bold;
-  }
-}
-}
+  .pro-card-items {
+    margin-top: 40px;
 
-.proItems {
-  margin-top: 35px;
-
-  .col-lg-3{
-    width: 20% !important;
-  }
-
-  .pro-center {
-    text-align: center;
-    .content-title {
-      font-size: 32px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
+    .proCenterCard {
       text-align: center;
-      font-weight: bold;
-      margin: 0rem;
     }
 
-    .content-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
+
+    .allCard {
+      display: flex;
+      justify-content: center;
     }
-  }
 
-  .pro-items-card {
-    display: flex;
-
-
-    .card {
-      border: none;
-
-
+    .itemsImg {
+      width: 100%;
 
       img {
-        width: 66.2%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-
-    .card-text,
-    .card-title {
-      text-align: center;
-    }
-
-    .card-title {
-      font-size: 16px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
-      font-weight: bold;
-    }
-
-    .card-text {
-      font-size: 12px;
-      font-family: 'Open Sans', sans-serif;
-    }
-  }
-
-
-}
-
-.powerUpCenter{
-  margin-top: 25px;
-  background-color: #F6F6F6;
- 
-  .centerPowerUp{
-    display: flex;
-  }
-
-  .rightSection{
-    .h-img{
-      img{
         width: 95%;
       }
     }
 
-  }
+    .itemsText {
+      .p-card-title {
+        font-size: 16px;
+        font-family: 'Open Sans', 'Poppins', sans-serif;
+        font-weight: bold;
+      }
 
-  
-}
-
-.pro-card-items{
-  margin-top: 40px;
-
-  .proCenterCard{
-    text-align: center;
-  }
-
-
-  .allCard{
-    display: flex;
-    justify-content: center;
-  }
-
-  .itemsImg{
-    width: 100%;
-
-    img{
-      width: 95%;
-    }
-  }
-
-  .itemsText{
-    .p-card-title{
-      font-size: 16px;
-      font-family: 'Open Sans','Poppins',sans-serif;
-      font-weight: bold;
+      .p-card-sub-title {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: grey;
+        font-weight: 400;
+      }
     }
 
-    .p-card-sub-title{
-      font-size: 12px;
-      font-family: 'Open Sans',sans-serif;
-      color: grey;
-      font-weight: 400;
+    .pro-content {
+      text-align: center;
+
+      .header-title {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        margin: 0rem;
+      }
+
+      .header-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 40px !important;
+      }
     }
   }
-
-  .pro-content{
-    text-align: center;
-    .header-title{
-      font-size: 32px;
-      font-weight: bold;
-      font-family: 'Poppins','Open Sans',sans-serif;
-      margin: 0rem;
-    }
-
-    .header-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
-      margin-bottom: 40px !important;
-    }
-  }
-}
 
 
 
@@ -15860,182 +15958,186 @@ footer {
   }
 
 
-      
-.powerUpMain{
-  margin-top: -15px;
-  .topImg{
-    .mb-img{
-      width: 100%;
-      display: block !important;
-      img{
+
+  .powerUpMain {
+    margin-top: -15px;
+
+    .topImg {
+      .h-img {
         width: 100%;
+        display: block !important;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .mb-img {
+        display: none;
+      }
+
+    }
+
+    .text-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      .card-title {
+        position: absolute;
+        display: inline-block;
+        top: -335px !important;
+        font-size: 64px !important;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: white;
+      }
+
+      .card-sub-title {
+        color: white;
+        position: absolute;
+        display: inline-block;
+        top: -240px !important;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .proItems {
+    margin-top: 35px;
+
+    .col-lg-3 {
+      width: 20% !important;
+    }
+
+    .pro-center {
+      text-align: center;
+
+      .content-title {
+        font-size: 32px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        margin: 0rem;
+      }
+
+      .content-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
       }
     }
 
-    .h-img{
-      display: none;
+    .pro-items-card {
+      display: flex;
+
+
+      .card {
+        border: none;
+
+
+
+        img {
+          width: 66.2%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .card-text,
+      .card-title {
+        text-align: center;
+      }
+
+      .card-title {
+        font-size: 16px;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .card-text {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
     }
 
+
   }
 
-.text-container{
-  position: relative;
-  display: flex;
-  justify-content: center;
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
 
-  .card-title{
-    position: absolute;
-    display: inline-block;
-    top: -435px !important;
-    font-size: 64px !important;
-    font-family: 'Poppins','Open Sans',sans-serif;
-    font-weight: bold;
-    color: white;
+    .centerPowerUp {
+      display: flex;
+    }
+
+    .rightSection {
+      .h-img {
+        img {
+          width: 95%;
+        }
+      }
+
+    }
+
+
   }
 
-  .card-sub-title{
-    color: white;
-    position: absolute;
-    display: inline-block;
-    top: -345px !important;
-    font-size: 20px;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bold;
-  }
-}
-}
+  .pro-card-items {
+    margin-top: 40px;
 
-.proItems {
-  margin-top: 35px;
-
-  .col-lg-3{
-    width: 20% !important;
-  }
-
-  .pro-center {
-    text-align: center;
-    .content-title {
-      font-size: 32px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
+    .proCenterCard {
       text-align: center;
-      font-weight: bold;
-      margin: 0rem;
     }
 
-    .content-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
+
+    .allCard {
+      display: flex;
+      justify-content: center;
     }
-  }
 
-  .pro-items-card {
-    display: flex;
-
-
-    .card {
-      border: none;
-
-
+    .itemsImg {
+      width: 100%;
 
       img {
-        width: 66.2%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-
-    .card-text,
-    .card-title {
-      text-align: center;
-    }
-
-    .card-title {
-      font-size: 16px;
-      font-family: 'Poppins', 'Open Sans', sans-serif;
-      font-weight: bold;
-    }
-
-    .card-text {
-      font-size: 12px;
-      font-family: 'Open Sans', sans-serif;
-    }
-  }
-
-
-}
-
-.powerUpCenter{
-  margin-top: 25px;
-  background-color: #F6F6F6;
- 
-  .centerPowerUp{
-    display: flex;
-  }
-
-  .rightSection{
-    .h-img{
-      img{
         width: 95%;
       }
     }
 
-  }
+    .itemsText {
+      .p-card-title {
+        font-size: 16px;
+        font-family: 'Open Sans', 'Poppins', sans-serif;
+        font-weight: bold;
+      }
 
-  
-}
-
-.pro-card-items{
-  margin-top: 40px;
-
-  .proCenterCard{
-    text-align: center;
-  }
-
-
-  .allCard{
-    display: flex;
-    justify-content: center;
-  }
-
-  .itemsImg{
-    width: 100%;
-
-    img{
-      width: 95%;
-    }
-  }
-
-  .itemsText{
-    .p-card-title{
-      font-size: 16px;
-      font-family: 'Open Sans','Poppins',sans-serif;
-      font-weight: bold;
+      .p-card-sub-title {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: grey;
+        font-weight: 400;
+      }
     }
 
-    .p-card-sub-title{
-      font-size: 12px;
-      font-family: 'Open Sans',sans-serif;
-      color: grey;
-      font-weight: 400;
+    .pro-content {
+      text-align: center;
+
+      .header-title {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Poppins', 'Open Sans', sans-serif;
+        margin: 0rem;
+      }
+
+      .header-sub-title {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 40px !important;
+      }
     }
   }
-
-  .pro-content{
-    text-align: center;
-    .header-title{
-      font-size: 32px;
-      font-weight: bold;
-      font-family: 'Poppins','Open Sans',sans-serif;
-      margin: 0rem;
-    }
-
-    .header-sub-title{
-      font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
-      margin-bottom: 40px !important;
-    }
-  }
-}
 
 }
 
@@ -20211,57 +20313,61 @@ Media Queries
 // start powerup section
 
 
-.powerUpMain{
+.powerUpMain {
   margin-top: -15px;
-  .topImg{
-    .mb-img{
+
+  .topImg {
+    .mb-img {
       display: none;
     }
-    .h-img{
+
+    .h-img {
       width: 100%;
-      img{
+
+      img {
         max-width: 1760px;
         width: 100%;
       }
     }
   }
 
-.text-container{
-  position: relative;
-  display: flex;
-  justify-content: center;
+  .text-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
 
-  .card-title{
-    position: absolute;
-    display: inline-block;
-    top: -322px;
-    font-size: 64px;
-    font-family: 'Poppins','Open Sans',sans-serif;
-    font-weight: bold;
-    color: white;
-  }
+    .card-title {
+      position: absolute;
+      display: inline-block;
+      top: -322px;
+      font-size: 64px;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+      font-weight: bold;
+      color: white;
+    }
 
-  .card-sub-title{
-    color: white;
-    position: absolute;
-    display: inline-block;
-    top: -233px;
-    font-size: 20px;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bold;
+    .card-sub-title {
+      color: white;
+      position: absolute;
+      display: inline-block;
+      top: -233px;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
   }
-}
 }
 
 .proItems {
   margin-top: 35px;
 
-  .col-lg-3{
+  .col-lg-3 {
     width: 20% !important;
   }
 
   .pro-center {
     text-align: center;
+
     .content-title {
       font-size: 32px;
       font-family: 'Poppins', 'Open Sans', sans-serif;
@@ -20270,9 +20376,9 @@ Media Queries
       margin: 0rem;
     }
 
-    .content-sub-title{
+    .content-sub-title {
       font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
   }
 
@@ -20309,99 +20415,101 @@ Media Queries
 
 }
 
-.powerUpCenter{
+.powerUpCenter {
   margin-top: 25px;
   background-color: #F6F6F6;
- 
-  .centerPowerUp{
+
+  .centerPowerUp {
     display: flex;
   }
 
-  .rightSection{
+  .rightSection {
     width: 50%;
-    img{
+
+    img {
       width: 77%;
       margin-top: -1.8rem;
     }
 
-    .mb-img{
+    .mb-img {
       display: none;
     }
   }
 
-  .leftSection{
+  .leftSection {
     width: 50%;
     display: flex;
     justify-content: center;
     margin-bottom: auto;
     margin-top: auto;
 
-    .text-details{
+    .text-details {
       padding-left: 40px;
     }
 
-    .card-title{
+    .card-title {
       font-size: 24px;
-      font-family: 'Poppins','Open Sans',sans-serif;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
       font-weight: bold;
     }
 
-    .card-sub-title{
+    .card-sub-title {
       font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
   }
 }
 
 
-.pro-card-items{
+.pro-card-items {
   margin-top: 40px;
 
-  .proCenterCard{
+  .proCenterCard {
     text-align: center;
   }
 
 
-  .allCard{
+  .allCard {
     display: flex;
     justify-content: center;
   }
 
-  .itemsImg{
+  .itemsImg {
     width: 100%;
 
-    img{
+    img {
       width: 95%;
     }
   }
 
-  .itemsText{
-    .p-card-title{
+  .itemsText {
+    .p-card-title {
       font-size: 16px;
-      font-family: 'Open Sans','Poppins',sans-serif;
+      font-family: 'Open Sans', 'Poppins', sans-serif;
       font-weight: bold;
     }
 
-    .p-card-sub-title{
+    .p-card-sub-title {
       font-size: 12px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
       color: grey;
       font-weight: 400;
     }
   }
 
-  .pro-content{
+  .pro-content {
     text-align: center;
-    .header-title{
+
+    .header-title {
       font-size: 32px;
       font-weight: bold;
-      font-family: 'Poppins','Open Sans',sans-serif;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
       margin: 0rem;
     }
 
-    .header-sub-title{
+    .header-sub-title {
       font-size: 16px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
       margin-bottom: 40px !important;
     }
   }
@@ -20412,59 +20520,170 @@ Media Queries
 
 
 // start login page
-.loginHeader{
+.loginHeader {
   height: 65px;
   box-shadow: 0 0 5px rgba(57, 63, 72, 0.3);
 
-  .header-logo{
+  .header-logo {
     width: 100%;
-    img{
+
+    img {
       width: 9.6%;
       padding-top: 15px;
-    margin-left: 15px;
+      margin-left: 15px;
     }
   }
 
 }
 
 
-.loginGameStop{
+.loginGameStop {
   height: 100vh;
 
   background-color: #f5f5f5;
-  
-.login-content{
-  padding-top: 45px;
-  padding-bottom: 32px;
-  h2{
 
-    text-align: center;
-    font-family: 'Poppins',sans-serif;
-    font-size: 30px;
+  .login-content {
+    padding-top: 45px;
+    padding-bottom: 32px;
+
+    h2 {
+
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+    }
   }
-}
-.loginPage{
-  display: flex;
-  justify-content: center;
 
-  
-
-  .loginSection{
-    background-color: white;
-    width: 25%;
-    box-shadow: 0 1px 3px 0 #9e9e9e54;
-    height: 370px;
-    border-radius: 4px;
-
-    .top-text{
-      padding-left: 26px;
-    padding-top: 8px;
+  .loginPage {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
-    .pull-right{
-      a{
-        margin-left: 33px;
+
+
+    .loginSection {
+      background-color: white;
+      width: 25%;
+      box-shadow: 0 1px 3px 0 #9e9e9e54;
+      height: 370px;
+      border-radius: 4px;
+
+      .top-text {
+        padding-left: 26px;
+        padding-top: 8px;
+        display: flex;
+        justify-content: space-around;
+
+        .pull-right {
+          a {
+            margin-left: 33px;
+            font-size: 12.5px;
+            color: #4476eb;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: sans-serif;
+
+
+          }
+        }
+
+        .pull-left {
+          margin-left: -26px;
+
+          label {
+            font-size: 14px;
+            font-family: sans-serif;
+
+
+          }
+        }
+
+
+      }
+
+      .loginButton {
+        margin-top: 24px;
+        margin-left: 23px;
+        margin-bottom: 11px;
+        cursor: pointer;
+
+        .btn-login {
+          cursor: pointer;
+          border: none;
+          padding: 12.5px 24px;
+          background-color: #e10e71;
+          color: white;
+          border-radius: 4px;
+          transition: all .3s ease-in-out;
+          font-weight: 600;
+          width: 94%;
+
+          &:hover {
+            background-color: #C80D65;
+          }
+
+        }
+      }
+
+
+      .login-email-field {
+        align-items: center;
+        background: #fff;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px 0 #e9e9e9;
+        display: flex;
+        transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+        width: 100%;
+      }
+
+
+    }
+
+    .form-label {
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+      padding-bottom: 11px;
+      display: block;
+      font-weight: 600;
+    }
+
+    .loginEmail {
+      padding-top: 30px;
+      padding-left: 23px;
+      padding-right: 23px;
+
+
+      input {
+        background: none;
+        border: 0;
+        flex-grow: 1;
+        outline: none;
+        padding: 10px 16px;
+        width: 100%;
+      }
+    }
+
+    .loginPass {
+
+      padding-top: 30px;
+      padding-left: 23px;
+      padding-right: 23px;
+
+      input {
+        background: none;
+        border: 0;
+        flex-grow: 1;
+        outline: none;
+        padding: 10px 16px;
+        width: 100%;
+      }
+    }
+
+    .helper-text {
+      display: flex;
+      justify-content: center;
+
+      a {
         font-size: 12.5px;
         color: #4476eb;
         text-decoration: none;
@@ -20474,112 +20693,7 @@ Media Queries
 
       }
     }
-
-    .pull-left{
-      margin-left: -26px;
-      label{
-        font-size: 14px;
-        font-family: sans-serif;
-
-
-      }
-    }
-
-   
   }
-
-  .loginButton{
-    margin-top: 24px;
-    margin-left: 23px;
-    margin-bottom: 11px;
-    cursor: pointer;
-    .btn-login{
-      cursor: pointer;
-      border: none;
-      padding: 12.5px 24px;
-      background-color: #e10e71;
-      color: white;
-      border-radius: 4px;
-      transition: all .3s ease-in-out;
-      font-weight: 600;
-      width: 94%;
-
-      &:hover{
-        background-color: #C80D65;
-      }
-
-    }
-  }
-
-
-    .login-email-field{
-      align-items: center;
-    background: #fff;
-    border: 1px solid #e9e9e9;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 3px 0 #e9e9e9;
-    display: flex;
-    transition: box-shadow .25s ease-in-out,border .25s ease-in-out;
-    width: 100%;
-    }
-
-    
-  }
-
-  .form-label{
-    font-size: 15px;
-    font-family: 'Poppins',sans-serif;
-    padding-bottom: 11px;
-    display: block;
-    font-weight: 600;
-  }
-
-  .loginEmail{
-    padding-top: 30px;
-    padding-left: 23px;
-    padding-right: 23px;
-    
-
-    input{
-      background: none;
-      border: 0;
-      flex-grow: 1;
-      outline: none;
-      padding: 10px 16px;
-      width: 100%;
-    }
-  }
-
-  .loginPass{
-    
-    padding-top: 30px;
-    padding-left: 23px;
-    padding-right: 23px;
-
-    input{
-      background: none;
-      border: 0;
-      flex-grow: 1;
-      outline: none;
-      padding: 10px 16px;
-      width: 100%;
-    }
-  }
-
-  .helper-text{
-    display: flex;
-    justify-content: center;
-    a{
-      font-size: 12.5px;
-      color: #4476eb;
-      text-decoration: none;
-      font-weight: 600;
-      font-family: sans-serif;
-
-
-    }
-  }
-}
 
 }
 
@@ -20589,219 +20703,222 @@ Media Queries
 
 // start register page
 
-.registerGameStop{
+.registerGameStop {
   height: 100vh;
 
   background-color: #f5f5f5;
-  
-.register-content{
-  padding-top: 45px;
-  padding-bottom: 32px;
-  h2{
 
-    text-align: center;
-    font-family: 'Poppins',sans-serif;
-    font-size: 30px;
-  }
-}
-.registerPage{
-  display: flex;
-  justify-content: center;
+  .register-content {
+    padding-top: 45px;
+    padding-bottom: 32px;
 
-  
+    h2 {
 
-  .registerSection{
-    background-color: white;
-    width: 27%;
-    box-shadow: 0 1px 3px 0 #9e9e9e54;
-    height: 537px;
-    border-radius: 4px;
-
-    .top-text{
-      padding-left: 26px;
-    padding-top: 8px;
-    font-size: 14px;
-    font-family: 'Poppins',sans-serif;
-
-    .signup-help-text{
-      max-width: 351px;
-      border-top: 1px solid #e4e4e4;
-      padding-top: 17.5px;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
     }
-   
   }
 
-  .registerButton{
-    margin-top: 24px;
-    margin-bottom: 11px;
+  .registerPage {
     display: flex;
     justify-content: center;
-    cursor: pointer;
-    .btn-login{
-      cursor: pointer;
-      border: none;
-      padding: 12.5px 24px;
-      background-color: #e10e71;
-      color: white;
-      border-radius: 4px;
-      transition: all .3s ease-in-out;
-      font-weight: 600;
-      width: 46%;
 
-      &:hover{
-        background-color: #C80D65;
+
+
+    .registerSection {
+      background-color: white;
+      width: 27%;
+      box-shadow: 0 1px 3px 0 #9e9e9e54;
+      height: 537px;
+      border-radius: 4px;
+
+      .top-text {
+        padding-left: 26px;
+        padding-top: 8px;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+
+        .signup-help-text {
+          max-width: 351px;
+          border-top: 1px solid #e4e4e4;
+          padding-top: 17.5px;
+        }
+
       }
 
+      .registerButton {
+        margin-top: 24px;
+        margin-bottom: 11px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+
+        .btn-login {
+          cursor: pointer;
+          border: none;
+          padding: 12.5px 24px;
+          background-color: #e10e71;
+          color: white;
+          border-radius: 4px;
+          transition: all .3s ease-in-out;
+          font-weight: 600;
+          width: 46%;
+
+          &:hover {
+            background-color: #C80D65;
+          }
+
+        }
+      }
+
+
+      .register-email-field {
+        align-items: center;
+        background: #fff;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px 0 #e9e9e9;
+        display: flex;
+        transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+        width: 100%;
+      }
+
+
+      .register-name-field {
+        align-items: center;
+        background: #fff;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px 0 #e9e9e9;
+        display: flex;
+        transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+        width: 100%;
+      }
+
+      .register-last-name-field {
+        align-items: center;
+        background: #fff;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px 0 #e9e9e9;
+        display: flex;
+        transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+        width: 100%;
+      }
+
+      .register-password-field {
+        align-items: center;
+        background: #fff;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px 0 #e9e9e9;
+        display: flex;
+        transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+        width: 100%;
+      }
+
+
     }
+
+    .passwdSection {
+      display: flex;
+      padding-bottom: 16px;
+    }
+
+    .form-label {
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+      padding-bottom: 11px;
+      display: block;
+      font-weight: 600;
+    }
+
+    .registerEmail {
+      padding-top: 18px;
+      padding-left: 23px;
+      padding-right: 23px;
+
+
+      input {
+        background: none;
+        border: 0;
+        flex-grow: 1;
+        outline: none;
+        padding: 10px 16px;
+        width: 100%;
+      }
+    }
+
+    .registerName {
+      padding-top: 30px;
+      padding-left: 23px;
+      padding-right: 23px;
+
+
+      input {
+        background: none;
+        border: 0;
+        flex-grow: 1;
+        outline: none;
+        padding: 10px 16px;
+        width: 100%;
+      }
+    }
+
+
+    .registerLastName {
+      padding-top: 18px;
+      padding-left: 23px;
+      padding-right: 23px;
+
+
+      input {
+        background: none;
+        border: 0;
+        flex-grow: 1;
+        outline: none;
+        padding: 10px 16px;
+        width: 100%;
+      }
+    }
+
+
+    .registerPass {
+
+      padding-top: 20px;
+      padding-left: 23px;
+      padding-right: 23px;
+
+      input {
+        background: none;
+        border: 0;
+        flex-grow: 1;
+        outline: none;
+        padding: 10px 16px;
+        width: 100%;
+      }
+    }
+
   }
 
-
-    .register-email-field{
-      align-items: center;
-    background: #fff;
-    border: 1px solid #e9e9e9;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 3px 0 #e9e9e9;
-    display: flex;
-    transition: box-shadow .25s ease-in-out,border .25s ease-in-out;
-    width: 100%;
-    }
-
-    
-    .register-name-field{
-      align-items: center;
-    background: #fff;
-    border: 1px solid #e9e9e9;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 3px 0 #e9e9e9;
-    display: flex;
-    transition: box-shadow .25s ease-in-out,border .25s ease-in-out;
-    width: 100%;
-    }
-
-    .register-last-name-field{
-      align-items: center;
-    background: #fff;
-    border: 1px solid #e9e9e9;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 3px 0 #e9e9e9;
-    display: flex;
-    transition: box-shadow .25s ease-in-out,border .25s ease-in-out;
-    width: 100%;
-    }
-
-    .register-password-field{
-      align-items: center;
-    background: #fff;
-    border: 1px solid #e9e9e9;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 3px 0 #e9e9e9;
-    display: flex;
-    transition: box-shadow .25s ease-in-out,border .25s ease-in-out;
-    width: 100%;
-    }
-
-    
-  }
-
-  .passwdSection{
-    display: flex;
-    padding-bottom: 16px;
-  }
-
-  .form-label{
-    font-size: 15px;
-    font-family: 'Poppins',sans-serif;
-    padding-bottom: 11px;
-    display: block;
+  a {
+    font-size: 12.5px;
+    color: #4476eb;
+    text-decoration: none;
     font-weight: 600;
+    font-family: sans-serif;
+
+
   }
 
-  .registerEmail{
-    padding-top: 18px;
-    padding-left: 23px;
-    padding-right: 23px;
-    
+  .helper-text {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 
-    input{
-      background: none;
-      border: 0;
-      flex-grow: 1;
-      outline: none;
-      padding: 10px 16px;
-      width: 100%;
-    }
   }
-
-  .registerName{
-    padding-top: 30px;
-    padding-left: 23px;
-    padding-right: 23px;
-    
-
-    input{
-      background: none;
-      border: 0;
-      flex-grow: 1;
-      outline: none;
-      padding: 10px 16px;
-      width: 100%;
-    }
-  }
-
-  
-  .registerLastName{
-    padding-top: 18px;
-    padding-left: 23px;
-    padding-right: 23px;
-    
-
-    input{
-      background: none;
-      border: 0;
-      flex-grow: 1;
-      outline: none;
-      padding: 10px 16px;
-      width: 100%;
-    }
-  }
-  
-
-  .registerPass{
-    
-    padding-top: 20px;
-    padding-left: 23px;
-    padding-right: 23px;
-
-    input{
-      background: none;
-      border: 0;
-      flex-grow: 1;
-      outline: none;
-      padding: 10px 16px;
-      width: 100%;
-    }
-  }
-
-}
-
-a{
-  font-size: 12.5px;
-  color: #4476eb;
-  text-decoration: none;
-  font-weight: 600;
-  font-family: sans-serif;
-
-
-}
-
-.helper-text{
-  margin-top: 12px;
-  text-align: center;
-  font-size: 14px;
-  font-family: 'Open Sans',sans-serif;
- 
-}
 }
 
 // end register page
@@ -20809,127 +20926,131 @@ a{
 
 // start forgot password section
 
-.forgotPasswd{
+.forgotPasswd {
   height: 100vh;
 
   background-color: #f5f5f5;
 
-  p{
+  p {
     font-size: 14px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 24px;
     padding-top: 23px;
     max-width: 338px;
   }
-  
-.forgot-content{
-  padding-top: 45px;
-  padding-bottom: 32px;
-  h2{
 
-    text-align: center;
-    font-family: 'Poppins',sans-serif;
-    font-size: 23px;
-    color: #3e3e3e;
-  }
-}
-.forgotPage{
-  display: flex;
-  justify-content: center;
+  .forgot-content {
+    padding-top: 45px;
+    padding-bottom: 32px;
 
-  
+    h2 {
 
-  .forgotSection{
-    background-color: white;
-    width: 25%;
-    box-shadow: 0 1px 3px 0 #9e9e9e54;
-    height: 370px;
-    border-radius: 4px;
-
-    .top-text{
-      padding-left: 26px;
-    padding-top: 8px;
-    display: flex;
-    justify-content: space-around;
-   
-  }
-
-  .sendButton{
-    margin-top: 24px;
-    margin-left: 23px;
-    margin-bottom: 11px;
-    cursor: pointer;
-    .btn-login{
-      cursor: pointer;
-      border: none;
-      padding: 12.5px 24px;
-      background-color: #e10e71;
-      color: white;
-      border-radius: 4px;
-      transition: all .3s ease-in-out;
-      font-weight: 600;
-      width: 94%;
-
-      &:hover{
-        background-color: #C80D65;
-      }
-
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 23px;
+      color: #3e3e3e;
     }
   }
 
-
-    .forgot-email-field{
-      align-items: center;
-    background: #fff;
-    border: 1px solid #e9e9e9;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 3px 0 #e9e9e9;
-    display: flex;
-    transition: box-shadow .25s ease-in-out,border .25s ease-in-out;
-    width: 100%;
-    }
-
-    
-  }
-
-  .form-label{
-    font-size: 15px;
-    font-family: 'Poppins',sans-serif;
-    padding-bottom: 11px;
-    display: block;
-    font-weight: 600;
-  }
-
-  .forgotEmail{
-    padding-top: 30px;
-    padding-left: 23px;
-    padding-right: 23px;
-    
-
-    input{
-      background: none;
-      border: 0;
-      flex-grow: 1;
-      outline: none;
-      padding: 10px 16px;
-      width: 100%;
-    }
-  }
-
-  .helper-text{
+  .forgotPage {
     display: flex;
     justify-content: center;
-    a{
-      font-size: 12.5px;
-      color: #4476eb;
-      text-decoration: none;
-      font-weight: 600;
-      font-family: sans-serif;
+
+
+
+    .forgotSection {
+      background-color: white;
+      width: 25%;
+      box-shadow: 0 1px 3px 0 #9e9e9e54;
+      height: 370px;
+      border-radius: 4px;
+
+      .top-text {
+        padding-left: 26px;
+        padding-top: 8px;
+        display: flex;
+        justify-content: space-around;
+
+      }
+
+      .sendButton {
+        margin-top: 24px;
+        margin-left: 23px;
+        margin-bottom: 11px;
+        cursor: pointer;
+
+        .btn-login {
+          cursor: pointer;
+          border: none;
+          padding: 12.5px 24px;
+          background-color: #e10e71;
+          color: white;
+          border-radius: 4px;
+          transition: all .3s ease-in-out;
+          font-weight: 600;
+          width: 94%;
+
+          &:hover {
+            background-color: #C80D65;
+          }
+
+        }
+      }
+
+
+      .forgot-email-field {
+        align-items: center;
+        background: #fff;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px 0 #e9e9e9;
+        display: flex;
+        transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+        width: 100%;
+      }
 
 
     }
+
+    .form-label {
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+      padding-bottom: 11px;
+      display: block;
+      font-weight: 600;
+    }
+
+    .forgotEmail {
+      padding-top: 30px;
+      padding-left: 23px;
+      padding-right: 23px;
+
+
+      input {
+        background: none;
+        border: 0;
+        flex-grow: 1;
+        outline: none;
+        padding: 10px 16px;
+        width: 100%;
+      }
+    }
+
+    .helper-text {
+      display: flex;
+      justify-content: center;
+
+      a {
+        font-size: 12.5px;
+        color: #4476eb;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: sans-serif;
+
+
+      }
+    }
   }
-}
 
 }
 

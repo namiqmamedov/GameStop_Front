@@ -2940,6 +2940,34 @@ footer #hr {
     font-family: "Open Sans", sans-serif;
     margin-bottom: 40px !important;
   }
+  .loginGameStop .loginSection {
+    width: 70% !important;
+  }
+  .loginGameStop .loginEmail {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .loginGameStop .loginPass {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .loginGameStop .top-text {
+    display: block !important;
+  }
+  .loginGameStop .loginButton {
+    margin-left: 15px !important;
+  }
+  .loginGameStop .loginButton .btn-login {
+    width: 96% !important;
+  }
+  .loginGameStop .pull-left {
+    margin-left: -11px !important;
+    margin-bottom: 4px !important;
+  }
+  .loginGameStop .pull-right a {
+    margin-left: -11px !important;
+    margin-top: 7px !important;
+  }
 }
 .breadcrumbs {
   font-size: 14px;
@@ -6561,6 +6589,34 @@ footer #hr {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 40px !important;
+  }
+  .loginGameStop .loginSection {
+    width: 51% !important;
+  }
+  .loginGameStop .loginEmail {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .loginGameStop .loginPass {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .loginGameStop .top-text {
+    display: block !important;
+  }
+  .loginGameStop .loginButton {
+    margin-left: 15px !important;
+  }
+  .loginGameStop .loginButton .btn-login {
+    width: 96% !important;
+  }
+  .loginGameStop .pull-left {
+    margin-left: -11px !important;
+    margin-bottom: 4px !important;
+  }
+  .loginGameStop .pull-right a {
+    margin-left: -11px !important;
+    margin-top: 7px !important;
   }
 }
 .paginationRes {
@@ -11309,14 +11365,14 @@ footer #hr {
   .powerUpMain {
     margin-top: -15px;
   }
-  .powerUpMain .topImg .mb-img {
+  .powerUpMain .topImg .h-img {
     width: 100%;
     display: block !important;
   }
-  .powerUpMain .topImg .mb-img img {
+  .powerUpMain .topImg .h-img img {
     width: 100%;
   }
-  .powerUpMain .topImg .h-img {
+  .powerUpMain .topImg .mb-img {
     display: none;
   }
   .powerUpMain .text-container {
@@ -11327,7 +11383,7 @@ footer #hr {
   .powerUpMain .text-container .card-title {
     position: absolute;
     display: inline-block;
-    top: -435px !important;
+    top: -335px !important;
     font-size: 64px !important;
     font-family: "Poppins", "Open Sans", sans-serif;
     font-weight: bold;
@@ -11337,7 +11393,7 @@ footer #hr {
     color: white;
     position: absolute;
     display: inline-block;
-    top: -345px !important;
+    top: -240px !important;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
