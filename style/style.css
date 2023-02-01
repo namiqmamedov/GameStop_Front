@@ -2782,6 +2782,164 @@ footer #hr {
     font-size: 24px;
     font-family: "Poppins", "Open Sans", sans-serif;
   }
+  .powerUpMain {
+    margin-top: -15px;
+  }
+  .powerUpMain .topImg .mb-img {
+    width: 100%;
+    display: block !important;
+  }
+  .powerUpMain .topImg .mb-img img {
+    width: 100%;
+  }
+  .powerUpMain .topImg .h-img {
+    display: none;
+  }
+  .powerUpMain .text-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .powerUpMain .text-container .card-title {
+    position: absolute;
+    display: inline-block;
+    top: -167px !important;
+    font-size: 32px !important;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .powerUpMain .text-container .card-sub-title {
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: -117px !important;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .proItems {
+    margin-top: 35px;
+  }
+  .proItems .col-lg-3 {
+    width: 20% !important;
+  }
+  .proItems .pro-center {
+    text-align: center;
+  }
+  .proItems .pro-center .content-title {
+    font-size: 32px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0rem;
+  }
+  .proItems .pro-center .content-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .proItems .pro-items-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .proItems .pro-items-card .col-lg-3 {
+    width: 25% !important;
+  }
+  .proItems .pro-items-card .card {
+    border: none;
+  }
+  .proItems .pro-items-card .card:last-child {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proItems .pro-items-card .card:last-child img {
+    width: 162%;
+    margin-left: -40px;
+  }
+  .proItems .pro-items-card .card img {
+    width: 66.2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proItems .pro-items-card .card-text,
+.proItems .pro-items-card .card-title {
+    text-align: center;
+  }
+  .proItems .pro-items-card .card-title {
+    font-size: 16px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .proItems .pro-items-card .card-text {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
+  }
+  .powerUpCenter .centerPowerUp {
+    display: flex;
+  }
+  .powerUpCenter .rightSection {
+    width: 100% !important;
+    overflow-x: hidden;
+  }
+  .powerUpCenter .rightSection .h-img {
+    display: none !important;
+  }
+  .powerUpCenter .rightSection .mb-img {
+    display: block !important;
+    width: 100%;
+  }
+  .powerUpCenter .rightSection .mb-img img {
+    width: 100%;
+  }
+  .powerUpCenter .leftSection {
+    display: none !important;
+  }
+  .pro-card-items {
+    margin-top: 40px;
+  }
+  .pro-card-items .proCenterCard {
+    text-align: center;
+  }
+  .pro-card-items .allCard {
+    display: flex;
+    justify-content: center;
+  }
+  .pro-card-items .itemsImg {
+    width: 100%;
+  }
+  .pro-card-items .itemsImg img {
+    width: 95%;
+  }
+  .pro-card-items .itemsText .p-card-title {
+    font-size: 16px;
+    font-family: "Open Sans", "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  .pro-card-items .itemsText .p-card-sub-title {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: grey;
+    font-weight: 400;
+  }
+  .pro-card-items .pro-content {
+    text-align: center;
+  }
+  .pro-card-items .pro-content .header-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    margin: 0rem;
+  }
+  .pro-card-items .pro-content .header-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 40px !important;
+  }
 }
 .breadcrumbs {
   font-size: 14px;
@@ -6246,6 +6404,164 @@ footer #hr {
   .brandMain .imgBrand .brandImg img {
     width: 100%;
   }
+  .powerUpMain {
+    margin-top: -15px;
+  }
+  .powerUpMain .topImg .mb-img {
+    width: 100%;
+    display: block !important;
+  }
+  .powerUpMain .topImg .mb-img img {
+    width: 100%;
+  }
+  .powerUpMain .topImg .h-img {
+    display: none;
+  }
+  .powerUpMain .text-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .powerUpMain .text-container .card-title {
+    position: absolute;
+    display: inline-block;
+    top: -167px !important;
+    font-size: 32px !important;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .powerUpMain .text-container .card-sub-title {
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: -117px !important;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .proItems {
+    margin-top: 35px;
+  }
+  .proItems .col-lg-3 {
+    width: 20% !important;
+  }
+  .proItems .pro-center {
+    text-align: center;
+  }
+  .proItems .pro-center .content-title {
+    font-size: 32px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0rem;
+  }
+  .proItems .pro-center .content-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .proItems .pro-items-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .proItems .pro-items-card .col-lg-3 {
+    width: 25% !important;
+  }
+  .proItems .pro-items-card .card {
+    border: none;
+  }
+  .proItems .pro-items-card .card:last-child {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proItems .pro-items-card .card:last-child img {
+    width: 162%;
+    margin-left: -40px;
+  }
+  .proItems .pro-items-card .card img {
+    width: 66.2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proItems .pro-items-card .card-text,
+.proItems .pro-items-card .card-title {
+    text-align: center;
+  }
+  .proItems .pro-items-card .card-title {
+    font-size: 16px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .proItems .pro-items-card .card-text {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
+  }
+  .powerUpCenter .centerPowerUp {
+    display: flex;
+  }
+  .powerUpCenter .rightSection {
+    width: 100% !important;
+    overflow-x: hidden;
+  }
+  .powerUpCenter .rightSection .h-img {
+    display: none !important;
+  }
+  .powerUpCenter .rightSection .mb-img {
+    display: block !important;
+    width: 100%;
+  }
+  .powerUpCenter .rightSection .mb-img img {
+    width: 100%;
+  }
+  .powerUpCenter .leftSection {
+    display: none !important;
+  }
+  .pro-card-items {
+    margin-top: 40px;
+  }
+  .pro-card-items .proCenterCard {
+    text-align: center;
+  }
+  .pro-card-items .allCard {
+    display: flex;
+    justify-content: center;
+  }
+  .pro-card-items .itemsImg {
+    width: 100%;
+  }
+  .pro-card-items .itemsImg img {
+    width: 95%;
+  }
+  .pro-card-items .itemsText .p-card-title {
+    font-size: 16px;
+    font-family: "Open Sans", "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  .pro-card-items .itemsText .p-card-sub-title {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: grey;
+    font-weight: 400;
+  }
+  .pro-card-items .pro-content {
+    text-align: center;
+  }
+  .pro-card-items .pro-content .header-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    margin: 0rem;
+  }
+  .pro-card-items .pro-content .header-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 40px !important;
+  }
 }
 .paginationRes {
   display: none;
@@ -7490,6 +7806,145 @@ footer #hr {
   }
   .faq-section .rightSection {
     width: 100% !important;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  .powerUpMain {
+    margin-top: -15px;
+  }
+  .powerUpMain .topImg .mb-img {
+    width: 100%;
+    display: block !important;
+  }
+  .powerUpMain .topImg .mb-img img {
+    width: 100%;
+  }
+  .powerUpMain .topImg .h-img {
+    display: none;
+  }
+  .powerUpMain .text-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .powerUpMain .text-container .card-title {
+    position: absolute;
+    display: inline-block;
+    top: -167px !important;
+    font-size: 32px !important;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .powerUpMain .text-container .card-sub-title {
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: -117px !important;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  .proItems {
+    margin-top: 35px;
+  }
+  .proItems .col-lg-3 {
+    width: 20% !important;
+  }
+  .proItems .pro-center {
+    text-align: center;
+  }
+  .proItems .pro-center .content-title {
+    font-size: 32px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0rem;
+  }
+  .proItems .pro-center .content-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .proItems .pro-items-card {
+    display: flex;
+  }
+  .proItems .pro-items-card .card {
+    border: none;
+  }
+  .proItems .pro-items-card .card img {
+    width: 66.2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proItems .pro-items-card .card-text,
+.proItems .pro-items-card .card-title {
+    text-align: center;
+  }
+  .proItems .pro-items-card .card-title {
+    font-size: 16px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .proItems .pro-items-card .card-text {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
+  }
+  .powerUpCenter .centerPowerUp {
+    display: flex;
+  }
+  .powerUpCenter .rightSection .h-img img {
+    width: 95%;
+  }
+}
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  .pro-card-items {
+    margin-top: 40px;
+  }
+  .pro-card-items .proCenterCard {
+    text-align: center;
+  }
+  .pro-card-items .allCard {
+    display: flex;
+    justify-content: center;
+  }
+  .pro-card-items .itemsImg {
+    width: 100%;
+  }
+  .pro-card-items .itemsImg img {
+    width: 95%;
+  }
+  .pro-card-items .itemsText .p-card-title {
+    font-size: 16px;
+    font-family: "Open Sans", "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  .pro-card-items .itemsText .p-card-sub-title {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: grey;
+    font-weight: 400;
+  }
+  .pro-card-items .pro-content {
+    text-align: center;
+  }
+  .pro-card-items .pro-content .header-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    margin: 0rem;
+  }
+  .pro-card-items .pro-content .header-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 40px !important;
   }
 }
 @media (min-width: 576.7px) and (max-width: 767.8px) {
@@ -9567,6 +10022,145 @@ footer #hr {
     width: 97%;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .powerUpMain {
+    margin-top: -15px;
+  }
+  .powerUpMain .topImg .mb-img {
+    width: 100%;
+    display: block !important;
+  }
+  .powerUpMain .topImg .mb-img img {
+    width: 100%;
+  }
+  .powerUpMain .topImg .h-img {
+    display: none;
+  }
+  .powerUpMain .text-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .powerUpMain .text-container .card-title {
+    position: absolute;
+    display: inline-block;
+    top: -438px !important;
+    font-size: 64px !important;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .powerUpMain .text-container .card-sub-title {
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: -345px !important;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .proItems {
+    margin-top: 35px;
+  }
+  .proItems .col-lg-3 {
+    width: 20% !important;
+  }
+  .proItems .pro-center {
+    text-align: center;
+  }
+  .proItems .pro-center .content-title {
+    font-size: 32px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0rem;
+  }
+  .proItems .pro-center .content-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .proItems .pro-items-card {
+    display: flex;
+  }
+  .proItems .pro-items-card .card {
+    border: none;
+  }
+  .proItems .pro-items-card .card img {
+    width: 66.2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proItems .pro-items-card .card-text,
+.proItems .pro-items-card .card-title {
+    text-align: center;
+  }
+  .proItems .pro-items-card .card-title {
+    font-size: 16px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .proItems .pro-items-card .card-text {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
+  }
+  .powerUpCenter .centerPowerUp {
+    display: flex;
+  }
+  .powerUpCenter .rightSection .h-img img {
+    width: 95%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .pro-card-items {
+    margin-top: 40px;
+  }
+  .pro-card-items .proCenterCard {
+    text-align: center;
+  }
+  .pro-card-items .allCard {
+    display: flex;
+    justify-content: center;
+  }
+  .pro-card-items .itemsImg {
+    width: 100%;
+  }
+  .pro-card-items .itemsImg img {
+    width: 95%;
+  }
+  .pro-card-items .itemsText .p-card-title {
+    font-size: 16px;
+    font-family: "Open Sans", "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  .pro-card-items .itemsText .p-card-sub-title {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: grey;
+    font-weight: 400;
+  }
+  .pro-card-items .pro-content {
+    text-align: center;
+  }
+  .pro-card-items .pro-content .header-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    margin: 0rem;
+  }
+  .pro-card-items .pro-content .header-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 40px !important;
+  }
+}
 @media (min-width: 1200px) {
   .container {
     max-width: 1760px !important;
@@ -10709,6 +11303,145 @@ footer #hr {
     background-size: 14px;
     background-position: right 0.75rem top 1.625rem;
     background-image: url("https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/images/svg-icons/close-accordion.svg");
+  }
+}
+@media (min-width: 1200px) {
+  .powerUpMain {
+    margin-top: -15px;
+  }
+  .powerUpMain .topImg .mb-img {
+    width: 100%;
+    display: block !important;
+  }
+  .powerUpMain .topImg .mb-img img {
+    width: 100%;
+  }
+  .powerUpMain .topImg .h-img {
+    display: none;
+  }
+  .powerUpMain .text-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .powerUpMain .text-container .card-title {
+    position: absolute;
+    display: inline-block;
+    top: -435px !important;
+    font-size: 64px !important;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .powerUpMain .text-container .card-sub-title {
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: -345px !important;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1200px) {
+  .proItems {
+    margin-top: 35px;
+  }
+  .proItems .col-lg-3 {
+    width: 20% !important;
+  }
+  .proItems .pro-center {
+    text-align: center;
+  }
+  .proItems .pro-center .content-title {
+    font-size: 32px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0rem;
+  }
+  .proItems .pro-center .content-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .proItems .pro-items-card {
+    display: flex;
+  }
+  .proItems .pro-items-card .card {
+    border: none;
+  }
+  .proItems .pro-items-card .card img {
+    width: 66.2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proItems .pro-items-card .card-text,
+.proItems .pro-items-card .card-title {
+    text-align: center;
+  }
+  .proItems .pro-items-card .card-title {
+    font-size: 16px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .proItems .pro-items-card .card-text {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media (min-width: 1200px) {
+  .powerUpCenter {
+    margin-top: 25px;
+    background-color: #F6F6F6;
+  }
+  .powerUpCenter .centerPowerUp {
+    display: flex;
+  }
+  .powerUpCenter .rightSection .h-img img {
+    width: 95%;
+  }
+}
+@media (min-width: 1200px) {
+  .pro-card-items {
+    margin-top: 40px;
+  }
+  .pro-card-items .proCenterCard {
+    text-align: center;
+  }
+  .pro-card-items .allCard {
+    display: flex;
+    justify-content: center;
+  }
+  .pro-card-items .itemsImg {
+    width: 100%;
+  }
+  .pro-card-items .itemsImg img {
+    width: 95%;
+  }
+  .pro-card-items .itemsText .p-card-title {
+    font-size: 16px;
+    font-family: "Open Sans", "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  .pro-card-items .itemsText .p-card-sub-title {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: grey;
+    font-weight: 400;
+  }
+  .pro-card-items .pro-content {
+    text-align: center;
+  }
+  .pro-card-items .pro-content .header-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    margin: 0rem;
+  }
+  .pro-card-items .pro-content .header-sub-title {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 40px !important;
   }
 }
 .body-wrapper {
@@ -13942,6 +14675,9 @@ Media Queries
   width: 77%;
   margin-top: -1.8rem;
 }
+.powerUpCenter .rightSection .mb-img {
+  display: none;
+}
 .powerUpCenter .leftSection {
   width: 50%;
   display: flex;
@@ -14310,44 +15046,51 @@ Media Queries
   font-family: "Open Sans", sans-serif;
 }
 
-.forgotGameStop {
+.forgotPasswd {
   height: 100vh;
   background-color: #f5f5f5;
 }
-.forgotGameStop .forgot-content {
+.forgotPasswd p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 24px;
+  padding-top: 23px;
+  max-width: 338px;
+}
+.forgotPasswd .forgot-content {
   padding-top: 45px;
   padding-bottom: 32px;
 }
-.forgotGameStop .forgot-content h2 {
+.forgotPasswd .forgot-content h2 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 23px;
   color: #3e3e3e;
 }
-.forgotGameStop .forgotPage {
+.forgotPasswd .forgotPage {
   display: flex;
   justify-content: center;
 }
-.forgotGameStop .forgotPage .forgotSection {
+.forgotPasswd .forgotPage .forgotSection {
   background-color: white;
   width: 25%;
   box-shadow: 0 1px 3px 0 rgba(158, 158, 158, 0.3294117647);
   height: 370px;
   border-radius: 4px;
 }
-.forgotGameStop .forgotPage .forgotSection .top-text {
+.forgotPasswd .forgotPage .forgotSection .top-text {
   padding-left: 26px;
   padding-top: 8px;
   display: flex;
   justify-content: space-around;
 }
-.forgotGameStop .forgotPage .forgotSection .sendButton {
+.forgotPasswd .forgotPage .forgotSection .sendButton {
   margin-top: 24px;
   margin-left: 23px;
   margin-bottom: 11px;
   cursor: pointer;
 }
-.forgotGameStop .forgotPage .forgotSection .sendButton .btn-login {
+.forgotPasswd .forgotPage .forgotSection .sendButton .btn-login {
   cursor: pointer;
   border: none;
   padding: 12.5px 24px;
@@ -14358,10 +15101,10 @@ Media Queries
   font-weight: 600;
   width: 94%;
 }
-.forgotGameStop .forgotPage .forgotSection .sendButton .btn-login:hover {
+.forgotPasswd .forgotPage .forgotSection .sendButton .btn-login:hover {
   background-color: #C80D65;
 }
-.forgotGameStop .forgotPage .forgotSection .forgot-email-field {
+.forgotPasswd .forgotPage .forgotSection .forgot-email-field {
   align-items: center;
   background: #fff;
   border: 1px solid #e9e9e9;
@@ -14371,19 +15114,19 @@ Media Queries
   transition: box-shadow 0.25s ease-in-out, border 0.25s ease-in-out;
   width: 100%;
 }
-.forgotGameStop .forgotPage .form-label {
+.forgotPasswd .forgotPage .form-label {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   padding-bottom: 11px;
   display: block;
   font-weight: 600;
 }
-.forgotGameStop .forgotPage .forgotEmail {
+.forgotPasswd .forgotPage .forgotEmail {
   padding-top: 30px;
   padding-left: 23px;
   padding-right: 23px;
 }
-.forgotGameStop .forgotPage .forgotEmail input {
+.forgotPasswd .forgotPage .forgotEmail input {
   background: none;
   border: 0;
   flex-grow: 1;
@@ -14391,11 +15134,11 @@ Media Queries
   padding: 10px 16px;
   width: 100%;
 }
-.forgotGameStop .forgotPage .helper-text {
+.forgotPasswd .forgotPage .helper-text {
   display: flex;
   justify-content: center;
 }
-.forgotGameStop .forgotPage .helper-text a {
+.forgotPasswd .forgotPage .helper-text a {
   font-size: 12.5px;
   color: #4476eb;
   text-decoration: none;
