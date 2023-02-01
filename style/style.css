@@ -14066,8 +14066,10 @@ Media Queries
   margin-top: 24px;
   margin-left: 23px;
   margin-bottom: 11px;
+  cursor: pointer;
 }
 .loginGameStop .loginPage .loginSection .loginButton .btn-login {
+  cursor: pointer;
   border: none;
   padding: 12.5px 24px;
   background-color: #e10e71;
@@ -14154,38 +14156,31 @@ Media Queries
 }
 .registerGameStop .registerPage .registerSection {
   background-color: white;
-  width: 25%;
+  width: 27%;
   box-shadow: 0 1px 3px 0 rgba(158, 158, 158, 0.3294117647);
-  height: 370px;
+  height: 537px;
   border-radius: 4px;
 }
 .registerGameStop .registerPage .registerSection .top-text {
   padding-left: 26px;
   padding-top: 8px;
-  display: flex;
-  justify-content: space-around;
-}
-.registerGameStop .registerPage .registerSection .top-text .pull-right a {
-  margin-left: 33px;
-  font-size: 12.5px;
-  color: #4476eb;
-  text-decoration: none;
-  font-weight: 600;
-  font-family: sans-serif;
-}
-.registerGameStop .registerPage .registerSection .top-text .pull-left {
-  margin-left: -26px;
-}
-.registerGameStop .registerPage .registerSection .top-text .pull-left label {
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.registerGameStop .registerPage .registerSection .top-text .signup-help-text {
+  max-width: 351px;
+  border-top: 1px solid #e4e4e4;
+  padding-top: 17.5px;
 }
 .registerGameStop .registerPage .registerSection .registerButton {
   margin-top: 24px;
-  margin-left: 23px;
   margin-bottom: 11px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 .registerGameStop .registerPage .registerSection .registerButton .btn-login {
+  cursor: pointer;
   border: none;
   padding: 12.5px 24px;
   background-color: #e10e71;
@@ -14193,7 +14188,7 @@ Media Queries
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
   font-weight: 600;
-  width: 94%;
+  width: 46%;
 }
 .registerGameStop .registerPage .registerSection .registerButton .btn-login:hover {
   background-color: #C80D65;
@@ -14228,6 +14223,20 @@ Media Queries
   transition: box-shadow 0.25s ease-in-out, border 0.25s ease-in-out;
   width: 100%;
 }
+.registerGameStop .registerPage .registerSection .register-password-field {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px 0 #e9e9e9;
+  display: flex;
+  transition: box-shadow 0.25s ease-in-out, border 0.25s ease-in-out;
+  width: 100%;
+}
+.registerGameStop .registerPage .passwdSection {
+  display: flex;
+  padding-bottom: 16px;
+}
 .registerGameStop .registerPage .form-label {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -14236,7 +14245,7 @@ Media Queries
   font-weight: 600;
 }
 .registerGameStop .registerPage .registerEmail {
-  padding-top: 30px;
+  padding-top: 18px;
   padding-left: 23px;
   padding-right: 23px;
 }
@@ -14262,7 +14271,7 @@ Media Queries
   width: 100%;
 }
 .registerGameStop .registerPage .registerLastName {
-  padding-top: 30px;
+  padding-top: 18px;
   padding-left: 23px;
   padding-right: 23px;
 }
@@ -14275,7 +14284,7 @@ Media Queries
   width: 100%;
 }
 .registerGameStop .registerPage .registerPass {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 23px;
   padding-right: 23px;
 }
@@ -14287,14 +14296,16 @@ Media Queries
   padding: 10px 16px;
   width: 100%;
 }
-.registerGameStop .registerPage .helper-text {
-  display: flex;
-  justify-content: center;
-}
-.registerGameStop .registerPage .helper-text a {
+.registerGameStop a {
   font-size: 12.5px;
   color: #4476eb;
   text-decoration: none;
   font-weight: 600;
   font-family: sans-serif;
+}
+.registerGameStop .helper-text {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */

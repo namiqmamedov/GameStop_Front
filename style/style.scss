@@ -19549,7 +19549,9 @@ Media Queries
     margin-top: 24px;
     margin-left: 23px;
     margin-bottom: 11px;
+    cursor: pointer;
     .btn-login{
+      cursor: pointer;
       border: none;
       padding: 12.5px 24px;
       background-color: #e10e71;
@@ -19666,48 +19668,33 @@ Media Queries
 
   .registerSection{
     background-color: white;
-    width: 25%;
+    width: 27%;
     box-shadow: 0 1px 3px 0 #9e9e9e54;
-    height: 370px;
+    height: 537px;
     border-radius: 4px;
 
     .top-text{
       padding-left: 26px;
     padding-top: 8px;
-    display: flex;
-    justify-content: space-around;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
 
-    .pull-right{
-      a{
-        margin-left: 33px;
-        font-size: 12.5px;
-        color: #4476eb;
-        text-decoration: none;
-        font-weight: 600;
-        font-family: sans-serif;
-
-
-      }
+    .signup-help-text{
+      max-width: 351px;
+      border-top: 1px solid #e4e4e4;
+      padding-top: 17.5px;
     }
-
-    .pull-left{
-      margin-left: -26px;
-      label{
-        font-size: 14px;
-        font-family: sans-serif;
-
-
-      }
-    }
-
    
   }
 
   .registerButton{
     margin-top: 24px;
-    margin-left: 23px;
     margin-bottom: 11px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
     .btn-login{
+      cursor: pointer;
       border: none;
       padding: 12.5px 24px;
       background-color: #e10e71;
@@ -19715,7 +19702,7 @@ Media Queries
       border-radius: 4px;
       transition: all .3s ease-in-out;
       font-weight: 600;
-      width: 94%;
+      width: 46%;
 
       &:hover{
         background-color: #C80D65;
@@ -19759,7 +19746,23 @@ Media Queries
     width: 100%;
     }
 
+    .register-password-field{
+      align-items: center;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px 0 #e9e9e9;
+    display: flex;
+    transition: box-shadow .25s ease-in-out,border .25s ease-in-out;
+    width: 100%;
+    }
+
     
+  }
+
+  .passwdSection{
+    display: flex;
+    padding-bottom: 16px;
   }
 
   .form-label{
@@ -19771,7 +19774,7 @@ Media Queries
   }
 
   .registerEmail{
-    padding-top: 30px;
+    padding-top: 18px;
     padding-left: 23px;
     padding-right: 23px;
     
@@ -19804,7 +19807,7 @@ Media Queries
 
   
   .registerLastName{
-    padding-top: 30px;
+    padding-top: 18px;
     padding-left: 23px;
     padding-right: 23px;
     
@@ -19822,7 +19825,7 @@ Media Queries
 
   .registerPass{
     
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 23px;
     padding-right: 23px;
 
@@ -19836,21 +19839,28 @@ Media Queries
     }
   }
 
-  .helper-text{
-    display: flex;
-    justify-content: center;
-    a{
-      font-size: 12.5px;
-      color: #4476eb;
-      text-decoration: none;
-      font-weight: 600;
-      font-family: sans-serif;
-
-
-    }
-  }
 }
 
+a{
+  font-size: 12.5px;
+  color: #4476eb;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: sans-serif;
+
+
+}
+
+.helper-text{
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
+ 
+}
 }
 
 // end register page
+
+
+//

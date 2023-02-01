@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Register</title>
     <link rel="stylesheet" href="/style/style.css">
 </head>
 
@@ -13,7 +13,7 @@
 
     <div class="loginHeader">
         <div class="header-logo">
-            <img src="https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwe31411ff/images/svg-icons/logo-gs-mono.svg" alt="">
+            <a href="./index.html"><img src="https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dwe31411ff/images/svg-icons/logo-gs-mono.svg" alt="header logo"></a>
         </div>
     </div>
 
@@ -44,15 +44,24 @@
                         <input name="email" type="email" id="sign_up_email">
                     </div>
                 </div>
-                <div class="registerPass">
-                    <label for="sign_up_passwd" class="form-label">Password</label>
-                    <div class="register-email-field">
-                        <input name="passwd" type="password" id="sign_up_passwd">
+                <div class="passwdSection">
+                    <div class="registerPass">
+                        <label for="sign_up_passwd" class="form-label">Password</label>
+                        <div class="register-password-field">
+                            <input name="passwd" type="password" id="sign_up_passwd">
+                        </div>
+                    </div>
+    
+                    <div class="registerPass">
+                        <label for="sign_up_passwd" class="form-label">Confirm Password</label>
+                        <div class="register-password-field">
+                            <input name="passwd_confirmation" maxlength="72" type="password" id="sign_up_passwd">
+                        </div>
                     </div>
                 </div>
                <div class="bottomInput">
                 <div class="top-text">
-                    
+                    <div class="signup-help-text">By clicking 'Create account', you agree to our <a href="./TermsCondition.html" target="_blank" class="daisy-link">Conditions of Use </a> and acknowledge that you have read our <a href="./PrivacyPolicy.html" target="_blank" class="daisy-link">Privacy Policy</a> and <a href="./condition.html" target="_blank" class="daisy-link">Terms & Conditions</a>.</div>
                 </div>
                </div>
 
@@ -60,11 +69,16 @@
                 <button class="btn-login">Create account</button>
                </div>
 
-               <div class="helper-text">
-                <a href="./register.html">Create account</a>
-               </div>
+              
             </div>
+            
         </div>
+        <div class="helper-text">
+            Already created an account?
+            <a href="./login.html">Log in here.</a>
+        </div>
+
+        
     </div>
 
 </body>
