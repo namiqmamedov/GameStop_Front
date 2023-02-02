@@ -4165,100 +4165,101 @@ footer {
   }
 
 
-  .loginGameStop{
-    .loginSection{
+  .loginGameStop {
+    .loginSection {
       width: 70% !important;
     }
 
-    .loginEmail{
+    .loginEmail {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
 
-    .loginPass{
+    .loginPass {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
 
-    .top-text{
+    .top-text {
       display: block !important;
     }
 
-    .loginButton{
+    .loginButton {
       margin-left: 15px !important;
-      .btn-login{
+
+      .btn-login {
         width: 96% !important;
       }
     }
-    
 
-    .pull-left{
+
+    .pull-left {
       margin-left: -11px !important;
       margin-bottom: 4px !important;
     }
 
-    .pull-right{
-      a{
+    .pull-right {
+      a {
         margin-left: -11px !important;
         margin-top: 7px !important;
       }
     }
   }
 
- .loginHeader{
-  .header-logo {
-    img{
-      width: 20.6% !important;
+  .loginHeader {
+    .header-logo {
+      img {
+        width: 20.6% !important;
+      }
     }
   }
- }
 
   .registerGameStop {
     height: 140vh !important;
-  
+
     background-color: #f5f5f5;
-  
+
     .register-content {
       padding-top: 45px;
       padding-bottom: 32px;
-  
+
       h2 {
-  
+
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 30px;
       }
     }
-  
+
     .registerPage {
       display: flex;
       justify-content: center;
-  
-  
-  
+
+
+
       .registerSection {
         background-color: white;
         width: 66% !important;
         box-shadow: 0 1px 3px 0 #9e9e9e54;
         height: 634px !important;
         border-radius: 4px;
-  
+
         .top-text {
 
           .signup-help-text {
             max-width: 328px !important;
 
           }
-  
+
         }
-  
+
         .registerButton {
           margin-top: 24px;
           margin-bottom: 11px;
           display: flex;
           justify-content: center;
           cursor: pointer;
-  
+
           .btn-login {
             cursor: pointer;
             border: none;
@@ -4269,15 +4270,15 @@ footer {
             transition: all .3s ease-in-out;
             font-weight: 600;
             width: 46%;
-  
+
             &:hover {
               background-color: #C80D65;
             }
-  
+
           }
         }
-  
-  
+
+
         .register-email-field {
           align-items: center;
           background: #fff;
@@ -4288,8 +4289,8 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
         .register-name-field {
           align-items: center;
           background: #fff;
@@ -4300,7 +4301,7 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
+
         .register-last-name-field {
           align-items: center;
           background: #fff;
@@ -4311,7 +4312,7 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
+
         .register-password-field {
           align-items: center;
           background: #fff;
@@ -4322,15 +4323,15 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
       }
-  
+
       .passwdSection {
         display: block !important;
         padding-bottom: 16px;
       }
-  
+
       .form-label {
         font-size: 15px;
         font-family: 'Poppins', sans-serif;
@@ -4338,13 +4339,13 @@ footer {
         display: block;
         font-weight: 600;
       }
-  
+
       .registerEmail {
         padding-top: 18px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -4352,22 +4353,22 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
+
       .registerName {
         padding-top: 30px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -4375,23 +4376,23 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
-  
+
+
       .registerLastName {
         padding-top: 18px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -4399,23 +4400,23 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
-  
+
+
       .registerPass {
-  
+
         padding-top: 20px;
         padding-left: 23px;
         padding-right: 23px;
-  
+
         input {
           background: none;
           border: 0;
@@ -4423,34 +4424,34 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
+
     }
-  
+
     a {
       font-size: 12.5px;
       color: #4476eb;
       text-decoration: none;
       font-weight: 600;
       font-family: sans-serif;
-  
-  
+
+
     }
-  
+
     .helper-text {
       margin-top: 12px;
       text-align: center;
       font-size: 14px;
       font-family: 'Open Sans', sans-serif;
-  
+
     }
   }
 
@@ -4458,9 +4459,9 @@ footer {
 
   .forgotPasswd {
     height: 100vh;
-  
+
     background-color: #f5f5f5;
-  
+
     p {
       font-size: 14px;
       font-family: 'Open Sans', sans-serif;
@@ -4468,47 +4469,47 @@ footer {
       padding-top: 23px;
       max-width: 338px;
     }
-  
+
     .forgot-content {
       padding-top: 45px;
       padding-bottom: 32px;
-  
+
       h2 {
-  
+
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 23px;
         color: #3e3e3e;
       }
     }
-  
+
     .forgotPage {
       display: flex;
       justify-content: center;
-  
-  
-  
+
+
+
       .forgotSection {
         background-color: white;
         width: 68% !important;
         box-shadow: 0 1px 3px 0 rgb(158 158 158 / 33%);
         height: 323px !important;
         border-radius: 4px;
-  
+
         .top-text {
           padding-left: 26px;
           padding-top: 8px;
           display: flex;
           justify-content: space-around;
-  
+
         }
-  
+
         .sendButton {
           margin-top: 24px;
           margin-left: 23px;
           margin-bottom: 11px;
           cursor: pointer;
-  
+
           .btn-login {
             cursor: pointer;
             border: none;
@@ -4519,15 +4520,15 @@ footer {
             transition: all .3s ease-in-out;
             font-weight: 600;
             width: 94%;
-  
+
             &:hover {
               background-color: #C80D65;
             }
-  
+
           }
         }
-  
-  
+
+
         .forgot-email-field {
           align-items: center;
           background: #fff;
@@ -4538,10 +4539,10 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
       }
-  
+
       .form-label {
         font-size: 15px;
         font-family: 'Poppins', sans-serif;
@@ -4549,13 +4550,13 @@ footer {
         display: block;
         font-weight: 600;
       }
-  
+
       .forgotEmail {
         padding-top: 30px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -4565,23 +4566,105 @@ footer {
           width: 100%;
         }
       }
-  
+
       .helper-text {
         display: flex;
         justify-content: center;
-  
+
         a {
           font-size: 12.5px;
           color: #4476eb;
           text-decoration: none;
           font-weight: 600;
           font-family: sans-serif;
-  
-  
+
+
         }
       }
     }
-  
+
+  }
+
+
+  #cart-section-product {
+    height: 120vh;
+
+    .cart-items {
+      flex-wrap: wrap;
+    }
+
+    .container {
+      padding-right: 25px;
+    }
+
+    .cart-items {
+      flex-wrap: wrap;
+    }
+
+    .checkout-and-pay {
+      width: 100%;
+    }
+
+    .cart-total-price {
+      text-align: end;
+    }
+
+    .cart-text {
+      padding-top: 30px !important;
+
+      h1 {
+        font-size: 22px !important;
+      }
+    }
+
+    .cartBox {
+      width: 100% !important;
+
+      .product-img {
+        width: 43%;
+      }
+
+      .product-name {
+        margin-bottom: 4px;
+      }
+
+      .selectpicker {
+        font-size: 16px;
+        width: 45px;
+      }
+
+      .item-icon {
+        svg {
+          width: 17px;
+          height: 17px;
+        }
+      }
+
+      .price-section {
+        margin-left: 23px;
+      }
+
+      .all-details {
+        height: 300px;
+      }
+
+      .rightDetail {
+        width: 49%;
+        margin-top: auto;
+        margin-bottom: auto;
+        justify-content: end;
+      }
+    }
+
+    .priceBox {
+      width: 100% !important;
+      margin-top: 39px;
+
+      .checkout-and-pay {
+        margin-top: 13px;
+        margin-bottom: 30px;
+      }
+    }
   }
 
 
@@ -7074,6 +7157,7 @@ footer {
       width: 100% !important;
     }
   }
+
 
 
 }
@@ -9694,40 +9778,41 @@ footer {
   }
 
 
-  .loginGameStop{
-    .loginSection{
+  .loginGameStop {
+    .loginSection {
       width: 51% !important;
     }
 
-    .loginEmail{
+    .loginEmail {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
 
-    .loginPass{
+    .loginPass {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
 
-    .top-text{
+    .top-text {
       display: block !important;
     }
 
-    .loginButton{
+    .loginButton {
       margin-left: 15px !important;
-      .btn-login{
+
+      .btn-login {
         width: 96% !important;
       }
     }
-    
 
-    .pull-left{
+
+    .pull-left {
       margin-left: -11px !important;
       margin-bottom: 4px !important;
     }
 
-    .pull-right{
-      a{
+    .pull-right {
+      a {
         margin-left: -11px !important;
         margin-top: 7px !important;
       }
@@ -9736,497 +9821,579 @@ footer {
 
 
 
-  .loginHeader{
+  .loginHeader {
     .header-logo {
-      img{
+      img {
         width: 20.6% !important;
       }
     }
-   }
-  
-    .registerGameStop {
-      height: 140vh !important;
-    
-      background-color: #f5f5f5;
-    
-      .register-content {
-        padding-top: 45px;
-        padding-bottom: 32px;
-    
-        h2 {
-    
-          text-align: center;
-          font-family: 'Poppins', sans-serif;
-          font-size: 30px;
-        }
-      }
-    
-      .registerPage {
-        display: flex;
-        justify-content: center;
-    
-    
-    
-        .registerSection {
-          background-color: white;
-          width: 66% !important;
-          box-shadow: 0 1px 3px 0 #9e9e9e54;
-          height: 634px !important;
-          border-radius: 4px;
-    
-          .top-text {
-  
-            .signup-help-text {
-              max-width: 300px !important;
-  
-            }
-    
-          }
-    
-          .registerButton {
-            margin-top: 24px;
-            margin-bottom: 11px;
-            display: flex;
-            justify-content: center;
-            cursor: pointer;
-    
-            .btn-login {
-              cursor: pointer;
-              border: none;
-              padding: 12.5px 24px;
-              background-color: #e10e71;
-              color: white;
-              border-radius: 4px;
-              transition: all .3s ease-in-out;
-              font-weight: 600;
-              width: 46%;
-    
-              &:hover {
-                background-color: #C80D65;
-              }
-    
-            }
-          }
-    
-    
-          .register-email-field {
-            align-items: center;
-            background: #fff;
-            border: 1px solid #e9e9e9;
-            border-radius: 4px;
-            box-shadow: inset 0 1px 3px 0 #e9e9e9;
-            display: flex;
-            transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
-            width: 100%;
-          }
-    
-    
-          .register-name-field {
-            align-items: center;
-            background: #fff;
-            border: 1px solid #e9e9e9;
-            border-radius: 4px;
-            box-shadow: inset 0 1px 3px 0 #e9e9e9;
-            display: flex;
-            transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
-            width: 100%;
-          }
-    
-          .register-last-name-field {
-            align-items: center;
-            background: #fff;
-            border: 1px solid #e9e9e9;
-            border-radius: 4px;
-            box-shadow: inset 0 1px 3px 0 #e9e9e9;
-            display: flex;
-            transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
-            width: 100%;
-          }
-    
-          .register-password-field {
-            align-items: center;
-            background: #fff;
-            border: 1px solid #e9e9e9;
-            border-radius: 4px;
-            box-shadow: inset 0 1px 3px 0 #e9e9e9;
-            display: flex;
-            transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
-            width: 100%;
-          }
-    
-    
-        }
-    
-        .passwdSection {
-          display: block !important;
-          padding-bottom: 16px;
-        }
-    
-        .form-label {
-          font-size: 15px;
-          font-family: 'Poppins', sans-serif;
-          padding-bottom: 11px;
-          display: block;
-          font-weight: 600;
-        }
-    
-        .registerEmail {
-          padding-top: 18px;
-          padding-left: 23px;
-          padding-right: 23px;
-    
-    
-          input {
-            background: none;
-            border: 0;
-            flex-grow: 1;
-            outline: none;
-            padding: 10px 16px;
-            width: 100%;
-    
-            &:focus{
-              border: 1px solid blue;
-              border-radius: 4px;
-              transition: .3s;
-             
-            }
-          }
-        }
-    
-        .registerName {
-          padding-top: 30px;
-          padding-left: 23px;
-          padding-right: 23px;
-    
-    
-          input {
-            background: none;
-            border: 0;
-            flex-grow: 1;
-            outline: none;
-            padding: 10px 16px;
-            width: 100%;
-    
-            &:focus{
-              border: 1px solid blue;
-              border-radius: 4px;
-              transition: .3s;
-             
-            }
-          }
-        }
-    
-    
-        .registerLastName {
-          padding-top: 18px;
-          padding-left: 23px;
-          padding-right: 23px;
-    
-    
-          input {
-            background: none;
-            border: 0;
-            flex-grow: 1;
-            outline: none;
-            padding: 10px 16px;
-            width: 100%;
-    
-            &:focus{
-              border: 1px solid blue;
-              border-radius: 4px;
-              transition: .3s;
-             
-            }
-          }
-        }
-    
-    
-        .registerPass {
-    
-          padding-top: 20px;
-          padding-left: 23px;
-          padding-right: 23px;
-    
-          input {
-            background: none;
-            border: 0;
-            flex-grow: 1;
-            outline: none;
-            padding: 10px 16px;
-            width: 100%;
-    
-            &:focus{
-              border: 1px solid blue;
-              border-radius: 4px;
-              transition: .3s;
-             
-            }
-          }
-        }
-    
-      }
-    
-      a {
-        font-size: 12.5px;
-        color: #4476eb;
-        text-decoration: none;
-        font-weight: 600;
-        font-family: sans-serif;
-    
-    
-      }
-    
-      .helper-text {
-        margin-top: 12px;
+  }
+
+  .registerGameStop {
+    height: 140vh !important;
+
+    background-color: #f5f5f5;
+
+    .register-content {
+      padding-top: 45px;
+      padding-bottom: 32px;
+
+      h2 {
+
         text-align: center;
-        font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
-    
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
       }
     }
-  
+
+    .registerPage {
+      display: flex;
+      justify-content: center;
 
 
-    .registerGameStop {
-      height: 140vh !important;
-    
-      background-color: #f5f5f5;
-    
-      .register-content {
-        padding-top: 45px;
-        padding-bottom: 32px;
-    
-        h2 {
-    
-          text-align: center;
-          font-family: 'Poppins', sans-serif;
-          font-size: 30px;
-        }
-      }
-    
-      .registerPage {
-        display: flex;
-        justify-content: center;
-    
-    
-    
-        .registerSection {
-          background-color: white;
-          width: 56% !important;
-          box-shadow: 0 1px 3px 0 #9e9e9e54;
-          height: 634px !important;
-          border-radius: 4px;
-    
-          .top-text {
-  
-            .signup-help-text {
-              max-width: 378px !important;
-  
-            }
-    
+
+      .registerSection {
+        background-color: white;
+        width: 66% !important;
+        box-shadow: 0 1px 3px 0 #9e9e9e54;
+        height: 634px !important;
+        border-radius: 4px;
+
+        .top-text {
+
+          .signup-help-text {
+            max-width: 300px !important;
+
           }
-    
-          .registerButton {
-            margin-top: 24px;
-            margin-bottom: 11px;
-            display: flex;
-            justify-content: center;
+
+        }
+
+        .registerButton {
+          margin-top: 24px;
+          margin-bottom: 11px;
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+
+          .btn-login {
             cursor: pointer;
-    
-            .btn-login {
-              cursor: pointer;
-              border: none;
-              padding: 12.5px 24px;
-              background-color: #e10e71;
-              color: white;
-              border-radius: 4px;
-              transition: all .3s ease-in-out;
-              font-weight: 600;
-              width: 46%;
-    
-              &:hover {
-                background-color: #C80D65;
-              }
-    
-            }
-          }
-    
-    
-          .register-email-field {
-            align-items: center;
-            background: #fff;
-            border: 1px solid #e9e9e9;
+            border: none;
+            padding: 12.5px 24px;
+            background-color: #e10e71;
+            color: white;
             border-radius: 4px;
-            box-shadow: inset 0 1px 3px 0 #e9e9e9;
-            display: flex;
-            transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
-            width: 100%;
-          }
-    
-    
-          .register-name-field {
-            align-items: center;
-            background: #fff;
-            border: 1px solid #e9e9e9;
-            border-radius: 4px;
-            box-shadow: inset 0 1px 3px 0 #e9e9e9;
-            display: flex;
-            transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
-            width: 100%;
-          }
-    
-          .register-last-name-field {
-            align-items: center;
-            background: #fff;
-            border: 1px solid #e9e9e9;
-            border-radius: 4px;
-            box-shadow: inset 0 1px 3px 0 #e9e9e9;
-            display: flex;
-            transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
-            width: 100%;
-          }
-    
-          .register-password-field {
-            align-items: center;
-            background: #fff;
-            border: 1px solid #e9e9e9;
-            border-radius: 4px;
-            box-shadow: inset 0 1px 3px 0 #e9e9e9;
-            display: flex;
-            transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
-            width: 100%;
-          }
-    
-    
-        }
-    
-        .passwdSection {
-          display: block !important;
-          padding-bottom: 16px;
-        }
-    
-        .form-label {
-          font-size: 15px;
-          font-family: 'Poppins', sans-serif;
-          padding-bottom: 11px;
-          display: block;
-          font-weight: 600;
-        }
-    
-        .registerEmail {
-          padding-top: 18px;
-          padding-left: 23px;
-          padding-right: 23px;
-    
-    
-          input {
-            background: none;
-            border: 0;
-            flex-grow: 1;
-            outline: none;
-            padding: 10px 16px;
-            width: 100%;
-    
-            &:focus{
-              border: 1px solid blue;
-              border-radius: 4px;
-              transition: .3s;
-             
+            transition: all .3s ease-in-out;
+            font-weight: 600;
+            width: 46%;
+
+            &:hover {
+              background-color: #C80D65;
             }
+
           }
         }
-    
-        .registerName {
-          padding-top: 30px;
-          padding-left: 23px;
-          padding-right: 23px;
-    
-    
-          input {
-            background: none;
-            border: 0;
-            flex-grow: 1;
-            outline: none;
-            padding: 10px 16px;
-            width: 100%;
-    
-            &:focus{
-              border: 1px solid blue;
-              border-radius: 4px;
-              transition: .3s;
-             
-            }
-          }
+
+
+        .register-email-field {
+          align-items: center;
+          background: #fff;
+          border: 1px solid #e9e9e9;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px 0 #e9e9e9;
+          display: flex;
+          transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+          width: 100%;
         }
-    
-    
-        .registerLastName {
-          padding-top: 18px;
-          padding-left: 23px;
-          padding-right: 23px;
-    
-    
-          input {
-            background: none;
-            border: 0;
-            flex-grow: 1;
-            outline: none;
-            padding: 10px 16px;
-            width: 100%;
-    
-            &:focus{
-              border: 1px solid blue;
-              border-radius: 4px;
-              transition: .3s;
-             
-            }
-          }
+
+
+        .register-name-field {
+          align-items: center;
+          background: #fff;
+          border: 1px solid #e9e9e9;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px 0 #e9e9e9;
+          display: flex;
+          transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+          width: 100%;
         }
-    
-    
-        .registerPass {
-    
-          padding-top: 20px;
-          padding-left: 23px;
-          padding-right: 23px;
-    
-          input {
-            background: none;
-            border: 0;
-            flex-grow: 1;
-            outline: none;
-            padding: 10px 16px;
-            width: 100%;
-    
-            &:focus{
-              border: 1px solid blue;
-              border-radius: 4px;
-              transition: .3s;
-             
-            }
-          }
+
+        .register-last-name-field {
+          align-items: center;
+          background: #fff;
+          border: 1px solid #e9e9e9;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px 0 #e9e9e9;
+          display: flex;
+          transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+          width: 100%;
         }
-    
+
+        .register-password-field {
+          align-items: center;
+          background: #fff;
+          border: 1px solid #e9e9e9;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px 0 #e9e9e9;
+          display: flex;
+          transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+          width: 100%;
+        }
+
+
       }
-    
-      a {
-        font-size: 12.5px;
-        color: #4476eb;
-        text-decoration: none;
+
+      .passwdSection {
+        display: block !important;
+        padding-bottom: 16px;
+      }
+
+      .form-label {
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 11px;
+        display: block;
         font-weight: 600;
-        font-family: sans-serif;
-    
-    
       }
-    
-      .helper-text {
-        margin-top: 12px;
+
+      .registerEmail {
+        padding-top: 18px;
+        padding-left: 23px;
+        padding-right: 23px;
+
+
+        input {
+          background: none;
+          border: 0;
+          flex-grow: 1;
+          outline: none;
+          padding: 10px 16px;
+          width: 100%;
+
+          &:focus {
+            border: 1px solid blue;
+            border-radius: 4px;
+            transition: .3s;
+
+          }
+        }
+      }
+
+      .registerName {
+        padding-top: 30px;
+        padding-left: 23px;
+        padding-right: 23px;
+
+
+        input {
+          background: none;
+          border: 0;
+          flex-grow: 1;
+          outline: none;
+          padding: 10px 16px;
+          width: 100%;
+
+          &:focus {
+            border: 1px solid blue;
+            border-radius: 4px;
+            transition: .3s;
+
+          }
+        }
+      }
+
+
+      .registerLastName {
+        padding-top: 18px;
+        padding-left: 23px;
+        padding-right: 23px;
+
+
+        input {
+          background: none;
+          border: 0;
+          flex-grow: 1;
+          outline: none;
+          padding: 10px 16px;
+          width: 100%;
+
+          &:focus {
+            border: 1px solid blue;
+            border-radius: 4px;
+            transition: .3s;
+
+          }
+        }
+      }
+
+
+      .registerPass {
+
+        padding-top: 20px;
+        padding-left: 23px;
+        padding-right: 23px;
+
+        input {
+          background: none;
+          border: 0;
+          flex-grow: 1;
+          outline: none;
+          padding: 10px 16px;
+          width: 100%;
+
+          &:focus {
+            border: 1px solid blue;
+            border-radius: 4px;
+            transition: .3s;
+
+          }
+        }
+      }
+
+    }
+
+    a {
+      font-size: 12.5px;
+      color: #4476eb;
+      text-decoration: none;
+      font-weight: 600;
+      font-family: sans-serif;
+
+
+    }
+
+    .helper-text {
+      margin-top: 12px;
+      text-align: center;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+
+    }
+  }
+
+
+
+  .registerGameStop {
+    height: 140vh !important;
+
+    background-color: #f5f5f5;
+
+    .register-content {
+      padding-top: 45px;
+      padding-bottom: 32px;
+
+      h2 {
+
         text-align: center;
-        font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
-    
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
       }
     }
+
+    .registerPage {
+      display: flex;
+      justify-content: center;
+
+
+
+      .registerSection {
+        background-color: white;
+        width: 56% !important;
+        box-shadow: 0 1px 3px 0 #9e9e9e54;
+        height: 634px !important;
+        border-radius: 4px;
+
+        .top-text {
+
+          .signup-help-text {
+            max-width: 378px !important;
+
+          }
+
+        }
+
+        .registerButton {
+          margin-top: 24px;
+          margin-bottom: 11px;
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+
+          .btn-login {
+            cursor: pointer;
+            border: none;
+            padding: 12.5px 24px;
+            background-color: #e10e71;
+            color: white;
+            border-radius: 4px;
+            transition: all .3s ease-in-out;
+            font-weight: 600;
+            width: 46%;
+
+            &:hover {
+              background-color: #C80D65;
+            }
+
+          }
+        }
+
+
+        .register-email-field {
+          align-items: center;
+          background: #fff;
+          border: 1px solid #e9e9e9;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px 0 #e9e9e9;
+          display: flex;
+          transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+          width: 100%;
+        }
+
+
+        .register-name-field {
+          align-items: center;
+          background: #fff;
+          border: 1px solid #e9e9e9;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px 0 #e9e9e9;
+          display: flex;
+          transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+          width: 100%;
+        }
+
+        .register-last-name-field {
+          align-items: center;
+          background: #fff;
+          border: 1px solid #e9e9e9;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px 0 #e9e9e9;
+          display: flex;
+          transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+          width: 100%;
+        }
+
+        .register-password-field {
+          align-items: center;
+          background: #fff;
+          border: 1px solid #e9e9e9;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px 0 #e9e9e9;
+          display: flex;
+          transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
+          width: 100%;
+        }
+
+
+      }
+
+      .passwdSection {
+        display: block !important;
+        padding-bottom: 16px;
+      }
+
+      .form-label {
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 11px;
+        display: block;
+        font-weight: 600;
+      }
+
+      .registerEmail {
+        padding-top: 18px;
+        padding-left: 23px;
+        padding-right: 23px;
+
+
+        input {
+          background: none;
+          border: 0;
+          flex-grow: 1;
+          outline: none;
+          padding: 10px 16px;
+          width: 100%;
+
+          &:focus {
+            border: 1px solid blue;
+            border-radius: 4px;
+            transition: .3s;
+
+          }
+        }
+      }
+
+      .registerName {
+        padding-top: 30px;
+        padding-left: 23px;
+        padding-right: 23px;
+
+
+        input {
+          background: none;
+          border: 0;
+          flex-grow: 1;
+          outline: none;
+          padding: 10px 16px;
+          width: 100%;
+
+          &:focus {
+            border: 1px solid blue;
+            border-radius: 4px;
+            transition: .3s;
+
+          }
+        }
+      }
+
+
+      .registerLastName {
+        padding-top: 18px;
+        padding-left: 23px;
+        padding-right: 23px;
+
+
+        input {
+          background: none;
+          border: 0;
+          flex-grow: 1;
+          outline: none;
+          padding: 10px 16px;
+          width: 100%;
+
+          &:focus {
+            border: 1px solid blue;
+            border-radius: 4px;
+            transition: .3s;
+
+          }
+        }
+      }
+
+
+      .registerPass {
+
+        padding-top: 20px;
+        padding-left: 23px;
+        padding-right: 23px;
+
+        input {
+          background: none;
+          border: 0;
+          flex-grow: 1;
+          outline: none;
+          padding: 10px 16px;
+          width: 100%;
+
+          &:focus {
+            border: 1px solid blue;
+            border-radius: 4px;
+            transition: .3s;
+
+          }
+        }
+      }
+
+    }
+
+    a {
+      font-size: 12.5px;
+      color: #4476eb;
+      text-decoration: none;
+      font-weight: 600;
+      font-family: sans-serif;
+
+
+    }
+
+    .helper-text {
+      margin-top: 12px;
+      text-align: center;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+
+    }
+  }
+
+
+  #cart-section-product {
+    height: 130vh;
+
+    .container {
+      padding-right: 25px;
+    }
+
+    .cart-items {
+      flex-wrap: wrap;
+    }
+
+
+    .checkout-and-pay {
+      width: 100%;
+    }
+
+    .cart-total-price {
+      text-align: end;
+    }
+
+    .cart-text {
+      padding-top: 30px !important;
+
+      h1 {
+        font-size: 22px !important;
+      }
+    }
+
+    .cartBox {
+      width: 100% !important;
+
+      .product-img {
+        width: 43%;
+      }
+
+      .product-name {
+        margin-bottom: 4px;
+      }
+
+      .selectpicker {
+        font-size: 16px;
+        width: 45px;
+      }
+
+      .item-icon {
+        svg {
+          width: 17px;
+          height: 17px;
+        }
+      }
+
+      .price-section {
+        margin-left: 23px;
+        width: 35%;
+      }
+
+      .all-details {
+        height: 300px;
+      }
+
+      .rightDetail {
+        width: 38%;
+        margin-top: auto;
+        margin-bottom: auto;
+        justify-content: end;
+      }
+    }
+
+    .priceBox {
+      width: 100% !important;
+      margin-top: 39px;
+      margin-bottom: 30px;
+
+      .checkout-and-pay {
+        margin-top: 13px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
 
 }
 
@@ -12148,41 +12315,42 @@ footer {
 
 
 
-  
-  .loginGameStop{
-    .loginSection{
+
+  .loginGameStop {
+    .loginSection {
       width: 39% !important;
     }
 
-    .loginEmail{
+    .loginEmail {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
 
-    .loginPass{
+    .loginPass {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
 
 
-    .loginButton{
+    .loginButton {
       margin-left: 15px !important;
-      .btn-login{
+
+      .btn-login {
         width: 96% !important;
       }
     }
-    
-    .top-text{
+
+    .top-text {
       justify-content: space-between !important;
     }
 
-    .pull-left{
+    .pull-left {
       margin-left: -11px !important;
       margin-bottom: 4px !important;
     }
 
-    .pull-right{
-      a{
+    .pull-right {
+      a {
         margin-right: 15px;
         margin-top: 7px !important;
       }
@@ -12192,50 +12360,50 @@ footer {
 
   .registerGameStop {
     height: 140vh !important;
-  
+
     background-color: #f5f5f5;
-  
+
     .register-content {
       padding-top: 45px;
       padding-bottom: 32px;
-  
+
       h2 {
-  
+
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 30px;
       }
     }
-  
+
     .registerPage {
       display: flex;
       justify-content: center;
-  
-  
-  
+
+
+
       .registerSection {
         background-color: white;
         width: 49% !important;
         box-shadow: 0 1px 3px 0 #9e9e9e54;
         height: 634px !important;
         border-radius: 4px;
-  
+
         .top-text {
 
           .signup-help-text {
             max-width: 378px !important;
 
           }
-  
+
         }
-  
+
         .registerButton {
           margin-top: 24px;
           margin-bottom: 11px;
           display: flex;
           justify-content: center;
           cursor: pointer;
-  
+
           .btn-login {
             cursor: pointer;
             border: none;
@@ -12246,15 +12414,15 @@ footer {
             transition: all .3s ease-in-out;
             font-weight: 600;
             width: 46%;
-  
+
             &:hover {
               background-color: #C80D65;
             }
-  
+
           }
         }
-  
-  
+
+
         .register-email-field {
           align-items: center;
           background: #fff;
@@ -12265,8 +12433,8 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
         .register-name-field {
           align-items: center;
           background: #fff;
@@ -12277,7 +12445,7 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
+
         .register-last-name-field {
           align-items: center;
           background: #fff;
@@ -12288,7 +12456,7 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
+
         .register-password-field {
           align-items: center;
           background: #fff;
@@ -12299,15 +12467,15 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
       }
-  
+
       .passwdSection {
         display: block !important;
         padding-bottom: 16px;
       }
-  
+
       .form-label {
         font-size: 15px;
         font-family: 'Poppins', sans-serif;
@@ -12315,13 +12483,13 @@ footer {
         display: block;
         font-weight: 600;
       }
-  
+
       .registerEmail {
         padding-top: 18px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -12329,22 +12497,22 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
+
       .registerName {
         padding-top: 30px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -12352,23 +12520,23 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
-  
+
+
       .registerLastName {
         padding-top: 18px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -12376,23 +12544,23 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
-  
+
+
       .registerPass {
-  
+
         padding-top: 20px;
         padding-left: 23px;
         padding-right: 23px;
-  
+
         input {
           background: none;
           border: 0;
@@ -12400,34 +12568,34 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
+
     }
-  
+
     a {
       font-size: 12.5px;
       color: #4476eb;
       text-decoration: none;
       font-weight: 600;
       font-family: sans-serif;
-  
-  
+
+
     }
-  
+
     .helper-text {
       margin-top: 12px;
       text-align: center;
       font-size: 14px;
       font-family: 'Open Sans', sans-serif;
-  
+
     }
   }
 
@@ -12439,6 +12607,90 @@ footer {
     height: 323px !important;
     border-radius: 4px;
   }
+
+
+  #cart-section-product {
+    height: 130vh;
+
+    .cart-items {
+      flex-wrap: wrap;
+    }
+
+    .container {
+      padding-right: 25px;
+    }
+
+
+    .checkout-and-pay {
+      width: 100%;
+    }
+
+    .cart-total-price {
+      text-align: end;
+    }
+
+
+    .cart-text {
+      padding-top: 30px !important;
+
+      h1 {
+        font-size: 22px !important;
+      }
+    }
+
+    .cartBox {
+      width: 100% !important;
+
+      .product-img {
+        width: 43%;
+      }
+
+      .product-name {
+        margin-bottom: 4px;
+      }
+
+      .selectpicker {
+        font-size: 16px;
+        width: 45px;
+      }
+
+      .item-icon {
+        svg {
+          width: 17px;
+          height: 17px;
+        }
+      }
+
+      .price-section {
+        margin-left: 23px;
+
+        width: 19%;
+
+      }
+
+      .all-details {
+        height: 300px;
+      }
+
+      .rightDetail {
+        width: 49%;
+        margin-top: auto;
+        margin-bottom: auto;
+        justify-content: end;
+      }
+    }
+
+    .priceBox {
+      width: 100% !important;
+      margin-top: 39px;
+
+      .checkout-and-pay {
+        margin-top: 13px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
 
 
 }
@@ -15536,41 +15788,42 @@ footer {
   }
 
 
-  
-  .loginGameStop{
-    .loginSection{
+
+  .loginGameStop {
+    .loginSection {
       width: 36% !important;
     }
 
-    .loginEmail{
+    .loginEmail {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
 
-    .loginPass{
+    .loginPass {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
 
 
-    .loginButton{
+    .loginButton {
       margin-left: 15px !important;
-      .btn-login{
+
+      .btn-login {
         width: 96% !important;
       }
     }
-    
-    .top-text{
+
+    .top-text {
       justify-content: space-between !important;
     }
 
-    .pull-left{
+    .pull-left {
       margin-left: -11px !important;
       margin-bottom: 4px !important;
     }
 
-    .pull-right{
-      a{
+    .pull-right {
+      a {
         margin-right: 15px;
         margin-top: 7px !important;
       }
@@ -15579,53 +15832,53 @@ footer {
 
 
 
-  
+
   .registerGameStop {
     height: 140vh !important;
-  
+
     background-color: #f5f5f5;
-  
+
     .register-content {
       padding-top: 45px;
       padding-bottom: 32px;
-  
+
       h2 {
-  
+
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 30px;
       }
     }
-  
+
     .registerPage {
       display: flex;
       justify-content: center;
-  
-  
-  
+
+
+
       .registerSection {
         background-color: white;
         width: 38% !important;
         box-shadow: 0 1px 3px 0 #9e9e9e54;
         height: 634px !important;
         border-radius: 4px;
-  
+
         .top-text {
 
           .signup-help-text {
             max-width: 400px !important;
 
           }
-  
+
         }
-  
+
         .registerButton {
           margin-top: 24px;
           margin-bottom: 11px;
           display: flex;
           justify-content: center;
           cursor: pointer;
-  
+
           .btn-login {
             cursor: pointer;
             border: none;
@@ -15636,15 +15889,15 @@ footer {
             transition: all .3s ease-in-out;
             font-weight: 600;
             width: 46%;
-  
+
             &:hover {
               background-color: #C80D65;
             }
-  
+
           }
         }
-  
-  
+
+
         .register-email-field {
           align-items: center;
           background: #fff;
@@ -15655,8 +15908,8 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
         .register-name-field {
           align-items: center;
           background: #fff;
@@ -15667,7 +15920,7 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
+
         .register-last-name-field {
           align-items: center;
           background: #fff;
@@ -15678,7 +15931,7 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
+
         .register-password-field {
           align-items: center;
           background: #fff;
@@ -15689,14 +15942,14 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
       }
-  
+
       .passwdSection {
         padding-bottom: 16px;
       }
-  
+
       .form-label {
         font-size: 15px;
         font-family: 'Poppins', sans-serif;
@@ -15704,35 +15957,35 @@ footer {
         display: block;
         font-weight: 600;
       }
-  
+
       .registerEmail {
         padding-top: 18px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
+
       .registerName {
         padding-top: 30px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -15740,23 +15993,23 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
-  
+
+
       .registerLastName {
         padding-top: 18px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -15764,23 +16017,23 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
-  
+
+
       .registerPass {
-  
+
         padding-top: 20px;
         padding-left: 23px;
         padding-right: 23px;
-  
+
         input {
           background: none;
           border: 0;
@@ -15788,34 +16041,34 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
+
     }
-  
+
     a {
       font-size: 12.5px;
       color: #4476eb;
       text-decoration: none;
       font-weight: 600;
       font-family: sans-serif;
-  
-  
+
+
     }
-  
+
     .helper-text {
       margin-top: 12px;
       text-align: center;
       font-size: 14px;
       font-family: 'Open Sans', sans-serif;
-  
+
     }
   }
 
@@ -15827,6 +16080,43 @@ footer {
     height: 323px !important;
     border-radius: 4px;
   }
+
+
+  #cart-section-product {
+    .container {
+      padding-right: 25px;
+    }
+
+    .checkout-and-pay {
+      width: 100%;
+    }
+
+    .cart-total-price {
+      text-align: end;
+    }
+
+    .cart-text {
+      padding-top: 28px;
+
+      .name-cart {
+        font-size: 29px !important;
+      }
+    }
+
+
+    .leftDetail {
+      width: 70% !important;
+    }
+
+    .rightDetail {
+      width: 30% !important;
+    }
+
+    .priceBox {
+      width: 318px !important;
+    }
+  }
+
 
 
 
@@ -17607,28 +17897,28 @@ footer {
       }
     }
 
-    
+
   }
 
-    
-  .loginGameStop{
-    .loginSection{
+
+  .loginGameStop {
+    .loginSection {
       width: 26.5% !important;
     }
 
-    
-    .top-text{
+
+    .top-text {
       justify-content: space-between !important;
     }
 
 
-    .pull-left{
+    .pull-left {
       margin-left: -3px !important;
     }
 
 
-    .pull-right{
-      a{
+    .pull-right {
+      a {
         margin-right: 22px;
         margin-top: 7px !important;
       }
@@ -17636,53 +17926,53 @@ footer {
   }
 
 
-  
+
   .registerGameStop {
     height: 100vh !important;
-  
+
     background-color: #f5f5f5;
-  
+
     .register-content {
       padding-top: 45px;
       padding-bottom: 32px;
-  
+
       h2 {
-  
+
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 30px;
       }
     }
-  
+
     .registerPage {
       display: flex;
       justify-content: center;
-  
-  
-  
+
+
+
       .registerSection {
         background-color: white;
         width: 30% !important;
         box-shadow: 0 1px 3px 0 #9e9e9e54;
         height: 536px !important;
         border-radius: 4px;
-  
+
         .top-text {
 
           .signup-help-text {
             max-width: 394px !important;
 
           }
-  
+
         }
-  
+
         .registerButton {
           margin-top: 24px;
           margin-bottom: 11px;
           display: flex;
           justify-content: center;
           cursor: pointer;
-  
+
           .btn-login {
             cursor: pointer;
             border: none;
@@ -17693,15 +17983,15 @@ footer {
             transition: all .3s ease-in-out;
             font-weight: 600;
             width: 46%;
-  
+
             &:hover {
               background-color: #C80D65;
             }
-  
+
           }
         }
-  
-  
+
+
         .register-email-field {
           align-items: center;
           background: #fff;
@@ -17712,8 +18002,8 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
         .register-name-field {
           align-items: center;
           background: #fff;
@@ -17724,7 +18014,7 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
+
         .register-last-name-field {
           align-items: center;
           background: #fff;
@@ -17735,7 +18025,7 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
+
         .register-password-field {
           align-items: center;
           background: #fff;
@@ -17746,14 +18036,14 @@ footer {
           transition: box-shadow .25s ease-in-out, border .25s ease-in-out;
           width: 100%;
         }
-  
-  
+
+
       }
-  
+
       .passwdSection {
         padding-bottom: 16px;
       }
-  
+
       .form-label {
         font-size: 15px;
         font-family: 'Poppins', sans-serif;
@@ -17761,35 +18051,35 @@ footer {
         display: block;
         font-weight: 600;
       }
-  
+
       .registerEmail {
         padding-top: 18px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
+
       .registerName {
         padding-top: 30px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -17797,23 +18087,23 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
-  
+
+
       .registerLastName {
         padding-top: 18px;
         padding-left: 23px;
         padding-right: 23px;
-  
-  
+
+
         input {
           background: none;
           border: 0;
@@ -17821,23 +18111,23 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
-  
+
+
       .registerPass {
-  
+
         padding-top: 20px;
         padding-left: 23px;
         padding-right: 23px;
-  
+
         input {
           background: none;
           border: 0;
@@ -17845,44 +18135,86 @@ footer {
           outline: none;
           padding: 10px 16px;
           width: 100%;
-  
-          &:focus{
+
+          &:focus {
             border: 1px solid blue;
             border-radius: 4px;
             transition: .3s;
-           
+
           }
         }
       }
-  
+
     }
-  
+
     a {
       font-size: 12.5px;
       color: #4476eb;
       text-decoration: none;
       font-weight: 600;
       font-family: sans-serif;
-  
-  
+
+
     }
-  
+
     .helper-text {
       margin-top: 12px;
       text-align: center;
       font-size: 14px;
       font-family: 'Open Sans', sans-serif;
-  
+
     }
   }
 
-  
+
   .forgotSection {
     background-color: white;
     width: 28% !important;
     box-shadow: 0 1px 3px 0 rgb(158 158 158 / 33%);
     height: 304px !important;
     border-radius: 4px;
+  }
+
+
+  #cart-section-product {
+    .container {
+      padding-right: 25px;
+    }
+
+    .checkout-and-pay {
+      width: 100%;
+    }
+
+    .cart-total-price {
+      text-align: end;
+    }
+
+    .cart-text {
+      padding-top: 28px;
+
+      .name-cart {
+        font-size: 29px !important;
+      }
+    }
+
+
+    .leftDetail {
+      width: 70% !important;
+    }
+
+    .rightDetail {
+      width: 30% !important;
+    }
+
+    .cartBox {
+      width: 66% !important;
+    }
+
+    .priceBox {
+      width: 366px !important;
+      margin-right: 17px;
+
+    }
   }
 
 
@@ -22408,11 +22740,11 @@ Media Queries
         padding: 10px 16px;
         width: 100%;
 
-   
-        &:focus{
+
+        &:focus {
           border: 1px solid blue;
           border-radius: 4px;
-         
+
         }
       }
     }
@@ -22430,11 +22762,11 @@ Media Queries
         padding: 10px 16px;
         width: 100%;
 
-        &:focus{
+        &:focus {
           border: 1px solid blue;
           border-radius: 4px;
           transition: .3s;
-         
+
         }
       }
     }
@@ -22607,11 +22939,11 @@ Media Queries
         padding: 10px 16px;
         width: 100%;
 
-        &:focus{
+        &:focus {
           border: 1px solid blue;
           border-radius: 4px;
           transition: .3s;
-         
+
         }
       }
     }
@@ -22630,11 +22962,11 @@ Media Queries
         padding: 10px 16px;
         width: 100%;
 
-        &:focus{
+        &:focus {
           border: 1px solid blue;
           border-radius: 4px;
           transition: .3s;
-         
+
         }
       }
     }
@@ -22654,11 +22986,11 @@ Media Queries
         padding: 10px 16px;
         width: 100%;
 
-        &:focus{
+        &:focus {
           border: 1px solid blue;
           border-radius: 4px;
           transition: .3s;
-         
+
         }
       }
     }
@@ -22678,11 +23010,11 @@ Media Queries
         padding: 10px 16px;
         width: 100%;
 
-        &:focus{
+        &:focus {
           border: 1px solid blue;
           border-radius: 4px;
           transition: .3s;
-         
+
         }
       }
     }
@@ -22848,43 +23180,78 @@ Media Queries
 
 //  start cart page
 
-.cartSection{
-  .cartBox{
+.cartSection {
+  background-color: #F2F4F7;
+  margin-top: -15px;
+  height: 100vh;
+
+  .cartBox {
     border: 1px solid #dedede;
     border-radius: 4px;
-    width: 69%;
+    width: 63%;
+    background: white;
 
-    .all-details{
+    .all-details {
       margin-top: 23px;
       margin-bottom: 23px;
       border-top: 1px solid #dedede;
-    border-bottom: 1px solid #dedede;
+      border-bottom: 1px solid #dedede;
     }
 
-    .leftDetail{
+    .leftDetail {
       display: flex;
     }
 
-    .rightDetail{
+    .rightDetail {
       display: flex;
       width: 49%;
-      .selectpicker{
-        width: 51px;
+      margin-top: auto;
+      margin-bottom: auto;
+
+      .selectpicker {
+        width: 59px;
         height: 39px;
-        border-radius:4px;
+        border-radius: 4px;
         padding-left: 4px;
       }
 
+      .remove-item {
+        margin-top: 6px;
+        margin-left: 13px;
+        cursor: pointer;
+      }
 
-      .price-section{
+
+      .price-section {
         text-align: end;
         width: 100%;
+        margin-top: -12px;
+        margin-right: 15px;
+
+        .currentPrice {
+          span {
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+          }
+        }
+
+        .oldPrice {
+          text-decoration: line-through;
+          font-size: 15px;
+
+          span {
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+          }
+        }
       }
     }
 
-    .product-img{
-      width: 22%;
-      img{
+    .product-img {
+      width: 25%;
+
+      img {
         width: 100%;
         margin-top: 11px;
         margin-bottom: 11px;
@@ -22892,52 +23259,143 @@ Media Queries
     }
   }
 
-  .cart-text{
+  .cart-text {
     display: flex;
     align-items: center;
+    padding-top: 12px;
 
-    h1{
+    h1 {
       font-size: 34px !important;
-      font-family: 'Poppins',sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-weight: bold;
     }
 
-    span{
+    span {
       font-size: 12px;
-      font-family: 'Poppins',sans-serif;
+      font-family: 'Poppins', sans-serif;
+      margin-left: 10px;
     }
-    
+
   }
 
 
-  .cart-items{
-      display: flex;
+  .cart-items {
+    display: flex;
     justify-content: space-between;
-    
-    
+    margin-top: 13px;
+
+
   }
 
-  .product-name{
-    h3{
+  .product-name {
+    max-width: 282px;
+    margin-bottom: -8px;
+
+    h3 {
       font-size: 14px;
-      font-family: 'Open Sans',sans-serif;
+      font-family: 'Open Sans', sans-serif;
       color: black;
       font-weight: bold;
       margin-top: 19px;
 
+      &:hover {
+        color: #DA362C;
+      }
     }
 
-    a{
+    a {
       text-decoration: none;
     }
   }
-  
 
-  .priceBox{
-    width: 430px;
-    .product-price{
-      border: 1px solid black;
+
+  .product-condition {
+    .condition {
+      color: #696969;
     }
+
+    .condition-name {
+      color: #000000;
+    }
+
+    span {
+      font-size: 12px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+
+  .priceBox {
+    width: 395px;
+    background: white;
+
+    .product-price {
+
+
+      .container {
+        padding-left: 25px;
+      }
+
+      .row {
+        margin-top: 8px;
+      }
+
+      .checkout-and-pay {
+        background-color: red;
+        height: 44px;
+
+        .checkout-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          width: 100%;
+          text-decoration: none;
+          color: white;
+          font-size: 12px;
+          font-weight: bold;
+          font-family: 'Open Sans', sans-serif;
+          text-transform: uppercase;
+        }
+      }
+
+      .sub-title-os {
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .cart-price-section {
+        display: flex;
+        padding-left: 4px;
+      }
+
+      .cart-total-price {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .save-price {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 18px;
+        padding-left: 4px;
+      }
+
+      .save-price-main {
+        color: rgb(41, 180, 116);
+        font-weight: 700;
+      }
+
+      h2 {
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 14px;
+      }
+    }
+
   }
 }
 
