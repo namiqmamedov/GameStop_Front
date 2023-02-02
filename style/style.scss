@@ -18212,6 +18212,7 @@ footer {
 
     .priceBox {
       width: 366px !important;
+      height: 210px;
       margin-right: 17px;
 
     }
@@ -23186,16 +23187,13 @@ Media Queries
   height: 100vh;
 
   .cartBox {
-    border: 1px solid #dedede;
-    border-radius: 4px;
     width: 63%;
-    background: white;
 
     .all-details {
-      margin-top: 23px;
       margin-bottom: 23px;
       border-top: 1px solid #dedede;
       border-bottom: 1px solid #dedede;
+      background-color: white;
     }
 
     .leftDetail {
@@ -23400,3 +23398,27 @@ Media Queries
 }
 
 // end cart page
+
+
+// start checkout page
+
+.checkoutForm{
+  .needs-validation{
+    border-top: 1px solid #dedede;
+    padding-top: 24px;
+    input,select{
+      height: 49px;
+      border-radius: 0px;
+    }
+  }
+
+  .shipping-addr-name{
+    font-size: 20px;
+    font-family: 'Poppins','Open Sans',sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+  }
+}
+
+// end checkout page

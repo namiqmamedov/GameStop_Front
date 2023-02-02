@@ -13055,6 +13055,7 @@ footer #hr {
   }
   #cart-section-product .priceBox {
     width: 366px !important;
+    height: 210px;
     margin-right: 17px;
   }
 }
@@ -16794,16 +16795,13 @@ Media Queries
   height: 100vh;
 }
 .cartSection .cartBox {
-  border: 1px solid #dedede;
-  border-radius: 4px;
   width: 63%;
-  background: white;
 }
 .cartSection .cartBox .all-details {
-  margin-top: 23px;
   margin-bottom: 23px;
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
+  background-color: white;
 }
 .cartSection .cartBox .leftDetail {
   display: flex;
@@ -16955,4 +16953,20 @@ Media Queries
   text-transform: uppercase;
   text-align: center;
   margin-top: 14px;
+}
+
+.checkoutForm .needs-validation {
+  border-top: 1px solid #dedede;
+  padding-top: 24px;
+}
+.checkoutForm .needs-validation input, .checkoutForm .needs-validation select {
+  height: 49px;
+  border-radius: 0px;
+}
+.checkoutForm .shipping-addr-name {
+  font-size: 20px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 6px;
 }/*# sourceMappingURL=style.css.map */
