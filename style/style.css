@@ -205,6 +205,9 @@ html {
   background-color: rgb(251, 251, 251) !important;
   width: 100% !important;
 }
+.main-header .menu-ul li:hover {
+  background-color: #ececec !important;
+}
 .main-header .menu-ul-1 a,
 .main-header .menu-ul-1 label {
   padding: 0 15px !important;
@@ -220,7 +223,7 @@ html {
   background-color: rgb(251, 251, 251);
 }
 .main-header #m-menu2 .m-menu__header {
-  height: 4.35rem;
+  height: 3.65rem;
   background-color: white;
   justify-content: flex-start;
   position: relative;
@@ -365,7 +368,7 @@ html {
 }
 .main-header nav .m-menu #menu-header {
   background-color: white;
-  height: 4.35rem;
+  height: 3.65rem;
   position: -webkit-sticky;
   top: 0;
   z-index: 999999999999;
@@ -3314,6 +3317,197 @@ footer #hr {
   #cart-section-product .priceBox .checkout-and-pay {
     margin-top: 13px;
     margin-bottom: 30px;
+  }
+  .checkoutForm {
+    margin-top: 21.5px;
+  }
+  .checkoutForm .checkout-box {
+    flex-wrap: wrap-reverse;
+  }
+  .checkoutForm .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .checkoutForm .needs-validation {
+    border-top: 1px solid #dedede;
+    padding-top: 24px;
+  }
+  .checkoutForm .needs-validation .custom-select {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .checkoutForm .needs-validation .checkout-and-pay {
+    background-color: red;
+    height: 44px;
+  }
+  .checkoutForm .needs-validation .checkout-and-pay .checkout-btn {
+    background-color: red;
+    height: 44px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  .checkoutForm .needs-validation .formTop {
+    top: 10px !important;
+    left: 10.5px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+    color: black !important;
+  }
+  .checkoutForm .needs-validation input,
+.checkoutForm .needs-validation select {
+    height: 49px;
+    border-radius: 0px;
+  }
+  .checkoutForm .needs-validation input:focus,
+.checkoutForm .needs-validation select:focus {
+    border: 1px solid black;
+    box-shadow: none;
+  }
+  .checkoutForm .needs-validation label {
+    position: relative;
+    top: 48%;
+    left: 2.8%;
+    transition: all 0.25s ease-in-out;
+    font-size: 16px;
+  }
+  .checkoutForm .needs-validation #streetAddr {
+    position: relative;
+    left: 3.1% !important;
+    top: 34px;
+  }
+  .checkoutForm .needs-validation .stateLabel {
+    position: static;
+  }
+  .checkoutForm .needs-validation #cityLabel,
+.checkoutForm .needs-validation #zipLabel {
+    left: 3.4% !important;
+  }
+  .checkoutForm .priceBox {
+    width: 100%;
+    background: white;
+    margin-top: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+    left: 0;
+  }
+  .checkoutForm .priceBox .allPrice {
+    border: 1px solid #e0e0e0;
+    height: 337px;
+  }
+  .checkoutForm .priceBox .allPrice .card-header {
+    display: flex;
+    padding-top: 32px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .checkoutForm .priceBox .allPrice .card-header .sub-header {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-right: 7px;
+    padding-top: 3.2px;
+  }
+  .checkoutForm .priceBox .allPrice .shipment-items {
+    display: flex;
+  }
+  .checkoutForm .priceBox .allPrice .shipment-items .item-image {
+    width: 100%;
+    margin-right: 12px;
+  }
+  .checkoutForm .priceBox .allPrice .shipment-items .item-image img {
+    width: 48px;
+  }
+  .checkoutForm .priceBox .product-price .row {
+    margin-top: 8px;
+  }
+  .checkoutForm .priceBox .product-price .checkout-and-pay {
+    background-color: red;
+    height: 44px;
+    width: 100%;
+  }
+  .checkoutForm .priceBox .product-price .checkout-and-pay .checkout-btn {
+    background-color: red;
+    height: 44px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  .checkoutForm .priceBox .product-price .sub-title-os {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .checkoutForm .priceBox .product-price .cart-price-section {
+    display: flex;
+    padding-left: 4px;
+  }
+  .checkoutForm .priceBox .product-price .cart-total-price {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-align: end;
+  }
+  .checkoutForm .priceBox .product-price .save-price {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 18px;
+    padding-left: 4px;
+  }
+  .checkoutForm .priceBox .product-price .save-price-main {
+    color: rgb(41, 180, 116);
+    font-weight: 700;
+  }
+  .checkoutForm .priceBox .product-price h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+  }
+  .checkoutForm .priceBox .legal {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .checkoutForm .priceBox .legal a {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+  }
+  .checkoutForm .cc-control {
+    top: -20.5px !important;
+    left: 0.9% !important;
+  }
+  .checkoutForm #checkout-mb {
+    display: none;
+  }
+  .checkoutForm .shipping-addr-name {
+    font-size: 20px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
   }
 }
 .breadcrumbs {
@@ -7395,6 +7589,197 @@ footer #hr {
   #cart-section-product .priceBox .checkout-and-pay {
     margin-top: 13px;
     margin-bottom: 30px;
+  }
+  .checkoutForm {
+    margin-top: 21.5px;
+  }
+  .checkoutForm .checkout-box {
+    flex-wrap: wrap-reverse;
+  }
+  .checkoutForm .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .checkoutForm .needs-validation {
+    border-top: 1px solid #dedede;
+    padding-top: 24px;
+  }
+  .checkoutForm .needs-validation .custom-select {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .checkoutForm .needs-validation .checkout-and-pay {
+    background-color: red;
+    height: 44px;
+  }
+  .checkoutForm .needs-validation .checkout-and-pay .checkout-btn {
+    background-color: red;
+    height: 44px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  .checkoutForm .needs-validation .formTop {
+    top: 10px !important;
+    left: 10.5px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+    color: black !important;
+  }
+  .checkoutForm .needs-validation input,
+.checkoutForm .needs-validation select {
+    height: 49px;
+    border-radius: 0px;
+  }
+  .checkoutForm .needs-validation input:focus,
+.checkoutForm .needs-validation select:focus {
+    border: 1px solid black;
+    box-shadow: none;
+  }
+  .checkoutForm .needs-validation label {
+    position: relative;
+    top: 48%;
+    left: 2.8%;
+    transition: all 0.25s ease-in-out;
+    font-size: 16px;
+  }
+  .checkoutForm .needs-validation #streetAddr {
+    position: relative;
+    left: 3.1% !important;
+    top: 34px;
+  }
+  .checkoutForm .needs-validation .stateLabel {
+    position: static;
+  }
+  .checkoutForm .needs-validation #cityLabel,
+.checkoutForm .needs-validation #zipLabel {
+    left: 3.4% !important;
+  }
+  .checkoutForm .priceBox {
+    width: 100%;
+    background: white;
+    margin-top: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+    left: 0;
+  }
+  .checkoutForm .priceBox .allPrice {
+    border: 1px solid #e0e0e0;
+    height: 337px;
+  }
+  .checkoutForm .priceBox .allPrice .card-header {
+    display: flex;
+    padding-top: 32px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .checkoutForm .priceBox .allPrice .card-header .sub-header {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-right: 7px;
+    padding-top: 3.2px;
+  }
+  .checkoutForm .priceBox .allPrice .shipment-items {
+    display: flex;
+  }
+  .checkoutForm .priceBox .allPrice .shipment-items .item-image {
+    width: 100%;
+    margin-right: 12px;
+  }
+  .checkoutForm .priceBox .allPrice .shipment-items .item-image img {
+    width: 48px;
+  }
+  .checkoutForm .priceBox .product-price .row {
+    margin-top: 8px;
+  }
+  .checkoutForm .priceBox .product-price .checkout-and-pay {
+    background-color: red;
+    height: 44px;
+    width: 100%;
+  }
+  .checkoutForm .priceBox .product-price .checkout-and-pay .checkout-btn {
+    background-color: red;
+    height: 44px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  .checkoutForm .priceBox .product-price .sub-title-os {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  .checkoutForm .priceBox .product-price .cart-price-section {
+    display: flex;
+    padding-left: 4px;
+  }
+  .checkoutForm .priceBox .product-price .cart-total-price {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-align: end;
+  }
+  .checkoutForm .priceBox .product-price .save-price {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 18px;
+    padding-left: 4px;
+  }
+  .checkoutForm .priceBox .product-price .save-price-main {
+    color: rgb(41, 180, 116);
+    font-weight: 700;
+  }
+  .checkoutForm .priceBox .product-price h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+  }
+  .checkoutForm .priceBox .legal {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .checkoutForm .priceBox .legal a {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+  }
+  .checkoutForm .cc-control {
+    top: -20.5px !important;
+    left: 0.9% !important;
+  }
+  .checkoutForm #checkout-mb {
+    display: none;
+  }
+  .checkoutForm .shipping-addr-name {
+    font-size: 20px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
   }
 }
 .paginationRes {
@@ -11568,7 +11953,7 @@ footer #hr {
     margin-bottom: 16.5px;
   }
   .main-header .store-icon i {
-    margin-left: -3.8rem !important;
+    margin-left: -3.3rem !important;
   }
   .main-header .menu-ul-1 {
     padding-left: 30px;
@@ -16955,9 +17340,38 @@ Media Queries
   margin-top: 14px;
 }
 
+.checkoutForm {
+  margin-top: 21.5px;
+}
 .checkoutForm .needs-validation {
   border-top: 1px solid #dedede;
   padding-top: 24px;
+}
+.checkoutForm .needs-validation .mb-name {
+  flex-wrap: nowrap !important;
+}
+.checkoutForm .needs-validation .mb-name .col-md-6 {
+  width: 50%;
+}
+.checkoutForm .needs-validation .checkout-and-pay {
+  background-color: red;
+  height: 44px;
+}
+.checkoutForm .needs-validation .checkout-and-pay .checkout-btn {
+  background-color: red;
+  height: 44px;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
 }
 .checkoutForm .needs-validation .formTop {
   top: 10px !important;
@@ -16967,11 +17381,13 @@ Media Queries
   font-size: 14px;
   color: black !important;
 }
-.checkoutForm .needs-validation input, .checkoutForm .needs-validation select {
+.checkoutForm .needs-validation input,
+.checkoutForm .needs-validation select {
   height: 49px;
   border-radius: 0px;
 }
-.checkoutForm .needs-validation input:focus, .checkoutForm .needs-validation select:focus {
+.checkoutForm .needs-validation input:focus,
+.checkoutForm .needs-validation select:focus {
   border: 1px solid black;
   box-shadow: none;
 }
@@ -16988,6 +17404,116 @@ Media Queries
 }
 .checkoutForm .needs-validation .stateLabel {
   position: static;
+}
+.checkoutForm .needs-validation #cityLabel,
+.checkoutForm .needs-validation #zipLabel {
+  left: 5.8%;
+}
+.checkoutForm .priceBox {
+  width: 100%;
+  background: white;
+  margin-top: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+  left: 0;
+}
+.checkoutForm .priceBox .allPrice {
+  border: 1px solid #e0e0e0;
+  height: 337px;
+}
+.checkoutForm .priceBox .allPrice .card-header {
+  display: flex;
+  padding-top: 32px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.checkoutForm .priceBox .allPrice .card-header .sub-header {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-weight: bold;
+  margin-right: 7px;
+  padding-top: 3.2px;
+}
+.checkoutForm .priceBox .allPrice .shipment-items {
+  display: flex;
+}
+.checkoutForm .priceBox .allPrice .shipment-items .item-image {
+  width: 100%;
+  margin-right: 12px;
+}
+.checkoutForm .priceBox .allPrice .shipment-items .item-image img {
+  width: 48px;
+}
+.checkoutForm .priceBox .product-price .row {
+  margin-top: 8px;
+}
+.checkoutForm .priceBox .product-price .checkout-and-pay {
+  background-color: red;
+  height: 44px;
+  width: 100%;
+}
+.checkoutForm .priceBox .product-price .checkout-and-pay .checkout-btn {
+  background-color: red;
+  height: 44px;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+.checkoutForm .priceBox .product-price .sub-title-os {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.checkoutForm .priceBox .product-price .cart-price-section {
+  display: flex;
+  padding-left: 4px;
+}
+.checkoutForm .priceBox .product-price .cart-total-price {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: end;
+}
+.checkoutForm .priceBox .product-price .save-price {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 18px;
+  padding-left: 4px;
+}
+.checkoutForm .priceBox .product-price .save-price-main {
+  color: rgb(41, 180, 116);
+  font-weight: 700;
+}
+.checkoutForm .priceBox .product-price h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 14px;
+}
+.checkoutForm .priceBox .legal {
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+.checkoutForm .priceBox .legal a {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+.checkoutForm .cc-control {
+  top: -20.5px !important;
+  left: 0.9% !important;
 }
 .checkoutForm .shipping-addr-name {
   font-size: 20px;

@@ -266,6 +266,10 @@ html {
     li {
       background-color: rgb(251 251 251) !important;
       width: 100% !important;
+
+      &:hover {
+        background-color: #ececec !important;
+      }
     }
   }
 
@@ -294,7 +298,7 @@ html {
 
     .m-menu__header {
 
-      height: 4.35rem;
+      height: 3.65rem;
       background-color: white;
       justify-content: flex-start;
       position: relative;
@@ -524,7 +528,7 @@ html {
 
       #menu-header {
         background-color: white;
-        height: 4.35rem;
+        height: 3.65rem;
         position: -webkit-sticky;
         // position: sticky;
         top: 0;
@@ -4665,6 +4669,252 @@ footer {
         margin-bottom: 30px;
       }
     }
+  }
+
+
+  .checkoutForm {
+    margin-top: 21.5px;
+
+    .checkout-box {
+      flex-wrap: wrap-reverse;
+    }
+
+    .container {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .needs-validation {
+      border-top: 1px solid #dedede;
+      padding-top: 24px;
+
+
+      .custom-select{
+        font-size: 16px;
+        padding-left: 10px;
+      }
+
+      .checkout-and-pay {
+        background-color: red;
+        height: 44px;
+
+        .checkout-btn {
+          background-color: red;
+          height: 44px;
+          width: 100%;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          width: 100%;
+          text-decoration: none;
+          color: white;
+          font-size: 16px;
+          font-weight: bold;
+          font-family: 'Open Sans', sans-serif;
+        }
+      }
+
+      .formTop {
+        top: 10px !important;
+        left: 10.5px;
+        background-color: #fff;
+        padding: 0 5px;
+        font-size: 14px;
+        color: black !important;
+      }
+
+      input,
+      select {
+        height: 49px;
+        border-radius: 0px;
+
+        &:focus {
+          border: 1px solid black;
+          box-shadow: none;
+        }
+      }
+
+      label {
+        position: relative;
+        top: 48%;
+        left: 2.8%;
+        transition: all .25s ease-in-out;
+        font-size: 16px;
+      }
+
+      #streetAddr {
+        position: relative;
+        left: 3.1% !important;
+        top: 34px;
+      }
+
+      .stateLabel {
+        position: static;
+      }
+
+      #cityLabel,
+      #zipLabel {
+        left: 3.4% !important;
+      }
+
+    }
+
+
+    .priceBox {
+      width: 100%;
+      background: white;
+      margin-top: 5px;
+      position: sticky;
+      top: 40px;
+      left: 0;
+
+      .allPrice {
+        border: 1px solid #e0e0e0;
+        height: 337px;
+
+        .card-header {
+          display: flex;
+          padding-top: 32px;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+
+          .sub-header {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            color: black;
+            font-weight: bold;
+            margin-right: 7px;
+            padding-top: 3.2px;
+
+          }
+        }
+
+        .shipment-items {
+          display: flex;
+
+
+          .item-image {
+            width: 100%;
+            margin-right: 12px;
+
+            img {
+              width: 48px;
+            }
+          }
+        }
+
+
+      }
+
+      .product-price {
+
+
+        .container {}
+
+        .row {
+          margin-top: 8px;
+        }
+
+
+
+        .checkout-and-pay {
+          background-color: red;
+          height: 44px;
+          width: 100%;
+
+          .checkout-btn {
+            background-color: red;
+            height: 44px;
+            width: 100%;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+          }
+        }
+
+        .sub-title-os {
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+        }
+
+        .cart-price-section {
+          display: flex;
+          padding-left: 4px;
+        }
+
+        .cart-total-price {
+          font-size: 16px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          text-align: end;
+        }
+
+        .save-price {
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          margin-top: 18px;
+          padding-left: 4px;
+        }
+
+        .save-price-main {
+          color: rgb(41, 180, 116);
+          font-weight: 700;
+        }
+
+        h2 {
+          font-size: 14px;
+          text-transform: uppercase;
+          text-align: center;
+          margin-top: 14px;
+        }
+      }
+
+      .legal {
+        margin-top: 10px;
+
+        a {
+          font-size: 12px;
+          font-family: 'Open Sans', sans-serif;
+          color: black;
+        }
+
+        font-size: 12px;
+        font-family: 'Open Sans',
+        sans-serif;
+      }
+
+
+
+    }
+
+    .cc-control {
+      top: -20.5px !important;
+      left: 0.9% !important;
+    }
+
+    #checkout-mb {
+      display: none;
+    }
+
+    .shipping-addr-name {
+      font-size: 20px;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding-bottom: 6px;
+    }
+
   }
 
 
@@ -10392,6 +10642,252 @@ footer {
         margin-bottom: 30px;
       }
     }
+  }
+
+
+  .checkoutForm {
+    margin-top: 21.5px;
+
+    .checkout-box {
+      flex-wrap: wrap-reverse;
+    }
+
+    .container {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .needs-validation {
+      border-top: 1px solid #dedede;
+      padding-top: 24px;
+
+
+      .custom-select{
+        font-size: 16px;
+        padding-left: 10px;
+      }
+
+      .checkout-and-pay {
+        background-color: red;
+        height: 44px;
+
+        .checkout-btn {
+          background-color: red;
+          height: 44px;
+          width: 100%;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          width: 100%;
+          text-decoration: none;
+          color: white;
+          font-size: 16px;
+          font-weight: bold;
+          font-family: 'Open Sans', sans-serif;
+        }
+      }
+
+      .formTop {
+        top: 10px !important;
+        left: 10.5px;
+        background-color: #fff;
+        padding: 0 5px;
+        font-size: 14px;
+        color: black !important;
+      }
+
+      input,
+      select {
+        height: 49px;
+        border-radius: 0px;
+
+        &:focus {
+          border: 1px solid black;
+          box-shadow: none;
+        }
+      }
+
+      label {
+        position: relative;
+        top: 48%;
+        left: 2.8%;
+        transition: all .25s ease-in-out;
+        font-size: 16px;
+      }
+
+      #streetAddr {
+        position: relative;
+        left: 3.1% !important;
+        top: 34px;
+      }
+
+      .stateLabel {
+        position: static;
+      }
+
+      #cityLabel,
+      #zipLabel {
+        left: 3.4% !important;
+      }
+
+    }
+
+
+    .priceBox {
+      width: 100%;
+      background: white;
+      margin-top: 5px;
+      position: sticky;
+      top: 40px;
+      left: 0;
+
+      .allPrice {
+        border: 1px solid #e0e0e0;
+        height: 337px;
+
+        .card-header {
+          display: flex;
+          padding-top: 32px;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+
+          .sub-header {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            color: black;
+            font-weight: bold;
+            margin-right: 7px;
+            padding-top: 3.2px;
+
+          }
+        }
+
+        .shipment-items {
+          display: flex;
+
+
+          .item-image {
+            width: 100%;
+            margin-right: 12px;
+
+            img {
+              width: 48px;
+            }
+          }
+        }
+
+
+      }
+
+      .product-price {
+
+
+        .container {}
+
+        .row {
+          margin-top: 8px;
+        }
+
+
+
+        .checkout-and-pay {
+          background-color: red;
+          height: 44px;
+          width: 100%;
+
+          .checkout-btn {
+            background-color: red;
+            height: 44px;
+            width: 100%;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+          }
+        }
+
+        .sub-title-os {
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+        }
+
+        .cart-price-section {
+          display: flex;
+          padding-left: 4px;
+        }
+
+        .cart-total-price {
+          font-size: 16px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          text-align: end;
+        }
+
+        .save-price {
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          margin-top: 18px;
+          padding-left: 4px;
+        }
+
+        .save-price-main {
+          color: rgb(41, 180, 116);
+          font-weight: 700;
+        }
+
+        h2 {
+          font-size: 14px;
+          text-transform: uppercase;
+          text-align: center;
+          margin-top: 14px;
+        }
+      }
+
+      .legal {
+        margin-top: 10px;
+
+        a {
+          font-size: 12px;
+          font-family: 'Open Sans', sans-serif;
+          color: black;
+        }
+
+        font-size: 12px;
+        font-family: 'Open Sans',
+        sans-serif;
+      }
+
+
+
+    }
+
+    .cc-control {
+      top: -20.5px !important;
+      left: 0.9% !important;
+    }
+
+    #checkout-mb {
+      display: none;
+    }
+
+    .shipping-addr-name {
+      font-size: 20px;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding-bottom: 6px;
+    }
+
   }
 
 
@@ -16171,7 +16667,7 @@ footer {
 
 
     .store-icon i {
-      margin-left: -3.8rem !important;
+      margin-left: -3.3rem !important;
     }
 
 
@@ -23402,10 +23898,42 @@ Media Queries
 
 // start checkout page
 
-.checkoutForm{
-  .needs-validation{
+.checkoutForm {
+  margin-top: 21.5px;
+
+  .needs-validation {
     border-top: 1px solid #dedede;
     padding-top: 24px;
+
+    .mb-name{
+      flex-wrap: nowrap !important;
+
+      .col-md-6{
+        width: 50%;
+      }
+    }
+
+    .checkout-and-pay {
+      background-color: red;
+      height: 44px;
+
+      .checkout-btn {
+        background-color: red;
+        height: 44px;
+        width: 100%;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
 
     .formTop {
       top: 10px !important;
@@ -23416,43 +23944,189 @@ Media Queries
       color: black !important;
     }
 
-    input,select{
+    input,
+    select {
       height: 49px;
       border-radius: 0px;
 
-      &:focus{
+      &:focus {
         border: 1px solid black;
         box-shadow: none;
       }
     }
 
-    label{
+    label {
       position: relative;
       top: 48%;
       left: 2.8%;
       transition: all .25s ease-in-out;
     }
 
-    #streetAddr{
+    #streetAddr {
       position: relative;
       left: 1.2%;
       top: 34px;
     }
 
-    .stateLabel{
+    .stateLabel {
       position: static;
     }
-    
+
+    #cityLabel,
+    #zipLabel {
+      left: 5.8%;
+    }
+
   }
 
-  .shipping-addr-name{
+
+  .priceBox {
+    width: 100%;
+    background: white;
+    margin-top: 5px;
+    position: sticky;
+    top: 40px;
+    left: 0;
+
+    .allPrice {
+      border: 1px solid #e0e0e0;
+      height: 337px;
+
+      .card-header {
+        display: flex;
+        padding-top: 32px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+
+        .sub-header {
+          font-size: 16px;
+          font-family: 'Open Sans', sans-serif;
+          color: black;
+          font-weight: bold;
+          margin-right: 7px;
+          padding-top: 3.2px;
+
+        }
+      }
+
+      .shipment-items {
+        display: flex;
+
+
+        .item-image {
+          width: 100%;
+          margin-right: 12px;
+
+          img {
+            width: 48px;
+          }
+        }
+      }
+
+
+    }
+
+    .product-price {
+
+
+      .container {}
+
+      .row {
+        margin-top: 8px;
+      }
+
+      .checkout-and-pay {
+        background-color: red;
+        height: 44px;
+        width: 100%;
+
+        .checkout-btn {
+          background-color: red;
+          height: 44px;
+          width: 100%;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          width: 100%;
+          text-decoration: none;
+          color: white;
+          font-size: 16px;
+          font-weight: bold;
+          font-family: 'Open Sans', sans-serif;
+        }
+      }
+
+      .sub-title-os {
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .cart-price-section {
+        display: flex;
+        padding-left: 4px;
+      }
+
+      .cart-total-price {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        text-align: end;
+      }
+
+      .save-price {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 18px;
+        padding-left: 4px;
+      }
+
+      .save-price-main {
+        color: rgb(41, 180, 116);
+        font-weight: 700;
+      }
+
+      h2 {
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 14px;
+      }
+    }
+
+    .legal {
+      margin-top: 10px;
+
+      a {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+      }
+
+      font-size: 12px;
+      font-family: 'Open Sans',
+      sans-serif;
+    }
+
+
+
+  }
+
+  .cc-control {
+    top: -20.5px !important;
+    left: 0.9% !important;
+  }
+
+  .shipping-addr-name {
     font-size: 20px;
-    font-family: 'Poppins','Open Sans',sans-serif;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 6px;
   }
-  
+
 }
 
 // end checkout page
