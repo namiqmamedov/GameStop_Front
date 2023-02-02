@@ -23406,10 +23406,43 @@ Media Queries
   .needs-validation{
     border-top: 1px solid #dedede;
     padding-top: 24px;
+
+    .formTop {
+      top: 10px !important;
+      left: 10.5px;
+      background-color: #fff;
+      padding: 0 5px;
+      font-size: 14px;
+      color: black !important;
+    }
+
     input,select{
       height: 49px;
       border-radius: 0px;
+
+      &:focus{
+        border: 1px solid black;
+        box-shadow: none;
+      }
     }
+
+    label{
+      position: relative;
+      top: 48%;
+      left: 2.8%;
+      transition: all .25s ease-in-out;
+    }
+
+    #streetAddr{
+      position: relative;
+      left: 1.2%;
+      top: 34px;
+    }
+
+    .stateLabel{
+      position: static;
+    }
+    
   }
 
   .shipping-addr-name{
@@ -23419,6 +23452,7 @@ Media Queries
     margin-bottom: 20px;
     padding-bottom: 6px;
   }
+  
 }
 
 // end checkout page
