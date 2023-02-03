@@ -234,21 +234,21 @@
               <div class="row">
                 <div class="col-md-6 mb-3">
                   <label class="checkoutLabel" for="cc-number">Credit card number</label>
-                  <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                  <input type="text"  maxlength='16' class="form-control" id="cc-number" placeholder="" required>
                   <div class="invalid-feedback">
                     Credit card number is required
                   </div>
                 </div>
                 <div class="col-md-3 mb-3">
                   <label class="checkoutLabel" for="cc-expiration">Expiration</label>
-                  <input  max-length="4" type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                  <input   maxlength='5' type="text" class="form-control" id="cc-expiration" placeholder="" required>
                   <div class="invalid-feedback">
                     Expiration date required
                   </div>
                 </div>
                 <div class="col-md-3 mb-3">
                   <label class="checkoutLabel" for="cc-cvv ">CVV</label>
-                  <input type="text" class="form-control" id="cc-cvv" placeholder="" required max-length="5" minlength="4">
+                  <input type="password"  maxlength='4' class="form-control" id="cc-cvv" >
                   <div class="invalid-feedback">
                     Security code required
                   </div>

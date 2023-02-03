@@ -3973,6 +3973,9 @@ footer #hr {
 .product-main .sort-section .btn-secondary:focus {
   color: black;
 }
+.product-main .sort-section .btn-secondary .selected-option {
+  padding-left: 5px;
+}
 .product-main #hr {
   border-top: 1px solid #d9d9d9;
   width: 105%;
@@ -9452,6 +9455,11 @@ footer #hr {
     margin-bottom: 30px;
   }
 }
+@media (min-width: 767.8px) and (max-width: 1024px) {
+  .checkoutForm .needs-validation label {
+    font-size: 16px !important;
+  }
+}
 @media (min-width: 576.7px) and (max-width: 767.8px) {
   .pagination-container {
     display: none !important;
@@ -11922,6 +11930,11 @@ footer #hr {
     width: 318px !important;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .checkoutForm .needs-validation label {
+    font-size: 16px !important;
+  }
+}
 @media (min-width: 1200px) {
   .container {
     max-width: 1760px !important;
@@ -11960,6 +11973,7 @@ footer #hr {
   }
   .main-header .m-menu__toggle .close {
     left: 84.7%;
+    top: 0.2%;
   }
   .main-header .m-menu {
     left: -12px !important;
@@ -12207,7 +12221,7 @@ footer #hr {
     display: none;
   }
   footer .footer-item {
-    gap: 2rem;
+    gap: 2.8rem;
   }
   footer .content {
     padding: 0 9px;
@@ -12469,7 +12483,7 @@ footer #hr {
   }
   .top-deals .card {
     width: 425px !important;
-    height: 407px !important;
+    height: 416px !important;
   }
   .top-deals .card img {
     margin-right: 6px;
@@ -13442,6 +13456,11 @@ footer #hr {
     width: 366px !important;
     height: 210px;
     margin-right: 17px;
+  }
+}
+@media (min-width: 1200px) {
+  .checkoutForm .needs-validation label {
+    font-size: 16px !important;
   }
 }
 .body-wrapper {

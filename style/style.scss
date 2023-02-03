@@ -5566,6 +5566,10 @@ footer {
 
       }
 
+      .selected-option{
+        padding-left: 5px;
+      }
+
 
     }
 
@@ -13188,6 +13192,15 @@ footer {
   }
 
 
+  .checkoutForm{
+    .needs-validation{
+      label{
+        font-size: 16px !important;
+      }
+    }
+  }
+
+
 
 }
 
@@ -16613,6 +16626,13 @@ footer {
     }
   }
 
+  .checkoutForm{
+    .needs-validation{
+      label{
+        font-size: 16px !important;
+      }
+    }
+  }
 
 
 
@@ -16677,6 +16697,7 @@ footer {
 
     .m-menu__toggle .close {
       left: 84.7%;
+      top: 0.2%;
     }
 
     .m-menu {
@@ -17037,7 +17058,7 @@ footer {
     }
 
     .footer-item {
-      gap: 2rem;
+      gap: 2.8rem;
 
 
     }
@@ -17421,7 +17442,7 @@ footer {
 
     .card {
       width: 425px !important;
-      height: 407px !important;
+      height: 416px !important;
 
       img {
         margin-right: 6px;
@@ -18711,6 +18732,15 @@ footer {
       height: 210px;
       margin-right: 17px;
 
+    }
+  }
+
+  
+  .checkoutForm{
+    .needs-validation{
+      label{
+        font-size: 16px !important;
+      }
     }
   }
 

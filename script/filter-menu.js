@@ -1,20 +1,3 @@
-$(".btn_container").click(function () {
-  $(".over_lay").css({
-    width: "100%"
-  });
-  $(".list_items_container").css({
-    left: "0px"
-  });
-});
-$(".over_lay, .close_btn").click(function () {
-  $(".over_lay").css({
-    width: "0px"
-  });
-  $(".list_items_container").css({
-    left: "-300px"
-  });
-});
-
 
 $(".write-menu").click(function () {
   $(".header-main").css({
@@ -411,13 +394,3 @@ $(".item-overlay__btn-img").click(function () {
   });
 });
 
-
-// const posStatic = $(".img-main").click(function () {
-//   if ($('.all-table').addClass("none")) {}
-
-// })
-
-// const posSticky = $(".item-overlay__btn-img").click(function () {
-//   if ($('.all-table').removeClass("none")) {}
-
-// })
