@@ -4689,7 +4689,7 @@ footer {
       padding-top: 24px;
 
 
-      .custom-select{
+      .custom-select {
         font-size: 16px;
         padding-left: 10px;
       }
@@ -5566,7 +5566,7 @@ footer {
 
       }
 
-      .selected-option{
+      .selected-option {
         padding-left: 5px;
       }
 
@@ -10666,7 +10666,7 @@ footer {
       padding-top: 24px;
 
 
-      .custom-select{
+      .custom-select {
         font-size: 16px;
         padding-left: 10px;
       }
@@ -13192,9 +13192,9 @@ footer {
   }
 
 
-  .checkoutForm{
-    .needs-validation{
-      label{
+  .checkoutForm {
+    .needs-validation {
+      label {
         font-size: 16px !important;
       }
     }
@@ -16626,9 +16626,9 @@ footer {
     }
   }
 
-  .checkoutForm{
-    .needs-validation{
-      label{
+  .checkoutForm {
+    .needs-validation {
+      label {
         font-size: 16px !important;
       }
     }
@@ -18735,10 +18735,10 @@ footer {
     }
   }
 
-  
-  .checkoutForm{
-    .needs-validation{
-      label{
+
+  .checkoutForm {
+    .needs-validation {
+      label {
         font-size: 16px !important;
       }
     }
@@ -23935,10 +23935,10 @@ Media Queries
     border-top: 1px solid #dedede;
     padding-top: 24px;
 
-    .mb-name{
+    .mb-name {
       flex-wrap: nowrap !important;
 
-      .col-md-6{
+      .col-md-6 {
         width: 50%;
       }
     }
@@ -24160,3 +24160,153 @@ Media Queries
 }
 
 // end checkout page
+
+.account-settings {
+
+  .account-dashboard {
+    margin-top: 55px;
+
+    
+
+
+    .formTop {
+      position: absolute;
+      top: 50px !important;
+      left: 10.5px;
+      background-color: #fff;
+      padding: 0 5px;
+      font-size: 14px;
+      color: black !important;
+    }
+
+    .list-group-item {
+      .dashboard-nav-link {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        color: #000000;
+      }
+    }
+  }
+
+  .list-group-acc {
+
+    p {
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 0px;
+      padding-left: 6px;
+      padding-top: 3px;
+    }
+
+    .acc-header1 {
+      padding-left: 2px;
+    }
+
+    .acc-center-header {
+      font-size: 34px;
+      font-family: 'Poppins', 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+
+
+  }
+
+  #list-acc {
+    margin-top: 23px;
+    line-height: 32.5px;
+  }
+
+
+
+  .data-section {
+
+    .field-name {
+      font-size: 12px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 5.5px;
+    }
+    .field-pass {
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      margin-bottom: 5.5px;
+    }
+
+    .form-indicator{
+      margin-left: 3px;
+      color: #df2935;
+    }
+
+    #savebutton{
+      background-color: #e7230d;
+      color: #fff;
+      border-radius: 0px;
+      width: 20%;
+      margin-top: 7.5px;
+    }
+
+    .card {
+      width: 55%;
+      height: 100%;
+      border-radius: 0px;
+      border-color: transparent;
+      overflow: hidden
+    }
+
+    .card .info {
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card .info button {
+      height: 30px;
+      width: 80px;
+      border: none;
+      color: #fff;
+      border-radius: 4px;
+      background-color: #000;
+      cursor: pointer;
+      text-transform: uppercase
+    }
+
+    .card .forms {
+      padding: 15px
+    }
+
+    .card .inputs {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px
+    }
+
+    .card .inputs span {
+      font-size: 12px
+    }
+
+    .card .inputs input {
+      height: 40px;
+      padding: 0px 10px;
+      font-size: 17px;
+      box-shadow: none;
+      outline: none
+    }
+
+    .card .inputs input[type="text"][readonly] {
+      border: 2px solid rgba(0, 0, 0, 0)
+    }
+
+    .card .inputs input[type="email"][readonly] {
+      border: 2px solid rgba(0, 0, 0, 0)
+    }
+
+
+  }
+
+}

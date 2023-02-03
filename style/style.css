@@ -17540,4 +17540,115 @@ Media Queries
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 6px;
+}
+
+.account-settings .account-dashboard {
+  margin-top: 55px;
+}
+.account-settings .account-dashboard .formTop {
+  position: absolute;
+  top: 50px !important;
+  left: 10.5px;
+  background-color: #fff;
+  padding: 0 5px;
+  font-size: 14px;
+  color: black !important;
+}
+.account-settings .account-dashboard .list-group-item .dashboard-nav-link {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #000000;
+}
+.account-settings .list-group-acc p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-left: 6px;
+  padding-top: 3px;
+}
+.account-settings .list-group-acc .acc-header1 {
+  padding-left: 2px;
+}
+.account-settings .list-group-acc .acc-center-header {
+  font-size: 34px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.account-settings #list-acc {
+  margin-top: 23px;
+  line-height: 32.5px;
+}
+.account-settings .data-section .field-name {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5.5px;
+}
+.account-settings .data-section .field-pass {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5.5px;
+}
+.account-settings .data-section .form-indicator {
+  margin-left: 3px;
+  color: #df2935;
+}
+.account-settings .data-section #savebutton {
+  background-color: #e7230d;
+  color: #fff;
+  border-radius: 0px;
+  width: 20%;
+  margin-top: 7.5px;
+}
+.account-settings .data-section .card {
+  width: 55%;
+  height: 100%;
+  border-radius: 0px;
+  border-color: transparent;
+  overflow: hidden;
+}
+.account-settings .data-section .card .info {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.account-settings .data-section .card .info button {
+  height: 30px;
+  width: 80px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #000;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.account-settings .data-section .card .forms {
+  padding: 15px;
+}
+.account-settings .data-section .card .inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.account-settings .data-section .card .inputs span {
+  font-size: 12px;
+}
+.account-settings .data-section .card .inputs input {
+  height: 40px;
+  padding: 0px 10px;
+  font-size: 17px;
+  box-shadow: none;
+  outline: none;
+}
+.account-settings .data-section .card .inputs input[type=text][readonly] {
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+.account-settings .data-section .card .inputs input[type=email][readonly] {
+  border: 2px solid rgba(0, 0, 0, 0);
 }/*# sourceMappingURL=style.css.map */
