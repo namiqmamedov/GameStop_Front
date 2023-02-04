@@ -21,12 +21,28 @@ $(".question-menu").click(function () {
 
 });
 
+$(".add-to-cart-menu").click(function () {
+  $(".header-main").css({
+    position: "static"
+  });
+
+});
+
 $(".bar1").click(function () {
   $(".header-main").css({
     position: "sticky"
   });
 
 });
+
+$(".bar2").click(function () {
+  $(".header-main").css({
+    position: "sticky"
+  });
+
+});
+
+
 
 
 
@@ -48,12 +64,23 @@ $(".bar1").click(function () {
     });
 
 
-    $('.bar').toggleClass('animate');
-    $('.navMenu').toggleClass('active');
+
     $('.bar1').toggleClass('animate');
     $('.navMenu1').toggleClass('active');
     return false;
   })
+
+
+  $('.add-to-cart-menu').on('click', function () {
+    $(".overlay-back2").css({
+      width: "100%"
+    });
+
+    $('.bar2').toggleClass('animate');
+    $('.navMenu2').toggleClass('active');
+    return false;
+  })
+
 
   $(".overlay-back").on('click', function () {
     $(".overlay-back").css({
@@ -65,6 +92,15 @@ $(".bar1").click(function () {
 
   $(".overlay-back1").on('click', function () {
     $(".overlay-back1").css({
+      width: "0%"
+    });
+
+
+  });
+
+  
+  $(".overlay-back2").on('click', function () {
+    $(".overlay-back2").css({
       width: "0%"
     });
 
@@ -87,6 +123,15 @@ $(".bar1").click(function () {
 
 
   });
+
+  $(".bar2").on('click', function () {
+    $(".overlay-back2").css({
+      width: "0%"
+    });
+
+
+  });
+
 
 
 
@@ -111,6 +156,21 @@ const askRemove = $(".bar1").click(function () {
 
 })
 
+const askRemove2 = $(".bar2").click(function () {
+  if ($('.navMenu2').removeClass("active")) {}
+
+  
+
+  if ($('.overlay-back2').removeClass("active")) {}
+
+
+})
+
+
+const posStat22ic2 = $(".bar2").click(function () {
+  if ($('.navMenu2').removeClass("filterRemove")) {}
+
+})
 
 
 const ratingActive = $(".write-menu").click(function () {
@@ -118,16 +178,29 @@ const ratingActive = $(".write-menu").click(function () {
 
 })
 
+const ratingActiv2e = $(".add-to-cart-menu").click(function () {
+  if ($('.navMenu2').addClass("active")) {}
+
+})
 
 
 const posSticky = $(".write-menu").click(function () {
   if ($('.all-table').addClass("filterRemove")) {}
 
 })
+
 const posStickyy = $(".question-menu").click(function () {
   if ($('.all-table').addClass("filterRemove")) {}
 
 })
+
+
+const posStickyyy = $(".add-to-cart-menu").click(function () {
+  if ($('.all-table').addClass("filterRemove")) {}
+
+})
+
+
 
 const posStatic1 = $(".bar").click(function () {
   if ($('.all-table').removeClass("filterRemove")) {}
@@ -138,6 +211,12 @@ const posStatic2 = $(".bar1").click(function () {
 
 })
 
+const posStatic3 = $(".bar2").click(function () {
+  if ($('.all-table').removeClass("filterRemove")) {}
+
+})
+
+
 const owHidden = $(".write-menu").click(function () {
   if ($('body').addClass("overflow-hidden")) {}
 
@@ -146,8 +225,17 @@ const owHidden1 = $(".question-menu").click(function () {
   if ($('body').addClass("overflow-hidden")) {}
 
 })
+const owHidde2 = $(".add-to-cart-menu").click(function () {
+  if ($('body').addClass("overflow-hidden")) {}
+
+})
 
 const owStatic1 = $(".overlay-back1").click(function () {
+  if ($('body').removeClass("overflow-hidden")) {}
+
+})
+
+const owStatic2 = $(".overlay-back2").click(function () {
   if ($('body').removeClass("overflow-hidden")) {}
 
 })
@@ -173,6 +261,17 @@ const owStaticBar1 = $(".bar1").click(function () {
 
 })
 
+const owStaticBar2 = $(".bar2").click(function () {
+  if ($('body').removeClass("overflow-hidden")) {}
+
+  if ($('.scroll-up').removeClass("filterRemove")) {}
+  
+  if ($('.navMenu2').removeClass("filterRemove")) {}
+
+
+})
+
+
 
 
 const posStatic = $(".overlay-back").click(function () {
@@ -197,6 +296,19 @@ const ratingOverlayy = $(".overlay-back1").click(function () {
 
 })
 
+const posStaticDas = $(".overlay-back2").click(function () {
+  if ($('.all-table').removeClass("filterRemove")) {}
+
+  if ($('.navMenu').removeClass("active")) {}
+
+})
+
+const ratingOverlayCnt = $(".overlay-back2").click(function () {
+  if ($('.navMenu2').removeClass("active")) {}
+
+})
+
+
 const scrollNone = $(".question-menu").click(function () {
   if ($('.scroll-up').addClass("filterRemove")) {}
 
@@ -204,7 +316,23 @@ const scrollNone = $(".question-menu").click(function () {
 
 })
 
+const cartMenu = $(".add-to-cart-menu").click(function () {
+  if ($('.scroll-up').addClass("filterRemove")) {}
+
+  if ($('.navMenu').addClass("filterRemove")) {}
+
+})
+
+
 const scrollBlock = $(".overlay-back1").click(function () {
+  if ($('.scroll-up').removeClass("filterRemove")) {}
+
+  if ($('.navMenu').removeClass("filterRemove")) {}
+
+})
+
+
+const scrollBlock2 = $(".overlay-back2").click(function () {
   if ($('.scroll-up').removeClass("filterRemove")) {}
 
   if ($('.navMenu').removeClass("filterRemove")) {}
