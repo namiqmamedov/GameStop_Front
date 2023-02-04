@@ -319,11 +319,8 @@ $(".menu-ul").click(function () {
   })
 });
 
-$(".menu-ul").click(function () {
-  $(".m-menu__header").css({
-    visibility: "visible"
-  })
-});
+
+
 
 $(".menu-ul").click(function () {
   $(".menu1 li").css({

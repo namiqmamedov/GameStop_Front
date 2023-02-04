@@ -208,8 +208,6 @@ html {
 
   .menu-ul-1 {
     padding: 10px 0px 10px 10px;
-    margin-left: -18px;
-
 
   }
 
@@ -278,7 +276,7 @@ html {
 
     a,
     label {
-      padding: 0 15px !important;
+      padding: 0 11.5px !important;
     }
   }
 
@@ -298,7 +296,8 @@ html {
 
     .m-menu__header {
 
-      height: 3.65rem;
+      height: 4rem;
+      box-shadow: 0 2px 16px rgb(0 0 0 / 8%);
       background-color: white;
       justify-content: flex-start;
       position: relative;
@@ -308,7 +307,7 @@ html {
       cursor: pointer;
       display: flex;
       position: absolute;
-      left: 11%;
+      left: 6%;
       top: 35%;
       margin-left: 0px !important;
 
@@ -450,7 +449,7 @@ html {
         border-top: 1px solid #ccc;
         display: inline-block;
         width: 326px;
-        margin: 0px 30px;
+        margin: 0px 23px;
         margin-bottom: 10px;
       }
 
@@ -492,7 +491,7 @@ html {
 
 
       .category-games {
-        margin-left: 17px;
+        margin-left: 11px;
 
         a {
           background-color: rgb(251 251 251);
@@ -528,7 +527,8 @@ html {
 
       #menu-header {
         background-color: white;
-        height: 3.65rem;
+        height: 4rem;
+        box-shadow: 0 2px 16px rgb(0 0 0 / 8%);
         position: -webkit-sticky;
         // position: sticky;
         top: 0;
@@ -2565,7 +2565,6 @@ footer {
     }
 
     .m-menu {
-      left: -12px !important;
       width: calc(100vw - 0px) !important;
       max-width: 375px !important;
       position: fixed !important;
@@ -4223,6 +4222,7 @@ footer {
 
     background-color: #f5f5f5;
 
+    
     .register-content {
       padding-top: 45px;
       padding-bottom: 32px;
@@ -4335,7 +4335,7 @@ footer {
         display: block !important;
         padding-bottom: 16px;
       }
-
+ 
       .form-label {
         font-size: 15px;
         font-family: 'Poppins', sans-serif;
@@ -10139,9 +10139,12 @@ footer {
       }
     }
 
+
     .registerPage {
       display: flex;
       justify-content: center;
+
+     
 
 
 
@@ -10246,6 +10249,7 @@ footer {
         padding-bottom: 11px;
         display: block;
         font-weight: 600;
+        
       }
 
       .registerEmail {
@@ -12937,8 +12941,8 @@ footer {
 
   .registerGameStop {
     height: 140vh !important;
-
     background-color: #f5f5f5;
+
 
     .register-content {
       padding-top: 45px;
@@ -16768,24 +16772,24 @@ footer {
     }
 
 
-    .menu-ul-1 {
-      padding-left: 30px;
-    }
 
     .m-menu__toggle .close {
       left: 84.7%;
       top: 0.2%;
     }
 
+    .menu-ul-1{
+      padding-left: 0px;
+    }
+
     .m-menu {
-      left: -12px !important;
       width: calc(100vw - 0px) !important;
       max-width: 375px !important;
       position: fixed !important;
       overflow-y: auto;
       margin-top: 0rem !important;
       height: 100% !important;
-      width: 350px !important;
+      width: 375px !important;
       max-width: none !important;
 
 
@@ -16902,6 +16906,21 @@ footer {
 
         .sign-in {
           margin-top: 4px;
+        }
+
+        .minicart-quantity{
+          display: inline-block;
+          position: absolute;
+          width: 16px;
+          height: 16px;
+          line-height: 16px;
+          border-radius: 50%;
+          text-align: center;
+          font-size: .6875rem;
+          background-color: #da362c;
+          color: #fff;
+          top: 10px;
+          right: 10px;
         }
 
       }
@@ -23420,7 +23439,10 @@ Media Queries
     display: flex;
     justify-content: center;
 
-
+    .form-indicator{
+      margin-left: 3px;
+      color: #df2935;
+    }
 
     .registerSection {
       background-color: white;
@@ -24239,6 +24261,37 @@ Media Queries
 // end checkout page
 
 .account-settings {
+  
+  .account-dashboard-header{
+    background-image: linear-gradient(90deg,#5c5c5c,grey);
+    margin-top: -15px;
+    height: 92px;
+
+    .container{
+      display: flex;
+      height: 100%;
+
+      .text-white{
+        font-size: 20px;
+        font-family: 'Poppins','Open Sans',sans-serif;
+        font-weight: 400;
+      }
+
+     
+    }
+
+    .pull-right{
+      text-align: end;
+
+      .logout_acc{
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Open Sans',sans-serif;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
 
   .account-dashboard {
     margin-top: 55px;
@@ -24331,7 +24384,7 @@ Media Queries
       display: flex;
       gap: 1.6rem;
       .inputs{
-        width: 48%;
+        width: 49%;
       }
     }
 
@@ -24339,7 +24392,7 @@ Media Queries
       display: flex;
       gap: 1.9rem;
       .inputs{
-        width: 30.7%;
+        width: 31.7%;
       }
 
       .custom-select{

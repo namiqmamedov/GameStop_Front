@@ -1,4 +1,4 @@
-$("input:checkbox").on('click', function () {
+$(".platform-box input:checkbox").on('click', function () {
 
    // console.log('hello');
    var $box = $(this);

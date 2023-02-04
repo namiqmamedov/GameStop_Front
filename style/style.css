@@ -168,7 +168,6 @@ html {
 }
 .main-header .menu-ul-1 {
   padding: 10px 0px 10px 10px;
-  margin-left: -18px;
 }
 .main-header #menu1 {
   background-color: rgb(251, 251, 251);
@@ -210,7 +209,7 @@ html {
 }
 .main-header .menu-ul-1 a,
 .main-header .menu-ul-1 label {
-  padding: 0 15px !important;
+  padding: 0 11.5px !important;
 }
 .main-header #m-menu2 {
   height: auto !important;
@@ -223,7 +222,8 @@ html {
   background-color: rgb(251, 251, 251);
 }
 .main-header #m-menu2 .m-menu__header {
-  height: 3.65rem;
+  height: 4rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
   background-color: white;
   justify-content: flex-start;
   position: relative;
@@ -232,7 +232,7 @@ html {
   cursor: pointer;
   display: flex;
   position: absolute;
-  left: 11%;
+  left: 6%;
   top: 35%;
   margin-left: 0px !important;
 }
@@ -306,7 +306,7 @@ html {
   border-top: 1px solid #ccc;
   display: inline-block;
   width: 326px;
-  margin: 0px 30px;
+  margin: 0px 23px;
   margin-bottom: 10px;
 }
 .main-header nav .m-menu__header {
@@ -341,7 +341,7 @@ html {
   color: #000000;
 }
 .main-header nav .m-menu .category-games {
-  margin-left: 17px;
+  margin-left: 11px;
 }
 .main-header nav .m-menu .category-games a {
   background-color: rgb(251, 251, 251);
@@ -368,7 +368,8 @@ html {
 }
 .main-header nav .m-menu #menu-header {
   background-color: white;
-  height: 3.65rem;
+  height: 4rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
   position: -webkit-sticky;
   top: 0;
   z-index: 999999999999;
@@ -1801,7 +1802,6 @@ footer #hr {
     font-size: 14px !important;
   }
   .main-header .m-menu {
-    left: -12px !important;
     width: calc(100vw - 0px) !important;
     max-width: 375px !important;
     position: fixed !important;
@@ -12018,22 +12018,21 @@ footer #hr {
   .main-header .store-icon i {
     margin-left: -3.3rem !important;
   }
-  .main-header .menu-ul-1 {
-    padding-left: 30px;
-  }
   .main-header .m-menu__toggle .close {
     left: 84.7%;
     top: 0.2%;
   }
+  .main-header .menu-ul-1 {
+    padding-left: 0px;
+  }
   .main-header .m-menu {
-    left: -12px !important;
     width: calc(100vw - 0px) !important;
     max-width: 375px !important;
     position: fixed !important;
     overflow-y: auto;
     margin-top: 0rem !important;
     height: 100% !important;
-    width: 350px !important;
+    width: 375px !important;
     max-width: none !important;
   }
   .main-header .m-menu .a-label__chevron:after {
@@ -12111,6 +12110,20 @@ footer #hr {
   }
   .header-wrapper .last-section .section-last .sign-in {
     margin-top: 4px;
+  }
+  .header-wrapper .last-section .section-last .minicart-quantity {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.6875rem;
+    background-color: #da362c;
+    color: #fff;
+    top: 10px;
+    right: 10px;
   }
   .header-wrapper .last-section span {
     font-size: 12px;
@@ -16967,6 +16980,10 @@ Media Queries
   display: flex;
   justify-content: center;
 }
+.registerGameStop .registerPage .form-indicator {
+  margin-left: 3px;
+  color: #df2935;
+}
 .registerGameStop .registerPage .registerSection {
   background-color: white;
   width: 27%;
@@ -17592,6 +17609,30 @@ Media Queries
   padding-bottom: 6px;
 }
 
+.account-settings .account-dashboard-header {
+  background-image: linear-gradient(90deg, #5c5c5c, grey);
+  margin-top: -15px;
+  height: 92px;
+}
+.account-settings .account-dashboard-header .container {
+  display: flex;
+  height: 100%;
+}
+.account-settings .account-dashboard-header .container .text-white {
+  font-size: 20px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.account-settings .account-dashboard-header .pull-right {
+  text-align: end;
+}
+.account-settings .account-dashboard-header .pull-right .logout_acc {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+}
 .account-settings .account-dashboard {
   margin-top: 55px;
   display: flex;
@@ -17661,14 +17702,14 @@ Media Queries
   gap: 1.6rem;
 }
 .account-settings .data-section .nameInput .inputs {
-  width: 48%;
+  width: 49%;
 }
 .account-settings .data-section .stateSection {
   display: flex;
   gap: 1.9rem;
 }
 .account-settings .data-section .stateSection .inputs {
-  width: 30.7%;
+  width: 31.7%;
 }
 .account-settings .data-section .stateSection .custom-select {
   height: 40px;
