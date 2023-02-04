@@ -4918,6 +4918,45 @@ footer {
   }
 
 
+  .account-settings{
+    .my-acc-settings{
+      width: 100%;
+    }
+
+    .account-dashboard{
+      display: block !important;
+
+      #list-acc{
+        display: flex;
+        gap: 3.2rem;
+
+        .acc-header1{
+          padding-top: 0px;
+        }
+
+      
+      }
+
+      .custom-select
+      {
+        font-size: 14px;
+      }
+    }
+    .data-section{
+        width: 100% !important;
+        
+
+        .card{
+          width: 100% !important;
+        }
+
+        #savebutton{
+          font-size: 16px;
+        }
+    }
+  }
+
+
 }
 
 
@@ -10892,6 +10931,44 @@ footer {
       padding-bottom: 6px;
     }
 
+  }
+  
+  .account-settings{
+    .my-acc-settings{
+      width: 100%;
+    }
+
+    .account-dashboard{
+      display: block !important;
+
+      #list-acc{
+        display: flex;
+        gap: 3.2rem;
+
+        .acc-header1{
+          padding-top: 0px;
+        }
+
+      
+      }
+
+      .custom-select
+      {
+        font-size: 14px;
+      }
+    }
+    .data-section{
+        width: 100% !important;
+        
+
+        .card{
+          width: 100% !important;
+        }
+
+        #savebutton{
+          font-size: 16px;
+        }
+    }
   }
 
 
@@ -24165,7 +24242,7 @@ Media Queries
 
   .account-dashboard {
     margin-top: 55px;
-
+    display: flex;
     
 
 

@@ -3509,6 +3509,31 @@ footer #hr {
     margin-bottom: 20px;
     padding-bottom: 6px;
   }
+  .account-settings .my-acc-settings {
+    width: 100%;
+  }
+  .account-settings .account-dashboard {
+    display: block !important;
+  }
+  .account-settings .account-dashboard #list-acc {
+    display: flex;
+    gap: 3.2rem;
+  }
+  .account-settings .account-dashboard #list-acc .acc-header1 {
+    padding-top: 0px;
+  }
+  .account-settings .account-dashboard .custom-select {
+    font-size: 14px;
+  }
+  .account-settings .data-section {
+    width: 100% !important;
+  }
+  .account-settings .data-section .card {
+    width: 100% !important;
+  }
+  .account-settings .data-section #savebutton {
+    font-size: 16px;
+  }
 }
 .breadcrumbs {
   font-size: 14px;
@@ -7783,6 +7808,31 @@ footer #hr {
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 6px;
+  }
+  .account-settings .my-acc-settings {
+    width: 100%;
+  }
+  .account-settings .account-dashboard {
+    display: block !important;
+  }
+  .account-settings .account-dashboard #list-acc {
+    display: flex;
+    gap: 3.2rem;
+  }
+  .account-settings .account-dashboard #list-acc .acc-header1 {
+    padding-top: 0px;
+  }
+  .account-settings .account-dashboard .custom-select {
+    font-size: 14px;
+  }
+  .account-settings .data-section {
+    width: 100% !important;
+  }
+  .account-settings .data-section .card {
+    width: 100% !important;
+  }
+  .account-settings .data-section #savebutton {
+    font-size: 16px;
   }
 }
 .paginationRes {
@@ -17544,6 +17594,7 @@ Media Queries
 
 .account-settings .account-dashboard {
   margin-top: 55px;
+  display: flex;
 }
 .account-settings .account-dashboard .formTop {
   position: absolute;

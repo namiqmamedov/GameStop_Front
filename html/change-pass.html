@@ -572,75 +572,74 @@
         <div class="settings-acc">
             <div class="container">
                 <div class="row">
-                    <div class="account-dashboard d-flex">
-                        <div class="my-acc-settings col-3">
-                            <div class="leftSection">
-                                <div class="card-acc">
-                                    <div class="card-body-acc">
-                                        <ul class="list-group-acc">
-                                            <li class="list-acc d-flex">
-                                                <img alt="my-account"
-                                                    src="https://www.gamestop.com/on/demandware.static/-/Sites-gamestop-us-Library/default/dw0a160614/Account-dashboard-Icons/my-account.svg"
-                                                    title="my-account">
-                                                <p class="acc-header">My Account</p>
-                                            </li>
-                                            <ul id="list-acc" class="list-group-acc">
-                                                <li class="list-group-item">
-                                                    <p class="acc-header1">Account Setting</p>
+                        <div class="account-dashboard">
+                            <div class="my-acc-settings col-3">
+                                <div class="leftSection">
+                                    <div class="card-acc">
+                                        <div class="card-body-acc">
+                                            <ul class="list-group-acc">
+                                                <li class="list-acc d-flex">
+                                                    <img alt="my-account"
+                                                        src="https://www.gamestop.com/on/demandware.static/-/Sites-gamestop-us-Library/default/dw0a160614/Account-dashboard-Icons/my-account.svg"
+                                                        title="my-account">
+                                                    <p class="acc-header">My Account</p>
                                                 </li>
-                                                <li class="list-group-item">
-                                                    <a class="dashboard-nav-link" href="./account.html">Personal
-                                                        Data</a>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <a class="dashboard-nav-link" href="./change-pass.html">Password</a>
-                                                </li>  
-                                                <li class="list-group-item">
-                                                    <a class="dashboard-nav-link" href="./addressbook.html">Address Book</a>
-                                                </li>
-                                                                                     
+                                                <ul id="list-acc" class="list-group-acc">
+                                                    <li class="list-group-item">
+                                                        <p class="acc-header1">Account Setting</p>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a class="dashboard-nav-link" href="./account.html">Personal
+                                                            Data</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a class="dashboard-nav-link" href="./change-pass.html">Password</a>
+                                                    </li>  
+                                                    <li class="list-group-item">
+                                                        <a class="dashboard-nav-link" href="./addressbook.html">Address Book</a>
+                                                    </li>
+                                                                                         
+                                                </ul>
                                             </ul>
-                                        </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="data-section col-9">
-                            <div class="acc-data">
-
-
-                                <div class="card">
-                                    <div class="info">
-                                        <h1 class="acc-center-header">Change Password</h1> 
+                            <div class="data-section col-9">
+                                <div class="acc-data">
+    
+    
+                                    <div class="card">
+                                        <div class="info">
+                                            <h1 class="acc-center-header">Change Password</h1> 
+                                        </div>
+                                        <div class="forms">
+                                            <form method="POST" autocomplete="off">
+    
+                                                <div class="inputs">
+                                                    <label class="field-pass" for="currentPass">Current Password<span class="form-indicator">*</span></label> <input id="currentPass" type="password"
+                                                    name="currentPassword" maxlength="72" autocomplete="off">
+                                                </div>
+                                                <div class="inputs">
+                                                    <label for="email_acc" class="field-pass">New password<span class="form-indicator">*</span></label> <input id="email_acc" type="password"
+                                                    autocomplete="off" aria-required="true">
+                                                </div>
+    
+                                                <div class="inputs">
+                                                    <label for="phone_acc" class="field-pass">Confirm new password<span class="form-indicator">*</span></label> <input id="phone_acc" type="password"
+                                                     autocomplete="off" aria-required="true">
+                                                </div>
+    
+                                                <div class="save-button-form w-100">
+                                                    <button  id="savebutton" type="submit" class="btn ">Save</button>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
-                                    <div class="forms">
-                                        <form method="POST" autocomplete="off">
-
-                                            <div class="inputs">
-                                                <label class="field-pass" for="currentPass">Current Password<span class="form-indicator">*</span></label> <input id="currentPass" type="password"
-                                                name="currentPassword" maxlength="72" autocomplete="off">
-                                            </div>
-                                            <div class="inputs">
-                                                <label for="email_acc" class="field-pass">New password<span class="form-indicator">*</span></label> <input id="email_acc" type="password"
-                                                autocomplete="off" aria-required="true">
-                                            </div>
-
-                                            <div class="inputs">
-                                                <label for="phone_acc" class="field-pass">Confirm new password<span class="form-indicator">*</span></label> <input id="phone_acc" type="password"
-                                                 autocomplete="off" aria-required="true">
-                                            </div>
-
-                                            <div class="save-button-form w-100">
-                                                <button  id="savebutton" type="submit" class="btn ">Save</button>
-                                            </div>
-                                        </form>
-                                    </div>
+    
                                 </div>
-
                             </div>
                         </div>
-                    </div>
-
                 </div>
             </div>
         </div>
