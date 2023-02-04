@@ -17605,8 +17605,25 @@ Media Queries
   width: 20%;
   margin-top: 7.5px;
 }
+.account-settings .data-section .nameInput {
+  display: flex;
+  gap: 1.6rem;
+}
+.account-settings .data-section .nameInput .inputs {
+  width: 48%;
+}
+.account-settings .data-section .stateSection {
+  display: flex;
+  gap: 1.9rem;
+}
+.account-settings .data-section .stateSection .inputs {
+  width: 30.7%;
+}
+.account-settings .data-section .stateSection .custom-select {
+  height: 40px;
+}
 .account-settings .data-section .card {
-  width: 55%;
+  width: 75%;
   height: 100%;
   border-radius: 0px;
   border-color: transparent;

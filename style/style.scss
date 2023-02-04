@@ -24250,8 +24250,28 @@ Media Queries
       margin-top: 7.5px;
     }
 
+    .nameInput{
+      display: flex;
+      gap: 1.6rem;
+      .inputs{
+        width: 48%;
+      }
+    }
+
+    .stateSection{
+      display: flex;
+      gap: 1.9rem;
+      .inputs{
+        width: 30.7%;
+      }
+
+      .custom-select{
+        height: 40px;
+      }
+    }
+
     .card {
-      width: 55%;
+      width: 75%;
       height: 100%;
       border-radius: 0px;
       border-color: transparent;
