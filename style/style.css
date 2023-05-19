@@ -47,7 +47,6 @@ html {
 }
 
 .stickyPos {
-  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -85,7 +84,6 @@ html {
 }
 
 .header-main {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -289,7 +287,7 @@ html {
   background-color: #fff;
 }
 .main-header nav .m-menu__overlay {
-  background-color: hsla(0deg, 0%, 5%, 0.5);
+  background-color: hsla(0, 0%, 5%, 0.5);
   position: absolute;
   top: -91px;
   width: 104%;
@@ -375,7 +373,6 @@ html {
   z-index: 999999999999;
 }
 .main-header nav .m-menu .close-menu {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 99999999999;
@@ -1697,7 +1694,7 @@ footer #hr {
     text-align: center !important;
   }
   .pagination-number,
-.pagination-button {
+  .pagination-button {
     border: 1px solid black;
     border-radius: 50%;
     font-size: 12px !important;
@@ -1714,7 +1711,7 @@ footer #hr {
     border-radius: 0.2rem;
   }
   .pagination-number:hover,
-.pagination-button:not(.disabled):hover {
+  .pagination-button:not(.disabled):hover {
     background: #fff;
   }
   .pagination-number.active {
@@ -1782,7 +1779,6 @@ footer #hr {
   }
   .main-header {
     margin-left: 0rem;
-    position: -webkit-sticky;
     position: sticky;
     width: 100%;
     left: 0%;
@@ -1800,7 +1796,7 @@ footer #hr {
     top: -1%;
   }
   .main-header .m-menu ul li label,
-.main-header a {
+  .main-header a {
     font-size: 14px !important;
   }
   .main-header .m-menu {
@@ -1982,8 +1978,7 @@ footer #hr {
     width: 722px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     margin-left: 25px;
   }
   .product-content .card-box > div {
@@ -2051,8 +2046,7 @@ footer #hr {
     width: 511px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
   }
   .product-content2 #hardwareAccess {
     overflow-x: hidden;
@@ -2169,8 +2163,7 @@ footer #hr {
     max-width: 704px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     gap: 8.078rem !important;
     margin-top: -17px;
   }
@@ -2265,8 +2258,7 @@ footer #hr {
     max-width: 555px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
   }
   .top-deals .card-box {
     margin-top: 8px;
@@ -2333,8 +2325,7 @@ footer #hr {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
   }
   .product-content4 .heading {
     justify-content: space-between;
@@ -2715,7 +2706,7 @@ footer #hr {
     width: 35.5%;
   }
   .sellingItems .selling-items-card .card-text,
-.sellingItems .selling-items-card .card-title {
+  .sellingItems .selling-items-card .card-title {
     text-align: center;
   }
   .sellingItems .selling-items-card .card-title {
@@ -2868,7 +2859,7 @@ footer #hr {
     margin-right: auto;
   }
   .proItems .pro-items-card .card-text,
-.proItems .pro-items-card .card-title {
+  .proItems .pro-items-card .card-title {
     text-align: center;
   }
   .proItems .pro-items-card .card-title {
@@ -3367,12 +3358,12 @@ footer #hr {
     color: black !important;
   }
   .checkoutForm .needs-validation input,
-.checkoutForm .needs-validation select {
+  .checkoutForm .needs-validation select {
     height: 49px;
     border-radius: 0px;
   }
   .checkoutForm .needs-validation input:focus,
-.checkoutForm .needs-validation select:focus {
+  .checkoutForm .needs-validation select:focus {
     border: 1px solid black;
     box-shadow: none;
   }
@@ -3392,14 +3383,13 @@ footer #hr {
     position: static;
   }
   .checkoutForm .needs-validation #cityLabel,
-.checkoutForm .needs-validation #zipLabel {
+  .checkoutForm .needs-validation #zipLabel {
     left: 3.4% !important;
   }
   .checkoutForm .priceBox {
     width: 100%;
     background: white;
     margin-top: 5px;
-    position: -webkit-sticky;
     position: sticky;
     top: 40px;
     left: 0;
@@ -3582,7 +3572,6 @@ footer #hr {
   margin-bottom: -52.5px;
 }
 .options .mainOptions {
-  position: -webkit-sticky;
   position: sticky;
   top: 78px;
   left: 0;
@@ -4053,8 +4042,7 @@ footer #hr {
   margin-top: -11px;
 }
 .product-main .card-boxes .card-body .price-design {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   font-size: 0.6875rem;
   margin-top: -6px;
   margin-left: 10px;
@@ -4414,7 +4402,7 @@ footer #hr {
     cursor: pointer;
   }
   #prod-cart .menu_container .btn_container:hover span:nth-child(2),
-#prod-cart .menu_container .btn_container:hover span:nth-child(3) {
+  #prod-cart .menu_container .btn_container:hover span:nth-child(3) {
     width: 50px;
   }
   #prod-cart .menu_container .over_lay {
@@ -4922,8 +4910,7 @@ footer #hr {
     display: block !important;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     padding-bottom: 132px;
   }
   .main-img .for-mb::-webkit-scrollbar {
@@ -5228,7 +5215,7 @@ footer #hr {
     margin-bottom: 10px;
   }
   #mb-product-description .bottomSection .bt-1,
-#mb-product-description .bottomSection .bt-2 {
+  #mb-product-description .bottomSection .bt-2 {
     width: 99% !important;
     height: 43.2px;
   }
@@ -5244,7 +5231,6 @@ footer #hr {
   #productCard-more-like-this {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
     scroll-snap-type: x mandatory;
     flex-wrap: nowrap !important;
     width: 100%;
@@ -5280,7 +5266,6 @@ footer #hr {
   #productCard-ppl-also-bought {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
     scroll-snap-type: x mandatory;
     flex-wrap: nowrap !important;
     width: 100%;
@@ -5398,7 +5383,7 @@ footer #hr {
     cursor: pointer;
   }
   #prod-cart .menu_container .btn_container:hover span:nth-child(2),
-#prod-cart .menu_container .btn_container:hover span:nth-child(3) {
+  #prod-cart .menu_container .btn_container:hover span:nth-child(3) {
     width: 50px;
   }
   #prod-cart .menu_container .over_lay {
@@ -5501,7 +5486,6 @@ footer #hr {
   }
   .main-header {
     margin-left: 0rem;
-    position: -webkit-sticky;
     position: sticky;
     width: 100%;
     left: 0%;
@@ -5523,7 +5507,7 @@ footer #hr {
     height: 6.55rem !important;
   }
   .main-header .m-menu ul li label,
-.main-header a {
+  .main-header a {
     font-size: 14px !important;
   }
   .main-header .menu-ul-1 {
@@ -6340,7 +6324,7 @@ footer #hr {
     text-align: center !important;
   }
   .pagination-number,
-.pagination-button {
+  .pagination-button {
     border: 1px solid black;
     border-radius: 50%;
     font-size: 12px !important;
@@ -6357,7 +6341,7 @@ footer #hr {
     border-radius: 0.2rem;
   }
   .pagination-number:hover,
-.pagination-button:not(.disabled):hover {
+  .pagination-button:not(.disabled):hover {
     background: #fff;
   }
   .pagination-number.active {
@@ -6401,8 +6385,7 @@ footer #hr {
     display: block !important;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     padding-bottom: 132px;
   }
   .main-img .for-mb::-webkit-scrollbar {
@@ -6709,7 +6692,7 @@ footer #hr {
     margin-bottom: 10px;
   }
   #mb-product-description .bottomSection .bt-1,
-#mb-product-description .bottomSection .bt-2 {
+  #mb-product-description .bottomSection .bt-2 {
     width: 99% !important;
     height: 43.2px;
   }
@@ -6722,7 +6705,6 @@ footer #hr {
   #productCard-more-like-this {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
     scroll-snap-type: x mandatory;
     flex-wrap: nowrap !important;
     width: 100%;
@@ -6758,7 +6740,6 @@ footer #hr {
   #productCard-ppl-also-bought {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
     scroll-snap-type: x mandatory;
     flex-wrap: nowrap !important;
     width: 100%;
@@ -6957,7 +6938,7 @@ footer #hr {
     width: 35.5%;
   }
   .sellingItems .selling-items-card .card-text,
-.sellingItems .selling-items-card .card-title {
+  .sellingItems .selling-items-card .card-title {
     text-align: center;
   }
   .sellingItems .selling-items-card .card-title {
@@ -7077,7 +7058,7 @@ footer #hr {
     margin-right: auto;
   }
   .proItems .pro-items-card .card-text,
-.proItems .pro-items-card .card-title {
+  .proItems .pro-items-card .card-title {
     text-align: center;
   }
   .proItems .pro-items-card .card-title {
@@ -7660,12 +7641,12 @@ footer #hr {
     color: black !important;
   }
   .checkoutForm .needs-validation input,
-.checkoutForm .needs-validation select {
+  .checkoutForm .needs-validation select {
     height: 49px;
     border-radius: 0px;
   }
   .checkoutForm .needs-validation input:focus,
-.checkoutForm .needs-validation select:focus {
+  .checkoutForm .needs-validation select:focus {
     border: 1px solid black;
     box-shadow: none;
   }
@@ -7685,14 +7666,13 @@ footer #hr {
     position: static;
   }
   .checkoutForm .needs-validation #cityLabel,
-.checkoutForm .needs-validation #zipLabel {
+  .checkoutForm .needs-validation #zipLabel {
     left: 3.4% !important;
   }
   .checkoutForm .priceBox {
     width: 100%;
     background: white;
     margin-top: 5px;
-    position: -webkit-sticky;
     position: sticky;
     top: 40px;
     left: 0;
@@ -8165,7 +8145,6 @@ footer #hr {
   }
   .main-header {
     margin-left: 0rem;
-    position: -webkit-sticky;
     position: sticky;
     width: 100%;
     left: 0%;
@@ -8175,7 +8154,7 @@ footer #hr {
     margin-left: -3.8rem !important;
   }
   .main-header .m-menu ul li label,
-.main-header a {
+  .main-header a {
     font-size: 14px !important;
   }
   .main-header #menu-header {
@@ -8560,8 +8539,7 @@ footer #hr {
   #mb-img .imgMain .main-img .for-mb {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     padding-bottom: 132px;
   }
   #mb-img .imgMain .main-img .for-mb::-webkit-scrollbar {
@@ -8861,7 +8839,7 @@ footer #hr {
     margin-bottom: 10px;
   }
   .product-description .bottomSection .bt-1,
-.product-description .bottomSection .bt-2 {
+  .product-description .bottomSection .bt-2 {
     width: 99% !important;
     height: 43.2px;
   }
@@ -9146,7 +9124,7 @@ footer #hr {
     margin-right: auto;
   }
   .proItems .pro-items-card .card-text,
-.proItems .pro-items-card .card-title {
+  .proItems .pro-items-card .card-title {
     text-align: center;
   }
   .proItems .pro-items-card .card-title {
@@ -9549,7 +9527,7 @@ footer #hr {
     text-align: center !important;
   }
   .pagination-number,
-.pagination-button {
+  .pagination-button {
     border: 1px solid black;
     border-radius: 50%;
     font-size: 12px !important;
@@ -9566,7 +9544,7 @@ footer #hr {
     border-radius: 0.2rem;
   }
   .pagination-number:hover,
-.pagination-button:not(.disabled):hover {
+  .pagination-button:not(.disabled):hover {
     background: #fff;
   }
   .pagination-number.active {
@@ -9689,8 +9667,7 @@ footer #hr {
     width: 722px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     margin-left: 25px;
   }
   .product-content .card-box > div {
@@ -9823,8 +9800,7 @@ footer #hr {
     max-width: 752px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     gap: 8.078rem !important;
     margin-top: -17px;
   }
@@ -9919,8 +9895,7 @@ footer #hr {
     max-width: 555px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
   }
   .top-deals .card-box {
     margin-top: 8px;
@@ -10027,8 +10002,7 @@ footer #hr {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
   }
   .product-content4 .heading {
     justify-content: space-between;
@@ -10321,8 +10295,7 @@ footer #hr {
     width: 769px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
   }
   .product-content2 #hardwareAccess {
     overflow-x: hidden;
@@ -10694,7 +10667,6 @@ footer #hr {
 @media (min-width: 1025px) and (max-width: 1200px) {
   .main-header {
     margin-left: 0rem;
-    position: -webkit-sticky;
     position: sticky;
     width: 100%;
     left: 0%;
@@ -11027,8 +10999,7 @@ footer #hr {
   #mb-img .imgMain .main-img .for-mb {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     padding-bottom: 132px;
   }
   #mb-img .imgMain .main-img .for-mb::-webkit-scrollbar {
@@ -11165,7 +11136,6 @@ footer #hr {
   .product-description .all-table {
     padding-left: 3px;
     margin-bottom: 22px;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
@@ -11352,7 +11322,7 @@ footer #hr {
     margin-bottom: 10px;
   }
   .product-description .bottomSection .bt-1,
-.product-description .bottomSection .bt-2 {
+  .product-description .bottomSection .bt-2 {
     width: 99% !important;
     height: 43.2px;
   }
@@ -11658,7 +11628,7 @@ footer #hr {
     margin-right: auto;
   }
   .proItems .pro-items-card .card-text,
-.proItems .pro-items-card .card-title {
+  .proItems .pro-items-card .card-title {
     text-align: center;
   }
   .proItems .pro-items-card .card-title {
@@ -11982,7 +11952,7 @@ footer #hr {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1760px !important;
+    max-width: 1920px !important;
   }
   .header-banner {
     background-color: #282828;
@@ -12003,7 +11973,6 @@ footer #hr {
   }
   .main-header {
     margin-left: 0rem;
-    position: -webkit-sticky;
     position: sticky;
     width: 100%;
     left: 0%;
@@ -12162,7 +12131,7 @@ footer #hr {
   #productCard .card {
     width: 23% !important;
     max-width: 100%;
-    height: 405.5px !important;
+    height: 440.5px !important;
     background-color: #F8F8F8;
   }
   #productCard .card img {
@@ -12571,8 +12540,7 @@ footer #hr {
   #mb-img .imgMain .main-img .for-mb {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     padding-bottom: 132px;
   }
   #mb-img .imgMain .main-img .for-mb::-webkit-scrollbar {
@@ -12710,7 +12678,6 @@ footer #hr {
   .product-description .all-table {
     padding-left: 3px;
     margin-bottom: 22px;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
@@ -12894,7 +12861,7 @@ footer #hr {
     margin-bottom: 10px;
   }
   .product-description .bottomSection .bt-1,
-.product-description .bottomSection .bt-2 {
+  .product-description .bottomSection .bt-2 {
     width: 99% !important;
     height: 43.2px;
   }
@@ -13209,7 +13176,7 @@ footer #hr {
     margin-right: auto;
   }
   .proItems .pro-items-card .card-text,
-.proItems .pro-items-card .card-title {
+  .proItems .pro-items-card .card-title {
     text-align: center;
   }
   .proItems .pro-items-card .card-title {
@@ -13922,7 +13889,6 @@ Cart  stylling
   width: 33.6% !important;
 }
 .price-main .priceContext {
-  position: -webkit-sticky;
   position: sticky;
   top: -570px;
   left: 0;
@@ -14004,8 +13970,7 @@ Cart  stylling
   font-family: "Open Sans", sans-serif;
 }
 .price-main .price-design {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   font-size: 0.9rem;
   margin-top: 2px;
   margin-left: 10px;
@@ -14204,8 +14169,7 @@ Cart  stylling
   font-family: "Open Sans", sans-serif;
 }
 .price-main .base-product .product-box .text-box .store__name {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 .price-main .base-product .sub-text {
   font-family: "Open-Sans", sans-serif;
@@ -14844,7 +14808,7 @@ Cart  stylling
 }
 
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 /*/////////////
@@ -14918,7 +14882,6 @@ Media Queries
 .product-description .all-table {
   padding-left: 3px;
   margin-bottom: 22px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -16344,8 +16307,7 @@ Media Queries
   margin-top: -11px;
 }
 .product-description #productCard-more-like-this .card .card-body .price-design {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   font-size: 0.6875rem;
   margin-top: -6px;
   margin-left: 10px;
@@ -16594,8 +16556,7 @@ Media Queries
   margin-top: -11px;
 }
 .product-description #productCard-ppl-also-bought .card .card-body .price-design {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   font-size: 0.6875rem;
   margin-top: -6px;
   margin-left: 10px;
@@ -16664,7 +16625,6 @@ Media Queries
 }
 
 .faq-section .left-table {
-  position: -webkit-sticky;
   position: sticky;
   left: 0;
   top: 114px;
@@ -17894,7 +17854,6 @@ Media Queries
   width: 100%;
   background: white;
   margin-top: 5px;
-  position: -webkit-sticky;
   position: sticky;
   top: 40px;
   left: 0;
